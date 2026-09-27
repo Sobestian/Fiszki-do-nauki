@@ -1,0 +1,39 @@
+name: Build Windows
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v7
+
+      - name: Zainstaluj Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Zainstaluj zależności
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pillow pyinstaller
+
+      - name: Zbuduj fiszki.exe
+        run: |
+          pyinstaller --onefile --windowed --clean --hidden-import=PIL._tkinter_finder --hidden-import=PIL._imagingtk --collect-all PIL --name fiszki fiszki.py
+
+      - name: Przygotuj paczkę
+        shell: powershell
+        run: |
+          New-Item -ItemType Directory -Force release
+          Copy-Item dist\fiszki.exe release\
+          Copy-Item -Recurse dane release\dane
+
+      - name: Udostępnij gotową wersję
+        uses: actions/upload-artifact@v6
+        with:
+          name: fiszki-windows-x86_64
+          path: release/
