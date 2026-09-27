@@ -1,0 +1,18 @@
+# Środowisko Pythona
+.venv/
+
+# Pliki tworzone przez PyInstaller
+build/
+dist/
+release/
+
+# Cache Pythona
+__pycache__/
+*.pyc
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Plik PyInstaller
+*.spec
