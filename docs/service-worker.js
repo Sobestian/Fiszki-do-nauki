@@ -1,4 +1,4 @@
-const CACHE_NAME = "fiszki-web-v2";
+const CACHE_NAME = "fiszki-web-v3";
 
 const APP_SHELL = [
   "./",
