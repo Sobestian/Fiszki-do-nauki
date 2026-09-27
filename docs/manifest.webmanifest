@@ -1,0 +1,18 @@
+{
+  "name": "Fiszki",
+  "short_name": "Fiszki",
+  "description": "Prosta aplikacja do nauki metodą fiszek.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "lang": "pl",
+  "icons": [
+    {
+      "src": "./icons/icon-192.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

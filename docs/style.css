@@ -1,0 +1,308 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color-scheme: light dark;
+
+  --bg: #111827;
+  --panel: #1f2937;
+  --panel-2: #374151;
+  --text: #f9fafb;
+  --muted: #cbd5e1;
+
+  --red: #c62828;
+  --red-active: #b71c1c;
+
+  --green: #2e7d32;
+  --green-active: #1b5e20;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button,
+select {
+  font: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.app-shell {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.screen {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* MENU */
+
+#menu-screen {
+  display: grid;
+  place-items: center;
+}
+
+.menu-card {
+  width: min(520px, 100%);
+  padding: 34px;
+  border-radius: 18px;
+  background: var(--panel);
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+}
+
+.menu-card h1 {
+  margin: 0 0 8px;
+  font-size: clamp(2.2rem, 7vw, 3.4rem);
+}
+
+.subtitle {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+#lesson-select {
+  width: 100%;
+  min-height: 52px;
+  padding: 0 14px;
+  border: 1px solid #4b5563;
+  border-radius: 10px;
+  background: var(--panel-2);
+  color: var(--text);
+  font-size: 1.05rem;
+}
+
+.start-button {
+  width: 100%;
+  margin-top: 18px;
+  min-height: 54px;
+  border: 0;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.start-button:active {
+  transform: translateY(1px);
+}
+
+.status {
+  min-height: 1.4em;
+  margin: 14px 0 0;
+  color: #fca5a5;
+}
+
+/* LEKCJA */
+
+#lesson-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.back-button {
+  min-height: 42px;
+  padding: 0 14px;
+  border: 1px solid #4b5563;
+  border-radius: 9px;
+  background: var(--panel);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.lesson-info {
+  min-width: 150px;
+  text-align: right;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+#lesson-title {
+  margin: 12px 0 20px;
+  text-align: center;
+  font-size: clamp(1.35rem, 4vw, 2rem);
+}
+
+.card-area {
+  display: grid;
+  grid-template-columns: minmax(130px, 1fr) minmax(280px, 520px) minmax(130px, 1fr);
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+}
+
+.answer-button {
+  min-height: 58px;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform 80ms ease, filter 80ms ease, background-color 80ms ease;
+}
+
+.answer-button.wrong {
+  background: var(--red);
+}
+
+.answer-button.correct {
+  background: var(--green);
+}
+
+.answer-button.wrong:active,
+.answer-button.wrong.keyboard-pressed {
+  background: var(--red-active);
+  transform: translateY(2px) scale(0.98);
+  filter: brightness(0.95);
+}
+
+.answer-button.correct:active,
+.answer-button.correct.keyboard-pressed {
+  background: var(--green-active);
+  transform: translateY(2px) scale(0.98);
+  filter: brightness(0.95);
+}
+
+.image-button {
+  min-height: 360px;
+  display: grid;
+  place-items: center;
+  padding: 12px;
+  border: 0;
+  border-radius: 14px;
+  background: white;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+#card-image {
+  display: block;
+  max-width: 100%;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+.finish-mark {
+  color: #166534;
+  font-size: clamp(6rem, 18vw, 10rem);
+  line-height: 1;
+  font-weight: 700;
+}
+
+.answer-label {
+  min-height: 84px;
+  margin: 20px auto 0;
+  width: min(900px, 100%);
+  display: grid;
+  place-items: center;
+  padding: 12px 16px;
+  text-align: center;
+  font-size: clamp(1.15rem, 3vw, 1.6rem);
+  overflow-wrap: anywhere;
+}
+
+/* TELEFONY */
+
+@media (max-width: 760px) {
+  .screen {
+    padding: 12px;
+  }
+
+  .top-bar {
+    align-items: center;
+  }
+
+  .back-button {
+    font-size: 0.9rem;
+  }
+
+  .lesson-info {
+    min-width: 110px;
+    font-size: 0.9rem;
+  }
+
+  #lesson-title {
+    margin-top: 18px;
+  }
+
+  .card-area {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "image image"
+      "wrong correct";
+    align-content: center;
+    gap: 12px;
+  }
+
+  .image-button {
+    grid-area: image;
+    min-height: 300px;
+  }
+
+  #card-image {
+    max-height: 290px;
+  }
+
+  .wrong {
+    grid-area: wrong;
+  }
+
+  .correct {
+    grid-area: correct;
+  }
+
+  .answer-button {
+    min-height: 64px;
+    font-size: 0.95rem;
+  }
+
+  .answer-label {
+    min-height: 96px;
+    margin-top: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .back-button {
+    max-width: 58%;
+  }
+
+  .lesson-info {
+    font-size: 0.82rem;
+  }
+
+  .image-button {
+    min-height: 250px;
+  }
+
+  #card-image {
+    max-height: 240px;
+  }
+}

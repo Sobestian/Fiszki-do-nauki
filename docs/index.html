@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#111827">
+  <title>Fiszki</title>
+
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./icons/icon-192.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icons/icon-192.svg">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="app-shell">
+
+    <section id="menu-screen" class="screen">
+      <div class="menu-card">
+        <h1>FISZKI</h1>
+        <p class="subtitle">Wybierz lekcję</p>
+
+        <select id="lesson-select" aria-label="Wybierz lekcję"></select>
+
+        <button id="start-button" class="start-button" type="button">
+          Rozpocznij lekcję
+        </button>
+
+        <p id="menu-status" class="status"></p>
+      </div>
+    </section>
+
+    <section id="lesson-screen" class="screen hidden">
+      <header class="top-bar">
+        <button id="back-button" class="back-button" type="button">
+          ← Powrót do listy lekcji
+        </button>
+
+        <div class="lesson-info">
+          <div id="round-label"></div>
+          <div id="counter-label"></div>
+        </div>
+      </header>
+
+      <h2 id="lesson-title"></h2>
+
+      <section class="card-area">
+        <button id="wrong-button" class="answer-button wrong" type="button">
+          ← NIE WIEM
+        </button>
+
+        <button id="image-button" class="image-button" type="button" aria-label="Pokaż odpowiedź">
+          <img id="card-image" alt="Fiszka">
+          <div id="finish-mark" class="finish-mark hidden">✓</div>
+        </button>
+
+        <button id="correct-button" class="answer-button correct" type="button">
+          WIEM →
+        </button>
+      </section>
+
+      <div id="answer-label" class="answer-label">
+        Kliknij symbol, aby zobaczyć odpowiedź lub użyj strzałek ↑↓
+      </div>
+    </section>
+
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
