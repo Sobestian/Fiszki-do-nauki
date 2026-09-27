@@ -1,5 +1,7 @@
 Fiszki v0.2.0
 
+Link do wersji WEB: https://sobestian.github.io/Fiszki-do-nauki/
+
 Prosta aplikacja stworzona na własne potrzeby.
 W zakładce RELEASES są dostępne wersje już skompilowane dla linux i dla windows.
 
