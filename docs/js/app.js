@@ -57,6 +57,7 @@ function showScreen(screen) {
   });
   $('error-box').classList.add('hidden');
   $('reset-btn').classList.toggle('hidden', screen !== 'session-view');
+  if (screen !== 'session-view') hideFooterActions();
 }
 function error(message) {
   $('error-box').textContent = message;
@@ -73,11 +74,49 @@ function renderHeader() {
   $('breadcrumb').textContent = ['Fiszki v2', ...titles].join(' › ');
   document.querySelector('.app-header').classList.toggle('at-home', state.path.length === 0 && !state.lessonNode);
   $('back-btn').disabled = !state.path.length && !state.lessonNode;
-  $('mode-caption').textContent = state.mode && !$('session-view').classList.contains('hidden') ? MODES[state.mode] : '';
+  const inSession = !$('session-view').classList.contains('hidden');
+  $('mode-caption').textContent = state.mode && inSession ? MODES[state.mode] : '';
+  // Oznaczenie dotyczy wyłącznie aktualnie widocznej KARTY w trybie Nauka.
+  const currentCard = state.round[state.index];
+  const showImportant = inSession && !state.finished && state.mode === 'learn'
+    && currentCard?.important === true;
+  $('important-label').classList.toggle('hidden', !showImportant);
 }
 function setProgress(text, ratio) {
   $('status-text').textContent = text;
   $('progress-fill').style.width = `${Math.max(0, Math.min(100, ratio * 100))}%`;
+}
+// Sterowanie Nauka i Powtórzenie znajduje się bezpośrednio w dolnym pasku.
+// Przy wyjściu z sesji i po ukończeniu ukrywamy je, by nie pozostały na menu.
+function hideFooterActions() {
+  $('footer-actions').classList.add('hidden');
+  document.querySelector('.status-bar').classList.remove('has-actions');
+}
+function configureFooterActions() {
+  const learning = state.mode === 'learn';
+  const reviewing = state.mode === 'review';
+  const visible = !state.finished && (learning || reviewing);
+  $('footer-actions').classList.toggle('hidden', !visible);
+  document.querySelector('.status-bar').classList.toggle('has-actions', visible);
+  $('footer-previous').classList.toggle('hidden', !learning);
+  $('footer-next').classList.toggle('hidden', !learning);
+  $('footer-wrong').classList.toggle('hidden', !reviewing);
+  $('footer-correct').classList.toggle('hidden', !reviewing);
+  if (learning) {
+    $('footer-previous').disabled = state.index === 0;
+    $('footer-next').textContent = state.index === state.round.length - 1
+      ? '↻ Od początku' : 'Następna →';
+  }
+}
+function previousStudyCard() {
+  if (state.mode !== 'learn' || state.finished || state.index <= 0) return;
+  state.index--;
+  renderCard();
+}
+function nextStudyCard() {
+  if (state.mode !== 'learn' || state.finished) return;
+  if (state.index === state.round.length - 1) resetSession();
+  else { state.index++; renderCard(); }
 }
 function showMenu() {
   stopPending();
@@ -312,13 +351,18 @@ function renderCard() {
   state.locked = false;
   const question = $('question-panel'), interaction = $('interaction-panel');
   clear(question); clear(interaction);
+  // Nowa karta zaczyna się od góry przewijanego pytania i odpowiedzi.
+  question.scrollTop = 0;
+  interaction.scrollTop = 0;
   const card = state.round[state.index];
   if (!card) return finishSession();
+  renderHeader(); // Odśwież WAŻNE! po każdym przejściu do następnej/poprzedniej karty.
   renderBlocks(question, card.question);
   const selfMode = state.mode === 'self_assess' || state.mode === 'review';
-  $('wrong-btn').classList.toggle('hidden', !selfMode);
-  $('correct-btn').classList.toggle('hidden', !selfMode);
-  $('workspace').classList.toggle('no-sides', !selfMode);
+  const sideButtons = state.mode === 'self_assess';
+  $('wrong-btn').classList.toggle('hidden', !sideButtons);
+  $('correct-btn').classList.toggle('hidden', !sideButtons);
+  $('workspace').classList.toggle('no-sides', !sideButtons);
   $('workspace').classList.toggle('learn-mode', state.mode === 'learn');
   $('workspace').classList.toggle('self-assess-mode', state.mode === 'self_assess');
   $('workspace').classList.toggle('review-mode', state.mode === 'review');
@@ -347,18 +391,8 @@ function renderCard() {
     const answer = el('div', null, 'answer-card');
     renderBlocks(answer, card.answer);
     interaction.append(answer);
-    const controls = el('div',null,'study-controls');
-    const previous = el('button','← Poprzednia'); previous.type='button';previous.disabled=state.index===0;
-    previous.onclick=()=>{state.index=Math.max(0,state.index-1);renderCard();};
-    const atEnd = state.index === state.round.length - 1;
-    const next = el('button', atEnd ? '↻ Od początku' : 'Następna →');
-    next.type = 'button';
-    next.onclick = () => {
-      if (atEnd) resetSession();
-      else { state.index++; renderCard(); }
-    };
-    controls.append(previous,next);interaction.append(controls);
   }
+  configureFooterActions();
   const total = state.round.length;
   const roundTag = state.roundNumber === 1 ? 'Pierwsza seria' : `Powtórka błędnych (seria ${state.roundNumber})`;
   // Pasek pokazuje numer aktualnie wyświetlanego pytania: 1/N ... N/N.
@@ -406,6 +440,7 @@ function selectChoice(choice, selected, wrap) {
 function finishSession() {
   stopPending();
   state.finished = true;
+  hideFooterActions();
   $('workspace').classList.add('no-sides');
   $('workspace').classList.remove('learn-mode', 'review-revealed', 'review-mode', 'self-assess-mode');
   $('wrong-btn').classList.add('hidden'); $('correct-btn').classList.add('hidden');
@@ -417,6 +452,7 @@ function finishSession() {
   const back=el('button','Wybór lekcji','primary');back.type='button';back.onclick=showMenu;
   panel.append(back);
   setProgress('Zakończono',1);
+  renderHeader();
 }
 function back() {
   stopPending();
@@ -438,8 +474,8 @@ document.addEventListener('keydown',(event)=>{
   const focused = document.activeElement;
   if (['INPUT','TEXTAREA','SELECT'].includes(focused?.tagName)) return;
   if (['self_assess','review'].includes(state.mode)) {
-    if (event.key === 'ArrowLeft') {event.preventDefault();animate($('wrong-btn'));mark(false);}
-    if (event.key === 'ArrowRight') {event.preventDefault();animate($('correct-btn'));mark(true);}
+    if (event.key === 'ArrowLeft') {event.preventDefault();animate($(state.mode === 'review' ? 'footer-wrong' : 'wrong-btn'));mark(false);}
+    if (event.key === 'ArrowRight') {event.preventDefault();animate($(state.mode === 'review' ? 'footer-correct' : 'correct-btn'));mark(true);}
     if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {event.preventDefault();revealAnswer();}
   } else if (state.mode === 'abcd') {
     const normalized=event.key.toUpperCase();const i=['1','2','3','4'].indexOf(normalized);
@@ -450,16 +486,16 @@ document.addEventListener('keydown',(event)=>{
       if (buttons[idx] && !buttons[idx].disabled) {event.preventDefault();buttons[idx].click();}
     }
   } else if (state.mode === 'learn') {
-    if (event.key==='ArrowLeft' && state.index>0) {event.preventDefault();state.index--;renderCard();}
-    if (event.key==='ArrowRight') {
-      event.preventDefault();
-      if (state.index === state.round.length - 1) resetSession();
-      else { state.index++; renderCard(); }
-    }
+    if (event.key==='ArrowLeft' && state.index>0) {event.preventDefault();previousStudyCard();}
+    if (event.key==='ArrowRight') {event.preventDefault();nextStudyCard();}
   }
 });
 $('wrong-btn').addEventListener('click',()=>mark(false));
 $('correct-btn').addEventListener('click',()=>mark(true));
+$('footer-wrong').addEventListener('click',()=>mark(false));
+$('footer-correct').addEventListener('click',()=>mark(true));
+$('footer-previous').addEventListener('click',previousStudyCard);
+$('footer-next').addEventListener('click',nextStudyCard);
 $('reset-btn').addEventListener('click', resetSession);
 $('back-btn').addEventListener('click',back);
 $('home-btn').addEventListener('click',home);

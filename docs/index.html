@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="pl" data-app-version="0.1.10">
+<html lang="pl" data-app-version="0.1.14">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#101827">
   <title>Fiszki v2 — test</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.19.0/dist/katex.min.css" integrity="sha384-3rdsX6e5mueWyoweR9NIVmtEsUkokpBT/0ALqKKIBMr9j4qhHkaIkAcGgsE6uVlp" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/style.css?v=0.1.10">
+  <link rel="stylesheet" href="./css/style.css?v=0.1.14">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.19.0/dist/katex.min.js" integrity="sha384-QFFtAGzvvj+bfgCGxXJlNZZR1nXEZgvG8tDLCCY1F19xl20WlfTYgguB4VcNdxYk" crossorigin="anonymous"></script>
-  <script src="./js/app.js?v=0.1.10" defer></script>
+  <script src="./js/app.js?v=0.1.14" defer></script>
 </head>
 <body>
   <div class="app">
@@ -18,7 +18,10 @@
     <nav class="app-nav" aria-label="Nawigacja">
       <button id="back-btn" type="button">← Wstecz</button>
       <button id="home-btn" type="button">⌂ Menu główne</button>
-      <span id="mode-caption"></span>
+      <div class="nav-right">
+        <strong id="important-label" class="important-label hidden">WAŻNE!</strong>
+        <span id="mode-caption"></span>
+      </div>
     </nav>
 
     <main class="app-main">
@@ -37,10 +40,18 @@
 
     <footer class="status-bar">
       <span id="status-text">Wczytywanie Fiszki v2…</span>
-      <button id="reset-btn" class="reset-btn hidden" type="button"
-              aria-label="Rozpocznij aktualną lekcję od nowa"
-              title="Rozpocznij aktualną lekcję od nowa">↻</button>
-      <div id="progress-track" class="progress-track" aria-label="Postęp"><div id="progress-fill"></div></div>
+      <div id="footer-actions" class="footer-actions hidden" aria-label="Sterowanie lekcją">
+        <button id="footer-previous" class="footer-action" type="button">← Poprzednia</button>
+        <button id="footer-next" class="footer-action" type="button">Następna →</button>
+        <button id="footer-wrong" class="footer-action footer-wrong" type="button">← NIE WIEM</button>
+        <button id="footer-correct" class="footer-action footer-correct" type="button">WIEM →</button>
+      </div>
+      <div class="footer-progress">
+        <button id="reset-btn" class="reset-btn hidden" type="button"
+                aria-label="Rozpocznij aktualną lekcję od nowa"
+                title="Rozpocznij aktualną lekcję od nowa">↻</button>
+        <div id="progress-track" class="progress-track" aria-label="Postęp"><div id="progress-fill"></div></div>
+      </div>
     </footer>
   </div>
 </body>

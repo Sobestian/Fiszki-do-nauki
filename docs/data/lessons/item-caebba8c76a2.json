@@ -1,0 +1,507 @@
+{
+  "schema_version": 1,
+  "id": "item-caebba8c76a2",
+  "title": "MiUE cz1",
+  "cards": [
+    {
+      "id": "card-24c15591e5b64e47",
+      "question": [
+        {
+          "type": "text",
+          "text": "Łączniki bistabilne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "posiadają dwie pozycje, w których mogą trwać dowolnie długo – aż do kolejnego działania użytkownika (w zależności od rodzaju mechanizmu może to być np. przyciśnięcie bądź przesunięcie dźwigni). Z tego względu często nazywamy takie elementy stykowe przełącznikami ON - OFF."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-9f91f2f0-a4a8-4c5d-b283-f55ae2fe467f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Łączniki monostabilne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "(astabilne, chwilowe) posiadają tylko jedną stabilną pozycję, a naciśnięcie klawisza (lub przesunięcie dźwigni) powoduje przełączenie styków tylko podczas działania użytkownika. Po zwolnieniu styki powracają automatycznie do pozycji stabilnej (spoczynkowej), dzięki działaniu wewnętrznej sprężyny. W niektórych przełącznikach sprężyna ta jest osobnym elementem, a w innych – jednym ze styków elektrycznych."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-bcb7a5b8-3e04-4c8c-9ce4-4ef37ba1ce2b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Łącznik instalacyjny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "służy do załączania i wyłączania prądów roboczych w instalacjach niskiego napięcia, np. instalacji oświetlenia."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/5081d55d7d524063a2.png",
+          "alt": "łączniki.png"
+        }
+      ]
+    },
+    {
+      "id": "card-77fc2063-f3b0-4f19-bbeb-0c3e697c62f8",
+      "question": [
+        {
+          "type": "text",
+          "text": "Łącznik jednobiegunowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/0966869d1e3a448ba7.png",
+          "alt": "łącznik jednobiegunowy.png"
+        }
+      ]
+    },
+    {
+      "id": "card-2698bb85-4572-4581-a9ae-2206a2db3d17",
+      "question": [
+        {
+          "type": "text",
+          "text": "Łącznik świecznikowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyposażony w dwa przyciski. Może działać w trzech trybach:\n1. Wszystkie obwody załączone/wyłączone,\n2. Obwód A załączony, obwód B wyłączony,\n3. Obwód A wyłączony, obwód B załączony"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/d2b3585f4dd844dd99.png",
+          "alt": "Łącznik świecznikowy.png"
+        }
+      ]
+    },
+    {
+      "id": "card-1eb2b284-2b16-40d1-b820-5cef605ced48",
+      "question": [
+        {
+          "type": "text",
+          "text": "Łącznik schodowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "stosowany w parze z kolejnym łącznikiem schodowym pozwala sterować (załączać lub wyłączać) oświetleniem z dwóch różnych miejsc."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/20cb31429e06416dac.png",
+          "alt": "Łącznik schodowy.png"
+        }
+      ]
+    },
+    {
+      "id": "card-fae899f2-4bee-442b-a4c0-7f0b78195277",
+      "question": [
+        {
+          "type": "text",
+          "text": "Łącznik krzyżowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "stosowany wszędzie tam, gdzie zachodzi potrzeba sterowania oświetlenia z trzech miejsc i więcej. Instaluje się go zawsze pomiędzy wyłącznikami schodowymi. Przykład: aby załączać i wyłączać oświetlenie z czterech różnych miejsc należałoby użyć łącznik schodowy, dwa łączniki krzyżowe i na końcu instalacji ponownie łącznik schodowy."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/7f9dbd1733484b3bab.png",
+          "alt": "łącznik krzyżowy.png"
+        }
+      ]
+    },
+    {
+      "id": "card-40cd119a-9234-4e40-b7de-ff48764bbc46",
+      "question": [
+        {
+          "type": "text",
+          "text": "Łącznik dzwonkowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyposażony jest w pojedynczy przycisk, dokonuje łączenia w obrębie pojedynczego obwodu, po puszczeniu przycisku sprężyna samoczynnie odbija przycisk powodując rozłączenie. Znajduje zastosowanie w instalacjach dzwonka elektrycznego jak również w instalacjach z automatem schodowym i przekaźnikami bistabilnymi."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/b32834b39838407f8d.png",
+          "alt": "łącznik dzwonkowy.png"
+        }
+      ]
+    },
+    {
+      "id": "card-0325587b-70b9-4fd3-8620-403b5a824c22",
+      "question": [
+        {
+          "type": "text",
+          "text": "Łącznik żaluzjowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyposażony jest w dwa przyciski lub jeden przycisk trójstanowy – pozwala na łączenie w obrębie dwóch oddzielnych obwodów, ale uniemożliwia łączenie ich jednocześnie. Stosowany np. do żaluzji (podnoszenie/opuszczanie)."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/90d115a34f754d26a1.png",
+          "alt": "łącznik żaluzjowy.png"
+        }
+      ]
+    },
+    {
+      "id": "card-485b6de6-5020-42d7-a2b4-63da74291d4f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rozłącznik"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "to rodzaj łącznika, za pomocą którego można włączać i wyłączać określone prądy robocze, których wartość nie przekracza dziesięciokrotności prądu znamionowego. Najpopularniejszym i najprostszym typem rozłącznika jest stycznik. Mechanizm ten nie nadaje się do rozłączania prądów zwarciowych.\nRozłączniki są w stanie wyłączyć i włączyć również prąd przeciążeniowy mogący długotrwale przewodzić swój znamionowy prąd cieplny oraz krótkotrwale określone prądy zwarciowe. Istnieją modele rozłączników wyposażonych w bezpieczniki, tzw. rozłączniki bezpiecznikowe, które stosowane są np. w sieciach rozdzielczych, rozdzielnicach głównych w domach wielorodzinnych oraz w instalacjach przemysłowych."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/f39cbe36a3cc4d6484.png",
+          "alt": "rozłącznik.png"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-aee1eec4-1c41-4718-8daa-5453fd008bde",
+      "question": [
+        {
+          "type": "text",
+          "text": "Odłącznik"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "podobnie jak rozłącznik i wyłącznik, jest typem łącznika elektrycznego. Jego głównym zadaniem jest stworzyć w obwodzie bezpieczną przerwę izolacyjną. Nie jest przystosowany do manewrowania pod obciążeniem. Załączanie lub wyłączanie za pomocą odłącznika odbywa się najczęściej w stanie bezprądowym lub ewentualnie przy prądzie o bardzo niewielkich wartościach. Urządzenie to jest też zwykle uzupełnieniem dla wyłącznika – konstrukcje obu osprzętów są skonstruowane w taki sposób, aby obsługiwały identyczne napięcia i prądy znamionowe."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/698efed2df9e476294.png",
+          "alt": "odłącznik.png"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-bdbe96fa-3a7a-4139-bd6a-eb10b85ee117",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wyłącznik"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "mimo podobnej nazwy do rozłącznika, nie ma tych samych funkcji. Określeniem tym nazywa się zwykle typ łącznika, który jest w stanie załączać, przewodzić i wyłączać prądy w normalnych warunkach pracy obwodu, a także prąd przeciążeniowy oraz zwarciowy. Dzieje się to za sprawą komór gaszących, w które wyposażony jest osprzęt. Cechą charakterystyczną wyłączników jest wyraźna sygnalizacja utworzenia przerwy w obwodzie. Wyłączniki dzieli się najczęściej na zabezpieczające i manewrowe. Pierwsze z nich samoczynnie wyłączają zasilanie w przypadku wystąpienia awarii (np. wyłączniki nadmiarowo-prądowe lub różnicowo-prądowe). Z kolei drugie służą do manualnego załączania i wyłączania zasilania (np. łącznik oświetlenia)."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/12ce07d845e848ce9c.png",
+          "alt": "wyłącznik 1.png"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/fbcf7747cb6f4e38b3.png",
+          "alt": "wyłącznik 2.png"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-cf0be9b4-dcd8-4b1c-bc55-45f792a16f70",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekaźniki czasowe PCU-511 & PO-406"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/e0a554e2a25e416b8f.png",
+          "alt": "przekaźnik czasow 1.png"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/61d6907bb04c4c46b3.png",
+          "alt": "przekaźnik czasow 2.png"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/6ad20818837341b8b0.png",
+          "alt": "przekaźnik czasow 3.png"
+        }
+      ]
+    },
+    {
+      "id": "card-e16a6544-ed81-40ee-9d4f-4bab6f0ef451",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekaźniki bistabilne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "    Umożliwiają sterowanie oświetleniem za pomocą praktycznie dowolnej ilości przycisków chwilowych (dzwonkowych). Jest to rozwiązanie, które zastępuje klasyczne połączenia krzyżowe - schodowe, a poprzez dołączenie dodatkowych przycisków pozwoli uzyskać efekty nieosiągalne w klasycznej instalacji elektrycznej. Jeden przycisk może być przy wejściu do salonu, drugi przy wejściu do kuchni, trzeci przy schodach, czwarty, piąty…. Jedno naciśnięcie dowolnego przycisku włączy światło, kolejne naciśnięcie dowolnego przycisku wyłączy. Przyciski włączające/wyłączające konkretne oświetlenie możemy więc rozmieścić w ilości i miejscach, które uważamy dla nas za komfortowe przy aranżacji przestrzeni naszego domu."
+        },
+        {
+          "type": "text",
+          "text": "    Mogą mieć dodatkowe funkcje – najważniejszą jest możliwość sterowania centralnego. Przekaźnik bistabilny ze sterowaniem centralnym ma dodatkowe wejścia sterujące – oddzielne do włączenia i do wyłączenia. Łącząc takie wejścia w wielu przekaźnikach można jednocześnie sterować wszystkimi urządzeniami. Wychodząc z domu wystarczy nacisnąć jeden przycisk i mamy pewność że wszystkie światła zostaną wyłączone. Inną przydatną funkcją jest sterowanie czasowe."
+        },
+        {
+          "type": "text",
+          "text": "    Przekaźnik bistabilny z funkcją czasową działa na dwa sposoby – krótkie naciśnięcie przycisku załączy światło na ustawiony czas. Długie naciśnięcie – załącza światło na stałe. Czyli wchodząc po schodach – naciskamy krótko i wiemy, że światło się wyłączy po np. 2 minutach. Chcemy posprzątać – naciskamy długo przycisk i nie musimy biegać co dwie minuty w ciemności do wyłącznika. Po skończeniu sprzątana naciskamy przycisk podłączony do czasowego przekaźnika bistabilnego i światło gaśnie. Kolejnym rozwiązaniem są świecznikowe przekaźniki bistabilne przeznaczone do sterowania dwoma obwodami oświetleniowymi z jednego przycisku. Rozwiązanie takie doskonale sprawdza się np. w połączeniu z dzielonymi żyrandolami. Jedno naciśnięcie przycisku załącza pierwszą część żyrandola, drugie naciśnięcie – drugą część, trzecie – całość. Długie naciśnięcie – wyłącza światło. Choć oczywiście  możliwości jest więcej i z pewnością każdy znajdzie ustawienie odpowiednie dla siebie. Jeżeli mieszkamy w miejscu, gdzie często zdarzają się krótkotrwałe zaniki napięcia zasilania, to z pewnością docenimy przekaźniki bistabilne z pamięcią stanu. Przekaźnik taki zapamięta, że jak zginęło zasilanie i światło było włączone to po powrocie zasilania włączy je z powrotem. I nie grozi nam już błądzenie po omacku w poszukiwaniu włącznika do światła."
+        },
+        {
+          "type": "text",
+          "text": "    Przekaźniki bistabilne produkowane są w wersjach montowanych zarówno w rozdzielni na szynie DIN, jak i puszce instalacyjnej pod przyciskiem. Dostępne są przekaźniki bistabilne przeznaczone do sterowania różnymi źródłami światła, w tym również w wersji „i” specjalnie przystosowanymi do załączania bardzo popularnych, a jednocześnie trudnych dla instalacji elektrycznych lamp LED. Zasilanie przekaźników bistabilnych – do wyboru niskie napięcie 9-30V lub sieciowe 230 V. Przyciski zwykłe, czy podświetlane. Ogromną zaletą przekaźników bistabilnych jest, często niedoceniana, prostota instalacji – do jednego przekaźnika bistabilnego można podłączyć praktycznie nieograniczoną ilość przycisków. I zawsze będą to tylko dwa przewody idące od przycisku do przycisku i wchodzące do przekaźnika."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-f4f55288-1931-45e1-be53-105cfe1cf036",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekaźniki bistabilne BIS-402 & BIS-413"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/12d2063bbed14ed9a8.png",
+          "alt": "przekaźnik bistavilny 1.png"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/505e5d38cf794c5188.png",
+          "alt": "przekaźnik bistavilny 2.png"
+        }
+      ]
+    },
+    {
+      "id": "card-61b97f9f-cc5d-493a-ac9e-5e7765e24c88",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wyłącznik nadprądowy - budowa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "1 Dźwignia – element służący do załączenia obwodu.\n2 CPI – wskaźnik rzeczywistego położenia styków.\n3 Zamek – mechanizm załączający styk ruchomy.\n4 Wyzwalacz elektromagnetyczny (zwarciowy) – cewka z ruchomym rdzeniem.\n5 Wyzwalacz termobimetalowy (przeciążeniowy) – termobimetalowa blaszka.\n6 Komora gaszeniowa – służąca do gaszenia łuku elektrycznego.\n7 Wylot gazów z komory gaszeniowej\n8 Zaciski przyłączeniowe."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/b8d3c5e591fc4b38ad.png",
+          "alt": "wyłącznik nadprądowy.png"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-49bd31f1-8ca1-4215-8ab0-0074d6e3fd7c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wyłącznik nadmiarowo-prądowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "reaguje na dwa rodzaje prądów przetężeniowych:\n1. Prąd przeciążeniowy.\n2. Prąd zwarciowy."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-8991a6c3-69ad-4ef7-94c2-70af568ad9c2",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przeciążenie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "to ponad znamionowy przepływ prądu przez obwód. Następuje przy podłączeniu do instalacji odbiornika o zbyt dużej mocy. Ma charakter długotrwały (co najmniej kilka sekund), a przepływający prąd powoduje nagrzewanie się elementów instalacji. Długotrwałe przeciążenie może skutkować uszkodzeniem izolacji, w efekcie czego, przetężenie rozwinie się do zjawiska bardziej gwałtownego, przy którym prądy osiągają znacznie większe wartości, czyli do zwarcia."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-182e0596-25a8-44cc-9af2-f0391ed58047",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zwarcie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "to uszkodzenie polegające na bezpośrednim połączeniu elementów obwodu o różnym potencjale. Połączenie to może być realizowane poprzez łuk elektryczny lub element metaliczny, na przykład drut zwierający dwa przewody – L i N.. Zwarcie może mieć także charakter międzyfazowy – kiedy zewrzemy przewody L1 i L2, stąd też produkowane wyłączniki nadprądowe mają różne rozmiary. \n    Po podniesieniu dźwigni zamek zmienia położenie, łącząc tym samym styk ruchomy ze stykiem nieruchomym. Prąd przepływa od zacisku przez wyzwalacz termiczny, następnie wyzwalacz elektromagnetyczny aż do drugiego zacisku. Na skutek wzrostu prądu ponad znamionowy blaszka termobimetalowa nagrzewa się i ulega deformacji, co powoduje uruchomienie zamka i rozłączenie styków. W przypadku wystąpienia zwarcia rdzeń cewki zostaje wypchnięty i również wyzwala zamek. Przy rozłączaniu styków może pojawić się łuk elektryczny. Jest on kierowany do komory gaszeniowej i tam ulega wygaśnięciu."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-22edfcf8-e359-4228-9299-d22dea161280",
+      "question": [
+        {
+          "type": "text",
+          "text": "Dobór wyłącznika nadmiarowo-prądowego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "Ib ≤ In ≤ Iz"
+        },
+        {
+          "type": "formula",
+          "latex": "I2 ≤ 1,45 Iz"
+        },
+        {
+          "type": "formula",
+          "latex": "k * In ≤ 1,45 Iz"
+        },
+        {
+          "type": "text",
+          "text": "Ib - prąd znamionowy odbiornika\nIn - prąd urządzenia zabezpieczającego\nIz - długotrwała obciążalność przewodu\nI2 - prąd zadziałania urządzenia zabezpieczającego\nk - współczynnik krotności prądu powodującego zadziałanie urządzenia zabezpieczającego\n\nDla wyłączników nadprądowych o charakterystyce B, C i D wynosi 1,45.\nW instalacjach domowych dla przewodu YDYp 3×2,5 przyjmuje się maksymalne zabezpieczenie o prądzie znamionowym 16 A, a dla przewodu YDYp 3×1,5 przyjmuje się maksymalne zabezpieczenie o prądzie znamionowym 10 A.\n"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-e759b644-9224-43fb-98eb-122f049c5831",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prąd znamionowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyłącznika nadprądowego informuje o tym, jaki prąd może przepływać przez wyłącznik nie powodując jego zadziałania. O tym, w jakim czasie i po jak dużym przekroczeniu prądu znamionowego aparat zostanie wyzwolony, informują nas charakterystyki. Charakterystyka wyłącznika nadprądowego to zestawienie krotności prądu znamionowego i czasu jego przepływu, z której możemy wywnioskować, kiedy nastąpi wyzwolenie aparatu. Dla wyłączników nadprądowych stosowanych w instalacjach domowych stosujesię trzy główne charakterystyki:\na) B\nb) C\nc) D"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/8c2da2410bbe416887.png",
+          "alt": "prąd znamionowy.png"
+        }
+      ]
+    },
+    {
+      "id": "card-47cc1465-276b-48ad-b816-761e6c4964d2",
+      "question": [
+        {
+          "type": "text",
+          "text": "Warunki doboru wyłączników różnicowoprądowych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przy doborze wyłączników różnicowoprądowych należy spełnić szereg warunków sieciowych i środowiskowych, a także uwzględnić: – charakter instalacji i rodzaj urządzeń z niej zasilanych,\n– wartość prądu upływowego w instalacji wraz z wyposażeniem,\n– układ sieci w jakim wyłącznik będzie zastosowany (TN. TT, IT),\n– rodzaj ochrony przeciwporażeniowej,\n– prąd szczytowy obciążenia i prąd zwarciowy oraz\n– kształt przebiegu prądu różnicowego."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-050e9138-9e4c-4f2f-b0b5-706438e448e1",
+      "question": [
+        {
+          "type": "text",
+          "text": "Funkcje ochronne wyłączników różnicowo-prądowych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "1) ochronę uzupełniającą ochronę podstawową za pomocą wysokoczułych wyłączników różnicowoprądowych o znamionowym prądzie różnicowym zadziałania IΔn ≤ 30 mA,\n\n2) ochronę przy uszkodzeniu przez samoczynne wyłączenie zasilania przy użyciu wyłącznika różnicowoprądowego o znamionowym prądzie różnicowym zadziałania IΔn ≤ 1 A, współpracującego z dobranym do chronionego obwodu wyłącznikiem nadprądowym.\n\n3) ochronę przeciwpożarową za pomocą wyłączników różnicowoprądowych selektywnych o znamionowym prądzie różnicowym I∆n ≤ 500 mA (ochrona przed pożarami spowodowanymi prądami doziemnymi)."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-855e514e-08eb-4966-8e02-fb13e03ecda3",
+      "question": [
+        {
+          "type": "text",
+          "text": "Podział wyłączników różnicowo-prądowych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "- wyłączniki wysokoczułe – reagują na prąd o wartości od 0,01 do 0,03 A. Najczęściej stosowane w prywatnych domach;\n\n- wyłączniki średnioczułe – odłączają zasilanie w przypadku wykrycia prądu z zakresu 0,1–0,5 A;\n\n- wyłączniki niskoczułe – uruchamiają się, gdy wartość prądu przekracza 0,5 A. Wykorzystuje się je w instalacjach przemysłowych.\n\n- wyłączniki różnicowoprądowe typu A – wyłączają obieg wtedy, gdy wykryją prąd różnicowy przemienny. Najlepiej sprawdzą się one w miejscach, w których znajduje się dużo zasilaczy impulsowych;\n\n- wyłączniki różnicowoprądowe typu B – zasilanie zostaje odcięte, jeśli urządzenie wykryje prąd różnicowy przemienny lub jednokierunkowy pulsujący; \n\n- wyłączniki różnicowoprądowe typu AC – ich zastosowanie sprawia, że zasilanie zostaje wyłączone w przypadku wykrycia prądu różnicowego przemiennego, jednokierunkowego pulsującego oraz prądu stałego, który odznacza się niskim współczynnikiem tętnień. Ten rodzaj zabezpieczenia uważany jest za najbardziej uniwersalny."
+        }
+      ]
+    },
+    {
+      "id": "card-8b08f3b5-a024-433b-8d52-6e18d6d16f99",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zasada działania RCD (wyłącznika różnicowo-prądowego)"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Według I prawa Kirchhoffa podczas prawidłowej pracy instalacji elektrycznej suma prądów przepływających przez transformator równa jest zeru, co oznacza, że tyle samo energii, ile wypłynęło z sieci, powinno do niej wrócić. W takiej sytuacji w uzwojeniu wtórnym przekładnika Ferrantiego, będącego jedną z najważniejszych części różnicówki, nie indukuje się siła elektromotoryczna, a wyzwalacz i styki pozostają zamknięte, umożliwiając normalną pracę obwodu. \n    Kiedy jednak aparat wykryje, że suma prądu powracającego jest mniejsza niż suma prądu wypływającego, w uzwojeniu wtórnym przekładnika Ferrantiego powstaje siła elektromotoryczna, która przepływając przez wyzwalacz powoduje otworzenie styków, a tym samym odłączenie zasilania w obwodzie. \n    Umożliwia to natychmiastowe wyłączenie dopływu prądu na przykład w momencie, gdy urządzenie pod napięciem zetknie się z ciałem ludzkim, doprowadzając do porażenia, lub gdy prąd będzie w niewłaściwy sposób odprowadzany do ziemi (na przykład przez uszkodzoną izolację przewodu), co przy wysokich natężeniach prądu różnicowego mogłoby stać się przyczyną pożaru."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/c484455f5716409495.png",
+          "alt": "RCD.png"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-caebba8c76a2/89114de0bf6446f985.png",
+          "alt": "RCD 2.png"
+        }
+      ]
+    }
+  ]
+}

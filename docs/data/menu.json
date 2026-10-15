@@ -65,10 +65,41 @@
           "kind": "folder",
           "children": [
             {
-              "id": "ele02-lekcja-1",
-              "title": "Lekcja 1 — test",
-              "kind": "lesson",
-              "file": "lessons/ele02-lekcja-1.json"
+              "id": "item-56332396802a",
+              "title": "1. Urządzenia elektryczne",
+              "kind": "folder",
+              "children": [
+                {
+                  "id": "item-caebba8c76a2",
+                  "title": "MiUE cz1",
+                  "kind": "lesson",
+                  "file": "lessons/item-caebba8c76a2.json"
+                },
+                {
+                  "id": "item-205ac4d3d85b",
+                  "title": "MiUE cz2",
+                  "kind": "lesson",
+                  "file": "lessons/item-205ac4d3d85b.json"
+                },
+                {
+                  "id": "item-8226daf000c0",
+                  "title": "MiUE cz3",
+                  "kind": "lesson",
+                  "file": "lessons/item-8226daf000c0.json"
+                },
+                {
+                  "id": "item-7288d833fb8a",
+                  "title": "MiUE cz4",
+                  "kind": "lesson",
+                  "file": "lessons/item-7288d833fb8a.json"
+                },
+                {
+                  "id": "item-ab93e2602256",
+                  "title": "MiUE cz5",
+                  "kind": "lesson",
+                  "file": "lessons/item-ab93e2602256.json"
+                }
+              ]
             }
           ]
         },

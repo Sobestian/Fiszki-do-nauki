@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "item-ab93e2602256",
+  "title": "MiUE cz5",
+  "cards": [
+    {
+      "id": "card-e387a49bc26a4b03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Nowe pytanie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Nowa odpowiedź"
+        }
+      ]
+    }
+  ]
+}

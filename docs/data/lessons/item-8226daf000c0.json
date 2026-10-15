@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "item-8226daf000c0",
+  "title": "MiUE cz3",
+  "cards": [
+    {
+      "id": "card-9b9bf473ae70429f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Nowe pytanie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Nowa odpowiedź"
+        }
+      ]
+    }
+  ]
+}

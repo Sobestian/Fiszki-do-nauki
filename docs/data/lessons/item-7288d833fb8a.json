@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "item-7288d833fb8a",
+  "title": "MiUE cz4",
+  "cards": [
+    {
+      "id": "card-6eb4e83cde4847b0",
+      "question": [
+        {
+          "type": "text",
+          "text": "Nowe pytanie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Nowa odpowiedź"
+        }
+      ]
+    }
+  ]
+}

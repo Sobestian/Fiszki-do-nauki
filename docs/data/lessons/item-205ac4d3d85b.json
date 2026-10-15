@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "item-205ac4d3d85b",
+  "title": "MiUE cz2",
+  "cards": [
+    {
+      "id": "card-a8910b75a1884c77",
+      "question": [
+        {
+          "type": "text",
+          "text": "Nowe pytanie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Nowa odpowiedź"
+        }
+      ]
+    }
+  ]
+}

@@ -142,7 +142,7 @@ button:focus-visible{outline:3px solid #8eb5ff;outline-offset:2px}
    FISZKI V2 0.1.2 — RESET, ODKRYWANIE ODPOWIEDZI I TELEFONY
    =========================================================== */
 
-/* Reset na środku paska postępu, niezależnie od długości napisu. */
+/* Starsze ustawienia resetu; w 0.1.14 przeniesiony do prawej grupy. */
 .status-bar{
   display:grid;
   grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
@@ -338,3 +338,259 @@ button:focus-visible{outline:3px solid #8eb5ff;outline-offset:2px}
 .question-panel .unit-formula-large {width:100%;margin:auto;align-self:center;text-align:center;}
 .question-panel .unit-formula-large .formula-line {text-align:center;}
 .question-panel .unit-formula-large .formula-line .katex {font-size:clamp(3.1rem,12vw,8rem);}
+
+/* 0.1.11 — WAŻNE! po prawej stronie nawigacji, widoczne tylko w trybie Nauka. */
+.nav-right{justify-self:end;display:flex;align-items:center;justify-content:flex-end;gap:clamp(7px,1.5vw,18px);min-width:0}
+.nav-right #mode-caption{justify-self:auto;white-space:nowrap}
+.important-label{font-size:clamp(.91rem,2vw,1.35rem);font-weight:800;line-height:1.1;color:#ff4040;white-space:nowrap}
+@media(max-width:520px){
+  /* Podpis trybu można ukryć na wąskim ekranie, ale nie ostrzeżenie. */
+  .nav-right .important-label{font-size:clamp(.85rem,3.7vw,1.1rem)}
+}
+
+
+/* ===========================================================
+   FISZKI V2 0.1.13 — pasek postępu stale widoczny na PC i mobile
+   =========================================================== */
+
+/* Cała aplikacja mieści się w widocznym obszarze przeglądarki.
+   Nigdy nie przewijamy całej strony wraz z dolnym paskiem. */
+html, body {height:100%;}
+body {overflow:hidden;}
+.app {
+  height:100vh; /* starsze przeglądarki */
+  height:100dvh;
+  min-height:0;
+  overflow:hidden;
+  padding-bottom:max(14px, env(safe-area-inset-bottom, 0px));
+}
+.app-main {flex:1 1 auto;min-height:0;overflow:hidden;}
+.app-header,.app-nav,.status-bar {flex-shrink:0;}
+.status-bar {position:relative;z-index:2;flex:0 0 auto;}
+
+/* Menu i wybór trybu też przewijają się wewnątrz aplikacji.
+   Długi spis lekcji nie wypycha paska postępu z ekranu. */
+#menu-view,#setup-view {
+  min-height:0;
+  overflow-y:auto;
+  overscroll-behavior:contain;
+}
+#session-view,.workspace {min-height:0;overflow:hidden;}
+
+/* Zamiast rozszerzać całą stronę, przewijamy pytanie i odpowiedź. */
+.workspace {grid-template-rows:minmax(0,1fr) auto;}
+.workspace .question-panel {
+  min-height:0;
+  justify-content:safe center; /* przy zbyt długim pytaniu początek pozostaje dostępny */
+  overflow-x:hidden;
+  overflow-y:auto;
+  overscroll-behavior:contain;
+}
+.workspace .interaction-panel {
+  min-height:0;
+  max-height:min(36dvh,360px);
+  overflow-y:auto;
+  overscroll-behavior:contain;
+}
+
+/* Rozbudowana odpowiedź w fiszkach też musi być w pełni dostępna. */
+.workspace.self-assess-mode .interaction-panel {justify-content:safe center;}
+.workspace.self-assess-mode .answer-card {
+  min-height:0;
+  max-height:100%;
+  overflow-y:auto;
+  justify-content:safe center;
+  overscroll-behavior:contain;
+}
+
+/* Nauka: wąski panel pytania i szeroka, niezależnie przewijana
+   odpowiedź. Sterowanie jest teraz wewnątrz dolnego paska. */
+.workspace.learn-mode,
+.workspace.no-sides.learn-mode {
+  grid-template-rows:auto minmax(0,1fr);
+}
+.workspace.learn-mode .question-panel {
+  max-height:min(25dvh,220px);
+  overflow-y:auto;
+}
+.workspace.learn-mode .interaction-panel {
+  min-height:0;
+  max-height:none;
+  overflow:hidden;
+}
+.workspace.learn-mode .answer-card {
+  min-height:0;
+  overflow-y:auto;
+  overscroll-behavior:contain;
+}
+
+/* Powtórzenie po odkryciu odpowiedzi: ten sam układ co Nauka;
+   przyciski WIEM/NIE WIEM są już w dolnym pasku. */
+.workspace.review-revealed {
+  grid-template-rows:auto minmax(0,1fr);
+}
+.workspace.review-revealed .question-panel {
+  max-height:min(25dvh,220px);
+  overflow-y:auto;
+}
+.workspace.review-revealed .interaction-panel {
+  min-height:0;
+  max-height:none;
+  overflow:hidden;
+}
+.workspace.review-revealed .answer-card {
+  min-height:0;
+  overflow-y:auto;
+  overscroll-behavior:contain;
+}
+
+@media(max-width:730px) {
+  .app {padding-bottom:max(8px, env(safe-area-inset-bottom, 0px));}
+  .workspace {
+    grid-template-rows:minmax(0,1fr) auto auto;
+  }
+  .workspace.no-sides:not(.learn-mode) {
+    grid-template-rows:minmax(0,1fr) auto;
+  }
+  .workspace .interaction-panel {
+    max-height:35dvh;
+  }
+  .workspace.no-sides.learn-mode,
+  .workspace.learn-mode {
+    grid-template-rows:auto minmax(0,1fr);
+  }
+  .workspace.learn-mode .interaction-panel {
+    min-height:0;
+    max-height:none;
+  }
+  .workspace.review-revealed {
+    grid-template-rows:auto minmax(0,1fr) auto;
+  }
+  .workspace.review-revealed .interaction-panel {
+    min-height:0;
+    max-height:none;
+  }
+  .workspace .side-btn {flex:0 0 auto;}
+}
+
+@media(max-height:520px) {
+  /* Małe okno / telefon poziomo: odzyskujemy przestrzeń na treść. */
+  .app {padding-top:5px;gap:5px;}
+  .app-header,.app-nav,.status-bar {padding-top:6px;padding-bottom:6px;}
+  .workspace.learn-mode .question-panel,
+  .workspace.review-revealed .question-panel {max-height:24dvh;}
+}
+
+/* ===========================================================
+   FISZKI V2 0.1.14 — sterowanie lekcją w pasku postępu
+   =========================================================== */
+/* Komputer: stan lekcji z lewej, działania w centrum, reset tuż
+   obok wskaźnika z prawej. Dystans od przycisków lekcji chroni
+   przed przypadkowym rozpoczęciem od początku. */
+.status-bar {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+  align-items:center;
+  gap:12px;
+}
+#status-text {grid-column:1;min-width:0;}
+.footer-actions {
+  display:flex;
+  grid-column:2;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
+  min-width:0;
+}
+.footer-action {
+  padding:9px 12px;
+  min-height:40px;
+  background:var(--panel2);
+  border:1px solid var(--line);
+  border-radius:8px;
+  font-weight:600;
+  white-space:nowrap;
+}
+.footer-action:disabled {opacity:.45;cursor:default;}
+.footer-action:not(:disabled):active,.footer-action.pressed {filter:brightness(.78);}
+.footer-wrong {background:var(--red);border-color:var(--red);}
+.footer-correct {background:var(--green);border-color:var(--green);}
+.footer-progress {
+  grid-column:3;
+  display:flex;
+  align-items:center;
+  justify-content:flex-end;
+  justify-self:stretch;
+  gap:12px;
+  min-width:0;
+}
+.footer-progress .reset-btn {
+  grid-column:auto;
+  justify-self:auto;
+  flex:0 0 auto;
+}
+.footer-progress .progress-track {
+  grid-column:auto;
+  justify-self:auto;
+  flex:0 1 240px;
+  min-width:45px;
+  width:100%;
+}
+/* Powtórzenie: brak bocznych przycisków powiększa obszar zagadnienia. */
+.workspace.no-sides.review-mode,
+.workspace.no-sides.review-mode.review-revealed {
+  grid-template-columns:minmax(0,1fr);
+  grid-template-areas:'question' 'interaction';
+}
+.workspace.no-sides.review-mode.review-revealed {
+  grid-template-rows:auto minmax(0,1fr);
+}
+/* Telefony: dwa rzędy WEWNĄTRZ tej samej stopki — sterowanie
+   wyżej, status/reset/pasek niżej. Nie zabieramy miejsca poza stopką. */
+@media(max-width:760px) {
+  .status-bar.has-actions {
+    grid-template-columns:minmax(0,1fr) auto;
+    grid-template-rows:auto auto;
+    column-gap:10px;
+    row-gap:7px;
+  }
+  .status-bar.has-actions .footer-actions {
+    grid-column:1 / -1;
+    grid-row:1;
+    justify-self:stretch;
+    width:100%;
+  }
+  .footer-actions .footer-action {
+    flex:1 1 0;
+    min-width:0;
+    max-width:185px;
+    padding:8px 10px;
+  }
+  .status-bar.has-actions #status-text {
+    grid-column:1;
+    grid-row:2;
+  }
+  .status-bar.has-actions .footer-progress {
+    grid-column:2;
+    grid-row:2;
+  }
+  .status-bar:not(.has-actions) {
+    grid-template-columns:minmax(0,1fr) auto;
+  }
+  .status-bar:not(.has-actions) .footer-progress {grid-column:2;}
+  .footer-progress .progress-track {flex-basis:130px;}
+  .workspace.no-sides.review-mode,
+  .workspace.no-sides.review-mode.review-revealed {
+    grid-template-columns:minmax(0,1fr);
+    grid-template-areas:'question' 'interaction';
+  }
+  .workspace.no-sides.review-mode.review-revealed {
+    grid-template-rows:auto minmax(0,1fr);
+  }
+}
+@media(max-width:380px) {
+  .footer-actions {gap:6px;}
+  .footer-action {font-size:.79rem;}
+  .footer-progress {gap:8px;}
+  .footer-progress .progress-track {flex-basis:95px;}
+}
