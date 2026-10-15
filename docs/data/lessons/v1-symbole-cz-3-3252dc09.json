@@ -1,0 +1,1052 @@
+{
+  "schema_version": 1,
+  "id": "v1-symbole-cz-3-3252dc09",
+  "title": "Symbole cz 3",
+  "cards": [
+    {
+      "id": "v1-card-c6d189a7",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/lampa sygnalizacyjna.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "lampa sygnalizacyjna"
+        }
+      ],
+      "quiz": {
+        "correct": "lampa sygnalizacyjna"
+      }
+    },
+    {
+      "id": "v1-card-2d27a8b3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/licznik dwutaryfowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "licznik dwutaryfowy"
+        }
+      ],
+      "quiz": {
+        "correct": "licznik dwutaryfowy"
+      }
+    },
+    {
+      "id": "v1-card-df352ea9",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/licznik energii biernej.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "licznik energii biernej"
+        }
+      ],
+      "quiz": {
+        "correct": "licznik energii biernej"
+      }
+    },
+    {
+      "id": "v1-card-14f0b79c",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/licznik energii czynnej.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "licznik energii czynnej"
+        }
+      ],
+      "quiz": {
+        "correct": "licznik energii czynnej"
+      }
+    },
+    {
+      "id": "v1-card-fcdb187b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/licznik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "licznik"
+        }
+      ],
+      "quiz": {
+        "correct": "licznik"
+      }
+    },
+    {
+      "id": "v1-card-2806baad",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/linia graniczna, linia podziału miedzy polami.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "linia graniczna, linia podziału miedzy polami"
+        }
+      ],
+      "quiz": {
+        "correct": "linia graniczna, linia podziału miedzy polami"
+      }
+    },
+    {
+      "id": "v1-card-7bfdded6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/linia napowietrzna.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "linia napowietrzna"
+        }
+      ],
+      "quiz": {
+        "correct": "linia napowietrzna"
+      }
+    },
+    {
+      "id": "v1-card-230af195",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/linia odchodząca do góry.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "linia odchodząca do góry"
+        }
+      ],
+      "quiz": {
+        "correct": "linia odchodząca do góry"
+      }
+    },
+    {
+      "id": "v1-card-5743bc90",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/linia odchodząca w dół.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "linia odchodząca w dół"
+        }
+      ],
+      "quiz": {
+        "correct": "linia odchodząca w dół"
+      }
+    },
+    {
+      "id": "v1-card-e83e403b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/linia podwodna.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "linia podwodna"
+        }
+      ],
+      "quiz": {
+        "correct": "linia podwodna"
+      }
+    },
+    {
+      "id": "v1-card-72990f00",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/linia podziemna.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "linia podziemna"
+        }
+      ],
+      "quiz": {
+        "correct": "linia podziemna"
+      }
+    },
+    {
+      "id": "v1-card-035e9cc9",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/linia przechodząca pionowo.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "linia przechodząca pionowo"
+        }
+      ],
+      "quiz": {
+        "correct": "linia przechodząca pionowo"
+      }
+    },
+    {
+      "id": "v1-card-5048960f",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/linia trójfazowa z przewodem neutralnym i przewodem ochronnym 3l + n + pe.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "linia trójfazowa z przewodem neutralnym i przewodem ochronnym 3l + n + pe"
+        }
+      ],
+      "quiz": {
+        "correct": "linia trójfazowa z przewodem neutralnym i przewodem ochronnym 3l + n + pe"
+      }
+    },
+    {
+      "id": "v1-card-1f72aba1",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/listwa zaciskowa.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "listwa zaciskowa"
+        }
+      ],
+      "quiz": {
+        "correct": "listwa zaciskowa"
+      }
+    },
+    {
+      "id": "v1-card-53076ca8",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/masa, korpus, podstawa montażowa.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "masa, korpus, podstawa montażowa"
+        }
+      ],
+      "quiz": {
+        "correct": "masa, korpus, podstawa montażowa"
+      }
+    },
+    {
+      "id": "v1-card-5d9e8a84",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/maszyna elektryczna (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "maszyna elektryczna (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "maszyna elektryczna (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-f4aad1ac",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/miernik cosj.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "miernik cosj"
+        }
+      ],
+      "quiz": {
+        "correct": "miernik cosj"
+      }
+    },
+    {
+      "id": "v1-card-1f71e719",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/odbiór.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "odbiór"
+        }
+      ],
+      "quiz": {
+        "correct": "odbiór"
+      }
+    },
+    {
+      "id": "v1-card-ddf52f01",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/odgałęzienie od przewodu.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "odgałęzienie od przewodu"
+        }
+      ],
+      "quiz": {
+        "correct": "odgałęzienie od przewodu"
+      }
+    },
+    {
+      "id": "v1-card-c3226617",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/odłącznik bezpiecznikowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "odłącznik bezpiecznikowy"
+        }
+      ],
+      "quiz": {
+        "correct": "odłącznik bezpiecznikowy"
+      }
+    },
+    {
+      "id": "v1-card-9fe87a85",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/odłącznik otwarty.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "odłącznik otwarty"
+        }
+      ],
+      "quiz": {
+        "correct": "odłącznik otwarty"
+      }
+    },
+    {
+      "id": "v1-card-7254dc3b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/odłącznik zamknięty.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "odłącznik zamknięty"
+        }
+      ],
+      "quiz": {
+        "correct": "odłącznik zamknięty"
+      }
+    },
+    {
+      "id": "v1-card-2760227b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/odłącznik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "odłącznik"
+        }
+      ],
+      "quiz": {
+        "correct": "odłącznik"
+      }
+    },
+    {
+      "id": "v1-card-5217331b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/ogniwo pierwotne, akumulator, bateria akumulatorów (dłuższa linia oznacza biegun dodatni).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "ogniwo pierwotne, akumulator, bateria akumulatorów (dłuższa linia oznacza biegun dodatni)"
+        }
+      ],
+      "quiz": {
+        "correct": "ogniwo pierwotne, akumulator, bateria akumulatorów (dłuższa linia oznacza biegun dodatni)"
+      }
+    },
+    {
+      "id": "v1-card-93868d0a",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/ogranicznik przepięć, odgromnik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "ogranicznik przepięć, odgromnik"
+        }
+      ],
+      "quiz": {
+        "correct": "ogranicznik przepięć, odgromnik"
+      }
+    },
+    {
+      "id": "v1-card-fb7036af",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/oprawa zawierająca 5 świetlówek.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "oprawa zawierająca 5 świetlówek"
+        }
+      ],
+      "quiz": {
+        "correct": "oprawa zawierająca 5 świetlówek"
+      }
+    },
+    {
+      "id": "v1-card-ef9d1160",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/opóźnienie (zwłoka czasowa).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "opóźnienie (zwłoka czasowa)"
+        }
+      ],
+      "quiz": {
+        "correct": "opóźnienie (zwłoka czasowa)"
+      }
+    },
+    {
+      "id": "v1-card-84fb2f05",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/oscyloskop elektroniczny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "oscyloskop elektroniczny"
+        }
+      ],
+      "quiz": {
+        "correct": "oscyloskop elektroniczny"
+      }
+    },
+    {
+      "id": "v1-card-a04c6157",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/oświetlenie ewakuacyjne – punkt świetlny zasilany ze specjalnego obwodu.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "oświetlenie ewakuacyjne – punkt świetlny zasilany ze specjalnego obwodu"
+        }
+      ],
+      "quiz": {
+        "correct": "oświetlenie ewakuacyjne – punkt świetlny zasilany ze specjalnego obwodu"
+      }
+    },
+    {
+      "id": "v1-card-b5618d28",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/pneumatyczny lub hydrauliczny dwukierunkowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "pneumatyczny lub hydrauliczny dwukierunkowy"
+        }
+      ],
+      "quiz": {
+        "correct": "pneumatyczny lub hydrauliczny dwukierunkowy"
+      }
+    },
+    {
+      "id": "v1-card-81b87bdd",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/pneumatyczny lub hydrauliczny jednokierunkowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "pneumatyczny lub hydrauliczny jednokierunkowy"
+        }
+      ],
+      "quiz": {
+        "correct": "pneumatyczny lub hydrauliczny jednokierunkowy"
+      }
+    },
+    {
+      "id": "v1-card-7612abce",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/potencjometr.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "potencjometr"
+        }
+      ],
+      "quiz": {
+        "correct": "potencjometr"
+      }
+    },
+    {
+      "id": "v1-card-ef8db6a8",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/połączenie przewodów.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "połączenie przewodów"
+        }
+      ],
+      "quiz": {
+        "correct": "połączenie przewodów"
+      }
+    },
+    {
+      "id": "v1-card-1a6b0dfc",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/pralka elektryczna.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "pralka elektryczna"
+        }
+      ],
+      "quiz": {
+        "correct": "pralka elektryczna"
+      }
+    },
+    {
+      "id": "v1-card-55f2ea44",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/projektor (reflektor) o świetle rozproszonym.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "projektor (reflektor) o świetle rozproszonym"
+        }
+      ],
+      "quiz": {
+        "correct": "projektor (reflektor) o świetle rozproszonym"
+      }
+    },
+    {
+      "id": "v1-card-d202ffb5",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/projektor (reflektor) o świetle skupionym (spot light).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "projektor (reflektor) o świetle skupionym (spot light)"
+        }
+      ],
+      "quiz": {
+        "correct": "projektor (reflektor) o świetle skupionym (spot light)"
+      }
+    },
+    {
+      "id": "v1-card-4a38c964",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/projektor (reflektor) symbol ogólny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "projektor (reflektor) symbol ogólny"
+        }
+      ],
+      "quiz": {
+        "correct": "projektor (reflektor) symbol ogólny"
+      }
+    },
+    {
+      "id": "v1-card-fd97243b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/prostownik mostkowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "prostownik mostkowy"
+        }
+      ],
+      "quiz": {
+        "correct": "prostownik mostkowy"
+      }
+    },
+    {
+      "id": "v1-card-7da75e73",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/prostownik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "prostownik"
+        }
+      ],
+      "quiz": {
+        "correct": "prostownik"
+      }
+    },
+    {
+      "id": "v1-card-001d0787",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekaźnik do wykrywania zwarć miedzyzwojowych.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekaźnik do wykrywania zwarć miedzyzwojowych"
+        }
+      ],
+      "quiz": {
+        "correct": "przekaźnik do wykrywania zwarć miedzyzwojowych"
+      }
+    },
+    {
+      "id": "v1-card-fd5d32f6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekaźnik mocowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekaźnik mocowy"
+        }
+      ],
+      "quiz": {
+        "correct": "przekaźnik mocowy"
+      }
+    },
+    {
+      "id": "v1-card-42e10ad0",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekaźnik nadprądowy zwłoczny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekaźnik nadprądowy zwłoczny"
+        }
+      ],
+      "quiz": {
+        "correct": "przekaźnik nadprądowy zwłoczny"
+      }
+    },
+    {
+      "id": "v1-card-056896ee",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekaźnik podimpedancyjny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekaźnik podimpedancyjny"
+        }
+      ],
+      "quiz": {
+        "correct": "przekaźnik podimpedancyjny"
+      }
+    },
+    {
+      "id": "v1-card-6ec27d06",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekaźnik prądowy z dwoma uzwojeniami wtórnymi na wspólnym rdzeniu.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekaźnik prądowy z dwoma uzwojeniami wtórnymi na wspólnym rdzeniu"
+        }
+      ],
+      "quiz": {
+        "correct": "przekaźnik prądowy z dwoma uzwojeniami wtórnymi na wspólnym rdzeniu"
+      }
+    },
+    {
+      "id": "v1-card-3d6a020e",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekaźnik zeronapięciowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekaźnik zeronapięciowy"
+        }
+      ],
+      "quiz": {
+        "correct": "przekaźnik zeronapięciowy"
+      }
+    },
+    {
+      "id": "v1-card-57889191",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekształtnik (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekształtnik (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "przekształtnik (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-346eb41b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekształtnik dc-dc.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekształtnik dc-dc"
+        }
+      ],
+      "quiz": {
+        "correct": "przekształtnik dc-dc"
+      }
+    },
+    {
+      "id": "v1-card-5bef03d8",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekładnik napięciowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekładnik napięciowy"
+        }
+      ],
+      "quiz": {
+        "correct": "przekładnik napięciowy"
+      }
+    },
+    {
+      "id": "v1-card-4c916f5d",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekładnik prądowy dwurdzeniowy z jednym uzwojeniem wtórnym na każdym rdzeniu.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekładnik prądowy dwurdzeniowy z jednym uzwojeniem wtórnym na każdym rdzeniu"
+        }
+      ],
+      "quiz": {
+        "correct": "przekładnik prądowy dwurdzeniowy z jednym uzwojeniem wtórnym na każdym rdzeniu"
+      }
+    },
+    {
+      "id": "v1-card-97d94c4c",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/przekładnik prądowy, transformator impulsowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przekładnik prądowy, transformator impulsowy"
+        }
+      ],
+      "quiz": {
+        "correct": "przekładnik prądowy, transformator impulsowy"
+      }
+    },
+    {
+      "id": "v1-card-f78320a7",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/prąd przemienny średniej częstotliwości (akustycznej).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "prąd przemienny średniej częstotliwości (akustycznej)"
+        }
+      ],
+      "quiz": {
+        "correct": "prąd przemienny średniej częstotliwości (akustycznej)"
+      }
+    },
+    {
+      "id": "v1-card-80ba12a1",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/prąd przemienny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "prąd przemienny"
+        }
+      ],
+      "quiz": {
+        "correct": "prąd przemienny"
+      }
+    },
+    {
+      "id": "v1-card-5f858e30",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/prąd różnicowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "prąd różnicowy"
+        }
+      ],
+      "quiz": {
+        "correct": "prąd różnicowy"
+      }
+    },
+    {
+      "id": "v1-card-43cf9413",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/prąd stały.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "prąd stały"
+        }
+      ],
+      "quiz": {
+        "correct": "prąd stały"
+      }
+    },
+    {
+      "id": "v1-card-8df25aa8",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-3-3252dc09/półprzewodnik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "półprzewodnik"
+        }
+      ],
+      "quiz": {
+        "correct": "półprzewodnik"
+      }
+    }
+  ]
+}

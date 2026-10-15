@@ -1,0 +1,1052 @@
+{
+  "schema_version": 1,
+  "id": "v1-symbole-cz-2-4f349743",
+  "title": "Symbole cz 2",
+  "cards": [
+    {
+      "id": "v1-card-fbc055a3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przerywnik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przerywnik"
+        }
+      ],
+      "quiz": {
+        "correct": "przerywnik"
+      }
+    },
+    {
+      "id": "v1-card-1a3eaa84",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przesył energii do szyn zbiorczych.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przesył energii do szyn zbiorczych"
+        }
+      ],
+      "quiz": {
+        "correct": "przesył energii do szyn zbiorczych"
+      }
+    },
+    {
+      "id": "v1-card-84f688f5",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przesył energii od szyn zbiorczych.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przesył energii od szyn zbiorczych"
+        }
+      ],
+      "quiz": {
+        "correct": "przesył energii od szyn zbiorczych"
+      }
+    },
+    {
+      "id": "v1-card-62936330",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przewód giętki, przewód ruchomy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przewód giętki, przewód ruchomy"
+        }
+      ],
+      "quiz": {
+        "correct": "przewód giętki, przewód ruchomy"
+      }
+    },
+    {
+      "id": "v1-card-99be671a",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przewód neutralny n.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przewód neutralny n"
+        }
+      ],
+      "quiz": {
+        "correct": "przewód neutralny n"
+      }
+    },
+    {
+      "id": "v1-card-e6e7d58f",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przewód neutralny ochronny pen.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przewód neutralny ochronny pen"
+        }
+      ],
+      "quiz": {
+        "correct": "przewód neutralny ochronny pen"
+      }
+    },
+    {
+      "id": "v1-card-e5f51cd1",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przewód ochronny pe.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przewód ochronny pe"
+        }
+      ],
+      "quiz": {
+        "correct": "przewód ochronny pe"
+      }
+    },
+    {
+      "id": "v1-card-3374612c",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przewód, kabel, linia przesyłowa, szyny zbiorcze (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przewód, kabel, linia przesyłowa, szyny zbiorcze (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "przewód, kabel, linia przesyłowa, szyny zbiorcze (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-d251f2f5",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przycisk bezpieczeństwa.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przycisk bezpieczeństwa"
+        }
+      ],
+      "quiz": {
+        "correct": "przycisk bezpieczeństwa"
+      }
+    },
+    {
+      "id": "v1-card-0790f3c5",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przycisk podświetlony.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przycisk podświetlony"
+        }
+      ],
+      "quiz": {
+        "correct": "przycisk podświetlony"
+      }
+    },
+    {
+      "id": "v1-card-58fb54d4",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przycisk.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przycisk"
+        }
+      ],
+      "quiz": {
+        "correct": "przycisk"
+      }
+    },
+    {
+      "id": "v1-card-b20e864a",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/przyrząd rejestrujący (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przyrząd rejestrujący (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "przyrząd rejestrujący (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-70a3294d",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/prąd tętniący, prąd wyprostowany ze składową stałą.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "prąd tętniący, prąd wyprostowany ze składową stałą"
+        }
+      ],
+      "quiz": {
+        "correct": "prąd tętniący, prąd wyprostowany ze składową stałą"
+      }
+    },
+    {
+      "id": "v1-card-16be5ba2",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/prąd w przewodzie neutralnym.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "prąd w przewodzie neutralnym"
+        }
+      ],
+      "quiz": {
+        "correct": "prąd w przewodzie neutralnym"
+      }
+    },
+    {
+      "id": "v1-card-13fa1c4b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/prąd ziemnozwarciowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "prąd ziemnozwarciowy"
+        }
+      ],
+      "quiz": {
+        "correct": "prąd ziemnozwarciowy"
+      }
+    },
+    {
+      "id": "v1-card-5cbcecdc",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/prąd zwrotny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "prąd zwrotny"
+        }
+      ],
+      "quiz": {
+        "correct": "prąd zwrotny"
+      }
+    },
+    {
+      "id": "v1-card-3ac99106",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/regulator indukcyjny trójfazowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "regulator indukcyjny trójfazowy"
+        }
+      ],
+      "quiz": {
+        "correct": "regulator indukcyjny trójfazowy"
+      }
+    },
+    {
+      "id": "v1-card-2afa1bee",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/rezystor nastawny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "rezystor nastawny"
+        }
+      ],
+      "quiz": {
+        "correct": "rezystor nastawny"
+      }
+    },
+    {
+      "id": "v1-card-180b0bf4",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/rezystor zmienny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "rezystor zmienny"
+        }
+      ],
+      "quiz": {
+        "correct": "rezystor zmienny"
+      }
+    },
+    {
+      "id": "v1-card-13f891ad",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/rezystor, rezystancja (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "rezystor, rezystancja (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "rezystor, rezystancja (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-bd31e197",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/rozdzielnica.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "rozdzielnica"
+        }
+      ],
+      "quiz": {
+        "correct": "rozdzielnica"
+      }
+    },
+    {
+      "id": "v1-card-a159db46",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/rozrusznik silnika (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "rozrusznik silnika (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "rozrusznik silnika (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-92fd7cc0",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/rozłącznik bezpiecznikowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "rozłącznik bezpiecznikowy"
+        }
+      ],
+      "quiz": {
+        "correct": "rozłącznik bezpiecznikowy"
+      }
+    },
+    {
+      "id": "v1-card-a04e5c6d",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/rozłącznik otwarty.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "rozłącznik otwarty"
+        }
+      ],
+      "quiz": {
+        "correct": "rozłącznik otwarty"
+      }
+    },
+    {
+      "id": "v1-card-f3790ca6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/rozłącznik zamknięty.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "rozłącznik zamknięty"
+        }
+      ],
+      "quiz": {
+        "correct": "rozłącznik zamknięty"
+      }
+    },
+    {
+      "id": "v1-card-a390c5aa",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/rozłącznik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "rozłącznik"
+        }
+      ],
+      "quiz": {
+        "correct": "rozłącznik"
+      }
+    },
+    {
+      "id": "v1-card-410a52c3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/ręczny (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "ręczny (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "ręczny (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-3e0d9716",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/silnik indukcyjny trójfazowy pierścieniowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "silnik indukcyjny trójfazowy pierścieniowy"
+        }
+      ],
+      "quiz": {
+        "correct": "silnik indukcyjny trójfazowy pierścieniowy"
+      }
+    },
+    {
+      "id": "v1-card-360a7f37",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/silnik indukcyjny trójfazowy z wirnikiem klatkowym.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "silnik indukcyjny trójfazowy z wirnikiem klatkowym"
+        }
+      ],
+      "quiz": {
+        "correct": "silnik indukcyjny trójfazowy z wirnikiem klatkowym"
+      }
+    },
+    {
+      "id": "v1-card-29af2fa0",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/silnik liniowy (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "silnik liniowy (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "silnik liniowy (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-225ce6c8",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/silnikowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "silnikowy"
+        }
+      ],
+      "quiz": {
+        "correct": "silnikowy"
+      }
+    },
+    {
+      "id": "v1-card-0c68816b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/stacja planowana.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "stacja planowana"
+        }
+      ],
+      "quiz": {
+        "correct": "stacja planowana"
+      }
+    },
+    {
+      "id": "v1-card-0d8f3329",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/stacja.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "stacja"
+        }
+      ],
+      "quiz": {
+        "correct": "stacja"
+      }
+    },
+    {
+      "id": "v1-card-3ae6c4e4",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/stycznik statyczny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "stycznik statyczny"
+        }
+      ],
+      "quiz": {
+        "correct": "stycznik statyczny"
+      }
+    },
+    {
+      "id": "v1-card-40c60bc2",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/stycznik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "stycznik"
+        }
+      ],
+      "quiz": {
+        "correct": "stycznik"
+      }
+    },
+    {
+      "id": "v1-card-a115b9a3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/syrena.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "syrena"
+        }
+      ],
+      "quiz": {
+        "correct": "syrena"
+      }
+    },
+    {
+      "id": "v1-card-8a45d741",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/transformator dwuuzwojeniowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "transformator dwuuzwojeniowy"
+        }
+      ],
+      "quiz": {
+        "correct": "transformator dwuuzwojeniowy"
+      }
+    },
+    {
+      "id": "v1-card-52cfa51b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/transformator trójfazowy o połączeniu gwiazda-trójkąt z podobciążeniowym przełącznikiem zaczepów.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "transformator trójfazowy o połączeniu gwiazda-trójkąt z podobciążeniowym przełącznikiem zaczepów"
+        }
+      ],
+      "quiz": {
+        "correct": "transformator trójfazowy o połączeniu gwiazda-trójkąt z podobciążeniowym przełącznikiem zaczepów"
+      }
+    },
+    {
+      "id": "v1-card-19e1f490",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/transformator trójuzwojeniowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "transformator trójuzwojeniowy"
+        }
+      ],
+      "quiz": {
+        "correct": "transformator trójuzwojeniowy"
+      }
+    },
+    {
+      "id": "v1-card-0444771e",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/tranzystor npn z kolektorem na obudowie.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "tranzystor npn z kolektorem na obudowie"
+        }
+      ],
+      "quiz": {
+        "correct": "tranzystor npn z kolektorem na obudowie"
+      }
+    },
+    {
+      "id": "v1-card-1feab6b6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/tranzystor pnp.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "tranzystor pnp"
+        }
+      ],
+      "quiz": {
+        "correct": "tranzystor pnp"
+      }
+    },
+    {
+      "id": "v1-card-93644080",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/tyrystor (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "tyrystor (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "tyrystor (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-62b943f3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uruchamianie cięgnem.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uruchamianie cięgnem"
+        }
+      ],
+      "quiz": {
+        "correct": "uruchamianie cięgnem"
+      }
+    },
+    {
+      "id": "v1-card-31238b98",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uruchamianie dotykiem.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uruchamianie dotykiem"
+        }
+      ],
+      "quiz": {
+        "correct": "uruchamianie dotykiem"
+      }
+    },
+    {
+      "id": "v1-card-c4bfef54",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uruchamianie dźwignią.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uruchamianie dźwignią"
+        }
+      ],
+      "quiz": {
+        "correct": "uruchamianie dźwignią"
+      }
+    },
+    {
+      "id": "v1-card-a0dc5c47",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uruchamianie kluczykiem.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uruchamianie kluczykiem"
+        }
+      ],
+      "quiz": {
+        "correct": "uruchamianie kluczykiem"
+      }
+    },
+    {
+      "id": "v1-card-96444716",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uruchamianie przez obracanie.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uruchamianie przez obracanie"
+        }
+      ],
+      "quiz": {
+        "correct": "uruchamianie przez obracanie"
+      }
+    },
+    {
+      "id": "v1-card-dd7ebfe0",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uruchamianie przyciskiem.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uruchamianie przyciskiem"
+        }
+      ],
+      "quiz": {
+        "correct": "uruchamianie przyciskiem"
+      }
+    },
+    {
+      "id": "v1-card-dac31fd7",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uruchamianie ręczne (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uruchamianie ręczne (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "uruchamianie ręczne (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-9371ca6f",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uruchamianie ręczne uchwytem odejmowanym.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uruchamianie ręczne uchwytem odejmowanym"
+        }
+      ],
+      "quiz": {
+        "correct": "uruchamianie ręczne uchwytem odejmowanym"
+      }
+    },
+    {
+      "id": "v1-card-643f07bd",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uziemienie (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uziemienie (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "uziemienie (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-07f7df24",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uziemienie bezszumowe.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uziemienie bezszumowe"
+        }
+      ],
+      "quiz": {
+        "correct": "uziemienie bezszumowe"
+      }
+    },
+    {
+      "id": "v1-card-362b9b36",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uziemienie ochronne.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uziemienie ochronne"
+        }
+      ],
+      "quiz": {
+        "correct": "uziemienie ochronne"
+      }
+    },
+    {
+      "id": "v1-card-c4aba70c",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uzwojenie dwufazowe.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uzwojenie dwufazowe"
+        }
+      ],
+      "quiz": {
+        "correct": "uzwojenie dwufazowe"
+      }
+    },
+    {
+      "id": "v1-card-cedffd0e",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-2-4f349743/uzwojenie otwarte.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uzwojenie otwarte"
+        }
+      ],
+      "quiz": {
+        "correct": "uzwojenie otwarte"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1052 @@
+{
+  "schema_version": 1,
+  "id": "v1-symbole-cz-4-82a5d92f",
+  "title": "Symbole cz 4",
+  "cards": [
+    {
+      "id": "v1-card-678cf8d9",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/amperomierz.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "amperomierz"
+        }
+      ],
+      "quiz": {
+        "correct": "amperomierz"
+      }
+    },
+    {
+      "id": "v1-card-d1f48422",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/anoda ochronna.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "anoda ochronna"
+        }
+      ],
+      "quiz": {
+        "correct": "anoda ochronna"
+      }
+    },
+    {
+      "id": "v1-card-3dc63dc1",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/automatyczne wyzwalanie łącznika w przypadku zadziałania jednego z bezpieczników.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "automatyczne wyzwalanie łącznika w przypadku zadziałania jednego z bezpieczników"
+        }
+      ],
+      "quiz": {
+        "correct": "automatyczne wyzwalanie łącznika w przypadku zadziałania jednego z bezpieczników"
+      }
+    },
+    {
+      "id": "v1-card-47d57679",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/autotransformator.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "autotransformator"
+        }
+      ],
+      "quiz": {
+        "correct": "autotransformator"
+      }
+    },
+    {
+      "id": "v1-card-dd6628fb",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/bezpiecznik topikowy (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "bezpiecznik topikowy (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "bezpiecznik topikowy (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-ac6079f3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/brzęczyk.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "brzęczyk"
+        }
+      ],
+      "quiz": {
+        "correct": "brzęczyk"
+      }
+    },
+    {
+      "id": "v1-card-ee15adb3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/cewka przekaźnika z opóźnionym działaniem.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "cewka przekaźnika z opóźnionym działaniem"
+        }
+      ],
+      "quiz": {
+        "correct": "cewka przekaźnika z opóźnionym działaniem"
+      }
+    },
+    {
+      "id": "v1-card-4587c7e0",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/cewka przekaźnika z opóźnionym odpadaniem.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "cewka przekaźnika z opóźnionym odpadaniem"
+        }
+      ],
+      "quiz": {
+        "correct": "cewka przekaźnika z opóźnionym odpadaniem"
+      }
+    },
+    {
+      "id": "v1-card-0b6dfa17",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/cewka przekaźnika, wyzwalacza, (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "cewka przekaźnika, wyzwalacza, (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "cewka przekaźnika, wyzwalacza, (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-e45eaa4d",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/cewka z rdzeniem magnetycznym, elektromagnes.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "cewka z rdzeniem magnetycznym, elektromagnes"
+        }
+      ],
+      "quiz": {
+        "correct": "cewka z rdzeniem magnetycznym, elektromagnes"
+      }
+    },
+    {
+      "id": "v1-card-699bead3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/chłodziarka, zamrażarka.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "chłodziarka, zamrażarka"
+        }
+      ],
+      "quiz": {
+        "correct": "chłodziarka, zamrażarka"
+      }
+    },
+    {
+      "id": "v1-card-04809639",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/ciecz.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "ciecz"
+        }
+      ],
+      "quiz": {
+        "correct": "ciecz"
+      }
+    },
+    {
+      "id": "v1-card-88e6b329",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/częstościomierz.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "częstościomierz"
+        }
+      ],
+      "quiz": {
+        "correct": "częstościomierz"
+      }
+    },
+    {
+      "id": "v1-card-bc72b847",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/dielektryk.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "dielektryk"
+        }
+      ],
+      "quiz": {
+        "correct": "dielektryk"
+      }
+    },
+    {
+      "id": "v1-card-a51d1b27",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/dioda dwukierunkowa, diak.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "dioda dwukierunkowa, diak"
+        }
+      ],
+      "quiz": {
+        "correct": "dioda dwukierunkowa, diak"
+      }
+    },
+    {
+      "id": "v1-card-8f6f56f8",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/dioda led.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "dioda led"
+        }
+      ],
+      "quiz": {
+        "correct": "dioda led"
+      }
+    },
+    {
+      "id": "v1-card-b9b7c387",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/dioda zenera.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "dioda zenera"
+        }
+      ],
+      "quiz": {
+        "correct": "dioda zenera"
+      }
+    },
+    {
+      "id": "v1-card-54a7b1a5",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/dzwonek.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "dzwonek"
+        }
+      ],
+      "quiz": {
+        "correct": "dzwonek"
+      }
+    },
+    {
+      "id": "v1-card-75b4dff0",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/dławik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "dławik"
+        }
+      ],
+      "quiz": {
+        "correct": "dławik"
+      }
+    },
+    {
+      "id": "v1-card-c7730b32",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/ekranowanie.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "ekranowanie"
+        }
+      ],
+      "quiz": {
+        "correct": "ekranowanie"
+      }
+    },
+    {
+      "id": "v1-card-26d7d92f",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/ekwipotencjalność.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "ekwipotencjalność"
+        }
+      ],
+      "quiz": {
+        "correct": "ekwipotencjalność"
+      }
+    },
+    {
+      "id": "v1-card-61fd10ef",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/elektrociepłownia.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "elektrociepłownia"
+        }
+      ],
+      "quiz": {
+        "correct": "elektrociepłownia"
+      }
+    },
+    {
+      "id": "v1-card-cac2829a",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/elektromagnetyczny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "elektromagnetyczny"
+        }
+      ],
+      "quiz": {
+        "correct": "elektromagnetyczny"
+      }
+    },
+    {
+      "id": "v1-card-3d5c4900",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/elektrownia cieplna projektowana.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "elektrownia cieplna projektowana"
+        }
+      ],
+      "quiz": {
+        "correct": "elektrownia cieplna projektowana"
+      }
+    },
+    {
+      "id": "v1-card-f43fe9a8",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/elektrownia cieplna.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "elektrownia cieplna"
+        }
+      ],
+      "quiz": {
+        "correct": "elektrownia cieplna"
+      }
+    },
+    {
+      "id": "v1-card-db158388",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/elektrownia nuklearna projektowana.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "elektrownia nuklearna projektowana"
+        }
+      ],
+      "quiz": {
+        "correct": "elektrownia nuklearna projektowana"
+      }
+    },
+    {
+      "id": "v1-card-8a1e8c8f",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/elektrownia nuklearna.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "elektrownia nuklearna"
+        }
+      ],
+      "quiz": {
+        "correct": "elektrownia nuklearna"
+      }
+    },
+    {
+      "id": "v1-card-eb9f29b6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/elektrownia wodna projektowana.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "elektrownia wodna projektowana"
+        }
+      ],
+      "quiz": {
+        "correct": "elektrownia wodna projektowana"
+      }
+    },
+    {
+      "id": "v1-card-9a064ef6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/elektrownia wodna.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "elektrownia wodna"
+        }
+      ],
+      "quiz": {
+        "correct": "elektrownia wodna"
+      }
+    },
+    {
+      "id": "v1-card-ca56fa1c",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/falownik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "falownik"
+        }
+      ],
+      "quiz": {
+        "correct": "falownik"
+      }
+    },
+    {
+      "id": "v1-card-da4aa5d6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/gaz.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "gaz"
+        }
+      ],
+      "quiz": {
+        "correct": "gaz"
+      }
+    },
+    {
+      "id": "v1-card-f151fd65",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/gniazdo potrójne.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "gniazdo potrójne"
+        }
+      ],
+      "quiz": {
+        "correct": "gniazdo potrójne"
+      }
+    },
+    {
+      "id": "v1-card-60a66c38",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/gniazdo telekomunikacyjne podstawowe.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "gniazdo telekomunikacyjne podstawowe"
+        }
+      ],
+      "quiz": {
+        "correct": "gniazdo telekomunikacyjne podstawowe"
+      }
+    },
+    {
+      "id": "v1-card-0560ce6d",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/gniazdo wtykowe instalacyjne (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "gniazdo wtykowe instalacyjne (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "gniazdo wtykowe instalacyjne (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-24a9d405",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/gniazdo z transformatorem separacyjnym, np. gniazdo do golarki.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "gniazdo z transformatorem separacyjnym, np. gniazdo do golarki"
+        }
+      ],
+      "quiz": {
+        "correct": "gniazdo z transformatorem separacyjnym, np. gniazdo do golarki"
+      }
+    },
+    {
+      "id": "v1-card-0ab6b98f",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/gniazdo z wyłącznikiem.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "gniazdo z wyłącznikiem"
+        }
+      ],
+      "quiz": {
+        "correct": "gniazdo z wyłącznikiem"
+      }
+    },
+    {
+      "id": "v1-card-3415c74d",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/gniazdo ze stykiem ochronnym.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "gniazdo ze stykiem ochronnym"
+        }
+      ],
+      "quiz": {
+        "correct": "gniazdo ze stykiem ochronnym"
+      }
+    },
+    {
+      "id": "v1-card-bd1c3bc3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/grupa trzech transformatorów jednofazowych o połączeniu gwiazda-trójkąt.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "grupa trzech transformatorów jednofazowych o połączeniu gwiazda-trójkąt"
+        }
+      ],
+      "quiz": {
+        "correct": "grupa trzech transformatorów jednofazowych o połączeniu gwiazda-trójkąt"
+      }
+    },
+    {
+      "id": "v1-card-6bc27d9c",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/grzejnik elektryczny akumulacyjny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "grzejnik elektryczny akumulacyjny"
+        }
+      ],
+      "quiz": {
+        "correct": "grzejnik elektryczny akumulacyjny"
+      }
+    },
+    {
+      "id": "v1-card-1f3c5f53",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/grzejnik elektryczny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "grzejnik elektryczny"
+        }
+      ],
+      "quiz": {
+        "correct": "grzejnik elektryczny"
+      }
+    },
+    {
+      "id": "v1-card-353667a8",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/grzejnik wody.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "grzejnik wody"
+        }
+      ],
+      "quiz": {
+        "correct": "grzejnik wody"
+      }
+    },
+    {
+      "id": "v1-card-1883e426",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/indukcyjność, dławik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "indukcyjność, dławik"
+        }
+      ],
+      "quiz": {
+        "correct": "indukcyjność, dławik"
+      }
+    },
+    {
+      "id": "v1-card-d7bc3144",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/instalacyjny wyłącznik nadprądowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "instalacyjny wyłącznik nadprądowy"
+        }
+      ],
+      "quiz": {
+        "correct": "instalacyjny wyłącznik nadprądowy"
+      }
+    },
+    {
+      "id": "v1-card-f53a9a1c",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/iskiernik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "iskiernik"
+        }
+      ],
+      "quiz": {
+        "correct": "iskiernik"
+      }
+    },
+    {
+      "id": "v1-card-2d7b864c",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/kinkiet.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "kinkiet"
+        }
+      ],
+      "quiz": {
+        "correct": "kinkiet"
+      }
+    },
+    {
+      "id": "v1-card-b4d42be1",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/kondensator elektrolityczny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "kondensator elektrolityczny"
+        }
+      ],
+      "quiz": {
+        "correct": "kondensator elektrolityczny"
+      }
+    },
+    {
+      "id": "v1-card-a9afeee6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/kondensator, bateria kondensatorów.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "kondensator, bateria kondensatorów"
+        }
+      ],
+      "quiz": {
+        "correct": "kondensator, bateria kondensatorów"
+      }
+    },
+    {
+      "id": "v1-card-12ff3d82",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/końcówka do zewnętrznego połączenia z obwodem pomocniczym lub z elementem obwodu.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "końcówka do zewnętrznego połączenia z obwodem pomocniczym lub z elementem obwodu"
+        }
+      ],
+      "quiz": {
+        "correct": "końcówka do zewnętrznego połączenia z obwodem pomocniczym lub z elementem obwodu"
+      }
+    },
+    {
+      "id": "v1-card-1c8a22d0",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/końcówka napięcia zasilania (do połączenia ze źródłem).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "końcówka napięcia zasilania (do połączenia ze źródłem)"
+        }
+      ],
+      "quiz": {
+        "correct": "końcówka napięcia zasilania (do połączenia ze źródłem)"
+      }
+    },
+    {
+      "id": "v1-card-b677e118",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/końcówka obwodu pomocniczego wewnętrznego lub składnik obwodu.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "końcówka obwodu pomocniczego wewnętrznego lub składnik obwodu"
+        }
+      ],
+      "quiz": {
+        "correct": "końcówka obwodu pomocniczego wewnętrznego lub składnik obwodu"
+      }
+    },
+    {
+      "id": "v1-card-683ab790",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/końcówka prądu zasilania.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "końcówka prądu zasilania"
+        }
+      ],
+      "quiz": {
+        "correct": "końcówka prądu zasilania"
+      }
+    },
+    {
+      "id": "v1-card-c382588d",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/kuchenka elektryczna.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "kuchenka elektryczna"
+        }
+      ],
+      "quiz": {
+        "correct": "kuchenka elektryczna"
+      }
+    },
+    {
+      "id": "v1-card-2e50d480",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/lampa (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "lampa (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "lampa (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-729c4d80",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/lampa rtęciowa.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "lampa rtęciowa"
+        }
+      ],
+      "quiz": {
+        "correct": "lampa rtęciowa"
+      }
+    },
+    {
+      "id": "v1-card-8c150231",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-4-82a5d92f/lampa sodowa.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "lampa sodowa"
+        }
+      ],
+      "quiz": {
+        "correct": "lampa sodowa"
+      }
+    }
+  ]
+}

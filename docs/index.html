@@ -1,70 +1,47 @@
 <!doctype html>
-<html lang="pl">
+<html lang="pl" data-app-version="0.1.10">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#111827">
-  <title>Fiszki</title>
-
-  <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="icon" href="./icons/icon-192.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="./icons/icon-192.svg">
-  <link rel="stylesheet" href="./style.css">
+  <meta name="theme-color" content="#101827">
+  <title>Fiszki v2 — test</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.19.0/dist/katex.min.css" integrity="sha384-3rdsX6e5mueWyoweR9NIVmtEsUkokpBT/0ALqKKIBMr9j4qhHkaIkAcGgsE6uVlp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css?v=0.1.10">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.19.0/dist/katex.min.js" integrity="sha384-QFFtAGzvvj+bfgCGxXJlNZZR1nXEZgvG8tDLCCY1F19xl20WlfTYgguB4VcNdxYk" crossorigin="anonymous"></script>
+  <script src="./js/app.js?v=0.1.10" defer></script>
 </head>
 <body>
-  <main class="app-shell">
+  <div class="app">
+    <header class="app-header">
+      <h1 id="breadcrumb">Fiszki v2</h1>
+    </header>
+    <nav class="app-nav" aria-label="Nawigacja">
+      <button id="back-btn" type="button">← Wstecz</button>
+      <button id="home-btn" type="button">⌂ Menu główne</button>
+      <span id="mode-caption"></span>
+    </nav>
 
-    <section id="menu-screen" class="screen">
-      <div class="menu-card">
-        <h1>FISZKI</h1>
-        <p class="subtitle">Wybierz lekcję</p>
-
-        <select id="lesson-select" aria-label="Wybierz lekcję"></select>
-
-        <button id="start-button" class="start-button" type="button">
-          Rozpocznij lekcję
-        </button>
-
-        <p id="menu-status" class="status"></p>
-      </div>
-    </section>
-
-    <section id="lesson-screen" class="screen hidden">
-      <header class="top-bar">
-        <button id="back-button" class="back-button" type="button">
-          ← Powrót do listy lekcji
-        </button>
-
-        <div class="lesson-info">
-          <div id="round-label"></div>
-          <div id="counter-label"></div>
+    <main class="app-main">
+      <section id="menu-view" aria-label="Menu"></section>
+      <section id="setup-view" class="hidden" aria-label="Wybór trybu"></section>
+      <section id="session-view" class="hidden" aria-label="Sesja nauki">
+        <div id="workspace" class="workspace">
+          <button id="wrong-btn" class="side-btn wrong" type="button">← NIE WIEM</button>
+          <section class="question-panel" id="question-panel" aria-label="Pytanie"></section>
+          <section class="interaction-panel" id="interaction-panel" aria-label="Odpowiedź"></section>
+          <button id="correct-btn" class="side-btn correct" type="button">WIEM →</button>
         </div>
-      </header>
-
-      <h2 id="lesson-title"></h2>
-
-      <section class="card-area">
-        <button id="wrong-button" class="answer-button wrong" type="button">
-          ← NIE WIEM
-        </button>
-
-        <button id="image-button" class="image-button" type="button" aria-label="Pokaż odpowiedź">
-          <img id="card-image" alt="Fiszka">
-          <div id="finish-mark" class="finish-mark hidden">✓</div>
-        </button>
-
-        <button id="correct-button" class="answer-button correct" type="button">
-          WIEM →
-        </button>
       </section>
+      <p id="error-box" class="error hidden" role="alert"></p>
+    </main>
 
-      <div id="answer-label" class="answer-label">
-        Kliknij symbol, aby zobaczyć odpowiedź lub użyj strzałek ↑↓
-      </div>
-    </section>
-
-  </main>
-
-  <script src="./app.js"></script>
+    <footer class="status-bar">
+      <span id="status-text">Wczytywanie Fiszki v2…</span>
+      <button id="reset-btn" class="reset-btn hidden" type="button"
+              aria-label="Rozpocznij aktualną lekcję od nowa"
+              title="Rozpocznij aktualną lekcję od nowa">↻</button>
+      <div id="progress-track" class="progress-track" aria-label="Postęp"><div id="progress-fill"></div></div>
+    </footer>
+  </div>
 </body>
 </html>

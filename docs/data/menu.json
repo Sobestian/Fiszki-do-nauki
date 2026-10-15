@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "id": "fiszki",
+      "title": "Fiszki",
+      "kind": "module",
+      "module_type": "flashcards",
+      "modes": [
+        "self_assess",
+        "abcd"
+      ],
+      "children": [
+        {
+          "id": "v1-jednostki-c9065f8b",
+          "title": "Jednostki SI",
+          "kind": "lesson",
+          "file": "lessons/v1-jednostki-c9065f8b.json"
+        },
+        {
+          "id": "v1-symbole-41e54bd2",
+          "title": "Symbole",
+          "kind": "lesson",
+          "file": "lessons/v1-symbole-41e54bd2.json"
+        },
+        {
+          "id": "v1-symbole-cz-1-5ded3904",
+          "title": "Symbole cz 1",
+          "kind": "lesson",
+          "file": "lessons/v1-symbole-cz-1-5ded3904.json"
+        },
+        {
+          "id": "v1-symbole-cz-2-4f349743",
+          "title": "Symbole cz 2",
+          "kind": "lesson",
+          "file": "lessons/v1-symbole-cz-2-4f349743.json"
+        },
+        {
+          "id": "v1-symbole-cz-3-3252dc09",
+          "title": "Symbole cz 3",
+          "kind": "lesson",
+          "file": "lessons/v1-symbole-cz-3-3252dc09.json"
+        },
+        {
+          "id": "v1-symbole-cz-4-82a5d92f",
+          "title": "Symbole cz 4",
+          "kind": "lesson",
+          "file": "lessons/v1-symbole-cz-4-82a5d92f.json"
+        }
+      ]
+    },
+    {
+      "id": "ele02",
+      "title": "ELE.02",
+      "kind": "module",
+      "module_type": "study",
+      "modes": [
+        "learn",
+        "review"
+      ],
+      "children": [
+        {
+          "id": "wyklady",
+          "title": "Lekcje ELE.02",
+          "kind": "folder",
+          "children": [
+            {
+              "id": "ele02-lekcja-1",
+              "title": "Lekcja 1 — test",
+              "kind": "lesson",
+              "file": "lessons/ele02-lekcja-1.json"
+            }
+          ]
+        },
+        {
+          "id": "ksiazka",
+          "title": "Książka ELE.02",
+          "kind": "folder",
+          "children": [
+            {
+              "id": "ele02-rozdzial-1",
+              "title": "Rozdział 1 — test",
+              "kind": "lesson",
+              "file": "lessons/ele02-rozdzial-1.json"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "id": "v1-jednostki-c9065f8b",
+  "title": "Jednostki SI",
+  "cards": [
+    {
+      "id": "v1-card-9590104c",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{Pa}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Ciśnienie - paskal"
+        }
+      ],
+      "quiz": {
+        "correct": "Ciśnienie - paskal"
+      }
+    },
+    {
+      "id": "v1-card-6804e2a0",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{s}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Czas - sekunda"
+        }
+      ],
+      "quiz": {
+        "correct": "Czas - sekunda"
+      }
+    },
+    {
+      "id": "v1-card-62cd3b0c",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{Hz}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Częstotliwość - herc"
+        }
+      ],
+      "quiz": {
+        "correct": "Częstotliwość - herc"
+      }
+    },
+    {
+      "id": "v1-card-d38af8a0",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{m}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Długość - metr"
+        }
+      ],
+      "quiz": {
+        "correct": "Długość - metr"
+      }
+    },
+    {
+      "id": "v1-card-fbc2434a",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{J}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Energia, praca - dżul"
+        }
+      ],
+      "quiz": {
+        "correct": "Energia, praca - dżul"
+      }
+    },
+    {
+      "id": "v1-card-67d9138c",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{kg}/\\mathrm{m}^{3}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Gęstość - kilogram na metr sześcienny"
+        }
+      ],
+      "quiz": {
+        "correct": "Gęstość - kilogram na metr sześcienny"
+      }
+    },
+    {
+      "id": "v1-card-438767f6",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{m}^{2}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Gęstość prądu - amper na metr kwadratowy"
+        }
+      ],
+      "quiz": {
+        "correct": "Gęstość prądu - amper na metr kwadratowy"
+      }
+    },
+    {
+      "id": "v1-card-db725f4b",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{mol}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Ilość substancji - mol"
+        }
+      ],
+      "quiz": {
+        "correct": "Ilość substancji - mol"
+      }
+    },
+    {
+      "id": "v1-card-eaa20eb0",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{T}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Indukcja magnetyczna - tesla"
+        }
+      ],
+      "quiz": {
+        "correct": "Indukcja magnetyczna - tesla"
+      }
+    },
+    {
+      "id": "v1-card-e0049c47",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{H}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Indukcyjność - henr"
+        }
+      ],
+      "quiz": {
+        "correct": "Indukcyjność - henr"
+      }
+    },
+    {
+      "id": "v1-card-0b5f1048",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{S}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Konduktancja - simens"
+        }
+      ],
+      "quiz": {
+        "correct": "Konduktancja - simens"
+      }
+    },
+    {
+      "id": "v1-card-d83493ce",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{kg}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Masa - kilogram"
+        }
+      ],
+      "quiz": {
+        "correct": "Masa - kilogram"
+      }
+    },
+    {
+      "id": "v1-card-277385c9",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{W}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moc - wat"
+        }
+      ],
+      "quiz": {
+        "correct": "Moc - wat"
+      }
+    },
+    {
+      "id": "v1-card-b2f97183",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{V}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Napięcie elektryczne - wolt"
+        }
+      ],
+      "quiz": {
+        "correct": "Napięcie elektryczne - wolt"
+      }
+    },
+    {
+      "id": "v1-card-937553ca",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{V}/\\mathrm{m}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Natężenie pola elektrycznego - wolt na metr"
+        }
+      ],
+      "quiz": {
+        "correct": "Natężenie pola elektrycznego - wolt na metr"
+      }
+    },
+    {
+      "id": "v1-card-c9219dac",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{A}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Natężenie prądu - amper"
+        }
+      ],
+      "quiz": {
+        "correct": "Natężenie prądu - amper"
+      }
+    },
+    {
+      "id": "v1-card-aab18761",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{m}^{3}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Objętość - metr sześcienny"
+        }
+      ],
+      "quiz": {
+        "correct": "Objętość - metr sześcienny"
+      }
+    },
+    {
+      "id": "v1-card-8a6762e8",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{F}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Pojemność elektryczna - farad"
+        }
+      ],
+      "quiz": {
+        "correct": "Pojemność elektryczna - farad"
+      }
+    },
+    {
+      "id": "v1-card-510cb8e4",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{m}^{2}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Pole powierzchni - metr kwadratowy"
+        }
+      ],
+      "quiz": {
+        "correct": "Pole powierzchni - metr kwadratowy"
+      }
+    },
+    {
+      "id": "v1-card-8142deb3",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{m}/\\mathrm{s}^{2}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przyspieszenie - metr na sekundę do kwadratu"
+        }
+      ],
+      "quiz": {
+        "correct": "Przyspieszenie - metr na sekundę do kwadratu"
+      }
+    },
+    {
+      "id": "v1-card-baa8599f",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{m}/\\mathrm{s}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Prędkość - metr na sekundę"
+        }
+      ],
+      "quiz": {
+        "correct": "Prędkość - metr na sekundę"
+      }
+    },
+    {
+      "id": "v1-card-932cf66e",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\Omega",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Rezystancja - om"
+        }
+      ],
+      "quiz": {
+        "correct": "Rezystancja - om"
+      }
+    },
+    {
+      "id": "v1-card-fbb641f2",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\Omega\\cdot\\mathrm{m}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Rezystywność - omometr"
+        }
+      ],
+      "quiz": {
+        "correct": "Rezystywność - omometr"
+      }
+    },
+    {
+      "id": "v1-card-ef726750",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{N}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Siła - niuton"
+        }
+      ],
+      "quiz": {
+        "correct": "Siła - niuton"
+      }
+    },
+    {
+      "id": "v1-card-65cba476",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{Wb}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Strumień magnetyczny - weber"
+        }
+      ],
+      "quiz": {
+        "correct": "Strumień magnetyczny - weber"
+      }
+    },
+    {
+      "id": "v1-card-6bcc53ec",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{K}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Temperatura - kelwin"
+        }
+      ],
+      "quiz": {
+        "correct": "Temperatura - kelwin"
+      }
+    },
+    {
+      "id": "v1-card-58d5fff6",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{C}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Ładunek elektryczny - kulomb"
+        }
+      ],
+      "quiz": {
+        "correct": "Ładunek elektryczny - kulomb"
+      }
+    },
+    {
+      "id": "v1-card-df41cf58",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{cd}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Światłość - kandela"
+        }
+      ],
+      "quiz": {
+        "correct": "Światłość - kandela"
+      }
+    }
+  ]
+}

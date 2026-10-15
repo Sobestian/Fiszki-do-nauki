@@ -1,0 +1,340 @@
+:root{color-scheme:dark;--bg:#101827;--panel:#1d293b;--panel2:#2a3b52;--txt:#f8fafc;--muted:#b8c5d8;--line:#41516b;--red:#be292c;--green:#26783a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+button{font:inherit;cursor:pointer;color:inherit;-webkit-tap-highlight-color:transparent}
+button:focus-visible{outline:3px solid #8eb5ff;outline-offset:2px}
+.app{min-height:100dvh;width:min(1200px,100%);margin:auto;display:flex;flex-direction:column;padding:14px;gap:8px}
+.app-header,.app-nav,.status-bar{border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:12px 14px}
+.app-header h1{font-size:clamp(1.08rem,3.5vw,1.55rem);margin:0;overflow-wrap:anywhere}
+.app-header.at-home h1{text-align:center}
+.app-nav{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:8px}
+#back-btn{justify-self:start}
+#home-btn{justify-self:center;white-space:nowrap}
+.app-nav button,.plain-button{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:9px 12px}
+.app-nav button:disabled{opacity:.45;cursor:default}
+#mode-caption{justify-self:end;text-align:right;color:var(--muted);font-size:.87rem}
+.app-main{flex:1;display:flex;flex-direction:column;min-height:0}
+.hidden{display:none!important}
+#menu-view,#setup-view{max-width:900px;width:100%;margin:16px auto}
+.menu-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;width:min(680px,100%);margin-inline:auto}
+.menu-tile{display:block;text-align:left;border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:16px 20px;min-height:80px;width:100%}
+.menu-tile:hover,.mode-item:hover{background:var(--panel2)}
+.menu-tile strong{display:block;font-size:1.15rem;margin-bottom:8px}
+.menu-tile span,.muted{color:var(--muted);font-size:.91rem}
+.setup-card{background:var(--panel);border:1px solid var(--line);padding:22px;border-radius:14px}
+.setup-card h2{margin-top:0}
+.mode-list{display:grid;gap:10px;margin:20px 0}
+.mode-item{display:flex;align-items:center;gap:12px;border:1px solid var(--line);padding:14px;border-radius:10px;cursor:pointer}
+.mode-item input{accent-color:#75a7ff;width:20px;height:20px}
+.primary{background:#265ecd;padding:12px 20px;border:0;border-radius:10px;font-weight:700}
+#session-view{flex:1;min-height:0;display:flex;flex-direction:column}
+.workspace{flex:1;display:grid;grid-template-columns:minmax(85px,125px) minmax(0,1fr) minmax(85px,125px);grid-template-rows:minmax(250px,1fr) auto;grid-template-areas:'wrong question correct' 'wrong interaction correct';gap:10px;min-height:0}
+.question-panel{grid-area:question;background:var(--panel);color:var(--txt);border:1px solid var(--line);border-radius:14px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:14px;padding:20px;min-height:260px;overflow-wrap:anywhere}
+.question-panel .block-text{text-align:center;font-size:clamp(1.15rem,3vw,1.65rem);line-height:1.4}
+.question-panel img{max-width:100%;max-height:min(46dvh,350px);object-fit:contain}
+.question-panel .finish-mark{font-size:clamp(4rem,17vw,9rem);color:#167032;font-weight:800}
+.interaction-panel{grid-area:interaction;text-align:center;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--panel);min-height:68px;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px}
+.interaction-panel .block-text{text-align:center;font-size:clamp(1rem,2vw,1.25rem);width:100%;overflow-wrap:anywhere}
+.interaction-panel .formula{font-family:serif;font-style:italic;font-size:1.5rem}
+.side-btn{min-height:68px;border-radius:10px;border:0;padding:14px 8px;font-weight:800;align-self:end}
+.side-btn.wrong{grid-area:wrong;background:var(--red)}
+.side-btn.correct{grid-area:correct;background:var(--green)}
+.side-btn:active,.side-btn.pressed{filter:brightness(.75);transform:translateY(2px)}
+.workspace.no-sides{grid-template-columns:1fr;grid-template-areas:'question' 'interaction'}
+/* W trybie NAUKA pytanie znajduje się bezpośrednio pod nawigacją.
+   Dłuższa odpowiedź zajmuje resztę miejsca i może być przewijana. */
+.workspace.learn-mode{
+  grid-template-columns:minmax(0,1fr);
+  grid-template-rows:auto minmax(310px,1fr);
+  grid-template-areas:'question' 'interaction';
+}
+.workspace.learn-mode .question-panel{
+  min-height:0;
+  padding:14px 18px;
+  background:var(--panel);
+  color:var(--txt);
+  border:1px solid var(--line);
+  align-items:flex-start;
+  justify-content:flex-start;
+  gap:8px;
+}
+.workspace.learn-mode .question-panel .block-text{
+  text-align:left;
+  font-size:clamp(1rem,2.3vw,1.22rem);
+  line-height:1.35;
+  font-weight:600;
+}
+.workspace.learn-mode .question-panel img{max-height:140px}
+.workspace.learn-mode .interaction-panel{
+  min-height:310px;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  justify-content:flex-start;
+  gap:16px;
+  overflow:hidden;
+}
+.workspace.learn-mode .answer-card{
+  flex:1;
+  min-height:0;
+  overflow-y:auto;
+  padding:4px;
+  align-content:start;
+  font-size:1.15rem;
+}
+.workspace.learn-mode .answer-card .block-text{
+  font-size:clamp(1.05rem,2.5vw,1.25rem);
+  line-height:1.65;
+}
+.workspace.learn-mode .study-controls{flex:0 0 auto;margin-top:auto}
+.answer-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));width:100%;gap:10px}
+.option{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:14px;text-align:left;overflow-wrap:anywhere;min-height:65px}
+.option.good{border-color:#62d482;background:#1f6339}
+.option.bad{border-color:#f47474;background:#8c2430}
+.answer-card{width:100%;display:grid;gap:8px;text-align:left}
+.answer-card .block-text{text-align:left;line-height:1.5}
+.answer-card .formula{font-family:serif;font-style:italic;font-size:1.35rem}
+.answer-card img{max-width:100%;max-height:240px;object-fit:contain}
+.study-controls{display:flex;justify-content:center;gap:10px;width:100%;flex-wrap:wrap}
+.study-controls button{background:var(--panel2);border:1px solid var(--line);padding:10px 14px;border-radius:9px}
+.status-bar{display:flex;align-items:center;gap:15px;justify-content:space-between;color:var(--muted);font-size:.9rem}
+.progress-track{min-width:100px;width:min(240px,40%);height:9px;background:var(--panel2);border-radius:999px;overflow:hidden}
+#progress-fill{height:100%;width:0%;background:#52b779;transition:width .2s}
+.error{border:1px solid #f87171;color:#fecaca;background:#4b1f27;padding:14px;border-radius:10px}
+@media(max-width:730px){
+ .app{padding:8px;gap:7px}
+ .app-header,.app-nav,.status-bar{padding:10px}
+ .app-nav button{font-size:.9rem;padding:8px 10px}
+ #mode-caption{font-size:.78rem}
+ /* Tryb nauki: pionowo ustawione pytanie i większy panel odpowiedzi. */
+ .workspace.learn-mode{
+   flex:1;
+   grid-template-columns:minmax(0,1fr);
+   grid-template-rows:auto minmax(310px,1fr);
+   grid-template-areas:'question' 'interaction';
+ }
+ .workspace.learn-mode .question-panel{min-height:0;padding:12px 14px}
+ .workspace.learn-mode .interaction-panel{min-height:310px;padding:16px}
+
+ .workspace{flex:0 0 auto;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto auto auto;grid-template-areas:'question question' 'wrong correct' 'interaction interaction'}
+ .workspace.no-sides{grid-template-areas:'question question' 'interaction interaction';grid-template-rows:auto auto}
+ .workspace.no-sides.learn-mode{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(310px,1fr);grid-template-areas:'question' 'interaction'}
+ .question-panel{min-height:230px;padding:18px}
+ .question-panel img{max-height:34dvh}
+ .side-btn{min-height:60px;width:100%}
+ .interaction-panel{min-height:60px}
+ .answer-options{grid-template-columns:1fr}
+ .status-bar{margin-top:auto}
+}
+
+@media(max-width:520px){
+  /* Tryb pracy jest też opisany na ekranie wyboru lekcji.
+     Ukrywamy podpis w pasku, by MENU GŁÓWNE pozostało idealnie wyśrodkowane. */
+  #mode-caption{display:none}
+  .app-nav{grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}
+  #back-btn,#home-btn{font-size:.83rem}
+  .menu-tile{min-height:72px}
+}
+
+
+/* ===========================================================
+   FISZKI V2 0.1.2 — RESET, ODKRYWANIE ODPOWIEDZI I TELEFONY
+   =========================================================== */
+
+/* Reset na środku paska postępu, niezależnie od długości napisu. */
+.status-bar{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);
+  align-items:center;
+  column-gap:12px;
+}
+#status-text{grid-column:1;min-width:0;overflow-wrap:anywhere}
+.reset-btn{
+  grid-column:2;
+  display:grid;
+  place-items:center;
+  justify-self:center;
+  width:38px;
+  height:38px;
+  padding:0;
+  border:1px solid var(--line);
+  border-radius:10px;
+  background:var(--panel2);
+  font-size:1.8rem;
+  line-height:1;
+  color:var(--txt);
+}
+.reset-btn:hover{background:#3b516b}
+.progress-track{grid-column:3;justify-self:end;width:min(240px,100%);min-width:0}
+
+/* W klasycznym trybie Fiszki odpowiedź wyśrodkowana na każdej szerokości. */
+.workspace.self-assess-mode .answer-card{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  gap:12px;
+}
+.workspace.self-assess-mode .answer-card .block-text,
+.workspace.self-assess-mode .answer-card .formula{text-align:center}
+.workspace.self-assess-mode .answer-card img{margin-inline:auto}
+
+/* Tryb Powtórzenie: po odkryciu odpowiedzi przypomina układ Nauka.
+   Pytanie u góry, rozwinięta (przewijana) odpowiedź niżej. */
+.workspace.review-revealed{
+  grid-template-rows:auto minmax(230px,1fr);
+}
+.workspace.review-revealed .question-panel{
+  min-height:0;
+  padding:14px 18px;
+  background:var(--panel);
+  color:var(--txt);
+  border:1px solid var(--line);
+  align-items:flex-start;
+  justify-content:flex-start;
+  gap:8px;
+}
+.workspace.review-revealed .question-panel .block-text{
+  text-align:left;
+  font-size:clamp(1rem,2.3vw,1.22rem);
+  line-height:1.35;
+  font-weight:600;
+}
+.workspace.review-revealed .question-panel img{max-height:140px}
+.workspace.review-revealed .interaction-panel{
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;
+  justify-content:flex-start;
+  min-height:230px;
+  padding:20px;
+  overflow:hidden;
+}
+.workspace.review-revealed .answer-card{
+  min-height:0;
+  flex:1;
+  overflow-y:auto;
+  align-content:start;
+  padding:4px;
+}
+.workspace.review-revealed .answer-card .block-text{
+  text-align:left;
+  font-size:clamp(1.05rem,2.5vw,1.25rem);
+  line-height:1.65;
+}
+
+@media(max-width:730px){
+  /* Ekran sesji mieści się w wysokości telefonu. Treści przewijają
+     się w swoich panelach, ale przyciski zawsze są tuż nad postępem. */
+  .app{height:100dvh;min-height:0;overflow:hidden}
+  .app-main{flex:1;min-height:0}
+  #menu-view,#setup-view{overflow-y:auto;min-height:0}
+  #session-view{flex:1;min-height:0}
+  .workspace{
+    flex:1;
+    min-height:0;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    grid-template-rows:minmax(0,1fr) auto auto;
+    grid-template-areas:'question question' 'interaction interaction' 'wrong correct';
+  }
+  .workspace .question-panel{min-height:0;overflow-y:auto}
+  .workspace .interaction-panel{min-height:0;max-height:35dvh;overflow-y:auto}
+  .workspace .side-btn{align-self:stretch;min-height:60px}
+  .workspace.no-sides:not(.learn-mode){
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    grid-template-rows:minmax(0,1fr) auto;
+    grid-template-areas:'question question' 'interaction interaction';
+  }
+  /* Nauka: krótki nagłówek i możliwie duża, przewijana odpowiedź. */
+  .workspace.no-sides.learn-mode{
+    grid-template-columns:minmax(0,1fr);
+    grid-template-rows:auto minmax(0,1fr);
+    grid-template-areas:'question' 'interaction';
+  }
+  .workspace.learn-mode .question-panel{max-height:25dvh;overflow-y:auto}
+  .workspace.learn-mode .interaction-panel{
+    min-height:0;
+    max-height:none;
+    overflow:hidden;
+  }
+  /* Powtórzenie po odkryciu odpowiedzi: pytanie, długa odpowiedź,
+     na dole przyciski WIEM/NIE WIEM. */
+  .workspace.review-revealed{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    grid-template-rows:auto minmax(0,1fr) auto;
+    grid-template-areas:'question question' 'interaction interaction' 'wrong correct';
+  }
+  .workspace.review-revealed .question-panel{max-height:25dvh;overflow-y:auto}
+  .workspace.review-revealed .interaction-panel{
+    min-height:0;
+    max-height:none;
+    padding:14px;
+    overflow:hidden;
+  }
+  .workspace.review-revealed .answer-card{overflow-y:auto}
+  .status-bar{flex:0 0 auto;gap:8px;font-size:.78rem}
+  .reset-btn{width:36px;height:36px}
+}
+
+/* Wzory KaTeX i poprawne przejścia do nowej linii w blokach tekstu. */
+.block-text{white-space:pre-wrap}
+.formula{width:100%;max-width:100%;font-family:inherit!important;font-style:normal!important;min-width:0}
+.formula-line{padding:4px 2px;overflow-x:auto;overflow-y:hidden;max-width:100%;min-width:0}
+.formula-line .katex-display{margin:.25em 0;max-width:100%}
+.formula-line .katex{font-size:clamp(1.04rem,2.4vw,1.37rem)}
+.math-unavailable{font-family:monospace;font-style:normal;color:#ffd9a5}
+.workspace.learn-mode .answer-card .formula-line,
+.workspace.review-revealed .answer-card .formula-line{text-align:left}
+.workspace.self-assess-mode .answer-card .formula-line{text-align:center}
+
+/* FISZKI V2 0.1.5: Wszystkie tryby (ABCD, Fiszki, Nauka, Powtórzenie)
+   oraz ekran końcowy używają wspólnego, ciemnego .question-panel.
+   W przypadku czarno-białych rysunków na białym tle usuwamy optycznie
+   biel, zachowując czytelne jasne linie. Klasa nadawana tylko obrazom
+   rozpoznanym jako monochromatyczne przez app.js. */
+.question-panel img.diagram-on-dark,
+.answer-card img.diagram-on-dark {
+  filter:invert(1);
+  mix-blend-mode:screen;
+}
+
+
+/* FISZKI V2 0.1.6 — automatyczne, wyśrodkowane ilustracje w odpowiedziach.
+   - Na komputerze zdjęcie może urosnąć (do 1,9x rozmiaru źródła, maks. 760px).
+   - Na telefonie mieści się w dostępnej szerokości, nigdy nie wychodzi z panelu.
+   - object-fit:contain zachowuje proporcje również dla pionowych fotografii.
+   - Jeśli obok obrazu jest tekst, pozostaje wyrównany do lewej. */
+.answer-card img{
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:100%;
+  max-height:min(56dvh,560px);
+  object-fit:contain;
+  justify-self:center;
+  margin:4px auto;
+}
+.answer-card img.responsive-image{
+  width:min(100%, var(--content-image-width, 760px));
+}
+/* Panel z pytaniem również centruje ilustracje. Tryb Nauka nadal ma
+   krótkie pytanie nad odpowiedzią — bez wymuszania powiększenia. */
+.question-panel img{
+  display:block;
+  width:auto;
+  height:auto;
+  max-width:100%;
+  object-fit:contain;
+  margin-inline:auto;
+}
+@media(max-width:730px){
+  .answer-card img{max-height:52dvh}
+}
+
+/* Fiszki v2 0.1.9: jednostki zapisane jako duże, wyśrodkowane wzory KaTeX.
+   Klasa używana wyłącznie dla bloków formula z size: "large". */
+.question-panel .unit-formula-large {width:100%;margin:auto;align-self:center;text-align:center;}
+.question-panel .unit-formula-large .formula-line {text-align:center;}
+.question-panel .unit-formula-large .formula-line .katex {font-size:clamp(3.1rem,12vw,8rem);}

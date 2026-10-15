@@ -1,0 +1,1052 @@
+{
+  "schema_version": 1,
+  "id": "v1-symbole-cz-1-5ded3904",
+  "title": "Symbole cz 1",
+  "cards": [
+    {
+      "id": "v1-card-99bcfd0b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/uzwojenie trójfazowe o fazach otwartych (nie połączonych ze sobą).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uzwojenie trójfazowe o fazach otwartych (nie połączonych ze sobą)"
+        }
+      ],
+      "quiz": {
+        "correct": "uzwojenie trójfazowe o fazach otwartych (nie połączonych ze sobą)"
+      }
+    },
+    {
+      "id": "v1-card-232f0db6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/uzwojenie trójfazowe połączone w gwiazdę z wyprowadzonym punktem neutralnym.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uzwojenie trójfazowe połączone w gwiazdę z wyprowadzonym punktem neutralnym"
+        }
+      ],
+      "quiz": {
+        "correct": "uzwojenie trójfazowe połączone w gwiazdę z wyprowadzonym punktem neutralnym"
+      }
+    },
+    {
+      "id": "v1-card-afab5320",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/uzwojenie trójfazowe połączone w gwiazdę.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uzwojenie trójfazowe połączone w gwiazdę"
+        }
+      ],
+      "quiz": {
+        "correct": "uzwojenie trójfazowe połączone w gwiazdę"
+      }
+    },
+    {
+      "id": "v1-card-bd31b1df",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/uzwojenie trójfazowe połączone w otwarty trójkąt.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uzwojenie trójfazowe połączone w otwarty trójkąt"
+        }
+      ],
+      "quiz": {
+        "correct": "uzwojenie trójfazowe połączone w otwarty trójkąt"
+      }
+    },
+    {
+      "id": "v1-card-106fecf1",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/uzwojenie trójfazowe połączone w trójkąt.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uzwojenie trójfazowe połączone w trójkąt"
+        }
+      ],
+      "quiz": {
+        "correct": "uzwojenie trójfazowe połączone w trójkąt"
+      }
+    },
+    {
+      "id": "v1-card-0eec3da5",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/uzwojenie trójfazowe połączone w układzie „v”.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uzwojenie trójfazowe połączone w układzie „v”"
+        }
+      ],
+      "quiz": {
+        "correct": "uzwojenie trójfazowe połączone w układzie „v”"
+      }
+    },
+    {
+      "id": "v1-card-5167f3c3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/uzwojenie trójfazowe połączone w zygzak.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "uzwojenie trójfazowe połączone w zygzak"
+        }
+      ],
+      "quiz": {
+        "correct": "uzwojenie trójfazowe połączone w zygzak"
+      }
+    },
+    {
+      "id": "v1-card-6bff5b22",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/warystor.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "warystor"
+        }
+      ],
+      "quiz": {
+        "correct": "warystor"
+      }
+    },
+    {
+      "id": "v1-card-60f3ea4c",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/watomierz.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "watomierz"
+        }
+      ],
+      "quiz": {
+        "correct": "watomierz"
+      }
+    },
+    {
+      "id": "v1-card-26cb9414",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wejście analogowe.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wejście analogowe"
+        }
+      ],
+      "quiz": {
+        "correct": "wejście analogowe"
+      }
+    },
+    {
+      "id": "v1-card-d246da7b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wejście cyfrowe.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wejście cyfrowe"
+        }
+      ],
+      "quiz": {
+        "correct": "wejście cyfrowe"
+      }
+    },
+    {
+      "id": "v1-card-195e52c0",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wentylator.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wentylator"
+        }
+      ],
+      "quiz": {
+        "correct": "wentylator"
+      }
+    },
+    {
+      "id": "v1-card-00894c4f",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/woltomierz.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "woltomierz"
+        }
+      ],
+      "quiz": {
+        "correct": "woltomierz"
+      }
+    },
+    {
+      "id": "v1-card-6deb7e8b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wskazanie strony bezpiecznika, która po zadziałaniu pozostaje pod napięciem.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wskazanie strony bezpiecznika, która po zadziałaniu pozostaje pod napięciem"
+        }
+      ],
+      "quiz": {
+        "correct": "wskazanie strony bezpiecznika, która po zadziałaniu pozostaje pod napięciem"
+      }
+    },
+    {
+      "id": "v1-card-144c85c0",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wskaźnik lub miernik (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wskaźnik lub miernik (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "wskaźnik lub miernik (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-df929555",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wyjście analogowe.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyjście analogowe"
+        }
+      ],
+      "quiz": {
+        "correct": "wyjście analogowe"
+      }
+    },
+    {
+      "id": "v1-card-b6e59559",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wyjście cyfrowe.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyjście cyfrowe"
+        }
+      ],
+      "quiz": {
+        "correct": "wyjście cyfrowe"
+      }
+    },
+    {
+      "id": "v1-card-ef32b72e",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wypust oświetleniowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wypust oświetleniowy"
+        }
+      ],
+      "quiz": {
+        "correct": "wypust oświetleniowy"
+      }
+    },
+    {
+      "id": "v1-card-c73c6080",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wyzwalanie cieplne.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyzwalanie cieplne"
+        }
+      ],
+      "quiz": {
+        "correct": "wyzwalanie cieplne"
+      }
+    },
+    {
+      "id": "v1-card-9e353d35",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wyzwalanie elektroniczne.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyzwalanie elektroniczne"
+        }
+      ],
+      "quiz": {
+        "correct": "wyzwalanie elektroniczne"
+      }
+    },
+    {
+      "id": "v1-card-cc704473",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wyłącznik otwarty.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyłącznik otwarty"
+        }
+      ],
+      "quiz": {
+        "correct": "wyłącznik otwarty"
+      }
+    },
+    {
+      "id": "v1-card-488e29a8",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wyłącznik zamknięty.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyłącznik zamknięty"
+        }
+      ],
+      "quiz": {
+        "correct": "wyłącznik zamknięty"
+      }
+    },
+    {
+      "id": "v1-card-76178bc0",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/wyłącznik.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "wyłącznik"
+        }
+      ],
+      "quiz": {
+        "correct": "wyłącznik"
+      }
+    },
+    {
+      "id": "v1-card-92ae0bec",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/z wykorzystaniem zakumulowanej energii mechanicznej.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "z wykorzystaniem zakumulowanej energii mechanicznej"
+        }
+      ],
+      "quiz": {
+        "correct": "z wykorzystaniem zakumulowanej energii mechanicznej"
+      }
+    },
+    {
+      "id": "v1-card-32319388",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zacisk, połączenie rozłączane.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zacisk, połączenie rozłączane"
+        }
+      ],
+      "quiz": {
+        "correct": "zacisk, połączenie rozłączane"
+      }
+    },
+    {
+      "id": "v1-card-3729a75b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zamek elektryczny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zamek elektryczny"
+        }
+      ],
+      "quiz": {
+        "correct": "zamek elektryczny"
+      }
+    },
+    {
+      "id": "v1-card-4303cf08",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zamek z blokadą mechaniczną (łącznika).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zamek z blokadą mechaniczną (łącznika)"
+        }
+      ],
+      "quiz": {
+        "correct": "zamek z blokadą mechaniczną (łącznika)"
+      }
+    },
+    {
+      "id": "v1-card-eb5f7fee",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zasilanie linii telekomunikacyjnej prądem przemiennym.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zasilanie linii telekomunikacyjnej prądem przemiennym"
+        }
+      ],
+      "quiz": {
+        "correct": "zasilanie linii telekomunikacyjnej prądem przemiennym"
+      }
+    },
+    {
+      "id": "v1-card-85629440",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zasilanie linii telekomunikacyjnej prądem stałym.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zasilanie linii telekomunikacyjnej prądem stałym"
+        }
+      ],
+      "quiz": {
+        "correct": "zasilanie linii telekomunikacyjnej prądem stałym"
+      }
+    },
+    {
+      "id": "v1-card-9c8d3d63",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zestyk przełączający z przerwą.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zestyk przełączający z przerwą"
+        }
+      ],
+      "quiz": {
+        "correct": "zestyk przełączający z przerwą"
+      }
+    },
+    {
+      "id": "v1-card-bd613f0b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zestyk przełączający, otwarty w pozycji pośredniej.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zestyk przełączający, otwarty w pozycji pośredniej"
+        }
+      ],
+      "quiz": {
+        "correct": "zestyk przełączający, otwarty w pozycji pośredniej"
+      }
+    },
+    {
+      "id": "v1-card-71eb84cc",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zestyk rozwierny, zwiera z opóźnieniem przy powrocie.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zestyk rozwierny, zwiera z opóźnieniem przy powrocie"
+        }
+      ],
+      "quiz": {
+        "correct": "zestyk rozwierny, zwiera z opóźnieniem przy powrocie"
+      }
+    },
+    {
+      "id": "v1-card-ad065a9c",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zestyk rozwierny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zestyk rozwierny"
+        }
+      ],
+      "quiz": {
+        "correct": "zestyk rozwierny"
+      }
+    },
+    {
+      "id": "v1-card-0224871a",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zestyk zwierny, zwiera z opóźnieniem przy uruchamianiu.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zestyk zwierny, zwiera z opóźnieniem przy uruchamianiu"
+        }
+      ],
+      "quiz": {
+        "correct": "zestyk zwierny, zwiera z opóźnieniem przy uruchamianiu"
+      }
+    },
+    {
+      "id": "v1-card-97092524",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zestyk zwierny.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zestyk zwierny"
+        }
+      ],
+      "quiz": {
+        "correct": "zestyk zwierny"
+      }
+    },
+    {
+      "id": "v1-card-0d9080f9",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/zmywarka do naczyń.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zmywarka do naczyń"
+        }
+      ],
+      "quiz": {
+        "correct": "zmywarka do naczyń"
+      }
+    },
+    {
+      "id": "v1-card-ec355117",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/złącze prostownicze, dioda półprzewodnikowa (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "złącze prostownicze, dioda półprzewodnikowa (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "złącze prostownicze, dioda półprzewodnikowa (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-5ab3214d",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącze wtykowe.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącze wtykowe"
+        }
+      ],
+      "quiz": {
+        "correct": "łącze wtykowe"
+      }
+    },
+    {
+      "id": "v1-card-abbbc728",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-678100e7",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik dwubiegunowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik dwubiegunowy"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik dwubiegunowy"
+      }
+    },
+    {
+      "id": "v1-card-d9c882a6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik grupowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik grupowy"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik grupowy"
+      }
+    },
+    {
+      "id": "v1-card-bb6aa2d5",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik instalacyjny (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik instalacyjny (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik instalacyjny (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-16a82851",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik jednobiegunowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik jednobiegunowy"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik jednobiegunowy"
+      }
+    },
+    {
+      "id": "v1-card-c6d2da36",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik krańcowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik krańcowy"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik krańcowy"
+      }
+    },
+    {
+      "id": "v1-card-f540a008",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik krzyżowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik krzyżowy"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik krzyżowy"
+      }
+    },
+    {
+      "id": "v1-card-cf08825b",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik obrotowy bez powrotu samoczynnego.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik obrotowy bez powrotu samoczynnego"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik obrotowy bez powrotu samoczynnego"
+      }
+    },
+    {
+      "id": "v1-card-daa1fcc5",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik pociągany.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik pociągany"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik pociągany"
+      }
+    },
+    {
+      "id": "v1-card-87b77f2f",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik podświetlony.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik podświetlony"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik podświetlony"
+      }
+    },
+    {
+      "id": "v1-card-e0f41417",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik przyciskowy z powrotem samoczynnym.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik przyciskowy z powrotem samoczynnym"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik przyciskowy z powrotem samoczynnym"
+      }
+    },
+    {
+      "id": "v1-card-5c7c8ea6",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik statyczny (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik statyczny (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik statyczny (symbol ogólny)"
+      }
+    },
+    {
+      "id": "v1-card-d03aa02a",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik statyczny jednokierunkowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik statyczny jednokierunkowy"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik statyczny jednokierunkowy"
+      }
+    },
+    {
+      "id": "v1-card-a2e74cb9",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik szeregowy.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik szeregowy"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik szeregowy"
+      }
+    },
+    {
+      "id": "v1-card-7dbe2b99",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/łącznik zmienny (schodowy).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "łącznik zmienny (schodowy)"
+        }
+      ],
+      "quiz": {
+        "correct": "łącznik zmienny (schodowy)"
+      }
+    },
+    {
+      "id": "v1-card-b44da6e3",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/ściemniacz.png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "ściemniacz"
+        }
+      ],
+      "quiz": {
+        "correct": "ściemniacz"
+      }
+    },
+    {
+      "id": "v1-card-f7982d6a",
+      "question": [
+        {
+          "type": "image",
+          "src": "../assets/v1/v1-symbole-cz-1-5ded3904/świetlówka (symbol ogólny).png",
+          "alt": "Obraz do rozpoznania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "świetlówka (symbol ogólny)"
+        }
+      ],
+      "quiz": {
+        "correct": "świetlówka (symbol ogólny)"
+      }
+    }
+  ]
+}

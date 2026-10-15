@@ -16,3 +16,9 @@ Thumbs.db
 
 # Plik PyInstaller
 *.spec
+
+# Lokalne dane admina / backupy
+backups/
+/admin/
+/backups/
+/tools/

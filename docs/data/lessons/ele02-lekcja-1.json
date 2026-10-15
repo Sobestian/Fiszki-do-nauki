@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "ele02-lekcja-1",
+  "title": "Lekcja 1 — test",
+  "cards": [
+    {
+      "id": "ele02-def-1",
+      "question": [
+        {
+          "type": "text",
+          "text": "Czym jest transformator? test"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Urządzenie elektromagnetyczne przenoszące energię między obwodami przez indukcję elektromagnetyczną."
+        }
+      ]
+    },
+    {
+      "id": "card-0ab8513d-74b5-488a-91fb-c0e84b2d7f45",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wzór na pole prostokąta - test"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "P = a * b"
+        },
+        {
+          "type": "formula",
+          "latex": "[P] = m^2 = m * m"
+        },
+        {
+          "type": "text",
+          "text": "P - pole powierzchni\na - długość boku a\nb - długość boku b"
+        }
+      ]
+    },
+    {
+      "id": "card-c6fa767a-b2aa-49d6-82aa-1b48aa1cab66",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rozwinięcie cyfry π - test"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "π = 3,1415"
+        }
+      ]
+    },
+    {
+      "id": "card-951f44cc-1f24-42f4-a912-dcf7c15eee34",
+      "question": [
+        {
+          "type": "text",
+          "text": "Ot jest obraz - test"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Poniżej obraz"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-lekcja-1/a274b939bf2e458996.png",
+          "alt": "Zrzut ekranu_20261014_195039.png"
+        }
+      ]
+    }
+  ]
+}
