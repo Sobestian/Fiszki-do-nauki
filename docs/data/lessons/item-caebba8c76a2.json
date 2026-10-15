@@ -67,7 +67,8 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/0966869d1e3a448ba7.png",
-          "alt": "łącznik jednobiegunowy.png"
+          "alt": "łącznik jednobiegunowy.png",
+          "remove_white_background": false
         }
       ]
     },
@@ -87,7 +88,8 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/d2b3585f4dd844dd99.png",
-          "alt": "Łącznik świecznikowy.png"
+          "alt": "Łącznik świecznikowy.png",
+          "remove_white_background": false
         }
       ]
     },
@@ -107,7 +109,8 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/20cb31429e06416dac.png",
-          "alt": "Łącznik schodowy.png"
+          "alt": "Łącznik schodowy.png",
+          "remove_white_background": false
         }
       ]
     },
@@ -127,7 +130,8 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/7f9dbd1733484b3bab.png",
-          "alt": "łącznik krzyżowy.png"
+          "alt": "łącznik krzyżowy.png",
+          "remove_white_background": false
         }
       ]
     },
@@ -147,7 +151,8 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/b32834b39838407f8d.png",
-          "alt": "łącznik dzwonkowy.png"
+          "alt": "łącznik dzwonkowy.png",
+          "remove_white_background": false
         }
       ]
     },
@@ -167,7 +172,8 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/90d115a34f754d26a1.png",
-          "alt": "łącznik żaluzjowy.png"
+          "alt": "łącznik żaluzjowy.png",
+          "remove_white_background": false
         }
       ]
     },
@@ -187,7 +193,8 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/f39cbe36a3cc4d6484.png",
-          "alt": "rozłącznik.png"
+          "alt": "rozłącznik.png",
+          "remove_white_background": false
         }
       ],
       "important": true
@@ -208,7 +215,8 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/698efed2df9e476294.png",
-          "alt": "odłącznik.png"
+          "alt": "odłącznik.png",
+          "remove_white_background": false
         }
       ],
       "important": true
@@ -229,12 +237,14 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/12ce07d845e848ce9c.png",
-          "alt": "wyłącznik 1.png"
+          "alt": "wyłącznik 1.png",
+          "remove_white_background": false
         },
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/fbcf7747cb6f4e38b3.png",
-          "alt": "wyłącznik 2.png"
+          "alt": "wyłącznik 2.png",
+          "remove_white_background": false
         }
       ],
       "important": true
@@ -251,17 +261,20 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/e0a554e2a25e416b8f.png",
-          "alt": "przekaźnik czasow 1.png"
+          "alt": "przekaźnik czasow 1.png",
+          "remove_white_background": false
         },
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/61d6907bb04c4c46b3.png",
-          "alt": "przekaźnik czasow 2.png"
+          "alt": "przekaźnik czasow 2.png",
+          "remove_white_background": false
         },
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/6ad20818837341b8b0.png",
-          "alt": "przekaźnik czasow 3.png"
+          "alt": "przekaźnik czasow 3.png",
+          "remove_white_background": false
         }
       ]
     },
@@ -305,12 +318,14 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/12d2063bbed14ed9a8.png",
-          "alt": "przekaźnik bistavilny 1.png"
+          "alt": "przekaźnik bistavilny 1.png",
+          "remove_white_background": false
         },
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/505e5d38cf794c5188.png",
-          "alt": "przekaźnik bistavilny 2.png"
+          "alt": "przekaźnik bistavilny 2.png",
+          "remove_white_background": false
         }
       ]
     },
@@ -330,7 +345,8 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/b8d3c5e591fc4b38ad.png",
-          "alt": "wyłącznik nadprądowy.png"
+          "alt": "wyłącznik nadprądowy.png",
+          "remove_white_background": false
         }
       ],
       "important": true

@@ -319,7 +319,10 @@ function renderBlocks(container, blocks) {
     } else if (block.type === 'image') {
       const img = el('img'); img.alt = block.alt || 'Ilustracja do fiszki';
       img.src = new URL(block.src, state.lessonUrl).href;
-      adaptDiagramToDarkTheme(img);
+      // Domyślnie zachowujemy dotychczasowy wygląd starszych grafik.
+      // W Adminie można wyłączyć filtr osobno dla każdego bloku obrazu.
+      // Nowe obrazy mają remove_white_background: false (bez zmian kolorów).
+      if (block.remove_white_background !== false) adaptDiagramToDarkTheme(img);
       setResponsiveImageSize(img);
       img.addEventListener('error', () => { img.replaceWith(el('p', `Brak pliku: ${block.src}`, 'muted')); });
       container.append(img);
