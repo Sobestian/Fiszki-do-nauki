@@ -1,22 +1,336 @@
 {
   "schema_version": 1,
   "id": "item-8226daf000c0",
-  "title": "MiUE cz3 - w przygotowaniu",
+  "title": "MiUE cz3",
   "cards": [
     {
       "id": "card-9b9bf473ae70429f",
       "question": [
         {
           "type": "text",
-          "text": "Nowe pytanie"
+          "text": "Przekaźnik trójfazowy gwiazda - trójkąt"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/d2abfe7e3fa74cd6a6.png",
+          "alt": "przekaznik pcg-417.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/d5aa6eea2f024eceb7.png",
+          "alt": "przekaznik pcg 417 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/fcc2cdef50a34fa9b9.png",
+          "alt": "przekaznik pcg 417 3.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-e144f46b-c506-47c4-bd62-a440dcee7ba3",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekaźnik zmierzchowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/fe59e831b6f9466ead.png",
+          "alt": "zmierzchowy 1.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/d001a1f00c794b73bf.png",
+          "alt": "zmierzchowy 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/837c4847e40f4f6f81.png",
+          "alt": "zmierzchowy 3.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-769595a4-1f44-4296-bae2-5a267ba18f8f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Automat schodowy"
         }
       ],
       "answer": [
         {
           "type": "text",
-          "text": "Nowa odpowiedź"
+          "text": "Przeznaczenie: Automat schodowy (wyłącznik czasowy) służy do utrzymania włączonego oświetlenia korytarzy, klatek schodowych lub innych obiektów przez określony czas, po upływie którego oświetlenie zostanie wyłączone automatycznie. \n\nDziałanie: Załączony wyłącznikiem chwilowym (dzwonkowym) automat schodowy podtrzymuje oświetlenie przez czas ustawiony potencjometrem (od 0,5 min. do 10 min.). Po upływie nastawionego czasu automat wyłączy oświetlenie samoczynnie. Po wyłączeniu oświetlenia możemy je załaczyć ponownie."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/2ef404d2cc8240c4bf.png",
+          "alt": "automat 1.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/0d7b6b5908fd419ca8.png",
+          "alt": "automat 3.png",
+          "remove_white_background": false
         }
       ]
+    },
+    {
+      "id": "card-f2f7cf8f-a973-48bf-9a81-97a3561a7f2f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Automatyczny przełącznik faz"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przełączniki faz najczęściej posiadają możliwość połączenia do urządzenia 3 różnych faz. Na froncie urządzenia znajdują się 3 kontrolki z podpisem kolejnych podłączonych faz. To dzięki nim wiemy,jaka faza zasila obecnie nasze mieszkanie.\n  \n    Układ przełącza się między fazami, czyli do jego poprawnego działania potrzebujemy sieć trójfazową. Do poprawnego działania całego układu potrzebujemy również przekaźniki nadprądowe odpowiednio dobrane do instalacji. Zabezpieczenia nadprądowe są potrzebne, ponieważ bez nich nasz przełącznik faz nie byłby chroniony przed nadmiernym przepływem prądu w układzie. "
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/c17d3d05ae9842c585.png",
+          "alt": "przelacznik faz .png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-38a5bedc-e7eb-4420-ba3d-d0ee53de4c63",
+      "question": [
+        {
+          "type": "text",
+          "text": "Sterowanie roletami"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/c4c84827dbe344c0ba.png",
+          "alt": "sterownik rolet.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/fb1ba19a8fa1458aa1.png",
+          "alt": "sterownik rolet 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/2971e8b5146746bf98.png",
+          "alt": "sterownik rolet 3.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-d642c5aa-cb82-4720-880d-3982fbada580",
+      "question": [
+        {
+          "type": "text",
+          "text": "Ogranicznik przepięć (ochronnik, odgromnik, warystor)"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Ogranicznik przepięć to urządzenie, którego zadaniem jest ochrona przed przejściowymi przepięciami, ograniczającymi częstotliwość oraz czas trwania prądu następczego. Montaż tego elementu może uchronić podłączone do sieci sprzęty np. podczas burzy. \n\n    Same ograniczniki przepięć nie będą w stanie uchronić instalacji przed zniszczeniami spowodowanymi wyładowaniami atmosferycznymi. Kluczowe jest posiadanie systemu uziemiającego o bardzo małym oporze elektrycznym.\n\n    Przepięciem nazywa się wzrost napięcia ponad maksymalną wartość instalacji elektrycznej. Do najczęstszych przyczyn wystąpienia tego zjawiska zalicza się zwarcia lub uderzenie pioruna. Przepięcia mogą doprowadzić do zniszczenia sieci oraz urządzeń do niej podłączonych. Aby uchronić się przed ewentualnymi szkodami stosuje się m.in. ograniczniki przepięć, nazywane również ochronnikami, odgromnikami lub warystorami."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/312a985b9b564a3e85.png",
+          "alt": "ogranicznik 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/6d0f787e23384ddabf.png",
+          "alt": "ogranicznik.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/7ac2e102a51944f6bf.png",
+          "alt": "ogrqanicznik 3.png",
+          "remove_white_background": true
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-4eefae56-2628-43d5-81cf-60e2a86729ce",
+      "question": [
+        {
+          "type": "text",
+          "text": "Typy ograniczników przepięć"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Norma PN-EN 61643-11",
+          "format": {
+            "align": "center",
+            "italic": true,
+            "color": "#ffffff"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Norma definiuje Typy ograniczników i klasy prób. \n\nDla oznaczenia Typu SPD stosuje się cyfry arabskie, natomiast w odniesieniu do klasy prób stosuje się liczby rzymskie. \n\n    Oznaczenia B, C, D zostały w przeszłości zaczerpnięte z niemieckiej normy VDE 0675 Teil 6 25 Najbardziej standardowe ograniczniki składają się przeważnie z dwóch elementów: podstawy ochronnika oraz wymiennej wkładki zawierającej element zabezpieczający. Do ochronników podpina się przewód fazowy oraz ochronny. Ewentualnie do osprzętu prowadzony jest również przewód neutralny. W normalnych warunkach, czyli w momencie, gdy napięcie w układzie jest prawidłowe, prąd nie przepływa przez ochronnik. Wszystko przez to, że rezystancja między dwoma podpiętymi przewodami jest bardzo duża. W chwili, gdy dochodzi do przepięcia, prąd zaczyna przepływać przez ogranicznik. \n\n    Wybór odpowiedniego ogranicznika powinien być dopasowany do posiadanych urządzeń i wydajności instalacji elektrycznej. Dlatego najlepiej zdecydować się na konkretne modele już na etapie tworzenia projektu sieci, którego wykonanie powinniśmy zlecić wykwalifikowanemu specjaliście. \n\nNależy ochronniki poszczególnych klas montować kaskadowo, stopniowo zmniejszając poziom napięcia."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-f72ab6f6-a656-46d6-bab2-ee5b57d47287",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wybrane zapisy w normie PN-EN 61643-11"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "- należy stosować określenia w postaci „ograniczniki Typu 1” i „próba klasy I”\n- nie należy stosować określeń „ogranicznik klasy B”, „ogranicznik typu B+C” \n- oznaczenia B, C, D są obecnie nieaktualne dla typu SPD lub klasy prób i mogą być stosowane jedynie w nazwach własnych produktów \n- ogranicznik może być sklasyfikowany według więcej niż jednego Typu, np. Typu 1 i Typu 2 \n- nie należy mylić pojęć ogranicznik Typu 1+2 z ogranicznikiem typu kombinowanego\n- ogranicznik typu kombinowanego to taki, który zawiera zarówno elementy ucinające napięcie, jak i elementy ograniczające napięcie, czyli np. jest złożony zarówno z iskiernika i warystora\n- ze względu na wymagania norm PN-HD 60364 oraz PN-EN 62305 minimalna odporność na prądy pioruna dla ograniczników Typu 1 powinna być nie mniejsza niż Iimp = 12,5 kA\n- ograniczniki przepięć, o deklarowanych wartościach Iimp < 12,5 kA (np.: 4 kA, 5 kA, 8 kA) nie spełniają wymagań dla SPD Typu 1 według norm PN-HD 60364"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-2d6aab62-4cfd-4a1d-9e2c-1fd60fd54f4a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Licznik prądu LE-01"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/63c1026428e24df1a9.png",
+          "alt": "licznik 2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/aed06e7532b149a68c.png",
+          "alt": "licznik.png",
+          "remove_white_background": true
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-cf1a6594-7fa9-4dbd-8fab-506c8744ad49",
+      "question": [
+        {
+          "type": "text",
+          "text": "Stycznik"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "elektryczny łącznik mechanizmowy, którego zestyki robocze są zamykane i otwierane przy pomocy zdalnie sterowanego elektromagnesu. Styczniki są powszechnie stosowane w układach automatyki przemysłowej do załączania obwodów głównych w normalnych warunkach pracy obwodu i przy przeciążeniach. Ze względu brak zabezpieczeń nadmiarowoprądowych, nie służą do rozłączania prądów zwarciowych.\n\n    Styczniki jak i przekaźniki działają na takiej samej zasadzie. Zasadnicza różnica polega na tym, że stycznik służy do załączania układów silnoprądowych, podczas gdy przekaźnik przekazuje sygnały niskoprądowe lub sygnały o potencjale zerowym. Styczniki pozwalają na zautymatyzowanie procesów załączania i wyłączania wybranych urządzeń elektrycznych. To poprawia ich wydajność i żywotność, a także minimalizuje ryzyko pojawienia się awarii i zwiększa bezpieczeństwo użytkownika."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/f73cbb48f92b4d6595.png",
+          "alt": "stycznik 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/3eaeee4d1e5d466f90.png",
+          "alt": "stycznik.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-bee3ef69-b763-4770-8dee-90514e2a72d9",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wyłączniki silnikowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wyłączniki silnikowe służą do rozdzielania, łączenia oraz zabezpieczenia obwodów prądowych z obciążeniem. Dodatkowo stanowią zabezpieczenie silników przed wystąpieniem zniszczenia z powodu zablokowanego rozruchu lub też wystąpienia zwarcia, przeciążenia czy braku jednej z faz w trójfazowych sieciach. Mają wyzwalacz termiczny, który chroni uzwojenie silnika oraz wyzwalacz elektromagnetyczny, który chroni przed zwarciem."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/7ae6eed6be19451793.png",
+          "alt": "silnikowy.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/ce42a5c328f74087b6.png",
+          "alt": "silnikowy 2.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-5bcaab89-91a2-41c7-bd8d-29eb229a1fd0",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenie silnika w trójkąt"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/f5e69414881940129b.png",
+          "alt": "trojkat.png",
+          "remove_white_background": true
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-1ed8feda-fad5-44a2-99b7-6b39fa4e139f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenie silnika w gwiazdę"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-8226daf000c0/7e3141044bf541938b.png",
+          "alt": "trojkat.png",
+          "remove_white_background": true
+        }
+      ],
+      "important": true
     }
+  ],
+  "available_modes": [
+    "learn"
   ]
 }

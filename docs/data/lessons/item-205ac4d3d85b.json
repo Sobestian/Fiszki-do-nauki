@@ -1,22 +1,104 @@
 {
   "schema_version": 1,
   "id": "item-205ac4d3d85b",
-  "title": "MiUE cz2 - w przygotowaniu",
+  "title": "MiUE cz2",
   "cards": [
     {
       "id": "card-a8910b75a1884c77",
       "question": [
         {
           "type": "text",
-          "text": "Nowe pytanie"
+          "text": "Ochrona człowieka"
         }
       ],
       "answer": [
         {
+          "type": "image",
+          "src": "../assets/editor/item-205ac4d3d85b/199e66663f1642e49f.png",
+          "alt": "porazenie.png",
+          "remove_white_background": false
+        },
+        {
           "type": "text",
-          "text": "Nowa odpowiedź"
+          "text": "a) Dotknięcie przewodu L\n\nPrąd przepływa przez ciało do ziemi, powodując różnicę prądów w przewodach L i N. \nRCD może zadziałać, jeśli prąd upływu jest wystarczająco duży. Dla RCD 30 mA próg zadziałania mieści się w zakresie 15–30 mA.\n\nb) Jednoczesne dotknięcie L i N — stojąc na ziemi\n\nPrąd płynie między rękami przez ciało, w tym okolice serca. \nRCD może nie zadziałać, ponieważ prąd wracający przewodem N równoważy prąd płynący przez L. Zadziałanie jest możliwe, jeśli wystąpi dostateczny dodatkowy upływ do ziemi.\n\nc) Jednoczesne dotknięcie L i N — na izolowanym podłożu\n\nPrąd przepływa między rękami przez ciało, ale nie odpływa do ziemi. \nRCD nie wykrywa różnicy prądów i nie zadziała, mimo zagrożenia śmiertelnym porażeniem.\n\n    RCD chroni przed prądami upływowymi, ale nie zabezpiecza przed każdym rodzajem porażenia. Szczególnie niebezpieczne jest jednoczesne dotknięcie L i N."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-a018f55b-a0a3-447d-ab0c-53d3f4330068",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykładowe podłączenia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-205ac4d3d85b/9f7e6d357af14e558e.png",
+          "alt": "rcd 1.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "text",
+          "text": "1 - wyłącznik różnicowo-prądowy RCD\n2 - wyłącznik nadprądowy B16\n3 - wyłącznik nadprądowy B10"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-205ac4d3d85b/c352aceedc23407d93.png",
+          "alt": "rcd 2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-205ac4d3d85b/ccbdee3d5506465897.png",
+          "alt": "rcd 3.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "text",
+          "text": "1 - rozłącznik trójfazowy\n2 - wyłącznik różnicowo-prądowy RCD trójfazowy"
+        }
+      ]
+    },
+    {
+      "id": "card-553b8bca-f4ce-4bf5-a542-1bdc42c8eee1",
+      "question": [
+        {
+          "type": "text",
+          "text": "Typy wyłącznika różnicowoprądowego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-205ac4d3d85b/a443ff1e5a0c4777bd.png",
+          "alt": "rcd rodzaje.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-205ac4d3d85b/6920000b155a43f291.png",
+          "alt": "rcd rodzaje 2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-205ac4d3d85b/464cf96a0b1e41f288.png",
+          "alt": "rcd rodzaje 3.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-205ac4d3d85b/3b380393eca64e90ac.png",
+          "alt": "rcd rodzaje 4.png",
+          "remove_white_background": false
         }
       ]
     }
+  ],
+  "available_modes": [
+    "learn"
   ]
 }

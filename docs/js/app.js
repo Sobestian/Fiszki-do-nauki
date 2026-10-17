@@ -15,6 +15,8 @@ const state = {
   round: [], missed: [], index: 0, roundNumber: 1, locked: false,
   completed: 0, advanceTimer: null, finished: false,
   modePreferences: readModePreferences(),
+  reversed: false, reversePreferences: readReversePreferences(),
+  directSession: false, // Brak ekranu wyboru trybu w lekcji z jednym dostępnym trybem.
 };
 
 // Zapamiętujemy ostatni tryb osobno dla każdego modułu głównego.
@@ -33,6 +35,107 @@ function rememberMode(moduleId, mode) {
   } catch (_) {
     // W przeglądarkach blokujących zapis preferencja działa do odświeżenia strony.
   }
+}
+
+
+// Odwrócone fiszki: preferencja zapamiętana dla modułu Fiszki,
+// nie modyfikuje danych ani plików lekcji.
+function readReversePreferences() {
+  try {
+    const value = JSON.parse(localStorage.getItem('fiszki-v2:reverse-modes') || '{}');
+    return value && typeof value === 'object' && !Array.isArray(value) ? value : {};
+  } catch (_) { return {}; }
+}
+function rememberReverse(moduleId, enabled) {
+  state.reversePreferences[moduleId] = enabled;
+  try { localStorage.setItem('fiszki-v2:reverse-modes', JSON.stringify(state.reversePreferences)); }
+  catch (_) { /* W trybie prywatnym opcja działa do zamknięcia strony. */ }
+}
+
+// Wpisy w historii sprawiają, że systemowy gest Androida oraz przycisk
+// Wstecz w przeglądarce działają jak nawigacja w aplikacji.
+// Ścieżkę przechowujemy jako identyfikatory węzłów, nie obiekty JS.
+let navigationGeneration = 0;
+function currentScreen() {
+  if (!$('session-view').classList.contains('hidden')) return 'session';
+  if (!$('setup-view').classList.contains('hidden')) return 'setup';
+  return 'menu';
+}
+function routeSnapshot(view = currentScreen()) {
+  return {
+    fiszkiV2: true, view,
+    path: state.path.map(n => n.id),
+    lesson: state.lessonNode?.id || null,
+    mode: state.mode,
+    reversed: state.reversed,
+    directSession: state.directSession,
+    depth: 0,
+  };
+}
+function recordRoute(view, replace = false) {
+  const prior = history.state;
+  const depth = replace ? (prior?.fiszkiV2 ? prior.depth || 0 : 0)
+    : (prior?.fiszkiV2 ? prior.depth || 0 : 0) + 1;
+  const route = {...routeSnapshot(view), depth};
+  try { history[replace ? 'replaceState' : 'pushState'](route, '', location.href); }
+  catch (err) { console.warn('Historia aplikacji jest niedostępna:', err); }
+}
+function resolveHistoryRoute(route) {
+  let children = state.catalog.items;
+  const path = [];
+  for (const id of route.path || []) {
+    const node = children.find(item => item.id === id && item.kind !== 'lesson');
+    if (!node) throw new Error(`Nie odnaleziono działu ${id}`);
+    path.push(node);
+    children = node.children || [];
+  }
+  const lesson = route.lesson ? children.find(item => item.kind === 'lesson' && item.id === route.lesson) : null;
+  if (route.lesson && !lesson) throw new Error(`Nie odnaleziono lekcji ${route.lesson}`);
+  return {path, lesson};
+}
+async function restoreRoute(route) {
+  if (!state.catalog || !route?.fiszkiV2) return;
+  const generation = ++navigationGeneration;
+  try {
+    const resolved = resolveHistoryRoute(route);
+    stopPending();
+    state.path = resolved.path;
+    state.lessonNode = resolved.lesson;
+    state.reversed = !!route.reversed;
+    state.directSession = !!route.directSession;
+    if (route.view === 'session' && state.lessonNode && route.mode) {
+      await startSession(route.mode, true, generation);
+    } else if (route.view === 'setup' && state.lessonNode) {
+      // Po powrocie gestem odtwarzamy ograniczenia trybów konkretnej lekcji.
+      if (state.path.find(n => n.kind === 'module')?.module_type === 'study') {
+        const loaded = await fetchLessonDocument(state.lessonNode);
+        if (generation !== navigationGeneration) return;
+        state.lesson = loaded.lesson; state.lessonUrl = loaded.url;
+      }
+      showSetup();
+    } else {
+      showMenu();
+    }
+  } catch (err) {
+    console.error('Nie udało się odtworzyć historii:', err);
+    state.path = []; state.lessonNode = null; showMenu();
+  }
+}
+window.addEventListener('popstate', (event) => {
+  // Po ukończeniu sesji pomijamy ekran wyboru trybu i wracamy
+  // do listy lekcji — tak samo jak przy przycisku „Wybór lekcji”.
+  if (state.finished && currentScreen() === 'session' && event.state?.view === 'setup') {
+    if (event.state?.depth > 0) { history.back(); return; }
+    state.lessonNode = null; showMenu(); return;
+  }
+  if (event.state?.fiszkiV2) void restoreRoute(event.state);
+});
+function goToLessonList() {
+  stopPending();
+  const depth = history.state?.fiszkiV2 ? history.state.depth : 0;
+  const steps = state.directSession ? 1 : 2;
+  if (depth >= steps) history.go(-steps);
+  else { state.lessonNode = null; showMenu(); recordRoute('menu', true); }
 }
 
 
@@ -75,7 +178,8 @@ function renderHeader() {
   document.querySelector('.app-header').classList.toggle('at-home', state.path.length === 0 && !state.lessonNode);
   $('back-btn').disabled = !state.path.length && !state.lessonNode;
   const inSession = !$('session-view').classList.contains('hidden');
-  $('mode-caption').textContent = state.mode && inSession ? MODES[state.mode] : '';
+  $('mode-caption').textContent = state.mode && inSession
+    ? `${MODES[state.mode]}${state.reversed ? ' · Odwrócone' : ''}` : '';
   // Oznaczenie dotyczy wyłącznie aktualnie widocznej KARTY w trybie Nauka.
   const currentCard = state.round[state.index];
   const showImportant = inSession && !state.finished && state.mode === 'learn'
@@ -118,27 +222,85 @@ function nextStudyCard() {
   if (state.index === state.round.length - 1) resetSession();
   else { state.index++; renderCard(); }
 }
+// Lekcje ELE.02 mogą mieć tylko Nauka, tylko Powtórzenie albo oba tryby.
+// Stare lekcje bez available_modes dziedziczą ustawienia działu (zgodność wsteczna).
+function lessonModes(moduleNode, lesson) {
+  const moduleModes = Array.isArray(moduleNode?.modes) ? moduleNode.modes : [];
+  if (moduleNode?.module_type !== 'study') return moduleModes;
+  if (!Array.isArray(lesson?.available_modes)) return moduleModes;
+  return moduleModes.filter(mode => lesson.available_modes.includes(mode));
+}
+async function fetchLessonDocument(node) {
+  const url = new URL(`./data/${node.file}`, document.baseURI);
+  const response = await fetch(url, {cache:'no-store'});
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return {lesson:await response.json(), url};
+}
+// Z listy lekcji wchodzimy bezpośrednio do Nauk/iPowtórzenia,
+// jeśli w Adminie dopuszczono tylko jeden tryb.
+async function openLesson(node) {
+  state.lessonNode = node;
+  state.directSession = false;
+  state.reversed = false;
+  const moduleNode = state.path.find(n => n.kind === 'module');
+  if (moduleNode?.module_type !== 'study') {
+    showSetup(); recordRoute('setup'); return;
+  }
+  const generation = ++navigationGeneration;
+  try {
+    const loaded = await fetchLessonDocument(node);
+    if (generation !== navigationGeneration || state.lessonNode !== node) return;
+    state.lesson = loaded.lesson; state.lessonUrl = loaded.url;
+    const modes = lessonModes(moduleNode, loaded.lesson);
+    if (!modes.length) throw new Error('Ta lekcja nie ma żadnego dostępnego trybu.');
+    if (modes.length === 1) {
+      state.directSession = true;
+      await startSession(modes[0], false, generation, loaded);
+    } else {
+      showSetup(); recordRoute('setup');
+    }
+  } catch (err) {
+    if (generation === navigationGeneration) error(`Nie można otworzyć lekcji: ${err.message}`);
+  }
+}
 function showMenu() {
   stopPending();
   state.lessonNode = null;
   state.lesson = null;
   state.mode = null;
+  state.directSession = false;
   state.moduleNode = state.path.find((node) => node.kind === 'module') || null;
   const items = state.path.length ? state.path[state.path.length - 1].children : state.catalog.items;
   const container = $('menu-view');
   clear(container);
   const grid = el('div', null, 'menu-grid');
+  const studyModule = state.path.find(n => n.kind === 'module' && n.module_type === 'study');
   for (const node of items) {
     const btn = el('button', null, 'menu-tile');
     btn.type = 'button';
-    btn.append(el('strong', node.title), el('span', node.kind === 'module' ? 'Otwórz dział' : node.kind === 'folder' ? 'Otwórz kategorię' : 'Wybierz tryb nauki'));
+    const detail = el('span', node.kind === 'module' ? 'Otwórz dział' : node.kind === 'folder' ? 'Otwórz kategorię' : 'Wybierz tryb nauki');
+    btn.append(el('strong', node.title), detail);
+    if (node.kind === 'lesson' && studyModule) {
+      detail.textContent = 'Wczytywanie dostępnych trybów…';
+      // Odczytujemy tylko widoczne lekcje. Nie modyfikujemy menu.json ani danych.
+      fetchLessonDocument(node).then(({lesson}) => {
+        if (!btn.isConnected) return;
+        const modes = lessonModes(studyModule, lesson);
+        detail.textContent = modes.length === 1
+          ? `Tryb: ${MODES[modes[0]]}`
+          : modes.length > 1 ? `Tryby: ${modes.map(m => MODES[m]).join(' / ')}` : 'Brak dostępnego trybu';
+      }).catch(() => {
+        if (btn.isConnected) detail.textContent = 'Nie udało się sprawdzić trybów';
+      });
+    }
     btn.addEventListener('click', () => {
       if (node.kind === 'lesson') {
-        state.lessonNode = node;
-        showSetup();
+        void openLesson(node);
       } else {
+        ++navigationGeneration; // Spóźniony odczyt lekcji nie może otworzyć ekranu.
         state.path.push(node);
         showMenu();
+        recordRoute('menu');
       }
     });
     grid.append(btn);
@@ -159,9 +321,10 @@ function showSetup() {
   card.append(el('h2', state.lessonNode.title), el('p', 'Wybierz tryb pracy tej lekcji.', 'muted'));
   const form = el('form');
   const modes = el('div', null, 'mode-list');
-  const preferred = moduleNode.modes.includes(state.modePreferences[moduleNode.id])
-    ? state.modePreferences[moduleNode.id] : moduleNode.modes[0];
-  for (const [i, mode] of moduleNode.modes.entries()) {
+  const modesForLesson = lessonModes(moduleNode, state.lesson);
+  const preferred = modesForLesson.includes(state.modePreferences[moduleNode.id])
+    ? state.modePreferences[moduleNode.id] : modesForLesson[0];
+  for (const [i, mode] of modesForLesson.entries()) {
     const label = el('label', null, 'mode-item');
     const input = document.createElement('input');
     input.type = 'radio'; input.name = 'mode'; input.value = mode;
@@ -172,36 +335,91 @@ function showSetup() {
     label.append(input, el('span', MODES[mode] || mode));
     modes.append(label);
   }
+  // Opcja dostępna wyłącznie w module Fiszki, nie w ELE.02.
+  let reverseInput = null;
+  if (moduleNode.module_type === 'flashcards') {
+    const reverseLabel = el('label', null, 'reverse-option hidden');
+    reverseInput = document.createElement('input');
+    reverseInput.type = 'checkbox';
+    reverseInput.name = 'reversed';
+    reverseInput.checked = false;
+    reverseInput.addEventListener('change', () => rememberReverse(state.lessonNode.id, reverseInput.checked));
+    const reverseText = el('span');
+    reverseText.append(el('strong', 'Odwrócone'), el('small', 'Najpierw odpowiedź — odgadnij pytanie (działa też w ABCD).'));
+    reverseLabel.append(reverseInput, reverseText);
+    form.append(modes, reverseLabel);
+  }
   const start = el('button', 'Rozpocznij', 'primary');
   start.type = 'submit';
-  form.append(modes, start);
+  if (!reverseInput) form.append(modes);
+  form.append(start);
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
     const mode = form.elements.mode.value;
-    if (!moduleNode.modes.includes(mode)) return;
+    if (!modesForLesson.includes(mode)) return;
     rememberMode(moduleNode.id, mode);
+    state.reversed = !!reverseInput?.checked && !reverseInput?.disabled;
     await startSession(mode);
   });
   card.append(form); container.append(card);
   showScreen('setup-view'); setProgress('Wybór trybu', 0); renderHeader();
+  // Uprawnienie jest przechowywane w JSON lekcji, nie w menu.json.
+  // Przed odczytem blokujemy Start, by na wolnym łączu nie uruchomić
+  // przypadkiem poprzednio zapamiętanego ustawienia innej lekcji.
+  if (reverseInput) {
+    const selectedNode=state.lessonNode;
+    const reverseLabel=reverseInput.closest('.reverse-option');
+    const lessonUrl=new URL(`./data/${selectedNode.file}`,document.baseURI);
+    start.disabled=true;
+    reverseInput.disabled=true;
+    state.reversed=false;
+    fetch(lessonUrl,{cache:'no-store'}).then(async response=>{
+      if(!response.ok)throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    }).then(lesson=>{
+      // Ignorujemy spóźnione wyniki, gdy użytkownik wyszedł z wyboru trybu.
+      if (state.lessonNode!==selectedNode || currentScreen()!=='setup') return;
+      state.lesson=lesson;
+      state.lessonUrl=lessonUrl;
+      const allowed=lesson.allow_reversed===true;
+      reverseLabel.classList.toggle('hidden',!allowed);
+      reverseInput.disabled=!allowed;
+      reverseInput.checked=allowed && !!state.reversePreferences[selectedNode.id];
+      start.disabled=false;
+    }).catch(err=>{
+      if(state.lessonNode!==selectedNode || currentScreen()!=='setup')return;
+      error(`Nie można wczytać ustawień lekcji: ${err.message}`);
+      start.disabled=true;
+    });
+  }
 }
-async function startSession(mode) {
+async function startSession(mode, restoring = false, expectedGeneration = null, preloaded = null) {
   stopPending();
+  const generation = expectedGeneration ?? ++navigationGeneration;
   try {
-    const lessonUrl = new URL(`./data/${state.lessonNode.file}`, document.baseURI);
-    const result = await fetch(lessonUrl, {cache: 'no-store'});
-    if (!result.ok) throw new Error(`HTTP ${result.status}`);
-    const lesson = await result.json();
+    const loaded = preloaded || await fetchLessonDocument(state.lessonNode);
+    if (generation !== navigationGeneration) return;
+    const lessonUrl = loaded.url, lesson = loaded.lesson;
+    const moduleNode = state.path.find(n => n.kind === 'module');
+    if (!lessonModes(moduleNode, lesson).includes(mode)) throw new Error('Ten tryb nie jest dostępny dla tej lekcji.');
+    // Odwrócenie nie może zostać wymuszone przez historię przeglądarki.
+    if(lesson.allow_reversed!==true)state.reversed=false;
     if (!Array.isArray(lesson.cards) || !lesson.cards.length) throw new Error('Lekcja jest pusta.');
     if (mode === 'abcd') {
       for (const card of lesson.cards) {
-        if (buildOptions(card, lesson.cards).length !== 4) {
-          throw new Error('Tryb ABCD wymaga czterech różnych odpowiedzi dla każdej karty. Uzupełnij quiz.distractors lub dodaj więcej kart.');
+        const valid = state.reversed
+          ? buildReverseChoices(card, lesson.cards).length === 4
+          : buildOptions(card, lesson.cards).length === 4;
+        if (!valid) {
+          throw new Error(state.reversed
+            ? 'Odwrócone ABCD wymaga czterech różnych pytań. Dodaj karty z różnymi pytaniami lub wybierz WIEM / NIE WIEM.'
+            : 'Tryb ABCD wymaga czterech różnych odpowiedzi dla każdej karty. Uzupełnij quiz.distractors lub dodaj więcej kart.');
         }
       }
     }
     state.lesson = lesson; state.lessonUrl = lessonUrl; state.mode = mode;
     resetSession();
+    if (!restoring) recordRoute('session');
   } catch (err) { console.error(err); error(`Nie można uruchomić lekcji: ${err.message}`); }
 }
 // Reset nie przeładowuje danych: ponownie rozpoczyna bieżącą lekcję
@@ -315,7 +533,18 @@ function setResponsiveImageSize(img) {
 function renderBlocks(container, blocks) {
   for (const block of blocks || []) {
     if (block.type === 'text') {
-      container.append(el('div', block.text, 'block-text'));
+      const textNode = el('div', block.text, 'block-text');
+      // Formatowanie jednego bloku tekstu; stary tekst bez "format" zachowuje style trybu.
+      const format = block.format;
+      if (format && typeof format === 'object' && !Array.isArray(format)) {
+        if (['left','center','right'].includes(format.align)) textNode.style.textAlign = format.align;
+        if (format.bold === true) textNode.style.fontWeight = '700';
+        if (format.italic === true) textNode.style.fontStyle = 'italic';
+        if (format.underline === true) textNode.style.textDecoration = 'underline';
+        if (typeof format.color === 'string' && /^#[0-9a-f]{6}$/i.test(format.color))
+          textNode.style.color = format.color;
+      }
+      container.append(textNode);
     } else if (block.type === 'image') {
       const img = el('img'); img.alt = block.alt || 'Ilustracja do fiszki';
       img.src = new URL(block.src, state.lessonUrl).href;
@@ -350,6 +579,32 @@ function buildOptions(card, cards) {
   if (options.length < 3) return [];
   return shuffled([correct, ...options]);
 }
+// Dla odwróconego ABCD proponujemy oryginalne pytania jako odpowiedzi.
+// Dzięki temu działają również zestawy zdjęć, symboli i wzorów.
+function questionSignature(card) {
+  return JSON.stringify((card.question || []).map(block => {
+    if (block.type === 'text') return ['text', block.text];
+    if (block.type === 'image') return ['image', block.src];
+    if (block.type === 'formula') return ['formula', block.latex];
+    return [block.type];
+  }));
+}
+function buildReverseChoices(card, cards) {
+  const current = questionSignature(card);
+  const unique = new Map();
+  for (const candidate of shuffled(cards)) {
+    const signature = questionSignature(candidate);
+    if (signature !== current && !unique.has(signature)) unique.set(signature, candidate);
+  }
+  const alternatives = [...unique.values()].slice(0, 3);
+  return alternatives.length === 3 ? shuffled([card, ...alternatives]) : [];
+}
+function questionBlocks(card) {
+  return state.reversed && ['self_assess', 'abcd'].includes(state.mode) ? card.answer : card.question;
+}
+function answerBlocks(card) {
+  return state.reversed && ['self_assess', 'abcd'].includes(state.mode) ? card.question : card.answer;
+}
 function renderCard() {
   state.locked = false;
   const question = $('question-panel'), interaction = $('interaction-panel');
@@ -360,7 +615,7 @@ function renderCard() {
   const card = state.round[state.index];
   if (!card) return finishSession();
   renderHeader(); // Odśwież WAŻNE! po każdym przejściu do następnej/poprzedniej karty.
-  renderBlocks(question, card.question);
+  renderBlocks(question, questionBlocks(card));
   const selfMode = state.mode === 'self_assess' || state.mode === 'review';
   const sideButtons = state.mode === 'self_assess';
   $('wrong-btn').classList.toggle('hidden', !sideButtons);
@@ -368,7 +623,9 @@ function renderCard() {
   $('workspace').classList.toggle('no-sides', !sideButtons);
   $('workspace').classList.toggle('learn-mode', state.mode === 'learn');
   $('workspace').classList.toggle('self-assess-mode', state.mode === 'self_assess');
+  $('workspace').classList.toggle('reversed-mode', state.reversed && state.mode === 'self_assess');
   $('workspace').classList.toggle('review-mode', state.mode === 'review');
+  $('workspace').classList.toggle('abcd-mode', state.mode === 'abcd');
   $('workspace').classList.remove('review-revealed');
   if (selfMode) {
     interaction.append(el('div', 'Kliknij pytanie albo użyj ↑ / ↓, żeby zobaczyć odpowiedź.', 'muted'));
@@ -380,14 +637,32 @@ function renderCard() {
     question.onclick = null; interaction.onclick = null;
   }
   if (state.mode === 'abcd') {
-    const choices = buildOptions(card, state.lesson.cards);
     const wrap = el('div', null, 'answer-options');
-    choices.forEach((choice, index) => {
-      const btn = el('button', `${'ABCD'[index]}. ${choice}`, 'option');
-      btn.type = 'button';
-      btn.addEventListener('click', () => selectChoice(choice, btn, wrap));
-      wrap.append(btn);
-    });
+    if (state.reversed) {
+      const choices = buildReverseChoices(card, state.lesson.cards);
+      const correctSignature = questionSignature(card);
+      choices.forEach((choice, index) => {
+        const btn = el('button', null, 'option option-reverse');
+        btn.type = 'button';
+        const label = el('span', `${'ABCD'[index]}.`, 'choice-letter');
+        const content = el('div', null, 'reverse-choice-content');
+        renderBlocks(content, choice.question);
+        btn.append(label, content);
+        const signature = questionSignature(choice);
+        btn.addEventListener('click', () => selectChoice(signature, btn, wrap, correctSignature));
+        btn.dataset.choiceKey = signature;
+        wrap.append(btn);
+      });
+    } else {
+      const choices = buildOptions(card, state.lesson.cards);
+      choices.forEach((choice, index) => {
+        const btn = el('button', `${'ABCD'[index]}. ${choice}`, 'option');
+        btn.type = 'button';
+        btn.dataset.choiceKey = choice;
+        btn.addEventListener('click', () => selectChoice(choice, btn, wrap));
+        wrap.append(btn);
+      });
+    }
     interaction.append(wrap);
   }
   if (state.mode === 'learn') {
@@ -410,7 +685,7 @@ function revealAnswer() {
   // Po odsłonięciu odpowiedzi kliknięcie jej treści nie odrysowuje widoku.
   panel.onclick = null;
   const answer = el('div',null,'answer-card');
-  renderBlocks(answer,state.round[state.index].answer);
+  renderBlocks(answer, answerBlocks(state.round[state.index]));
   panel.append(answer);
 }
 function mark(known) {
@@ -425,12 +700,11 @@ function mark(known) {
   }
   renderCard();
 }
-function selectChoice(choice, selected, wrap) {
+function selectChoice(choice, selected, wrap, correct = flashcardCorrect(state.round[state.index])) {
   if (state.locked) return;
   state.locked = true;
-  const correct = flashcardCorrect(state.round[state.index]);
   for (const btn of wrap.children) {
-    const label = btn.textContent.substring(3);
+    const label = btn.dataset.choiceKey;
     if (label === correct) btn.classList.add('good');
     if (btn === selected && choice !== correct) btn.classList.add('bad');
     btn.disabled = true;
@@ -445,30 +719,40 @@ function finishSession() {
   state.finished = true;
   hideFooterActions();
   $('workspace').classList.add('no-sides');
-  $('workspace').classList.remove('learn-mode', 'review-revealed', 'review-mode', 'self-assess-mode');
+  $('workspace').classList.remove('learn-mode', 'review-revealed', 'review-mode', 'self-assess-mode', 'abcd-mode', 'reversed-mode');
   $('wrong-btn').classList.add('hidden'); $('correct-btn').classList.add('hidden');
   const question=$('question-panel'),panel=$('interaction-panel');clear(question);clear(panel);
   question.onclick=null; panel.onclick=null;
   question.removeAttribute('tabindex'); question.removeAttribute('role'); question.removeAttribute('aria-label');
   question.append(el('div','✓','finish-mark'),el('h2',state.mode==='learn'?'Ukończono naukę!':'Wszystkie fiszki zaliczone!'));
   // Po zakończeniu wracamy do listy lekcji w bieżącym folderze, nie do wyboru trybu.
-  const back=el('button','Wybór lekcji','primary');back.type='button';back.onclick=showMenu;
+  const back=el('button','Wybór lekcji','primary');back.type='button';back.onclick=goToLessonList;
   panel.append(back);
   setProgress('Zakończono',1);
   renderHeader();
 }
 function back() {
   stopPending();
-  if (!$('session-view').classList.contains('hidden')) {
-    // W zakończonej sesji także przycisk Wstecz prowadzi do listy lekcji.
-    if (state.finished) showMenu();
-    else showSetup();
-    return;
+  // History API zapewnia identyczną ścieżkę dla przycisku i gestu telefonu.
+  if (currentScreen() === 'session' && state.finished) { goToLessonList(); return; }
+  if (history.state?.fiszkiV2 && history.state.depth > 0) {
+    history.back(); return;
   }
-  if (!$('setup-view').classList.contains('hidden')) {showMenu();return;}
-  if (state.path.length) {state.path.pop();showMenu();}
+  // Awaryjne cofanie przy zablokowanej historii przeglądarki.
+  if (currentScreen() === 'session') {
+    if (state.directSession) showMenu();
+    else showSetup();
+  }
+  else if (currentScreen() === 'setup') showMenu();
+  else if (state.path.length) { state.path.pop(); showMenu(); }
 }
-function home() {stopPending();state.path=[];showMenu();}
+function home() {
+  stopPending();
+  if (currentScreen() === 'menu' && !state.path.length) return;
+  state.path = [];
+  showMenu();
+  recordRoute('menu');
+}
 function animate(button) {
   button.classList.add('pressed');setTimeout(()=>button.classList.remove('pressed'),100);
 }
@@ -507,6 +791,7 @@ $('home-btn').addEventListener('click',home);
     const resp=await fetch('./data/menu.json',{cache:'no-store'});
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     state.catalog=await resp.json();
-    showMenu();
+    if (history.state?.fiszkiV2) void restoreRoute(history.state);
+    else { showMenu(); recordRoute('menu', true); }
   } catch(err) {console.error(err);error(`Nie można odczytać menu.json: ${err.message}. Uruchom aplikację przez serwer HTTP.`);}
 })();

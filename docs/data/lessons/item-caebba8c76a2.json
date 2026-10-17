@@ -510,7 +510,8 @@
         {
           "type": "image",
           "src": "../assets/editor/item-caebba8c76a2/c484455f5716409495.png",
-          "alt": "RCD.png"
+          "alt": "RCD.png",
+          "remove_white_background": false
         },
         {
           "type": "image",
@@ -518,6 +519,25 @@
           "alt": "RCD 2.png"
         }
       ]
+    },
+    {
+      "id": "card-38898371-de6b-44c1-b88d-d2c747c7c46f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Upłynność"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "inaczej zwarcie lini fazowej L do ochronnej PN"
+        }
+      ],
+      "important": true
     }
+  ],
+  "available_modes": [
+    "learn"
   ]
 }

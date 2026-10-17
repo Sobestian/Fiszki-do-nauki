@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "id": "item-d0029eb97f43",
+  "title": "Wstęp do elektryki cz2",
+  "cards": [
+    {
+      "id": "card-79794dc26ce24c2e",
+      "question": [
+        {
+          "type": "text",
+          "text": "Porównanie wkrętów i bitów "
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/9553f0362b55482382.png",
+          "alt": "Zrzut ekranu_20261017_143156.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-12c60f42-256f-4456-b037-ee3cde2cbf60",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rodzaje brzeszczotów"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/30f7577521db4108a4.png",
+          "alt": "brzeszczot.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-1ce59489-829e-4f03-bebb-d7433b59b53b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rodzaje kołków montażowych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/5968371569da403bac.png",
+          "alt": "kolek.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-e06cf41e-a699-4d7d-8cf3-abc896bdbf9d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Tabliczki znamionowe silników elektrycznych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/0a63f03913b74baaa5.png",
+          "alt": "tab1.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/756d65f13e914931bd.png",
+          "alt": "tab2.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-6b8ec72b-4c0d-450a-b721-75069e0e0964",
+      "question": [
+        {
+          "type": "text",
+          "text": "Silnik elektryczny jednofazowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/ec52611869054e3aaf.png",
+          "alt": "jedno2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/74cf64d78d4a40918a.png",
+          "alt": "jedno.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-05d182ae-7bd1-4ce2-b89e-b80790629e94",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wyłącznik silnikowy 3-fazowy "
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/600594e9d8e64e01b0.png",
+          "alt": "wyl3f.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ad5d360c-ee63-4151-88f1-c638f66fd4bb",
+      "question": [
+        {
+          "type": "text",
+          "text": "Kod paskowy oznaczeń rezystorów"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/e6e3ddaeb4254111a2.png",
+          "alt": "rezyst.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/c191ec960880424086.png",
+          "alt": "rezyst2.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-204431a9-5a63-462d-9b29-b2a836db4a4a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Kondensator elektrolityczny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/763601c89a69490ba4.png",
+          "alt": "kond.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/df5566957e564896a0.png",
+          "alt": "kond2.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-c2cc6479-3391-473b-b156-230dc7f6d52d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Montaż na płytkach PCB"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/ca8bebc536f24c5097.png",
+          "alt": "pcb.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/f55b692450d14ea4b8.png",
+          "alt": "pcb2.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-2e6614fb-42c0-43df-b671-648477d79934",
+      "question": [
+        {
+          "type": "text",
+          "text": "Sprzęt do lutowania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/89f335f4b7ef47bfbc.png",
+          "alt": "lut1.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/67fad19bce87483895.png",
+          "alt": "lut2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/41b22bdc2b4641b5bf.png",
+          "alt": "lut3.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-4839b6b6-c01b-4a9b-b04b-7acb7fbddfe4",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prawidłowe lutowanie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/833396cfa21d412082.png",
+          "alt": "prlut2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/feae3a0e20884a42b8.png",
+          "alt": "prlut.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-9abbd0d0-b7d9-4ba2-9352-2bd93f77444c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Kalafonia do lutowania / pasta lutownicza / cyna "
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Nowa odpowiedź"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/8c422099cdac442b9d.png",
+          "alt": "kal1.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/57eb4b9bfc36419c96.png",
+          "alt": "kal 2.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-fb237282-6a37-40d3-a65c-1aece8b70e86",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rodzaje płytek PCB"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/2954bbd53db8453ab2.png",
+          "alt": "pcbrodz.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-b76286e2-085e-4e5e-a3d0-6729a6c6b1e8",
+      "question": [
+        {
+          "type": "text",
+          "text": "Bramki logiczne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Nowa odpowiedź"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/5a4e7b0eda93425d84.png",
+          "alt": "logic1.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/50eab0bfd83e49d186.png",
+          "alt": "logic2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/eb24e5f276c9465c92.png",
+          "alt": "logic3.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-d0029eb97f43/e03e3a491d7b4adcb8.png",
+          "alt": "logic4.png",
+          "remove_white_background": false
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

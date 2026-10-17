@@ -1,22 +1,509 @@
 {
   "schema_version": 1,
   "id": "item-ab93e2602256",
-  "title": "MiUE cz5 - w przygotowaniu",
+  "title": "MiUE cz5",
   "cards": [
     {
       "id": "card-e387a49bc26a4b03",
       "question": [
         {
           "type": "text",
-          "text": "Nowe pytanie"
+          "text": "Techniki świetlne"
         }
       ],
       "answer": [
         {
           "type": "text",
-          "text": "Nowa odpowiedź"
+          "text": "Do podstawowych działów techniki świetlnej zalicza się: \n1) Fotometrię – obejmującą pomiary światła, na podstawie których określa się wartości podstawowych wielkości i wielu wskaźników charakteryzujących źródła światła, oprawy oświetleniowe oraz cechy wytworzonego oświetlenia; \n2) Kolorymetrię – określającą na podstawie pomiarów i obliczeń; barwy światła, cechy źródeł światła, a także cechy oświetlenia; \n3) Technikę oświetlenia – wskazującą sposoby stosowania światła w celu oświetlenia. W zależności od miejsca stosowania światła oraz od rodzaju światła wyróżnia się: \n    a) oświetlenie wnętrz światłem naturalnym; \n    b) oświetlenie wnętrz światłem sztucznym (elektrycznym); \n    c) oświetlenie dróg i ulic światłem elektrycznym; \n    d) oświetlenie wynikające ze specyfiki wymagań i rozwiązań oświetlenia, np. oświetlenie mieszkań, pomieszczeń medycznych, teatrów, studiów TV itp.; \n4) Źródła światła – charakteryzujące się różnymi rozwiązaniami konstrukcyjnymi, technologicznymi oraz eksploatacyjnymi. Występują w postaci: żarówek, świetlówek, źródeł światła LED, a także sprzętu pomocniczego i uzupełniającego zapłon i świecenie źródeł; \n5) Oprawy oświetleniowe – wyróżniające się wieloma rodzajami o różnych rozwiązaniach konstrukcyjnych i technologicznych, dotyczących rozsyłu światła w powietrzu oraz praktycznego przyłączania źródeł do sieci zasilającej."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-3ae57494-4532-4257-862e-d8635bb70589",
+      "question": [
+        {
+          "type": "text",
+          "text": "Strumień świetlny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\Phi "
+        },
+        {
+          "type": "formula",
+          "latex": "[\\Phi] = lm"
+        },
+        {
+          "type": "text",
+          "text": "strumień świetlny - ile światła emituje źródło.\nJednostka: lumen [lm]."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-de6b3030-735f-4dd0-916a-a3b0dd28c1e9",
+      "question": [
+        {
+          "type": "text",
+          "text": "Światłość"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "I"
+        },
+        {
+          "type": "text",
+          "text": "Światłość — jak mocno źródło wysyła światło w określonym kierunku.\nJednostka: kandela [cd]."
+        },
+        {
+          "type": "formula",
+          "latex": "[I] = cd"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/bb2a09565a5f493bbf.png",
+          "alt": "światłosć.png",
+          "remove_white_background": true
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-0b709b89-0a29-4cb8-82bd-280a49735802",
+      "question": [
+        {
+          "type": "text",
+          "text": "Natężenie oświetlenia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "E = \\frac{\\Phi}{S}"
+        },
+        {
+          "type": "formula",
+          "latex": "[E] = \\frac{[\\Phi]}{[S]} = \\frac{[lm]}{[m^{2}]} = lx"
+        },
+        {
+          "type": "text",
+          "text": "Natężenie oświetlenia — ile strumienia świetlnego pada na daną powierzchnię."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/696afbc5788a49ecb1.png",
+          "alt": "osw.png",
+          "remove_white_background": true
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-58e0a1ec-8d1e-4a0e-8bc9-23bd1cef2299",
+      "question": [
+        {
+          "type": "text",
+          "text": "Luminacja"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "L"
+        },
+        {
+          "type": "text",
+          "text": "w uproszczeniu: jak „jasna” wydaje się obserwowana powierzchnia w konkretnym kierunku.\nJednostka: cd/m²."
+        },
+        {
+          "type": "formula",
+          "latex": "[L] = cd/m^{2}"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-2b1354aa-6719-4937-88de-6584d490f8fa",
+      "question": [
+        {
+          "type": "text",
+          "text": "Skuteczność świetlna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\eta = \\frac{\\phi}{P}"
+        },
+        {
+          "type": "formula",
+          "latex": "[\\eta] = \\frac{[\\phi]}{[P]} = \\frac{lm}{W} = lm/W"
+        },
+        {
+          "type": "text",
+          "text": "Skuteczność świetlna — ile światła dostajemy z jednego wata.\nJednostka lm/W"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-c2053e37-1d19-4081-b468-39bb05d6cb88",
+      "question": [
+        {
+          "type": "text",
+          "text": "Temperatura barwowa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Temperatura barwowa [K] określa wygląd barwy białego światła.\nW materiale przyjęto mniej więcej:\n- ciepła — poniżej 3000 K,\n- pośrednia — około 3300–5300 K,\n- zimna — powyżej 5300 K.\n\nRa — wskaźnik oddawania barw.\n\nIm wyższy Ra, tym wierniej oświetlone przedmioty zachowują swoje naturalne kolory. Maksimum wynosi 100, a materiał wskazuje ≥80 jako poziom zalecany dla wnętrz, w których ludzie długo przebywają."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-ea08a1ad-abbe-445c-b691-e879bfa38004",
+      "question": [
+        {
+          "type": "text",
+          "text": "Widmo"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Światło widzialne jest fragmentem promieniowania elektromagnetycznego o długości fali około 380–780 nm."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/4500614833a44165b9.png",
+          "alt": "promieniowanie.png",
+          "remove_white_background": false
         }
       ]
+    },
+    {
+      "id": "card-c1acb0a7-ab78-4da1-910a-2271140c74c2",
+      "question": [
+        {
+          "type": "text",
+          "text": "Radiometria"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "mierzy fizyczną energię promieniowania, a fotometria opisuje światło z uwzględnieniem czułości ludzkiego wzroku."
+        }
+      ]
+    },
+    {
+      "id": "card-28eb4346-1e28-4407-84dd-dbf11bd74b3b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Olśnienie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zbyt jaskrawe źródło lub niewłaściwy rozkład jasności powoduje dyskomfort albo pogorszenie widzenia. Dokument rozróżnia olśnienie przykre i przeszkadzające.\n\nOlśnienie bezpośrednie - patrzymy w stronę jasnego źródła\n\nOlśnienie odbiciowe - światło odbija się np. od powierzchni roboczej czy monitora\n\nMigotanie/tętnienie światła wynika ze zmian strumienia świetlnego w czasie.\n\nEfekt stroboskopowy - wirujący lub poruszający się element może wyglądać jak nieruchomy albo poruszający się inaczej, niż rzeczywiście się porusza."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-7be5007c-effd-4979-bdee-28d6d7ffa257",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wymagania oświetleniowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Oceniamy:\nnatężenie oświetlenia, równomierność, luminancję, kierunek światła, olśnienie, oddawanie barw oraz migotanie."
+        }
+      ]
+    },
+    {
+      "id": "card-309b0ea1-ca10-49a0-9da4-49469b51e482",
+      "question": [
+        {
+          "type": "text",
+          "text": "Stanowisko komputerowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dla stanowiska: \n- 500 lx\n- ograniczenie odbić na ekranie\n- olśnienie\n- źle ustawione oprawy - światło nie powinno utrudniać obserwowanie monitora"
+        }
+      ]
+    },
+    {
+      "id": "card-533b6a4b-401a-4ba0-953b-e20f2954d0a7",
+      "question": [
+        {
+          "type": "text",
+          "text": "Krzywa fotopowa i czułość skotopowa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Krzywą odpowiadającą adaptacji do warunków jasności Vλ nazywa się krzywą fotopową, a krzywą odpowiadającą adaptacji do warunków ciemności V’λ – czułością skotopową."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/2969ff998da84e998e.png",
+          "alt": "fotopowa.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-8f979625-1a72-4e6e-92b2-7c303898d349",
+      "question": [
+        {
+          "type": "text",
+          "text": "Podział elektrycznych źródeł światła"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "W zależności od zasady działania elektryczne źródła światła dzieli się na trzy kategorie: \ninkandescencyjne (temperaturowe), w których wykorzystano zjawisko świecenia ciał stałych, podgrzanych prądem elektrycznym do odpowiednio wysokiej temperatury. Do tej grupy źródeł światła zalicza się między innymi żarówki i lampy łukowe\n\nluminescencyjne; elektroluminescencyjne, w których wykorzystano zjawiska świetlne towarzyszące przepływowi prądu elektrycznego w gazach. Do tej grupy źródeł światła należy zaliczyć lampy wyładowcze np. rtęciowe i sodowe; \n\nfotoluminescencyjne, w których wykorzystuje się przetwarzanie promieniowania w luminoforach, są to np. świetlówki."
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-db9a421d-c904-4cc3-b91d-06dd0b5ff352",
+      "question": [
+        {
+          "type": "text",
+          "text": "Żarówki halogenowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Żarówki halogenowe wykonywane są przede wszystkim na niskie napięcie (12V, 24 V), aby przy małych wymiarach bańki istniała możliwość inicjowania regeneracyjnego cyklu halogenowego. Do źródeł światła dopuszczonych do stosowania, które są zamiennikami klasycznych żarówek, można zaliczyć: żarówki halogenowe: a) na napięcie sieciowe 230 V (Rys. 3), b) z kapsułką niskonapięciową 6 – 12 V)"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/ca5b846fe71a4c2c9c.png",
+          "alt": "halogen.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-7c7450f8-9c24-49bd-8ed6-5eebd94f577c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Świetlówki kompaktowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/68605df2fd6d488586.png",
+          "alt": "swietlowki.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-8cdc2bba-33e7-43ee-87ab-a2b59096154c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Źródła światła LED"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/bb7c610b3bd844b6ba.png",
+          "alt": "led.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/c959187b73174d5bb6.png",
+          "alt": "halogen led.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/e5d8a74be51b450c8d.png",
+          "alt": "LED 2.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ca4734d1-281b-4789-a01d-c290e976dd9c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rodzaje oprawek"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/206caca01bef4cd887.png",
+          "alt": "oprawki 2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/3efe604a4ba747bba4.png",
+          "alt": "oprawki 3.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-051e3456-ad9e-4fd9-aff0-a145fef72063",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykładowe pytanie 1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/c243b176be744c44b0.png",
+          "alt": "pyt1.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-36e771f6-8002-47e5-9828-a82454893807",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykładowe pytanie 2"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/1a80f3525cd047f4ae.png",
+          "alt": "pyt 2.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-af636ae6-b03c-494e-88fd-e06937631e3b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykładowe pytanie 3"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/b88ed31cdba24434b8.png",
+          "alt": "pyt 3.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-d755d038-a728-4566-8c95-12ec66f41d72",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykładowe pytanie 4"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/3b8cd3e00da24d9eb6.png",
+          "alt": "pyt4.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-9c918d06-615e-4adb-8953-37cad9f95346",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykładowe pytanie 5"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/2c6b6b83c71c405d84.png",
+          "alt": "pyt 5.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-d967ebd7-ddf5-41ad-acd3-0c36fc070756",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykładowe pytanie 6"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-ab93e2602256/d752d09353da4f26a5.png",
+          "alt": "pyt6.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-2e2854e7-7da4-41a4-925c-2804bdddc1c1",
+      "question": [
+        {
+          "type": "text",
+          "text": "Podstawowe parametry lampy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "moc: P [W]\n\nstrumień świetlny: Φ [lm]\n\nskuteczność: η [lm/W]\n\ntemperatura barwowa: Tc [K]"
+        }
+      ],
+      "important": true
     }
+  ],
+  "available_modes": [
+    "learn"
   ]
 }

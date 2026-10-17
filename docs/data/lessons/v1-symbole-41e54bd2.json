@@ -4183,5 +4183,6 @@
         "correct": "świetlówka (symbol ogólny)"
       }
     }
-  ]
+  ],
+  "allow_reversed": true
 }

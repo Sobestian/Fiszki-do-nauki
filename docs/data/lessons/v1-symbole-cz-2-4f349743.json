@@ -1048,5 +1048,6 @@
         "correct": "uzwojenie otwarte"
       }
     }
-  ]
+  ],
+  "allow_reversed": true
 }

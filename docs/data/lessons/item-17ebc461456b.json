@@ -1,0 +1,851 @@
+{
+  "schema_version": 1,
+  "id": "item-17ebc461456b",
+  "title": "MiUE cz6",
+  "cards": [
+    {
+      "id": "card-92c42b5ff4744d9f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Elektryczne źródło światła"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Podstawowym zadaniem elektrycznych źródeł światła jest generowanie promienia widzialnego o właściwej charakterystyce widmowej. Jednak emitują one także pole elektryczne i magnetyczne o zróżnicowanej charakterystyce częstotliwościowej i poziomach, jak również są źródłami promieniowania optycznego, które może być szkodliwe dla zdrowia.\n\nEnergooszczędne źródła światła mogą być jednak źródłem promieniowania elektromagnetycznego: zarówno pól elektromagnetycznych, promieniowania podczerwonego, widzialnego oraz nadfioletowego, które jest niepożądane. Może ono mieć negatywny wpływ na stan zdrowia człowieka oraz na funkcjonowanie urządzeń elektronicznych - zależnie od parametrów amplitudowo – częstotliwościowych natężenia składowych tego promieniowania. Również promieniowanie widzialne o nieodpowiednich parametrach może mieć niekorzystny wpływ na stan zdrowia i zdolność do pracy."
+        },
+        {
+          "type": "text",
+          "text": "Dyrektywą 2005/32/WE Unia Europejska nakazała wycofanie z rynku tradycyjnych żarówek o mocy powyżej 7 W",
+          "format": {
+            "align": "center",
+            "bold": true,
+            "color": "#e01b24"
+          }
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-16c130c8-a10f-4476-9067-8d94f8550fa6",
+      "question": [
+        {
+          "type": "text",
+          "text": "Żarówka"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Elementem świecącym jest żarnik ze stopu wolframowego, który pod wpływem przepływającego prądu elektrycznego nagrzewa się do 2800 OC, powodując żarzenie. Ok. 5% tej energii zostaje przeznaczone na światło widzialne, reszta zaś jest tracona w emisji ciepła przez promieniowanie, konwekcję i przewodność – stąd jej energochłonność. Powierzchnie zewnętrzne żarówek, zależnie od położenia pracy, osiągają temperatury od 65 nawet do 260 OC dla żarówki o mocy 100 W, a żarówek halogenowych 12 V jeszcze większe"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/b081e7dca81f42beb2.png",
+          "alt": "zarowka.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-9d9a0d32-c982-4190-b546-4d11f612f7a5",
+      "question": [
+        {
+          "type": "text",
+          "text": "Żarówki halogenowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Pomysł odwracalnego cyklu halogenowego został praktycznie zastosowany w 1959 r. Żarówki halogenowe posiadają żarnik wolframowy, są wypełnione gazem szlachetnym z niewielką ilością halogenu, który regeneruje żarnik, przeciwdziałając jego rozpylaniu, a tym samym ciemnieniu bańki od wewnętrznej strony. Żarówki te cechuje bardzo dobre oddawanie barw – wskaźnik Ra wynosi 98-100, ponadto osiągają do 25% wyższą skuteczność świetlną oraz 2-3 razy większą trwałość od tradycyjnych żarówek, zużywając przy tym do 30% mniej energii elektrycznej. \n    Do wypełnienia żarówek (azot, argon, krypton) dodaje się śladowe ilości pierwiastków chemicznych z grupy halogenów (np. jod, brom), dzięki którym inicjowany jest tzw. halogenowy cykl regeneracyjny.\n    Parujący ze skrętki wolfram łączy się z halogenem tworząc cząsteczki halogenków wolframu, które w przeciwieństwie do wolframu nie osadzają się na ściankach bańki a pozostają w formie gazowej. Warunkiem, aby nie następowała kondensacja jest odpowiednio wysoka temperatura ścianki bańki (>250oC). Dlatego do produkcji żarówek halogenowych używane jest szkło kwarcowe, które wytrzymuje takie temperatury oraz pozwala na równoczesne zmniejszenie gabarytów źródła światła. \n    Prowadzone prace w dziedzinie technologii materiałowej doprowadziły do uzyskania technologii powłok interferencyjnych mających właściwości odbijania promieniowania podczerwonego."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/10365b7177524e4ea4.png",
+          "alt": "halogen.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-0ec59d2c-34d5-4f49-a5d8-333bee6491de",
+      "question": [
+        {
+          "type": "text",
+          "text": "Świetlówki kompaktowe zintegrowane"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Pierwsze odmiany świetlówek kompaktowych wiernie imitowały kształt żarówek. Następnie powstały się liczne odmiany, również o innych kształtach. \n    Strumień świetlny w świetlówkach kompaktowych powstaje dzięki przetwarzaniu przez warstwę luminoforu promieniowania nadfioletowego na promieniowanie widzialne o zadanym rozkładzie widmowym. Różnorodność kształtu, wymiarów i wartości emitowanego strumienia świetlnego świetlówek kompaktowych stwarza szerokie możliwość ich wyboru. Zaletą świetlówek kompaktowych jest ich ok. pięciokrotnie mniejsze zużycie energii elektrycznej oraz nawet do piętnastu razy większa trwałość niż żarówek tradycyjnych. Mogą również emitować światło o temperaturze barwowej rzędu 2700 – 3000 K, czyli zbliżone do barwy światła żarówek. Wskaźnik oddawania barw jest na poziomie Ra ≥ 80. \n    Jednak większość powszechnie dostępnych świetlówek kompaktowych wymaga po ich włączeniu aż kilkudziesięciu sekund na uzyskanie pełnego strumienia świetlnego."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/c274890fbb7448f49e.png",
+          "alt": "kompaktowe.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ead9bc07-2e04-46e0-bca6-b8cad195e0c6",
+      "question": [
+        {
+          "type": "text",
+          "text": "LED"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Diody elektroluminescencyjne LED (lighting emited diode) są półprzewodnikowymi źródłami światła, emitującymi promieniowanie optyczne na zupełnie innej zasadzie niż konwencjonalne źródła. LED składa się z dwóch różnych bezpośrednio połączonych ze sobą półprzewodników, charakteryzujących się różnym typem przewodnictwa. Dołączenie do złącza p-n napięcia stałego, polaryzującego go w kierunku przewodzenia, wymusza ruch nośników prądu elektrycznego. W zależności od rodzaju materiału półprzewodnika jest emitowane promieniowanie o określonej długości fali. Diody LED wytwarzają promieniowanie w bardzo wąskim zakresie widma o szerokości nieprzekraczającej kilkunastu nanometrów, co oznacza, że w praktyce są źródłami światła monochromatycznego. Światło białe jest wrażeniem wzrokowym, które odczuwa człowiek w wyniku pobudzenia siatkówki oka światłem o widmie pasmowym o częstotliwościach odpowiadających wrażliwości komórek oka dla całego zakresu promieniowania widzialnego. W dostępnych na rynku oprawach LED najczęściej stosowane są diody o mocy od 1 do 5W, a zależnie od rodzaju użytej soczewki kąt świecenia może wynosić od 10 do 160 stopni, co umożliwia praktycznie dowolną aranżację świetlną wnętrz."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/c8751ba755024d5eba.png",
+          "alt": "led.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-b0418db6-f3f1-4f91-a2bb-8b21c0247677",
+      "question": [
+        {
+          "type": "text",
+          "text": "Lampy wyładowcze"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Lampy wyładowcze to cała paleta lamp składającą się z lamp metalohalogenkowych oraz sodowych nisko i wysokoprężnych, a każde z tych źródeł cechuje się innymi parametrami oświetleniowymi oraz użytkowymi. Do wytwarzania światła wykorzystują zjawisko luminescencji. Spośród różnych odmian tego zjawiska w lampach elektrycznych są wykorzystywane dwie: elektroluminescencja i fotoluminescencja. Produkowane są lampy nisko i wysokoprężne (HID). Pierwsze z nich mają ciśnienie cząstkowe głównego składnika atmosfery wypełniającej jarznik rzędu 1 Pa, drugie na ogół rzędu 105÷107 Pa. Zależnie od ośrodka, w którym następuje wyładowanie, lampy dzielone są na poszczególne kategorie: wysokoprężne lampy rtęciowe, wysokoprężne lampy sodowe oraz wysokoprężne lampy metalohalogenkowe.\n\nLampy tego typu stosowane były głównie w oświetleniu zewnętrznym miejskim do oświetlenia drogowego, w oświetleniu terenów zielonych, czy obiektów sportowych oraz we wnętrzach, jako oświetlenie obiektów przemysłowych, galerii handlowych i w oświetleniu sklepowym.\n\nLampy te mają bardzo wysoki strumień świetlny nawet do 200 tys. lm, wysoką skuteczność świetlną aż do 150 lm/W, wysoki współczynnik oddawania barw nawet Ra = 93 oraz trwałość dochodzącą do 55 tysięcy godzin. Jednak lampy wyładowcze, a szczególnie ich zasilacze, czy układy zapłonowo-stabilizujące, generują zakłócenia elektromagnetyczne (EMI) i mogą wymagać filtrów przeciwzakłóceniowych, ekranowania lub innych środków zapobiegawczych ."
+        },
+        {
+          "type": "text",
+          "text": "Zużyte lampy wyładowcze powinny być poddawane recyklingowi w\nodpowiednich zakładach.",
+          "format": {
+            "align": "center",
+            "bold": true,
+            "color": "#ed333b"
+          }
+        }
+      ]
+    },
+    {
+      "id": "card-113d6f18-1654-4b18-9cb2-ca6536df921c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Żarówki indukcyjne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zjawisko, w którym środowisko wyładowcze jest pobudzane do emisji promieniowania przez działanie pola elektromagnetycznego o częstotliwości radiowej lub mikrofalowej, wytwarzanego przez wzbudnik w postaci cewki, nazywane jest światłem indukcyjnym. Lampy indukcyjne nie posiadają wewnątrz naczynia wyładowczego elektrod, przez co uzyskują znacznie wyższą trwałość od lamp o klasycznej konstrukcji. Zasada ich pracy jest podobna do świetlówek, różni się natomiast sposobem pobudzania środowiska wyładowczego. Podobnie jak źródła światła fluorescencyjne, w większości generują wyładowanie UV w środowisku wyładowczym składającym się z gazów szlachetnych i rtęci. Następnie jest ono transformowane na obszar widzialny widma za pomocą luminoforu naniesionego na bańkę zewnętrzną. Jonizacja gazów w rurce wyładowczej uzyskiwana jest w procesie indukcji elektromagnetycznej pola wysokiej częstotliwości.\n\nDziałanie opiera się na dwóch zjawiskach: \n• indukcji elektromagnetyczna w bańce lampy, \n• promieniowaniu w parach rtęci o niskim ciśnieniu.\n\nPromieniowanie UV wytwarzane jest przez pole magnetyczne uzyskiwane dzięki odpowiedniemu skonstruowaniu cewek zasilanych elektronicznym układem zasilającym pracującym w wysokiej częstotliwości. Żarówki takie stosowane są do oświetlenia wewnętrznego i zewnętrznego tam, gdzie jest szczególnie utrudniona i kosztowna wymiana lamp, a oświetlenie powinno być niezawodne (np. wysokie maszty i kominy)."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/c44a66dc7cbc43da89.png",
+          "alt": "indukcyjne.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-dae0763e-b7f2-47ed-bad7-77980114651b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wymagania dotyczące parametrów użytkowych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Do parametrów użytkowych źródeł światła należą: moc źródła [W], strumień świetlny [lm], skuteczność świetlna [lm/W], trwałość [h], temperatura barwowa [K] oraz wskaźnik oddawania barw Ra (CRI). Można tu również zaliczyć klasę efektywności energetycznej (od A do G)."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/13b9a133a8af4a028d.png",
+          "alt": "wymagania.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-fa20e476-8805-4698-a838-3b064915ce73",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie awaryjne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Instalacje oświetlenia awaryjnego powinny być projektowane we wszystkich obiektach budowlanych, w których zanik napięcia w elektrycznej sieci zasilającej może spowodować zagrożenie życia lub zdrowia ludzi, poważne zagrożenie środowiska, a także znaczne straty materialne.\n\nOświetlenie awaryjne jest przewidziane do stosowania podczas zaniku zasilania opraw oświetlenia podstawowego. Z tego względu oprawy oświetlenia awaryjnego muszą być zasilane z niezależnego źródła zasilania."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/6a5be2f51dd742b0bf.png",
+          "alt": "awaryjne.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/579aa475b6234dea81.png",
+          "alt": "awaryjne2.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-74bcd485-635b-4eae-bac7-7e9817c52f1c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zastosowanie oświetlenia awaryjnego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "1. W pomieszczeniach: \n    a. widowni kin, teatrów i filharmonii oraz innych sal widowiskowych, \n    b. audytoriów, sal konferencyjnych, lokali rozrywkowych oraz sal sportowych przeznaczonych dla ponad 200 osób, \n    c. wystawowych w muzeach, \n    d. o powierzchni ponad 1 000 m2 w garażach oświetlonych wyłącznie światłem sztucznym.\n\n2. Na drogach ewakuacyjnych: \n    a. z pomieszczeń wymienionych w pkt 1, \n    b. oświetlonych wyłącznie światłem sztucznym, \n    c. w szpitalach i innych budynkach przeznaczonych przede wszystkim do pobytu ludzi o ograniczonej zdolności poruszania się, \n    d. w wysokich i wysokościowych budynkach użyteczności publicznej i zamieszkania zbiorowego.\n\n3. W budynkach tymczasowych, jeżeli są przeznaczone na cele widowiskowe lub inne z gromadzenia ludzi. \n\n4. W pomieszczeniach z obudową pneumatyczną, jeżeli mają być wykorzystywane jako tymczasowe budynki PM (produkcyjne i magazynowe) o gęstości obciążenia ogniowego strefy pożarowej do 1000 MJ/m². \n\n5. W tymczasowych budynkach typu namiotowego przeznaczonych do celów widowiskowych. \n\n6. W pomieszczeniach dyspozytorni, technicznych pomieszczeniach tłoczni gazu (oraz na terenie tłoczni)."
+        }
+      ]
+    },
+    {
+      "id": "card-72b63f50-b224-4f63-bf6f-3dece909238f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Norma oświetlenia awaryjnego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "PN-EN 1838 i PN-EN 50 172",
+          "format": {
+            "align": "center",
+            "bold": true,
+            "color": "#e01b24"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Ogólnym celem awaryjnego oświetlenia ewakuacyjnego jest zapewnienie bezpiecznego wyjścia z miejsca pobytu podczas zaniku normalnego zasilania. Z powodu obniżenia sprawności źródeł światła w okresie eksploatacji, zabrudzenia opraw i innych czynników zewnętrznych zaleca się, aby natężenie oświetlenia awaryjnego projektować na poziomie nie mniejszym niż 1,25 natężenia oświetlenia zalecanego w normach. Do obliczeń natężenia oświetlenia ewakuacyjnego należy przyjmować jedynie bezpośrednie oświetlenie powierzchni bez światła odbitego od podłóg, ścian i sufitów. Aby umożliwić kontynuację normalnych czynności w sposób podstawowy, niezmieniony, projektuje się oświetlenie zapasowe. Jeżeli oświetlenie zapasowe jest stosowane jako awaryjne oświetlenie ewakuacyjne, to instalacja powinna spełniać wymagania według niniejszej normy i odpowiednich norm dotyczących wyrobów i przewodów. Jeżeli przy oświetleniu zapasowym natężenie oświetlenia jest niższe niż minimalny poziom natężenia przy oświetleniu podstawowym, oświetlenie to należy wykorzystać tylko do przerwania czynności lub ich zakończenia."
+        }
+      ]
+    },
+    {
+      "id": "card-ba666c4a-8ce6-46b5-8490-288b0450b150",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie drogi ewakuacyjnej"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Celem oświetlenia drogi ewakuacyjnej jest umożliwienie bezpiecznego wyjścia z miejsc przebywania osób poprzez umożliwienie zlokalizowania sprzętu pożarowego. W przypadku dróg ewakuacyjnych o szerokości do 2m, natężenie oświetlenia na podłodze względem środkowej linii drogi ewakuacyjnej powinno być nie mniejsze niż 1 lx, a na centralnym pasie drogi, obejmującym nie mniej niż połowę szerokości drogi, natężenie oświetlenia powinno stanowić, co najmniej 50% podanej wartości. Szersze drogi ewakuacyjne mogą być traktowane jako kilka dróg o szerokości 2m lub powinny spełniać wymagania strefy otwartej. Stosunek maksymalnego natężenia oświetlenia do minimalnego natężenia oświetlenia wzdłuż centralnej linii drogi ewakuacyjnej nie powinien być większy niż 40 : 1."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/1cf86a5b86b1447a8b.png",
+          "alt": "droga ewakuacyna.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-e506f7a2-7ad0-43e0-9f61-4c34353c9ab9",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie strefy otwartej"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Celem oświetlenia strefy otwartej (zapobiegającego panice) jest zmniejszenie prawdopodobieństwa paniki i umożliwienie bezpiecznego ruchu osób w kierunku dróg ewakuacyjnych przez zapewnienie warunków widzenia umożliwiających dotarcie do miejsca, z którego droga ewakuacyjna może być rozpoznana. Zaleca się, aby drogi ewakuacyjne lub strefy otwarte były oświetlone w wyniku padania światła bezpośredniego na płaszczyznę roboczą, jak również zaleca się oświetlenie przeszkód występujących na wysokości do 2m powyżej tej płaszczyzny. Oświetlenie to jest stosowane w strefach o nieokreślonych drogach ewakuacyjnych w halach lub w obiektach o powierzchni podłogi większej niż 60 m2 lub w mniejszych, jeżeli istnieje dodatkowe zagrożenie wywołane obecnością dużej liczby osób. Średnie natężenie oświetlenia ewakuacyjnego w strefie otwartej nie powinno być mniejsze niż 0,5 lx na poziomie podłogi, na niezabudowanym polu czynnym strefy otwartej, z wyjątkiem wyodrębnionego przez wyłączenie z tej strefy obwodowego pasa o szerokości 0,5m. Stosunek maksymalnego natężenia oświetlenia do minimalnego natężenia oświetlenia w strefie otwartej nie powinien być większy niż 40 : 1."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/411ffd6c49094935a2.png",
+          "alt": "strefa otwarta.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-e6e1b455-e7ce-4b74-b39f-247ec84379d3",
+      "question": [
+        {
+          "type": "text",
+          "text": "Strefy wysokiego ryzyka"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Celem oświetlenia strefy wysokiego ryzyka jest zwiększenie bezpieczeństwa osób biorących udział w potencjalnie niebezpiecznym procesie lub znajdujących się w potencjalnie niebezpiecznej sytuacji, a także umożliwienie właściwego zakończenia działań w sposób bezpieczny dla osób przebywających w tej strefie. W strefach wysokiego ryzyka eksploatacyjne natężenie oświetlenia na płaszczyźnie odniesienia nie powinno być mniejsze niż 10% eksploatacyjnego natężenia oświetlenia wymaganego dla danych czynności, jednakże nie powinno być mniejsze niż 15 lx. Należy wyeliminować efekt stroboskopowy. Równomierność natężenia oświetlenia w strefie wysokiego ryzyka nie powinna być większa niż 10:1. Minimalny czas stosowania oświetlenia powinien być wyznaczony okresem, w którym występuje ryzyko niebezpieczeństwa dla ludzi. Oświetlenie strefy wysokiego ryzyka powinno zapewniać pełne, wymagane natężenie oświetlenia w sposób ciągły lub w ciągu 0,5 s, w zależności od zastosowania. Luminancja każdej części barwnej znaku bezpieczeństwa powinna wynosić co najmniej 2 cd/m² we wszystkich kierunkach widzenia mających znaczenie dla bezpieczeństwa."
+        }
+      ]
+    },
+    {
+      "id": "card-790803f7-dd59-4629-ac7b-f80fb6c37761",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rozmieszczenie opraw ewakuacyjnych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "W celu zapewnienia właściwej widzialności umożliwiającej bezpieczną ewakuację wskazane jest, aby oprawy oświetlenia awaryjnego umieszczane były co najmniej 2m nad podłogą. W celu zapewnienia odpowiedniego natężenia oświetlenia, oprawy oświetleniowe do oświetlenia ewakuacyjnego, powinny być usytuowane w pobliżu każdych drzwi wyjściowych oraz w takich miejscach, gdzie to konieczne, aby zwrócić uwagę na potencjalne niebezpieczeństwo lub umieszczony sprzęt bezpieczeństwa. Zatem oprawy ewakuacyjne powinny być umieszczane:"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/606f82ed3a924ef1a6.png",
+          "alt": "rozmieszczenie 1.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/97780159fba04eaba0.png",
+          "alt": "rozmieszczenie 2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "text",
+          "text": "Jeśli punkty pierwszej pomocy lub urządzenia przeciwpożarowe i przyciski alarmowe nie znajdują się na drodze ewakuacyjnej ani w strefie otwartej, to powinny one być tak oświetlone, aby natężenie oświetlenia na podłodze w ich pobliżu wynosiło co najmniej 5 lx.\n\nOświetlenie awaryjne należy projektować również w innych strefach niebezpiecznych oraz w strefach, które powinny być dostępne w czasie zaniku oświetlenia podstawowego. \nTakimi strefami są: \n    a. kabiny wind; \n    b. schody i platformy ruchome; \n    c. toalety, lobby, przebieralnie i szatnie o powierzchni powyżej 8 m2 oraz pomieszczenia przeznaczone do użytku dla osób niepełnosprawnych; \n    d. pomieszczenia techniczne, w których oświetlenie ewakuacyjne powinno spełniać wymogi oświetlenia strefy otwartej lub jeśli to konieczne założenia jak dla strefy o szczególnym zagrożeniu; \n    e. parkingi zadaszone; \n    f. szpitale – oświetlenie ewakuacyjne w oddziałach intensywnej terapii oraz w salach operacyjnych nie powinno być mniejsze od wymaganego natężenia oświetlenia podstawowego (jeśli nie ma oświetlenia zapasowego);"
+        }
+      ]
+    },
+    {
+      "id": "card-d6d1c8aa-7003-40cc-92b8-ca8165166984",
+      "question": [
+        {
+          "type": "text",
+          "text": "Znaki bezpieczeństwa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "PN EN 1838:2005",
+          "format": {
+            "align": "center",
+            "bold": true,
+            "color": "#e01b24"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Znaki przy wszystkich wyjściach awaryjnych wzdłuż dróg ewakuacyjnych powinny być tak oświetlone, aby jednoznacznie wskazywały drogę ewakuacji do bezpiecznego miejsca. Wyjściowy lub kierunkowy znak powinien być widoczny ze wszystkich punktów wzdłuż drogi ewakuacyjnej. Wszystkie znaki oznaczające wyjścia i drogi ewakuacyjne powinny być równomierne w barwie i formacie, natomiast luminancja tych znaków powinna wynosić co najmniej 2cd/m2. Ponieważ osoby przebywające w obiekcie mogą nie znać dobrze budynku, zaleca się stosowanie znaków bezpieczeństwa podświetlanych wewnętrznie, zasilanych w trybie ciągłym. Należy zwrócić uwagą na fakt, że znaki bezpieczeństwa oświetlone wewnętrznie są dostrzegane z większej odległości, niż znaki o takich samych wymiarach oświetlone zewnętrznie."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/e5ecd2c6bc474459b6.png",
+          "alt": "znaki.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/9fcb255e90d4439c8d.png",
+          "alt": "znaki 2.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-c2094299-7ec3-4b9d-b8a1-240aca482c72",
+      "question": [
+        {
+          "type": "text",
+          "text": "Instalacje i systemy oświetlenia awaryjnego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zasilanie awaryjnego oświetlenia ewakuacyjnego powinno być dostarczone niezwłocznie, automatycznie i na wystarczający czas, aby zapewnić oświetlenie w określonej strefie w przypadku zaniku zasilania oświetlenia podstawowego. Instalacja awaryjnego oświetlenia ewakuacyjnego powinna spełniać następujące funkcje: \n  a. oświetlać znaki drogi ewakuacyjnej; \n  b. wytwarzać natężenie oświetlenia na drogach ewakuacyjnych, by ruch w kierunku wyjścia ewakuacyjnego z obiektu był bezpieczny;\n  c. zapewniać łatwe zlokalizowanie i użycie przycisków alarmu pożarowego i sprzętu przeciwpożarowego rozmieszczonego wzdłuż dróg ewakuacyjnych; \n  d. umożliwiać działanie związane ze środkami bezpieczeństwa;\n\nAwaryjne oświetlenie ewakuacyjne należy uruchamiać nie tylko w przypadku całkowitego uszkodzenia zasilania oświetlenia podstawowego, ale również w przypadku lokalnego uszkodzenia takiego jak uszkodzenie obwodu końcowego. Na etapie projektowania instalacji oświetlenia awaryjnego należy uwzględnić wszystkie przypadki, aby mieć pewność, że oświetlenie awaryjne będzie działać w razie uszkodzenia zasilania podstawowego w danej strefie.\n\nInstalacja oświetlenia awaryjnego zawiera wszelkie urządzenia i komponenty w danym obiekcie, które są ze sobą powiązane po to, by realizować zadania stawiane przed oświetleniem awaryjnym. W szczególności dotyczy to czasu działania, zapewnienia odpowiedniego natężenia oświetlenia, wykorzystania oświetlenia podstawowego lub nocnego, raportowania zdarzeń oraz bezpieczeństwa obsługi i działań ekip ratowniczych również w przypadku pożaru.\n\nElementami instalacji oświetlenia awaryjnego są następujące urządzenia i komponenty: \n  a. systemy oświetlenia awaryjnego z centralnym lub indywidualnym źródłem zasilania (bateriami); \n  b. oprawy oświetlenia awaryjnego przeznaczone do centralnego lub indywidualnego źródła zasilania (bateriami) wraz z wyposażeniem ( układy zapłonowe, moduły przełączające i adresowe w przypadku systemów z centralnym źródłem zasilania lub inwertery, moduły adresowe i baterie w przypadku systemów z indywidualnym źródłem zasilania); \n  c. przewody i kable służące do połączenia systemu oświetlenia awaryjnego z oprawami; \n  d. korytka, przepusty, zawiesia i mechaniczne systemy mocowań przewodów używanych do połączeń w instalacjach oświetlenia awaryjnego; \n  e. urządzenia zaprojektowane dodatkowo do systemów oświetlenia awaryjnego np. zdalne sterowanie, moduły służące do podłączenia do komputera centralnego, układy nadzoru obwodów zasilających oprawy, układy umożliwiające współpracę z urządzeniami przeciwpożarowymi i inne wykorzystywane w instalacjach oświetlenia awaryjnego;"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/59951a3fb5ef46b4a5.png",
+          "alt": "awaryjne 3.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ebaf84cf-0d4d-4110-867a-eeb12969d3c5",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oprawy do awaryjnego oświetlenia ewakuacyjnego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "PN-EN 60598-2-22:2004/AC",
+          "format": {
+            "align": "center",
+            "bold": true,
+            "color": "#e01b24"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Oprawy oświetleniowe do oświetlenia awaryjnego powinny być dobierane stosownie do ich usytuowania. Oprawy stosowane w strefach zagrożonych wybuchem powinny być zgodne z odpowiednimi normami i dyrektywą 94/9/WE.\n\n"
+        }
+      ]
+    },
+    {
+      "id": "card-4eecd1c6-bb7e-4c24-abcd-a8fafa3bcb9c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zapłonniki do opraw oświetlenia ewakuacyjnego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "PN-EN 61347:2005 ",
+          "format": {
+            "align": "center",
+            "bold": true,
+            "color": "#e01b24"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Ważnym parametrem zapłonników, ze względu na ilość wydzielanej mocy, jest wielkość impulsowego prądu zapłonu i czas jego trwania. Parametry te powinny być tak dobrane, aby nie powodowały uszkodzenia części stykowych elementów w obwodach zasilania (np. gniazd bezpiecznikowych, styków przekaźników itp.)."
+        }
+      ]
+    },
+    {
+      "id": "card-7f5e4829-e621-4aa5-ac10-bb23920fb458",
+      "question": [
+        {
+          "type": "text",
+          "text": "Systemy centralnego zasilania oświetlenia awaryjnego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "PN-EN 50171:2007",
+          "format": {
+            "align": "center",
+            "bold": true,
+            "color": "#e01b24"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Wymagania dotyczące bezpieczeństwa akumulatorów powinny być zgodne z normą PN-EN 50272-2:2007.\n\nZe względu na różne sposoby pracy wewnątrz urządzeń bezpieczeństwa, opis typów systemów centralnego zasilania awaryjnego jest konieczny. Centralne systemy zasilania powinny pracować w układzie IT z urządzeniami do kontroli izolacji w celu zapewnienia bezpieczeństwa ekipom ratowniczym. Automatyczne systemy testowania oświetlenia awaryjnego – powinny być projektowane, konstruowane i instalowane zgodnie ze stosownymi wymaganiami krajowych norm i krajowych przepisów."
+        }
+      ]
+    },
+    {
+      "id": "card-2ac7cb13-7fc8-41df-8b22-a08fd9c6a4ad",
+      "question": [
+        {
+          "type": "text",
+          "text": "Klasyfikacja osłon (klasa IP)"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odporność aparatów i urządzeń elektrycznych na szkodliwe oddziaływanie środowiska jak i ochrona człowieka przed dotknięciem części będących pod napięciem zależy od wykonania osłon zewnętrznych i obudowy urządzenia. Powyższą odporność określa się jako stopień szczelności i znakuje się przy pomocy tzw. klasyfikacji IP. Według niej, urządzenia elektryczne oznaczane są dwucyfrowym symbolem poprzedzony literami IP (PN-EN 60529:2003)."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/9ed61c56d6f14d6793.png",
+          "alt": "oslony.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/4768be5a715340aea0.png",
+          "alt": "ip forged.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-f24516e8-6d4b-44a9-84d8-d9ff285a689d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Klasy ochronności"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Urządzenia elektryczne prądu przemiennego o napięciu znamionowym nie wyższym niż 440V i napięciu względem ziemi nie wyższym niż 250 V, w zależności od możliwego do zastosowania sposobu ochrony przeciwporażeniowej, dzieli się na klasy ochronności: \n\nKlasa ochronności 0 – ochronę przed porażeniem elektrycznym stanowi izolacja podstawowa. W przypadku uszkodzenia izolacji ochronę przeciwporażeniową powinny zapewnić odpowiednio korzystne warunki środowiskowe, takie jak zainstalowanie poza zasięgiem ręki, izolowanie stanowiska, brak w zasięgu ręki uziemionych urządzeń, instalacji oraz elementów konstrukcyjnych. W Polsce dopuszcza się stosowanie takich urządzeń przy braku jednoczesnego kontaktu człowieka z urządzeniem i potencjałem ziemi lub gdy kontakt taki jest rzadki.\n\nKlasa ochronności I – ochronę przeciwporażeniową przed dotykiem pośrednim w tych urządzeniach wykonuje się łącząc zacisk ochronny urządzenia z przewodem PE, PEN lub bezpośrednio z uziemieniem. Ma to zapewnić: odpowiednio szybkie zadziałanie odpowiednich urządzeń i wyłączenie zasilania albo ograniczenie napięć dotykowych do wartości nie przekraczających granicznych dopuszczalności w danych warunkach środowiskowych. \n\nKlasa ochronności II – w urządzeniach tej klasy ochronności bezpieczeństwo pod względem porażeniowym jest zapewnione przez zastosowanie odpowiedniej izolacji – podwójnej lub wzmocnionej – której zniszczenie jest bardzo mało prawdopodobne."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/46211d2a60634b949b.png",
+          "alt": "klasy forged.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-faee0044-20f5-43d8-bc0a-d0a4b21b79e8",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rozporządzenia i normy dotyczące oświetlenia awaryjnego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "  a) Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002 r. w sprawie warunków technicznych, jakim powinny odpowiadać budynki i ich usytuowanie. Rozporządzenie Ministra Infrastruktury z dnia 12 kwietnia 2002r. Dz. U. 75 poz. 690 z późniejszymi zmianami – Rozporządzenie Ministra Infrastruktury z dnia 12 marca 2009r Dz.U. Nr 56 poz. 461 oraz Rozporządzenie Ministra Infrastruktury z dnia 10 grudnia 2010r. Dz.U. Nr 239 poz. 1597. \n  b) Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 7 czerwca 2010 r. w sprawie ochrony przeciwpożarowej budynków, innych obiektów budowlanych i terenów (Dz. U. Nr 109 poz. 719). \n  c) Rozporządzenie Ministra Spraw Wewnętrznych i Administracji z dnia 27 kwietnia 2010 r. w sprawie wykazu wyrobów służących zapewnieniu bezpieczeństwa publicznego lub ochronie zdrowia i życia oraz mienia, a także zasad wydawania dopuszczeń tych wyrobów do użytku (Dz. U. Nr 85 poz. 553). \n  d) PN EN 50172:2005 Systemy awaryjnego oświetlenia ewakuacyjnego. \n  e) PN EN 1838:2005 Zastosowania oświetlenia. Oświetlenie awaryjne. \n  f) Wytycznych MLAR – (wzorcowe wytyczne konferencji ministrów budownictwa odnośnie wymagań dotyczących technicznych aspektów ochrony przeciwpożarowej instalacji elektrycznych) uwzględniającej wymagania Parlamentu Europejskiego zawartych w wytycznych 98/24/EG rady z dnia 11.06.1998 zmienione poprzez wytyczne 98/48/EG z dnia 20.07.1998 (Abl. EG Nr. L 217 S.18)."
+        }
+      ]
+    },
+    {
+      "id": "card-ea054c22-fd33-4560-a3d9-72c9e45bb436",
+      "question": [
+        {
+          "type": "text",
+          "text": "Dodatkowe normy oświetlenia awaryjnego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "  a) PN-EN 60598-2-22:2004/AC Oprawy oświetleniowe- Część 2-22: Wymagania szczegółowe – Oprawy oświetleniowe do oświetlenia awaryjnego \n  b) HD 384/HD 60364 PN-IEC 60364:1999 (norma wieloczęściowa) Instalacje elektryczne w obiektach budowlanych \n  c) PN-EN 13032-1:2005 Światło i oświetlenie. Pomiar i prezentacja danych fotometrycznych lamp i opraw oświetleniowych – Część 1: Pomiar i format pliku \n  d) PN-EN 13032-2:2005 Światło i oświetlenie. Pomiar i prezentacja danych fotometrycznych lamp i opraw oświetleniowych – Część 2: Prezentacja danych dla miejsc pracy wewnątrz i na zewnątrz budynku \n  e) PN-EN 12464-1:2004 Światło i oświetlenie – Oświetlenie miejsc pracy – Część 1: Miejsca pracy we wnętrzach \n  f) PN-EN 50171:2007: Centralne systemy zasilania \n  g) PN-EN 50272-2:2007: Wymagania bezpieczeństwa i instalowania baterii wtórnych – Część 2: Baterie stacjonarne \n  h) PN-EN 60529:2003 Stopnie ochrony zapewnianej przez obudowy (Kod IP) \n  i) PN-EN 61347:2005 (norma wieloczęściowa) Urządzenia do lamp – Część 2-7: Wymagania szczegółowe dotyczące stateczników elektronicznych zasilanych prądem stałym, do oświetlenia awaryjnego \n  j) PN-EN 60617-11:2004 Symbole graficzne stosowane w schematach – Część 11: Architektoniczne i topograficzne plany i schematy instalacji elektrycznych \n  k) PN-N-01256-5:1998 Znaki bezpieczeństwa. Zasady umieszczania znaków bezpieczeństwa na drogach ewakuacyjnych i drogach pożarowych \n  l) PN-N-01255:1992 Barwy bezpieczeństwa i znaki bezpieczeństwa"
+        }
+      ]
+    },
+    {
+      "id": "card-8e79872e-58c3-4005-bb0c-8905d3fde37d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie na terenach kolejowych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Do oświetlenia zewnętrznego terenów kolejowych powinny być stosowane źródła światła o parametrach zapewniających najkorzystniejsze warunki postrzegania i rozpoznawania obiektów. Powinny to być źródła charakteryzujące się wysoką skutecznością świetlną i wysokim wskaźnikiem oddawania barw oraz znaczną trwałością eksploatacyjną. \nPowinny zatem być stosowane: \n1. lampy wyładowcze sodowe wysokoprężne (tereny otwarte); \n2. lampy wyładowcze metalohalogenkowe (tereny otwarte, gdy wymagana jest wysoka rozróżnialność barw); \n3. świetlówki liniowe (zadaszone perony, przejścia podziemne i tunele). \n4. diody świecące LED. \n    Stosowanie innych rodzajów źródeł światła wymaga uzasadnienia. Obiekty kolejowe w danym obszarze powinny być oświetlane lampami o zbliżonej temperaturze barwowej (Tc).\n\nOprawy oświetleniowe służą do zamocowania źródeł światła, ich zasilania i zabezpieczenia przed niepożądanym działaniem środowiska, przestrzennego ukształtowania w pożądany sposób strumienia świetlnego, ochrony otoczenia przed zbędnym rozsyłem światła."
+        }
+      ]
+    },
+    {
+      "id": "card-1213b2a1-e655-4ec6-a9d0-3cebfbdc24bc",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oprawy montowane na słupach - parametry"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "a. napięcie znamionowe – 230V, 50 Hz, \nb. klasa ochronności – II, \nc. stopień ochrony dla komory układu optycznego i komory osprzętu elektrycznego IP ≥ 65, \nd. symetryczna bryła fotometryczna w płaszczyźnie C0-C180 z maksimum światłości zawarte pomiędzy kątami 600 a 800; powyżej kąta 800 światłość oprawy powinna być bliska zeru; pod kątem 900 oprawa nie powinna wysyłać strumienia świetlnego, \ne. sprawność świetlna ≥ 70 %, 50 \nf. uchwyt montażowy umożliwiający mocowanie oprawy bezpośrednio na topie słupa lub na poziomym wysięgniku o średnicy 42 ÷ 60 mm; zakres regulacji położenia uchwytu w granicach: - od 0º do –15º przy montażu oprawy na poziomym wysięgniku; -od 0º do +15º przy montażu oprawy na topie słupa. \ng. obudowa oprawy wykonana z aluminium, w technologii ciśnieniowego odlewania, \nh. klosz płaski wykonany z hartowanego szkła; klasa wytrzymałości opraw na uderzenia IK ≥ 08, \ni. odbłyśnik aluminiowy jednoczęściowy, anodyzowany, dostosowany do tubularnych źródeł światła, \nj. osprzęt elektryczny umieszczony na płycie montażowej wykonanej w formie modułu przystosowanego do montażu i demontażu bez użycia narzędzi, \nk. otwierane elementy oprawy połączony z korpusem nierozłącznymi zawiasami, \nl. otwieranie i zamykanie oprawy bez użycia narzędzi, za pomocą jednego zaczepu (klamry, klipsa) połączonego trwale z oprawą, \nm. element oprawy otwierany do góry nie może zamykać się samoczynnie po jego pełnym otwarciu (np. kąt otwarcia powyżej 900 albo blokada działająca samoczynnie po otwarciu), \nn. wymiana źródła światła możliwa bez użycia narzędzi, 51 \no. kolor obudowy oprawy szary (według katalogu RAL – 7035), \np. źródło światła – lampa sodowa wysokoprężna tubularna."
+        }
+      ]
+    },
+    {
+      "id": "card-4eb5efa4-a380-4f9c-b49c-9056984eaadb",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oprawy naświetlaczy - parametry"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "a. napięcie znamionowe: 230V, 50 Hz, \nb. klasa ochronności – I, \nc. sprawność świetlna oprawy ≥ 75 %, \nd. maksymalna światłość: - w płaszczyźnie optycznej C0 ÷ C180 w zakresie kąta od 0º do 60º, maksymalny kąt odcięcia światła 80º, - w płaszczyźnie optycznej C90 ÷ C270 – w zakresie kątów od -20º do +20º, \ne. obudowa aluminiowa, \nf. stopień ochrony obudowy dla komory układu optycznego i komory osprzętu elektrycznego IP ≥ 65, \ng. klosz płaski wykonany z hartowanego szkła; wytrzymałość na uderzenia IK ≥ 06, ramka klosza połączona z korpusem oprawy nierozłącznymi zawiasami, \nh. uchwyt montażowy umożliwiający płynną regulację kąta nachylenia opraw w zakresie kątów od 0º do 90º, \ni. źródło światła – tubularna lampa sodowa wysokoprężna"
+        }
+      ]
+    },
+    {
+      "id": "card-98b92af6-8022-4326-a639-f102912f0a9b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oprawy świetlówkowe - parametry"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "a. napięcie znamionowe – 230 V, 50 Hz \nb. klasa ochronności – I lub II, \nc. sprawność świetlna oprawy ≥ 65 %, \nd. stopień ochrony obudowy IP ≥ 65, \ne. stopień ochrony obudowy IK ≥ 08, \nf. oprawy wyposażone w elektroniczny układ zapłonowy, \ng. obudowa oprawy z tworzywa sztucznego lub z metalu wyposażona w lustrzany odbłyśnik, \nh. klosz z poliwęglanu o wysokiej odporności na działanie promieniowania UV lub ze szkła hartowanego- przeźroczysty, \ni. klosz trwale zintegrowany z obudową lub mocowany zamknięciem zatrzaskowym albo zaczepami ze stali nierdzewnej połączonymi na stałe z oprawą, \nj. oprawa wyposażona w zaczepy wykonane ze stali nierdzewnej, umożliwiające montaż oprawy do podłoża, \nk. kolor obudowy oprawy szary."
+        }
+      ]
+    },
+    {
+      "id": "card-d5580a2c-98ed-4396-8b91-78a301a6ed17",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie peronów"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Do oświetlenia peronów otwartych należy podstawowo używać opraw oświetleniowych z lampami sodowymi wysokoprężnymi montowanymi na słupach posadowionych w nawierzchni peronu. Wysokość słupów oświetleniowych i liczba opraw na słupie powinna być uzależniona od szerokości oświetlanego peronu. Oprawy oświetleniowe powinny być montowane w taki sposób, aby płaszczyzna oprawy C0-C180 była równoległa do krawędzi peronu, a klosz oprawy usytuowany do poziomu pod kątem od 0º do 5º, Oświetlenie peronów pod wiatami powinno być realizowane z użyciem opraw ze świetlówkami liniowymi. Oprawy świetlówkowe powinny być mocowane na konstrukcji wiaty równolegle do krawędzi peronu. Przy wykonywaniu oświetlania peronów należy: 1. zwrócić szczególną uwagę na właściwe oświetlenie krawędzi peronu, 2. zachować podobieństwo barwy światła przy stosowaniu źródeł różnych typów. Sterowanie pracą obwodów oświetleniowych każdego peronu z osobna powinno być automatyczne za pomocą sterowników zmierzchowych i zegarów astronomicznych. Redukcja mocy oświetleniowej na peronach powinna być stosowana w nocnej przerwie ruchu pociągów oraz w dłuższych przerwach między pociągami."
+        }
+      ]
+    },
+    {
+      "id": "card-89a4c5d5-74aa-4288-af2b-20634c889b93",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie przejść podziemnych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przejścia podziemne powinny być oświetlone oprawami ze świetlówkami liniowymi w wykonaniu wandaloodpornym, o odporności na uderzenia o energii powyżej 30J. Oprawy powinny one być montowane w miejscach utrudniających dewastację ale zapewniających prawidłowe oświetlenie. Zaleca się, aby oprawy były zamocowane na bocznych ścianach lub w narożu ściany i stropu oraz tworzyły linię ciągłą. Odstępy między nimi powinny być zasłonięte maskownicami. Wskazane jest stosowanie opraw oświetlenia bezpośredniego o rozsyle strumienia świetlnego nie powodującym olśnienia. W przejściach pod torami należy stosować oprawy wykonane w II klasie ochrony przeciwporażeniowej. Przejścia podziemne powinny posiadać oświetlenie awaryjne na wypadek zaniku napięcia zasilającego, zgodnie z normą Wymagania oświetleniowe dla przejść pod torami , schodów przyległych i dojść dla pieszych podano w normie."
+        }
+      ]
+    },
+    {
+      "id": "card-b8d90120-e8e2-4f38-bb2b-cf8d824a412c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie przejść nad torami i schodów przyległych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Oświetlenie przejść nad torami (kładek) powinno być wykonane za pomocą opraw oświetleniowych z lampami sodowymi wysokoprężnymi lub metalohalogenkowymi, umieszczonymi na słupach metalowych przytwierdzonych bezpośrednio do konstrukcji kładki. \n    Oświetlenie nie powinno wywoływać zjawiska olśnienia u maszynisty prowadzącego pociąg ani u pieszych. \n    Klasa wytrzymałości opraw na uderzenia powinna wynosić IK ≥ 08. \n    Oprawy powinny posiadać ochronę przeciwporażeniową klasy II. \n    Sterowanie pracą obwodów oświetleniowych przejść na torami i schodów przyległych powinno być ręczne i automatyczne za pomocą sterowników zmierzchowych i zegarów astronomicznych. Wymagane wartości parametrów oświetlenia dla przejść nad torami podano w normie."
+        }
+      ]
+    },
+    {
+      "id": "card-51c62d9e-10d6-4caa-be2a-a147bd432e25",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie przejazdów kolejowych i przejśc w poziomie szyn"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Oświetlenie przejazdów i przejść w poziomie szyn powinno być realizowane oprawami umieszczonymi na słupach strunobetonowych wirowanych lub metalowych. \nNa przejazdach linii jednotorowej zaleca się umieszczać po jednej oprawie z obu stron toru, po prawej stronie drogi. \nNa przejazdach linii dwutorowej zaleca się umieszczać po dwie oprawy z każdej ze stron linii kolejowej, po prawej i po lewej stronie drogi. \nNa przejazdach wielotorowych zaleca się umieszczać po dwie oprawy z każdej ze stron linii kolejowej, po prawej i po lewej stronie drogi oraz oprawy doświetlające przejazd o symetrycznym rozsyle światła umieszczone w międzytorzu. \nOprawy na przejazdach powinny być zamontowane w taki sposób, aby ich płaszczyzna C0-C180 była prostopadła do osi torów. Tak zamontowane oprawy (płaszczyzną C90-C270 równoległą do osi torów) nie mogą powodować zjawiska olśnienia u prowadzących pojazdy trakcyjne.\n\nSterowanie pracą obwodów oświetleniowych przejazdów kolejowych i przejść w poziomie szyn powinno być automatyczne, za pomocą sterowników zmierzchowych i zegarów astronomicznych. Przejazdy i przejścia obsługiwane z miejsca powinny posiadać dodatkowo sterowanie ręczne. Wymagane wartości parametrów oświetlenia dla przejazdów i przejść w poziomie szyn podano w normie\n\nDo oświetlania torów i rozjazdów stacji osobowych należy stosować: \na) oprawy oświetleniowe typu kolejowego o symetrycznym rozsyle światła zamontowane płaszczyzną C0-C180 równolegle do osi torów z lampami sodowymi wysokoprężnymi, \nb) konstrukcje słupowe o wysokości od 9 do 12 m, \nW uzasadnionych przypadkach, gdy oświetlany jest duży teren i brak jest miejsca na posadowienie słupów oświetleniowych zaleca się stosować maszty oświetleniowe z opuszczaną koroną. Jako oprawy powinny wówczas być stosowane naświetlacze o szerokim rozsyle strumienia światła z lampami sodowymi wysokoprężnymi. \nNaświetlacze na masztach muszą być zamontowane w taki sposób aby nie powodowały zjawiska olśnienia u prowadzących pojazdy trakcyjne. Oświetlenie torów stacji osobowych w rejonie peronów może być realizowane światłem opraw oświetlenia peronów pod warunkiem, że nie spowoduje to nieracjonalnej gospodarki światłem w obszarze torów. \nSterowanie oświetleniem torów i rozjazdów stacji osobowych powinno być dodatkowo wyposażone w sterownik ręczny umieszczony w nastawni dysponującej, aby w przypadku braku pracy manewrowej bądź utrzymaniowej na stacji istniała możliwość zredukowania mocy lub wyłączenia części oświetlenia. Wymagane wartości parametrów oświetlenia dla torów i rozjazdów dla stacji osobowych podaje odpowiednia tablica\n"
+        }
+      ]
+    },
+    {
+      "id": "card-9b4b3c17-478e-41db-a917-3191f07dadc1",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlanie stacji towarowych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Oświetlenie terenu stacji rozrządowych, (grup torów: przyjazdowych, kierunkowych, odjazdowych) powinno być realizowane z masztów (wyposażonych w opuszczane korony) – równomiernie rozmieszczonych na całym obszarze stacji. Jako oprawy powinny być stosowane naświetlacze charakteryzujące się szerokim rozsyłem światła z sodowymi lampami wysokoprężnymi. \n    Sterowanie oświetleniem grup torów przyjazdowych, kierunkowych i odjazdowych powinno być umieszczone w odpowiedniej nastawni, aby w przypadku braku pracy w rejonie lub na całej stacji była możliwość zredukowania mocy lub wyłączenia części oświetlenia. Oświetlenie stanowiska rozpinania na górce rozrządowej powinno być realizowane oprawami świetlówkowymi tworzącymi linię świetlną pod dachem wiaty oraz oprawami metalohalogenkowymi punktowymi umieszczonymi nad ścieżką rozpinacza poza wiatą. Stopień szczelności opraw powinna być zapewniona na poziomie co najmniej IP65. Klasa odporności na uderzenia powinna wynosić IK ≥ 8. Oprawy powinny posiadać ochronę przeciwporażeniową klasy II. \n    Oświetlenie hamulca torowego powinno być realizowane za pomocą opraw umieszczonych na słupach, ze zwróceniem uwagi na zabezpieczenie przed olśnieniem personelu nastawni kierującej rozrządem. \n    Oświetlenie przeciwmgłowe rejonu hamulca torowego zabudowane na niskich słupkach wskazane jest wyposażać w oprawy z lampami sodowymi – niskoprężnymi. \n    Oprawy powinny posiadać stopień szczelności IP ≥ 65, stopień odporności na uderzenia IK ≥ 08 oraz ochronę przeciwporażeniową klasy II. Oświetlenie stacji manewrowych powinno być realizowane oprawami o symetrycznym rozsyle światła z lampami sodowymi wysokoprężnymi umieszczonymi na słupach. \n    Ręczne sterowanie oświetleniem powinno być umieszczone w nastawni dysponującej, aby w przypadku braku pracy na stacji była możliwość zredukowania mocy lub wyłączenia oświetlenia. Wymagane wartości parametrów oświetlenia dla torów i rozjazdów dla stacji towarowej podaje odpowiednia tablica."
+        }
+      ]
+    },
+    {
+      "id": "card-5931a4c0-13c2-4f6a-af8c-b1f376a89e71",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie placów ładunkowych i ramp"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Oświetlenie placów ładunkowych i ramp powinno być realizowane z użyciem masztów z opuszczanymi koronami. Jako oprawy należy zastosować naświetlacze o szerokim rozsyle strumienia świetlnego z lampami sodowymi wysokoprężnymi. Miejsca zabudowy masztów należy dobrać optymalnie do rozmiarów i kształtu placu ładunkowego, a także rampy załadowczej i wyładowczej. Wymagane wartości parametrów oświetlenia dla placów kolejowych ze strefami załadunku podano w normie."
+        }
+      ]
+    },
+    {
+      "id": "card-e5238611-2af0-4e15-a099-041229327c6d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie tuneli liniowych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Oświetlenie normalne tuneli liniowych należy realizować oprawami, przeznaczonymi do współpracy ze świetlówkami liniowymi, umieszczonymi w konstrukcyjnych wnękach tunelu, pod stropem tunelu lub wysoko na ścianach. Oprawy powinny mieć wykonanie ognioodporne. Zamocowanie opraw powinno być wykonane w taki sposób aby nie wywoływać olśnienia osób prowadzących pojazdy szynowe. Dla obsługi technicznej tuneli liniowych (dla dokonywania przeglądów i remontów) należy zapewnić zasilające gniazda serwisowe. Awaryjne oświetlenie ewakuacyjne powinno być zrealizowane zgodnie z normą Celem awaryjnego oświetlenia ewakuacyjnego jest zapewnienie bezpiecznego wyjścia z miejsca pobytu podczas zaniku normalnego zasilania. W celu zapewnienia odpowiedniego natężenia oświetlenia, oprawy oświetleniowe do oświetlenia ewakuacyjnego, zgodne z normą, powinny być usytuowane w pobliżu każdych drzwi wyjściowych oraz w takich miejscach, gdy to konieczne, aby zwrócić uwagę na potencjalne niebezpieczeństwo lub umieszczony sprzęt bezpieczeństwa. Wymagane wartości parametrów oświetlenia dla tuneli liniowych podaje norma."
+        }
+      ]
+    },
+    {
+      "id": "card-d31b333b-a8cb-4b07-922a-1513d390b180",
+      "question": [
+        {
+          "type": "text",
+          "text": "Normy LED dla kolei"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "a) PN-EN 13201-2 Oświetlenie dróg – Część 2 – Wymagania oświetleniowe \nb) PN-EN 12464-2:2008 Światło i oświetlenie – Oświetlenie miejsc pracy – Część 2: Miejsca pracy na zewnątrz \nc) PN-EN 40-2:2005 Słupy oświetleniowe – Część 2 – Wymagania ogólne i wymiary \nd) PN-EN 1838:2005 Zastosowania oświetlenia – Oświetlenie awaryjne \ne) PN-EN 50122-2:2003 Zastosowania kolejowe – Urządzenia Stacjonarne – Część 2: Środki ochrony przed oddziaływaniem prądów błądzących wywołanych przez trakcję elektryczną prądu stałego \nf) PN-EN 60598-1:2007 Oprawy oświetleniowe – Część 1: Wymagania ogólne i badania \ng) PN-EN 60598-2-3:2006 Oprawy oświetleniowe – Część 2-3 Wymagania szczegółowe – Oprawy oświetleniowe drogowe i uliczne \nh) PN-EN 60598-2-22:2004 Oprawy oświetleniowe – Część 2-22 Wymagania szczegółowe – Oprawy oświetleniowe do oświetlania awaryjnego"
+        }
+      ]
+    },
+    {
+      "id": "card-7d7ce594-af98-46d3-b7a5-e9a37ff1ac3b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oświetlenie przejść dla pieszych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Oświetlenie przejść dla pieszych może być standardowe lub dedykowane. \n\nOświetlenie standardowe – rozwiązanie techniczne do oświetlenia odcinków dróg, skrzyżowań i innych elementów infrastruktury drogowej, realizowane za pomocą rożnych rozwiązań oświetleniowych - poprzez: rozsył strumienia świetlnego z opraw umieszczonych wzdłuż drogi np. liniowo w konfiguracji jednostronnej (np. na odcinkach dróg i ulic) oraz miejscowo na skrzyżowaniach i złożonych układach drogowych (np. poprzez zastosowanie systemu masztowego zapewniającego oświetlenie obszarowe) \n\nOświetlenie dedykowane - rozwiązanie techniczne służące do oświetlenia przejścia dla pieszych realizowane za pomocą specyficznych rozwiązań oświetleniowych, polegających na zastosowaniu opraw oświetleniowych o asymetrycznych rozsyłach strumienia świetlnego, umieszczonych w odpowiedniej konfiguracji (przed przejściem dla pieszych zgodnie z kierunkiem ruchu pojazdów"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/ea78ec1f98f44f25be.png",
+          "alt": "ulica.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "text",
+          "text": "Ze względu na sposób sterowania poziomem oświetlenia przejść dla pieszych do warunków otoczenia oświetlenie może być: stałe lub adaptacyjne. \n\nOświetlenie stałe – oświetlenie, którego parametry oświetleniowe (przyjęta klasa oświetlenia) utrzymywane są przez cały okres funkcjonowania bez czasowych zmian paramentów oświetleniowych. \n\nOświetlenie adaptacyjne – oświetlenie, którego parametry oświetleniowe mogą być zmienne w czasie w zależności od natężeń ruchu pojazdów lub pieszych, detekcji pieszych, pory doby, warunków pogodowych lub innych czynników"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/fde62866acf94d24a2.png",
+          "alt": "ulica 2.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-944ce238-9e6b-40f2-8067-325166b02a34",
+      "question": [
+        {
+          "type": "text",
+          "text": "Podział klasy oświetlenia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "PN-EN 13201:2016",
+          "format": {
+            "align": "center",
+            "bold": true,
+            "color": "#e01b24"
+          }
+        },
+        {
+          "type": "text",
+          "text": "Przejścia dla pieszych mogą wystąpić na skrzyżowaniach lub na odcinkach dróg o dużych prędkościach tj. na obiektach, dla których stosuje się odmienne wymagania wizualne. Norma nie obejmuje klas oświetlenia dedykowanych dla rozwiązań oświetleniowych tego rodzaju przejściach dla pieszych. Dlatego oprócz rozwiązań normowych zestawionych w tab. 4.1 (klasy M i C), wprowadza się dodatkową klasę oświetleniową PC reprezentującą wymagania wizualne dla oświetlenia dedykowanego przejść dla pieszych. \n    Na przejściach dla pieszych położonych na skrzyżowaniach i odcinkach dróg między skrzyżowaniami podstawowe wymagania wizualne powinny spełniać wymagania stawiane tym obiektom (klasa oświetleniowa C lub M), a także wymagania uzupełniające stawiane dedykowanemu rozwiązaniu oświetleniowemu na przejściach dla pieszych (klasa oświetleniowa PC)."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/707a10a54407408bb6.png",
+          "alt": "przejscie 1.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/f4a7fcf8441246c9b1.png",
+          "alt": "przejscie 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "text",
+          "text": "Klasa oświetlenia M dotyczy wymagań wizualnych stawianych przez kierowców pojazdów silnikowych na drogach, z całym spektrum dopuszczalnej prędkości ruchu pojazdów (od niskich ≤ 40 km/h do bardzo wysokich ≥ 100 km/h). Do określenia granic poziomów w klasach oświetlenia ( M1 ÷ M6) stosuje się następujące parametry oświetlenia: \n\nKlasa oświetlenia C dotyczy wymagań wizualnych stawianych przez kierowców, pieszych i rowerzystów na obszarach konfliktowych: skrzyżowania dróg, ulice w centrach handlowych, deptaki; na drogach o złym stanie nawierzchni lub niekorzystnych warunkach atmosferycznych oraz obszarach o zwiększonym prawdopodobieństwie kolizji i wypadków z całym spektrum dopuszczalnej prędkości ruchu pojazdów (od niskich ≤ 40 km/h do bardzo wysokich ≥ 100 km/h). \n\nKlasa oświetlenia PC dotyczy wymagań oświetleniowych wymaganych dla dedykowanych rozwiązań oświetleniowych do stosowania na obszarach konfliktowych jakimi są przejścia dla pieszych z całym spektrum dopuszczalnej prędkości ruchu pojazdów (od niskich ≤ 40 km/h do bardzo wysokich ≥ 100 km/h)."
+        }
+      ]
+    },
+    {
+      "id": "card-f389433e-3e9d-47c0-96fe-388c2ab3ec3b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Procedura doboru rozwiązania oświetleniowego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/e1bdfa92dd0c4c9785.png",
+          "alt": "oswietlenie 3.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-3b3d8fa9-9f26-4289-a947-2f9b90423ad9",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykłady lokalizacji opraw świetlnych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/eacdece2634343838a.png",
+          "alt": "opr1.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/d5d34fca23f94666a6.png",
+          "alt": "opr2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/b394f6bc35894736ba.png",
+          "alt": "opr3.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-17ebc461456b/f97ee6587877422da4.png",
+          "alt": "opr4.png",
+          "remove_white_background": false
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

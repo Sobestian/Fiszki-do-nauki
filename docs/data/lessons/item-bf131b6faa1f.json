@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "id": "item-bf131b6faa1f",
+  "title": "Wstęp do elektryki cz1",
+  "cards": [
+    {
+      "id": "card-c5688b93d50144e4",
+      "question": [
+        {
+          "type": "text",
+          "text": "Polecane książki"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/8acb122a27424d72bd.png",
+          "alt": "ksiazki 1.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-42019009-8bbe-40a6-9733-433937670100",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rodzaje łbów śrub"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/8ff09f83b0a9472f8a.png",
+          "alt": "rodzaje bitow.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-d775efbc-5a85-4cd3-8991-fb92500e48f9",
+      "question": [
+        {
+          "type": "text",
+          "text": "Umowne podłączenie przewodów w gniazdku"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/ea76c12db0c546bea9.png",
+          "alt": "fazy w gniazdku.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-2bb50309-2711-4729-81af-88793b5c2ad4",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykładowe narzędzia dla elektryków"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/21acd4d220494ddb9d.png",
+          "alt": "narzedzia 1.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/90a25af762ff4af79f.png",
+          "alt": "narzedzia 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/d8b80671da4b406497.png",
+          "alt": "narzedzia 3.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-40c38d6a-b11a-43a7-bd95-6d0a9bb22103",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oznaczenia kabli"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/3395c15327ef48bd96.png",
+          "alt": "oznaczenia kabli.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/360277859586492bbf.png",
+          "alt": "oznaczenia kabli 2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/9345b0f3248b4c8e88.png",
+          "alt": "oznaczenia kabli 3.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-16e75a55-80cf-4d45-abf4-8866feadd578",
+      "question": [
+        {
+          "type": "text",
+          "text": "Multimetr"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "jest jak wskazuje nazwa uniwersalnie stosowanym, elektrycznym urządzeniem pomiarowym i nadaje się do wielu różnych rodzajów pomiarów elektrycznych w obszarze wielkości fizycznych. Zalicza się do tego pomiar napięcia, prądu, oporu, częstotliwości, pojemności i temperatury. Multimetry nadają się zarówno do pomiaru napięcia stałego (DC), jak również napięcia zmiennego (AC)."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/1b9666452ac2426d83.png",
+          "alt": "multimetr.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/17b51079f08c47008e.png",
+          "alt": "multimetr 2.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-2a7b40c6-180b-4d17-9f8a-2f65365fb567",
+      "question": [
+        {
+          "type": "text",
+          "text": "Miernik cęgowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "oferuje podobnie jak multimetr wiele funkcji pomiarowych, z wyjątkiem pomiaru temperatury mierniki cęgowe mogą wykonywać wszystkie pomiary, które można wykonywać również multimetrem zarówno w zakresie prądu stałego (DC), jak również w zakresie prądu zmiennego (AC). Zatem jaka jest różnica? Mierniki cęgowe będą stosowane przede wszystkim do pomiaru wyższego natężenia prądu. W porównaniu z multimetrem (10 A) miernik cęgowy ma o wiele wyższy zakres prądu, który można zmierzyć, sięgający 400 A."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/594a7b328faf4cd195.png",
+          "alt": "miernik cęgowy.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-962c81b3-e186-4e08-a0bd-9ec021426e50",
+      "question": [
+        {
+          "type": "text",
+          "text": "Dwubiegunowy próbnik napięcia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "jest on stosowany w obszarach niskiego napięcia, jednak zarówno do prądu stałego (DC), jak i do prądu zmiennego (AC). Dwubiegunowe próbniki napięcia można stosować, aby określać miejsca pozbawione napięcia w instalacjach elektrycznych, by możliwe było później wykonywanie w nich prac. Oprócz kontroli napięcia możliwe są również kontrole przepływu, kontrole optycznych pól wirujących, kontrole jednego bieguna i automatyczne rozpoznawanie biegunowości. Niektóre modele umożliwiają również pomiar oporu i częstotliwości."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/ea6c4e342e3148a1af.png",
+          "alt": "probnik napiecia.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/ba411319a7d640e6ab.png",
+          "alt": "probnik 2.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-103e8398-1d3e-48fd-ba02-7871cce96c63",
+      "question": [
+        {
+          "type": "text",
+          "text": "Odczucia i reakcje organizmu człowieka związane z przepływem przez niego prądu elektrycznego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/f3f649f8225943b197.png",
+          "alt": "przeplyw przez cialo.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/4e8d73b5cad74e1cb7.png",
+          "alt": "przeplyw 2.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-fc6751c6-b0d0-48b7-bf61-315946d2e06a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenie szeregowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "- Napięcie - sumuje się\n- Pojemność - nie zmienia się"
+        },
+        {
+          "type": "formula",
+          "latex": "Rz = R_1 + R_2 + R_3"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/1eef59222752490e8d.png",
+          "alt": "szeregowe.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/8258c4f97fc241d6bb.png",
+          "alt": "szeregowe 3.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-4d58fcec-bc6e-4a92-a6df-75e5e98eff6f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenie równoległe vs szeregowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Szeregowe:\n- Napięcie - sumuje się\n- Pojemność - nie zmienia się\n\nRównoległe:\n- Napięcie - nie zmienia się\n- Pojemność - sumuje się"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/72912a0914f3419cba.png",
+          "alt": "rownolegle.png",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-bfffd0bb-0341-4ab3-8a50-b0d8b7c7e451",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenie równoległe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "- Napięcie - nie zmienia się\n- Pojemność - sumuje się"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{1}{Rz} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3}"
+        },
+        {
+          "type": "formula",
+          "latex": "Rz = \\frac{R_1 \\cdot  R_2}{R_1 + R_2}"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/1459b5eca1ea43a9a2.png",
+          "alt": "rownolegle 2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/27382eceb34b436da3.png",
+          "alt": "rownolegle 3.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-97c16fc5-664b-4eef-a805-03153eb29448",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykłady wzorów do obliczania rezystancji zastępczej"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/574f05a366e74c6b8b.png",
+          "alt": "wzory rezystancji.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-8d93c6a7-9081-4a03-ac99-e0a301e44666",
+      "question": [
+        {
+          "type": "text",
+          "text": "Natężenie prądu elektrycznego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "definiujemy jako ilość ładunku jaka przepływa przez przekrój poprzeczny przewodnika w jednostce czasu."
+        },
+        {
+          "type": "formula",
+          "latex": "I = \\frac{Q}{t}"
+        },
+        {
+          "type": "formula",
+          "latex": "[I] = \\frac{[Q]}{[t]} = \\frac{C}{s} = A"
+        },
+        {
+          "type": "text",
+          "text": "I - natężenie prądu elektrycznego [A - amper]\nQ - ilośc ładunku elektrycznego [C - kulomb]\nt - czas [s - sekunda]"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-b435ddfe-99b6-4c84-9f40-5d13617cb930",
+      "question": [
+        {
+          "type": "text",
+          "text": "Gęstość prądu elektrycznego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "definiowana jest jako natężenie prądu na jednostkę powierzchni przekroju poprzecznego przewodnika. "
+        },
+        {
+          "type": "formula",
+          "latex": "J = \\frac{I}{S}"
+        },
+        {
+          "type": "formula",
+          "latex": "[J] = \\frac{[I]}{[S]} = \\frac{A}{m^{2}} = A/m^{2}"
+        },
+        {
+          "type": "text",
+          "text": "J - gęstość prądu elektrycznego [A/m^2 - amper na metr kwadratowy]\nI - natężenie prądu [A - amper]\nS - pole powierzchni przekroju poprzecznego przewodnika [m^2 - metr kwadratowy]"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-b707dd4b-7353-4fac-a755-6808962429fe",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rezystancja (opór, oporność)"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Stosunek napięcia przyłożonego do przewodnika do natężenia prądu przepływającego przez ten przewodnik jest stały i nie zależy ani od napięcia ani od natężenia prądu."
+        },
+        {
+          "type": "formula",
+          "latex": "R= \\frac{U}{I}"
+        },
+        {
+          "type": "formula",
+          "latex": "[R] = \\frac{[U]}{[I]} = \\frac{V}{A} = \\Omega "
+        },
+        {
+          "type": "text",
+          "text": "R - rezystancja [Ω - om]\nU - napięcie [V - wolt]\nI - natężenie prądu [A - amper]"
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-fb6d9074-c251-4361-aaf3-bb67a2cbfde3",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rezystywność (opór przewodnika)"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "zależy od jego wymiarów; opór R jest proporcjonalny do długości przewodnika l i odwrotnie proporcjonalny do jego przekroju S. Stałą ρ charakteryzującą elektryczne własności materiału, nazywamy oporem właściwym (rezystywnością), a jej odwrotność σ=1/ρ przewodnością właściwą."
+        },
+        {
+          "type": "formula",
+          "latex": "R = \\rho\\frac{l}{S} "
+        },
+        {
+          "type": "formula",
+          "latex": "[R] = \\frac{[\\rho]\\cdot[l]}{[S]} = \\frac{\\Omega\\cdot\\mathrm{m}\\cdot\\mathrm{m}}{\\mathrm{m}^{2}} = \\Omega"
+        },
+        {
+          "type": "text",
+          "text": "R - rezystancja [Ω - om]\nρ - stała, opór właściwy danego materiału [Ω*m - om * metr - rho]\nl - długość [m^2- metr]\nS - przekrój przewodnika [m2 - metr kwadratowy]"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-bf131b6faa1f/c67296e224db46c9b6.png",
+          "alt": "rezystywnosc.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

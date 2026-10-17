@@ -1,22 +1,370 @@
 {
   "schema_version": 1,
   "id": "item-7288d833fb8a",
-  "title": "MiUE cz4 - w przygotowaniu",
+  "title": "MiUE cz4",
   "cards": [
     {
       "id": "card-6eb4e83cde4847b0",
       "question": [
         {
           "type": "text",
-          "text": "Nowe pytanie"
+          "text": "Wzmacniacz sygnału zasilającego LED-AMP-1P"
         }
       ],
       "answer": [
         {
           "type": "text",
-          "text": "Nowa odpowiedź"
+          "text": "Sterownik LED-AMP-1P jest wzmacniaczem sygnału zasilającego oświetlenie LED 12/24 V DC. Zasada działania polega na odtworzeniu na wyjściu wzmacniacza sygnału sterującego PWM podłączonego do wejścia układu. Energia do zasilania kolejnego segmentu oświetlenia pobierana jest z zasilacza podłączonego do wzmacniacza. Separacja galwaniczna pomiędzy wejściem i wyjściem wzmacniacza umożliwia nieograniczoną rozbudowę łańcucha oświetlenia, bez ryzyka wystąpienia problemów związanych z zasilaniem z różnych faz lub długimi pętlami masy."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/3fc8ed4c25fa49108f.png",
+          "alt": "wzmacniacz eld.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/eea3f5820b964a3fbc.png",
+          "alt": "wzmacniacz led 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/c384af832a4348a58c.png",
+          "alt": "wzmacniacz led 3.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-d8b019bc-d1eb-4f82-8ff5-eb434bb0592f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekaźnik MST-01"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przekaźnik MST-01 służy do redukcji prądu rozruchowego lamp halogenowych. Zapobiega to nadmiernej eksploatacji podłączonych lamp, w efekcie przedłużając ich żywotność."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/a0b4a73927ba453e9b.png",
+          "alt": "mts.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/db888c9b2640424c9c.png",
+          "alt": "mts2.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-e08b7806-b042-41cc-a48d-767c61b465c5",
+      "question": [
+        {
+          "type": "text",
+          "text": "Czujnik zaniku fazy CZF"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przeznaczony jest do zabezpieczenia silnika elektrycznego zasilanego z sieci trójfazowej w przypadkach zaniku napięcia w co najmniej jednej fazie lub asymetrii napięć między fazami, grożącymi zniszczeniem silnika."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/58fe6e09c6d74c3198.png",
+          "alt": "czf.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/0a1c688dc1234686a6.png",
+          "alt": "czf 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/e4ac3d5fd161468f8c.png",
+          "alt": "czf 3.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/a1a777b41c1446509b.png",
+          "alt": "czf 4.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-261a9ec7-c099-4d32-850e-8f3a9af1c7a7",
+      "question": [
+        {
+          "type": "text",
+          "text": "Czujnik zaniku fazy CZF-B"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przeznaczony do zabezpieczenia silnika elektrycznego zasilanego z sieci trójfazowej w przypadkach zaniku napięcia w co najmniej jednej fazie lub asymetrii napięć między fazami, grożącymi zniszczeniem silnika."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/bfada600583143cd9c.png",
+          "alt": "czf b.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/2673e48d8b7540ff9b.png",
+          "alt": "czf b 2.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-c940868c-d860-4f5f-9315-a587f2773131",
+      "question": [
+        {
+          "type": "text",
+          "text": "Czujnik zaniku fazy CZF 310"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przeznaczony jest do zabezpieczenia silnika elektrycznego zasilanego z sieci trójfazowej w przypadku zaniku napięcia w co najmniej jednej fazie lub asymetrii napięć między fazami, grożącymi zniszczeniem silnika."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/2ab3668ef758475093.png",
+          "alt": "310.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/863b84b36de34ee7af.png",
+          "alt": "310 2.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-7bb6894b-90f3-4381-a599-be744b41de96",
+      "question": [
+        {
+          "type": "text",
+          "text": "Czujnik zaniku fazy CZF-BR"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przeznaczony jest do zabezpieczenia silnika elektrycznego zasilanego z sieci trójfazowej w przypadkach zaniku napięcia w co najmniej jednej fazie lub asymetrii napięć między fazami, grożącymi zniszczeniem silnika."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/953d1dbc48014d4996.png",
+          "alt": "br.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/fa57df300373423dbb.png",
+          "alt": "br2.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-f662c4f6-dcf8-4a33-8c95-6128b623410b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Czujnik kolejności i zaniku fazy CKF TRMS"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przeznaczony jest do zabezpieczania silników elektrycznych zasilanych z sieci trójfazowej w przypadkach zaniku napięcia w co najmniej jednej fazie lub asymetrii napięć między fazami, grożących zniszczeniem silnika oraz do zabezpieczenia kierunku obrotów silnika w przypadku zmiany faz przed czujnikiem."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/136ab4c7f73147d7ba.png",
+          "alt": "trms.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/debb4c63aa424a70bc.png",
+          "alt": "trms 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/268b120985eb43a4ab.png",
+          "alt": "trms 3.png",
+          "remove_white_background": true
+        }
+      ]
+    },
+    {
+      "id": "card-3cf89469-cd4b-464d-9f5b-f5d76758d079",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekaźnik napięciowy CP-709"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "służy do kontroli napięcia sieci jednofazowej i zabezpieczenia odbiornika jednofazowego przed skutkami wzrostu lub spadku napięcia poza ustawione wartości.\n\n    Potencjometrami ustawiany jest dolny (U1) i górny (U2) próg napięcia. Jest to tzw. okno napięciowe, w granicach którego mogą następować zmiany napięcia zasilania nie powodujące zadziałania przekaźnika. Prawidłowe napięcie odbiornika sygnalizowane jest świeceniem LED żółtej (pozycja styku 7-10). Zmiana napięcia zasilania powyżej lub poniżej nastawionych progów napięciowych spowoduje zadziałanie przekaźnika (przełączenie styku w pozycję 7-12). Spadek napięcia poniżej ustalonej wartości U1 jest sygnalizowany świeceniem LED czerwonej (U1). Wzrost napięcia powyżej ustalonej wartości U2 jest sygnalizowany świeceniem LED czerwonej (U2). Powrotne przełączenie styku przekaźnika nastąpi automatycznie po powrocie właściwego napięcia.\n\n    Przekaźnik napięciowy może być zasilany napięciem do 450 V~. Pozwala to na skuteczną ochronę odbiornika nawet przy wzroście napięcia ponad dopuszczalne normy. Urządzenie jest zabezpieczone przed zmianą biegunowości zasilania - nie spowoduje to zniszczenia (\"spalenia\") przekaźnika."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/e20e8bcc41044194b2.png",
+          "alt": "cp.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/6d04b17f701d4e5189.png",
+          "alt": "cp 2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/fd9813e4d6744b86ba.png",
+          "alt": "cp 3.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/bd3f1e36f9fc499ca3.png",
+          "alt": "cp 4.png",
+          "remove_white_background": true
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-c06ee751-f7ce-41dd-a890-74a33550173f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekaźnik prądowy EPP-619"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "jednofunkcyjny przekaźnik prądowy z kanałem przelotowym pod przewód prądowy obwodu mierzonego. Przekaźnik prądowy EPP-619 służy do kontroli wartości natężenia prądu w obwodach mierzonych z funkcją przełączenia styku w przypadku przekroczenia wartości natężenia prądu powyżej ustawionych wartości progowych."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/7544e50c6c454de0bb.png",
+          "alt": "epp.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/b37d386fcfef47b88b.png",
+          "alt": "epp2.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/134519f705ba425faa.png",
+          "alt": "epp3.png",
+          "remove_white_background": true
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-de368b72-f627-4514-b331-45e20707c784",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekaźnik priorytetowy PR-602"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przekaźniki priorytetowe stosujemy między innymi wtedy, gdy w obwód prądowy podłączone są minimum dwa odbiorniki dużej mocy. Odbiorniki te mogą pracować niezależnie. Ich jednoczesna praca spowodowałaby zadziałanie zabezpieczeń prądowych. Prąd odbiornika priorytetowego nie może być większy od 16 A."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/00c15e134bae479fa6.png",
+          "alt": "PR.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/05008ca66a50414782.png",
+          "alt": "pr2.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/a33ab762304345fdb6.png",
+          "alt": "pr3.png",
+          "remove_white_background": true
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/0b62db0df59149c18f.png",
+          "alt": "pr4.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/fe93dfffd14340c4bd.png",
+          "alt": "pr5.png",
+          "remove_white_background": false
+        }
+      ],
+      "important": true
+    },
+    {
+      "id": "card-130b7b21-30eb-4a50-9352-328df773640c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Ogranicznik poboru mocy OM-630"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "przeznaczony jest do ciągłej kontroli mocy pobieranej przez odbiorniki podłączone do trójfazowej sieci odbiorczej i umożliwia ich odłączenie w przypadku przekroczenia zadanego poboru mocy."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/743588de994d44ad84.png",
+          "alt": "om.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7288d833fb8a/e7779c21c353492f9b.png",
+          "alt": "om2.png",
+          "remove_white_background": true
         }
       ]
     }
+  ],
+  "available_modes": [
+    "learn"
   ]
 }

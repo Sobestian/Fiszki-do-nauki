@@ -18,34 +18,41 @@
           "file": "lessons/v1-jednostki-c9065f8b.json"
         },
         {
-          "id": "v1-symbole-41e54bd2",
-          "title": "Symbole",
-          "kind": "lesson",
-          "file": "lessons/v1-symbole-41e54bd2.json"
-        },
-        {
-          "id": "v1-symbole-cz-1-5ded3904",
-          "title": "Symbole cz 1",
-          "kind": "lesson",
-          "file": "lessons/v1-symbole-cz-1-5ded3904.json"
-        },
-        {
-          "id": "v1-symbole-cz-2-4f349743",
-          "title": "Symbole cz 2",
-          "kind": "lesson",
-          "file": "lessons/v1-symbole-cz-2-4f349743.json"
-        },
-        {
-          "id": "v1-symbole-cz-3-3252dc09",
-          "title": "Symbole cz 3",
-          "kind": "lesson",
-          "file": "lessons/v1-symbole-cz-3-3252dc09.json"
-        },
-        {
-          "id": "v1-symbole-cz-4-82a5d92f",
-          "title": "Symbole cz 4",
-          "kind": "lesson",
-          "file": "lessons/v1-symbole-cz-4-82a5d92f.json"
+          "id": "item-7160b91d053b",
+          "title": "Symbole elektryczne",
+          "kind": "folder",
+          "children": [
+            {
+              "id": "v1-symbole-41e54bd2",
+              "title": "Symbole",
+              "kind": "lesson",
+              "file": "lessons/v1-symbole-41e54bd2.json"
+            },
+            {
+              "id": "v1-symbole-cz-1-5ded3904",
+              "title": "Symbole cz 1",
+              "kind": "lesson",
+              "file": "lessons/v1-symbole-cz-1-5ded3904.json"
+            },
+            {
+              "id": "v1-symbole-cz-2-4f349743",
+              "title": "Symbole cz 2",
+              "kind": "lesson",
+              "file": "lessons/v1-symbole-cz-2-4f349743.json"
+            },
+            {
+              "id": "v1-symbole-cz-3-3252dc09",
+              "title": "Symbole cz 3",
+              "kind": "lesson",
+              "file": "lessons/v1-symbole-cz-3-3252dc09.json"
+            },
+            {
+              "id": "v1-symbole-cz-4-82a5d92f",
+              "title": "Symbole cz 4",
+              "kind": "lesson",
+              "file": "lessons/v1-symbole-cz-4-82a5d92f.json"
+            }
+          ]
         }
       ]
     },
@@ -65,8 +72,27 @@
           "kind": "folder",
           "children": [
             {
+              "id": "item-826859a58dfb",
+              "title": "1. Wprowadzenie",
+              "kind": "folder",
+              "children": [
+                {
+                  "id": "item-bf131b6faa1f",
+                  "title": "Wstęp do elektryki cz1",
+                  "kind": "lesson",
+                  "file": "lessons/item-bf131b6faa1f.json"
+                },
+                {
+                  "id": "item-d0029eb97f43",
+                  "title": "Wstęp do elektryki cz2",
+                  "kind": "lesson",
+                  "file": "lessons/item-d0029eb97f43.json"
+                }
+              ]
+            },
+            {
               "id": "item-56332396802a",
-              "title": "1. Urządzenia elektryczne",
+              "title": "2. Urządzenia elektryczne",
               "kind": "folder",
               "children": [
                 {
@@ -77,42 +103,35 @@
                 },
                 {
                   "id": "item-205ac4d3d85b",
-                  "title": "MiUE cz2 - w przygotowaniu",
+                  "title": "MiUE cz2",
                   "kind": "lesson",
                   "file": "lessons/item-205ac4d3d85b.json"
                 },
                 {
                   "id": "item-8226daf000c0",
-                  "title": "MiUE cz3 - w przygotowaniu",
+                  "title": "MiUE cz3",
                   "kind": "lesson",
                   "file": "lessons/item-8226daf000c0.json"
                 },
                 {
                   "id": "item-7288d833fb8a",
-                  "title": "MiUE cz4 - w przygotowaniu",
+                  "title": "MiUE cz4",
                   "kind": "lesson",
                   "file": "lessons/item-7288d833fb8a.json"
                 },
                 {
                   "id": "item-ab93e2602256",
-                  "title": "MiUE cz5 - w przygotowaniu",
+                  "title": "MiUE cz5",
                   "kind": "lesson",
                   "file": "lessons/item-ab93e2602256.json"
+                },
+                {
+                  "id": "item-17ebc461456b",
+                  "title": "MiUE cz6",
+                  "kind": "lesson",
+                  "file": "lessons/item-17ebc461456b.json"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "ksiazka",
-          "title": "Książka ELE.02",
-          "kind": "folder",
-          "children": [
-            {
-              "id": "ele02-rozdzial-1",
-              "title": "Rozdział 1 — test",
-              "kind": "lesson",
-              "file": "lessons/ele02-rozdzial-1.json"
             }
           ]
         }

@@ -563,5 +563,6 @@
         "correct": "Światłość - kandela"
       }
     }
-  ]
+  ],
+  "allow_reversed": true
 }

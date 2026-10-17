@@ -594,3 +594,57 @@ body {overflow:hidden;}
   .footer-progress {gap:8px;}
   .footer-progress .progress-track {flex-basis:95px;}
 }
+
+
+/* Fiszki v2 0.1.16 — opcja Odwrócone w ustawieniach lekcji. */
+.reverse-option {
+  display:flex;align-items:center;gap:12px;
+  padding:14px;margin:4px 0 20px;
+  background:var(--panel2);border:1px solid var(--line);border-radius:10px;
+  cursor:pointer;
+}
+.reverse-option input {width:22px;height:22px;flex:0 0 auto;accent-color:#75a7ff;}
+.reverse-option span {display:grid;gap:4px;}
+.reverse-option small {color:var(--muted);font-size:.85rem;line-height:1.35;}
+/* W odwróconym ABCD pytania mogą zawierać zdjęcia i KaTeX. */
+.option-reverse {display:flex;align-items:center;gap:10px;overflow:hidden;min-width:0;}
+.option-reverse .choice-letter {flex:0 0 auto;align-self:start;font-weight:700;}
+.option-reverse .reverse-choice-content {flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;}
+.option-reverse .block-text {text-align:center;white-space:pre-wrap;overflow-wrap:anywhere;}
+.option-reverse img,.option-reverse img.responsive-image {
+  display:block;width:auto!important;height:auto;max-width:100%!important;
+  max-height:110px!important;object-fit:contain;margin:0 auto;
+}
+.option-reverse .formula {width:100%;}
+.option-reverse .formula-line {text-align:center;}
+.option-reverse .unit-formula-large .katex {font-size:clamp(1.6rem,5vw,2.5rem)!important;}
+.option-reverse .formula-line .katex {font-size:clamp(1rem,2vw,1.3rem);}
+@media(max-width:730px) {
+  .option-reverse img,.option-reverse img.responsive-image {max-height:84px!important;}
+}
+
+/* W odwróconym ABCD cztery ilustracje mogą być wyższe niż obszar odpowiedzi.
+   Wyrównanie od góry umożliwia przewinięcie również pierwszej opcji. */
+.workspace.abcd-mode .interaction-panel {align-items:stretch;justify-content:flex-start;}
+.workspace.abcd-mode .answer-options {flex:0 0 auto;}
+
+/* 0.1.17 — odkryty symbol w odwróconych WIEM / NIE WIEM.
+   Nie powiększamy go tak jak zwykłego zdjęcia w Nauce;
+   rozmiar bliższy wariantom ABCD, bez wychodzenia poza panel. */
+.workspace.self-assess-mode.reversed-mode .answer-card img,
+.workspace.self-assess-mode.reversed-mode .answer-card img.responsive-image {
+  display:block;
+  width:auto!important;
+  height:auto!important;
+  max-width:min(100%, 300px)!important;
+  max-height:min(21dvh, 165px)!important;
+  object-fit:contain;
+  margin:4px auto;
+}
+@media (max-width:730px) {
+  .workspace.self-assess-mode.reversed-mode .answer-card img,
+  .workspace.self-assess-mode.reversed-mode .answer-card img.responsive-image {
+    max-width:min(100%, 220px)!important;
+    max-height:min(17dvh, 125px)!important;
+  }
+}
