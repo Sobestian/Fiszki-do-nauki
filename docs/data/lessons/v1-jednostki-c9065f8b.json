@@ -15,8 +15,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[Pa] = p"
+        },
+        {
           "type": "text",
           "text": "Ciśnienie - paskal"
+        },
+        {
+          "type": "text",
+          "text": "Paskal (symbol: Pa) to jednostka ciśnienia i naprężenia mechanicznego w układzie SI. Jeden paskal to ciśnienie wywierane przez siłę 1 niutona, działającą prostopadle na powierzchnię o polu 1 metra kwadratowego: 1 Pa = 1 N/m².\n\nW jednostkach podstawowych SI: 1 Pa = 1 kg·m⁻¹·s⁻². Paskal jest jednostką stosunkowo małą – ciśnienie atmosferyczne wynosi ok. 101 325 Pa, dlatego w praktyce częściej używa się hektopaskali (hPa) lub kilopaskali (kPa)."
         }
       ],
       "quiz": {
@@ -35,8 +43,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{s}] = t"
+        },
+        {
           "type": "text",
           "text": "Czas - sekunda"
+        },
+        {
+          "type": "text",
+          "text": "Sekunda (symbol: s) jest jednostką podstawową czasu w układzie SI. Definiuje się ją jako czas trwania 9 192 631 770 okresów promieniowania odpowiadającego przejściu między dwoma poziomami nadsubtelnymi stanu podstawowego atomu cezu-133.\n\nTa definicja opiera się na zegarach atomowych – najdokładniejszych urządzeniach pomiarowych zbudowanych przez człowieka. Współczesne zegary cezowe „mylą się” o mniej niż jedną sekundę na kilkadziesiąt milionów lat."
         }
       ],
       "quiz": {
@@ -55,8 +71,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[Hz] = f"
+        },
+        {
           "type": "text",
           "text": "Częstotliwość - herc"
+        },
+        {
+          "type": "text",
+          "text": "Herc (symbol: Hz) to jednostka częstotliwości w układzie SI. Jeden herc oznacza jedno zdarzenie (np. pełne drganie, cykl, obrót) zachodzące w czasie 1 sekundy: 1 Hz = 1/s = 1 s⁻¹.\n\nCzęstotliwość jest odwrotnością okresu: f = 1/T. Herc jest jednostką pochodną wyprowadzoną wyłącznie z sekundy – jednej z siedmiu jednostek podstawowych SI."
         }
       ],
       "quiz": {
@@ -75,8 +99,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[m] = l"
+        },
+        {
           "type": "text",
           "text": "Długość - metr"
+        },
+        {
+          "type": "text",
+          "text": "Metr (symbol: m) jest jednostką podstawową długości w Międzynarodowym Układzie Jednostek Miar (SI). Od 1983 roku definiuje się go jako długość drogi przebytej przez światło w próżni w czasie 1/299 792 458 sekundy.\n\nInnymi słowy, definicja metra jest dziś bezpośrednio związana z prędkością światła c = 299 792 458 m/s, która jest stałą fizyczną o dokładnie ustalonej wartości. Dzięki temu metr jest niezmienny, powtarzalny w każdym laboratorium na świecie i nie zależy od żadnego fizycznego wzorca, który mógłby się zmieniać z czasem."
         }
       ],
       "quiz": {
@@ -95,8 +127,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[J] = E/W"
+        },
+        {
           "type": "text",
           "text": "Energia, praca - dżul"
+        },
+        {
+          "type": "text",
+          "text": "Dżul (symbol: J) to jednostka energii, pracy i ciepła w układzie SI. Jeden dżul to praca wykonana przez siłę 1 niutona na drodze 1 metra w kierunku działania siły: 1 J = 1 N·m.\n\nW jednostkach podstawowych SI: 1 J = 1 kg·m²·s⁻². Dżul jest jednostką uniwersalną – ten sam dżul opisuje energię kinetyczną poruszającego się ciała, energię potencjalną w polu grawitacyjnym, ciepło wymienione między ciałami i energię promieniowania elektromagnetycznego."
         }
       ],
       "quiz": {
@@ -115,8 +155,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{kg}/\\mathrm{m}^{3}] = \\rho"
+        },
+        {
           "type": "text",
-          "text": "Gęstość - kilogram na metr sześcienny"
+          "text": "Gęstość - kilogram na metr sześcienny\nUwaga: ρ (rho) występuje równiez jako rezystywność"
+        },
+        {
+          "type": "text",
+          "text": "Gęstość to stosunek masy pewnej ilości substancji do zajmowanej przez nią objętości."
         }
       ],
       "quiz": {
@@ -128,15 +176,23 @@
       "question": [
         {
           "type": "formula",
-          "latex": "\\mathrm{m}^{2}",
+          "latex": "A/\\mathrm{m}^{2}",
           "size": "large",
           "source_conversion": "jednostki-v1"
         }
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{A/m^{2}}] = \\mathrm{J}"
+        },
+        {
           "type": "text",
           "text": "Gęstość prądu - amper na metr kwadratowy"
+        },
+        {
+          "type": "text",
+          "text": "Gęstość prądu – intuicyjnie jest to wielkość fizyczna określająca natężenie prądu elektrycznego przypadającego na jednostkę powierzchni przekroju poprzecznego przewodnika."
         }
       ],
       "quiz": {
@@ -155,8 +211,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{mol}] = n"
+        },
+        {
           "type": "text",
           "text": "Ilość substancji - mol"
+        },
+        {
+          "type": "text",
+          "text": "Liczność materii – wielkość fizyczna określająca ilość materii poprzez podanie stosunku liczby dowolnych cząstek tworzących dany obiekt fizyczny do liczby atomów zawartych w 12 g czystego izotopu węgla 12C.\n\nW układzie SI jednostką liczności materii jest mol, który odpowiada liczbie ok. 6,022 141 79(30) × 1023 cząstek."
         }
       ],
       "quiz": {
@@ -175,8 +239,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{T}] = B"
+        },
+        {
           "type": "text",
           "text": "Indukcja magnetyczna - tesla"
+        },
+        {
+          "type": "text",
+          "text": "Tesla (symbol: T) to jednostka indukcji magnetycznej (gęstości strumienia magnetycznego) w układzie SI. Jeden tesla to indukcja pola magnetycznego, w którym na ładunek 1 kulomba poruszający się z prędkością 1 m/s prostopadle do linii pola działa siła 1 niutona: 1 T = 1 N/(A·m) = 1 kg·A⁻¹·s⁻².\n\nTesla jest jednostką dość dużą w praktyce – pole magnetyczne Ziemi ma indukcję rzędu 25–65 mikrotesli (μT), podczas gdy silne magnesy neodymowe osiągają ok. 1 T, a magnesy w rezonansie magnetycznym (MRI) – do kilku tesli."
         }
       ],
       "quiz": {
@@ -195,8 +267,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[H] = L"
+        },
+        {
           "type": "text",
           "text": "Indukcyjność - henr"
+        },
+        {
+          "type": "text",
+          "text": "Henr (H) – jednostka indukcyjności oraz permeancji (przewodności magnetycznej) w układzie SI (jednostka pochodna układu SI)."
         }
       ],
       "quiz": {
@@ -215,8 +295,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[S] = G"
+        },
+        {
           "type": "text",
           "text": "Konduktancja - simens"
+        },
+        {
+          "type": "text",
+          "text": "Simens (S) – jednostka przewodności elektrycznej w układzie SI (jednostka pochodna układu SI), odwrotność oma. Nazwa jednostki pochodzi od nazwiska niemieckiego inżyniera Wernera Siemensa."
         }
       ],
       "quiz": {
@@ -235,8 +323,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[kg] = m"
+        },
+        {
           "type": "text",
           "text": "Masa - kilogram"
+        },
+        {
+          "type": "text",
+          "text": "Kilogram (symbol: kg) jest jednostką podstawową masy w układzie SI. Od 20 maja 2019 roku jest definiowany przez ustaloną wartość liczbową stałej Plancka h = 6,62607015 × 10⁻³⁴ J·s, co pośrednio wiąże masę z energią i czasem poprzez relację E = hf oraz E = mc².\n\nJest to jedyna jednostka podstawowa SI, której nazwa zawiera przedrostek („kilo”) – wynika to z historycznych decyzji sprzed ponad 200 lat, kiedy podstawową jednostką miał być „gram”, ale okazał się zbyt mały do praktycznego wzorcowania."
         }
       ],
       "quiz": {
@@ -255,8 +351,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[W] = P"
+        },
+        {
           "type": "text",
           "text": "Moc - wat"
+        },
+        {
+          "type": "text",
+          "text": "Wat (symbol: W) to jednostka mocy w układzie SI. Jeden wat to moc, przy której praca 1 dżula jest wykonywana w czasie 1 sekundy: 1 W = 1 J/s.\n\nW jednostkach podstawowych SI: 1 W = 1 kg·m²·s⁻³. Moc opisuje „szybkość” przekazywania energii – to samo zadanie (np. podniesienie ciężaru) można wykonać z różną mocą, zależnie od tego, jak szybko się je wykona."
         }
       ],
       "quiz": {
@@ -275,8 +379,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[V] = U"
+        },
+        {
           "type": "text",
           "text": "Napięcie elektryczne - wolt"
+        },
+        {
+          "type": "text",
+          "text": "Wolt (symbol: V) to jednostka napięcia elektrycznego, potencjału elektrycznego i siły elektromotorycznej w układzie SI. Jeden wolt to różnica potencjałów, przy której praca 1 dżula jest wykonywana przy przeniesieniu ładunku 1 kulomba: 1 V = 1 J/C.\n\nW jednostkach podstawowych SI: 1 V = 1 kg·m²·A⁻¹·s⁻³. Wolt można też zdefiniować przez prawo Ohma jako napięcie, które na oporze 1 oma wywołuje prąd o natężeniu 1 ampera: 1 V = 1 W/A = 1 Ω·A."
         }
       ],
       "quiz": {
@@ -294,6 +406,10 @@
         }
       ],
       "answer": [
+        {
+          "type": "formula",
+          "latex": "[V/m] = E"
+        },
         {
           "type": "text",
           "text": "Natężenie pola elektrycznego - wolt na metr"
@@ -315,8 +431,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{A}] = \\mathrm{I}"
+        },
+        {
           "type": "text",
           "text": "Natężenie prądu - amper"
+        },
+        {
+          "type": "text",
+          "text": "Amper (symbol: A) jest jednostką podstawową natężenia prądu elektrycznego w układzie SI. Od 2019 roku jest definiowany przez ustaloną wartość liczbową ładunku elementarnego e = 1,602176634 × 10⁻¹⁹ C, co oznacza przepływ ok. 6,24 × 10¹⁸ elektronów na sekundę przez przekrój przewodnika.\n\nNatężenie prądu I to ilość ładunku elektrycznego przepływającego przez przekrój przewodnika w jednostce czasu: I = Q/t. Amper to ampersów na sekundę – czyli 1 A = 1 C/s."
         }
       ],
       "quiz": {
@@ -334,6 +458,10 @@
         }
       ],
       "answer": [
+        {
+          "type": "formula",
+          "latex": "[m^{3}] = V"
+        },
         {
           "type": "text",
           "text": "Objętość - metr sześcienny"
@@ -355,8 +483,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[F] = C"
+        },
+        {
           "type": "text",
           "text": "Pojemność elektryczna - farad"
+        },
+        {
+          "type": "text",
+          "text": "Farad (symbol: F) to jednostka pojemności elektrycznej w układzie SI. Jeden farad to pojemność kondensatora, na którego okładkach gromadzi się ładunek 1 kulomba przy napięciu 1 wolta: 1 F = 1 C/V.\n\nW jednostkach podstawowych SI: 1 F = kg⁻¹·m⁻²·A²·s⁴. Farad jest jednostką ekstremalnie dużą w praktyce – typowe kondensatory mają pojemności rzędu mikrofaradów (μF), nanofaradów (nF) lub pikofaradów (pF)."
         }
       ],
       "quiz": {
@@ -374,6 +510,10 @@
         }
       ],
       "answer": [
+        {
+          "type": "formula",
+          "latex": "[m^{2}] = S"
+        },
         {
           "type": "text",
           "text": "Pole powierzchni - metr kwadratowy"
@@ -395,6 +535,10 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{m}/\\mathrm{s}^{2}] = a"
+        },
+        {
           "type": "text",
           "text": "Przyspieszenie - metr na sekundę do kwadratu"
         }
@@ -414,6 +558,10 @@
         }
       ],
       "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\mathrm{m}/\\mathrm{s}] = v"
+        },
         {
           "type": "text",
           "text": "Prędkość - metr na sekundę"
@@ -435,8 +583,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\Omega] = R"
+        },
+        {
           "type": "text",
           "text": "Rezystancja - om"
+        },
+        {
+          "type": "text",
+          "text": "Om (symbol: Ω, grecka litera omega) to jednostka oporu elektrycznego w układzie SI. Jeden om to opór przewodnika, w którym napięcie 1 wolta wywołuje prąd o natężeniu 1 ampera: 1 Ω = 1 V/A.\n\nW jednostkach podstawowych SI: 1 Ω = 1 kg·m²·A⁻²·s⁻³. Opór elektryczny opisuje, jak silnie dany element obwodu „przeciwstawia się” przepływowi prądu, zamieniając energię elektryczną na ciepło."
         }
       ],
       "quiz": {
@@ -455,8 +611,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\Omega\\cdot\\mathrm{m}] = \\rho"
+        },
+        {
           "type": "text",
           "text": "Rezystywność - omometr"
+        },
+        {
+          "type": "text",
+          "text": "Rezystywność (opór elektryczny właściwy) – wielkość charakteryzująca materiały pod względem przewodnictwa elektrycznego. Rezystywność jest zazwyczaj oznaczana jako ρ (mała grecka litera rho). Jednostką rezystywności w układzie SI jest om⋅metr (Ω·m), inaczej omometr."
         }
       ],
       "quiz": {
@@ -475,8 +639,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{N}] = F"
+        },
+        {
           "type": "text",
           "text": "Siła - niuton"
+        },
+        {
+          "type": "text",
+          "text": "Niuton (symbol: N) to jednostka siły w układzie SI. Jeden niuton to siła, która ciału o masie 1 kilograma nadaje przyspieszenie 1 m/s². Wynika to bezpośrednio z drugiej zasady dynamiki Newtona: F = ma.\n\nW jednostkach podstawowych SI: 1 N = 1 kg·m·s⁻² = 1 kg·m/s². Niuton jest jednostką pochodną – nie należy do siedmiu jednostek podstawowych, ale jest z nich w pełni wyprowadzalny."
         }
       ],
       "quiz": {
@@ -495,8 +667,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{Wb}] = \\Phi"
+        },
+        {
           "type": "text",
           "text": "Strumień magnetyczny - weber"
+        },
+        {
+          "type": "text",
+          "text": "Weber (Wb) – jednostka strumienia indukcji magnetycznej w układzie SI (Jednostka pochodna układu SI). Jeden weber jest strumieniem indukcji magnetycznej o wartości 1 tesli przecinającej pod kątem prostym powierzchnię 1 metra kwadratowego. Wartość 1 webera można też zinterpretować następująco: jeśli weźmiemy otwartą pętlę (z przewodnika) o powierzchni 1 metra kwadratowego i będziemy jednostajnie zwiększać strumień magnetyczny przecinający tę pętlę prostopadle tak, aby strumień magnetyczny wzrastał z szybkością 1 webera na sekundę, to na końcach tej otwartej pętli wyindukuje się siła elektromotoryczna o wartości 1 wolta."
         }
       ],
       "quiz": {
@@ -515,8 +695,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{K}] = T"
+        },
+        {
           "type": "text",
           "text": "Temperatura - kelwin"
+        },
+        {
+          "type": "text",
+          "text": "Kelwin (symbol: K – bez znaku stopnia) jest jednostką podstawową temperatury termodynamicznej w układzie SI. Od 2019 roku jest definiowany przez ustaloną wartość liczbową stałej Boltzmanna k = 1,380649 × 10⁻²³ J/K.\n\nSkala Kelwina jest skalą bezwzględną – jej zero (0 K) odpowiada zeru absolutnemu, czyli teoretycznemu stanowi minimalnej możliwej energii termicznej. Wielkość przyrostu o 1 K jest identyczna jak przyrost o 1°C, więc różnice temperatur można podawać zarówno w kelwinach, jak i stopniach Celsjusza."
         }
       ],
       "quiz": {
@@ -535,8 +723,16 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{C}] = Q"
+        },
+        {
           "type": "text",
           "text": "Ładunek elektryczny - kulomb"
+        },
+        {
+          "type": "text",
+          "text": "Kulomb (symbol: C) to jednostka ładunku elektrycznego w układzie SI. Jeden kulomb to ładunek przepływający przez przekrój przewodnika w czasie 1 sekundy przy natężeniu prądu 1 ampera: 1 C = 1 A·s.\n\nKulomb jest jednostką pochodną wyrażoną przez jednostkę podstawową (amper) i sekundę. Jest to dość duży ładunek – ładunek elementarny pojedynczego elektronu wynosi zaledwie e = 1,602 × 10⁻¹⁹ C."
         }
       ],
       "quiz": {
@@ -555,14 +751,21 @@
       ],
       "answer": [
         {
+          "type": "formula",
+          "latex": "[\\mathrm{cd}] = I_v"
+        },
+        {
           "type": "text",
           "text": "Światłość - kandela"
+        },
+        {
+          "type": "text",
+          "text": "Kandela (symbol: cd) jest jednostką podstawową światłości źródła światła w układzie SI. Definiuje się ją jako światłość źródła emitującego promieniowanie monochromatyczne o częstotliwości 540 × 10¹² Hz (czyli o długości fali ok. 555 nm – światło zielone, na które ludzkie oko jest najbardziej czułe), którego natężenie promieniowania w danym kierunku wynosi 1/683 wata na steradian.\n\nW odróżnieniu od innych jednostek SI, kandela uwzględnia czułość ludzkiego oka – jest jedyną jednostką podstawowej wielkości fizjologicznej (a nie czysto fizycznej) w układzie SI."
         }
       ],
       "quiz": {
         "correct": "Światłość - kandela"
       }
     }
-  ],
-  "allow_reversed": true
+  ]
 }
