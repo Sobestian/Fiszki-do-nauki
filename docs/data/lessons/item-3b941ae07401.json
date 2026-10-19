@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "id": "item-3b941ae07401",
+  "title": "Jednostki i analiza wymiarowa",
+  "display_format": "study",
+  "available_modes": [
+    "learn"
+  ],
+  "cards": [
+    {
+      "id": "card-422003dfddaf58a8",
+      "question": [
+        {
+          "type": "text",
+          "text": "Dlaczego jednostki są niezbędne w obliczeniach?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wartość wielkości fizycznej składa się z liczby i jednostki. Jednostka określa, co mierzymy, i pozwala sprawdzić spójność wzorów. Nie wolno dodawać wartości wyrażających różne wielkości, np. napięcia i prądu. Przed podstawieniem do wzoru najlepiej sprowadzić dane do zgodnych jednostek, zwykle SI. Wynik podaje się z jednostką i dokładnością uzasadnioną danymi."
+        }
+      ]
+    },
+    {
+      "id": "card-10f6f5d3cd1c538a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przedrostki dziesiętne i zmiana skali"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przedrostki SI tworzą wielokrotności i podwielokrotności jednostek. k = 10³, M = 10⁶, m = 10⁻³, µ = 10⁻⁶, n = 10⁻⁹. Wielkość fizyczna nie zmienia się przy zamianie jej zapisu: 4700 Ω i 4,7 kΩ to ta sama rezystancja. Wielkie i małe litery są istotne: mW to miliwat, MW to megawat."
+        },
+        {
+          "type": "formula",
+          "latex": "4700\\,\\Omega=4{,}7\\,\\mathrm{k}\\Omega"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-3b941ae07401/skala.svg",
+          "alt": "Skala przedrostków kilo, jednostka, mili, mikro i nano",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-4f5da82e70675d92",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zasada zamiany jednostek kwadratowych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Podczas zamiany jednostek pola powierzchni przelicznik długości należy podnieść do kwadratu. Wobec 1 cm = 10⁻² m otrzymujemy 1 cm² = (10⁻² m)² = 10⁻⁴ m². Jeden milimetr kwadratowy odpowiada 10⁻⁶ m². To istotne np. przy obliczaniu pola przekroju przewodu."
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{mm}^2=10^{-6}\\,\\mathrm{m}^2"
+        }
+      ]
+    },
+    {
+      "id": "card-253a113de86e5dfd",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zasada zamiany jednostek objętości"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dla objętości przelicznik długości podnosi się do trzeciej potęgi: 1 cm³ = 10⁻⁶ m³. Litr jest jednostką dopuszczoną do stosowania z SI, ale sam nie należy do SI: 1 L = 1 dm³ = 10⁻³ m³. Pojemność zbiornika wyrażona w litrach nie jest tym samym co pojemność elektryczna wyrażana w faradach."
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{L}=10^{-3}\\,\\mathrm{m}^3"
+        }
+      ]
+    },
+    {
+      "id": "card-506d51137a1f5bf8",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zamiana jednostek złożonych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Prędkość w km/h można przeliczyć na m/s przez pomnożenie przez 1000/3600, a więc podzielenie przez 3,6. Podczas zamiany jednostek, które występują w mianowniku, trzeba pamiętać o odwróceniu odpowiednich przeliczników. Zapis 72 km/h odpowiada 20 m/s."
+        },
+        {
+          "type": "formula",
+          "latex": "72\\,\\frac{\\mathrm{km}}{\\mathrm{h}}=72\\cdot\\frac{1000\\,\\mathrm{m}}{3600\\,\\mathrm{s}}=20\\,\\frac{\\mathrm{m}}{\\mathrm{s}}"
+        }
+      ]
+    },
+    {
+      "id": "card-1ad97e3638d559ea",
+      "question": [
+        {
+          "type": "text",
+          "text": "Czym jest analiza wymiarowa?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Analiza wymiarowa polega na porównywaniu wymiarów fizycznych obu stron równania. Jeśli lewa strona przedstawia energię, prawa również musi mieć wymiar energii. Niezgodność oznacza błąd, ale zgodność wymiarów sama nie dowodzi poprawności fizycznej wzoru — nie wykryje np. brakującego współczynnika 2."
+        },
+        {
+          "type": "formula",
+          "latex": "\\mathrm{W}=\\mathrm{V}\\cdot\\mathrm{A}=\\frac{\\mathrm{J}}{\\mathrm{s}}"
+        }
+      ]
+    },
+    {
+      "id": "card-14f2643238fc5f5e",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykład kontroli wzoru na rezystancję"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Rezystancję jednorodnego przewodnika o stałym przekroju można obliczyć z rezystywności materiału, długości i pola przekroju. Jednostka rezystywności to Ω·m. Po podstawieniu jednostek po prawej stronie otrzymujemy Ω·m · m/m² = Ω. Wzór jest zgodny wymiarowo."
+        },
+        {
+          "type": "formula",
+          "latex": "R=\\rho\\frac{l}{S}"
+        },
+        {
+          "type": "formula",
+          "latex": "[R]=\\frac{(\\Omega\\cdot\\mathrm{m})\\cdot\\mathrm{m}}{\\mathrm{m}^2}=\\Omega"
+        }
+      ]
+    },
+    {
+      "id": "card-4b0490396a8a5a5a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Energia i moc – przeliczanie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moc jest szybkością przekazywania energii. Energia 1 kWh odpowiada pracy urządzenia o mocy 1 kW przez godzinę, czyli 3,6 MJ. W watach podajemy moc, w dżulach albo kilowatogodzinach energię. Ta różnica jest ważna przy odczytywaniu tabliczek znamionowych i liczników energii."
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{kWh}=3{,}6\\cdot 10^{6}\\,\\mathrm{J}"
+        }
+      ]
+    },
+    {
+      "id": "card-5a8a213c822455cb",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykład obliczenia z prawidłową jednostką"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odbiornik o napięciu 12 V pobiera 0,5 A. Moc w obwodzie prądu stałego wynosi P = U·I = 6 W. Jeśli działa nieprzerwanie 10 min, czyli 600 s, przekazana energia wynosi E = P·t = 3600 J = 1 Wh."
+        },
+        {
+          "type": "formula",
+          "latex": "P=12\\,\\mathrm{V}\\cdot0{,}5\\,\\mathrm{A}=6\\,\\mathrm{W}"
+        },
+        {
+          "type": "formula",
+          "latex": "E=6\\,\\mathrm{W}\\cdot600\\,\\mathrm{s}=3600\\,\\mathrm{J}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "id": "item-df4a184c0203",
+  "title": "Moc i energia elektryczna",
+  "display_format": "study",
+  "available_modes": [
+    "learn"
+  ],
+  "cards": [
+    {
+      "id": "card-e27d8aca9d175f74",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc a energia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moc określa szybkość przekazywania lub przemiany energii, a energia ilość przekazanej pracy. Moc mierzy się w watach, energię w dżulach lub kilowatogodzinach. Odbiornik o mocy 2 kW pracujący przez 3 h zużyje 6 kWh energii, jeżeli jego moc pozostanie stała."
+        },
+        {
+          "type": "formula",
+          "latex": "E=P\\cdot t"
+        }
+      ]
+    },
+    {
+      "id": "card-42bbb715046c5fcc",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc w obwodzie prądu stałego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dla obwodu prądu stałego moc odbiornika jest iloczynem napięcia na nim i natężenia prądu przez niego płynącego. Dla rezystora można dodatkowo zastosować prawo Ohma. Przy napięciu 24 V i prądzie 2 A moc wynosi 48 W."
+        },
+        {
+          "type": "formula",
+          "latex": "P=U\\cdot I"
+        },
+        {
+          "type": "formula",
+          "latex": "P=I^2R=\\frac{U^2}{R}"
+        }
+      ]
+    },
+    {
+      "id": "card-60f52724f5e757e6",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc chwilowa w obwodzie prądu przemiennego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moc chwilowa jest iloczynem chwilowych wartości napięcia i prądu. Dla przebiegów sinusoidalnych jej wartość zmienia się w czasie. Moc czynna jest średnią mocą chwilową w jednym okresie, a jej wartość zależy od przesunięcia fazowego i kształtu przebiegów."
+        },
+        {
+          "type": "formula",
+          "latex": "p(t)=u(t)\\,i(t)"
+        }
+      ]
+    },
+    {
+      "id": "card-5f01a6410df15aaf",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc czynna P"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moc czynna jest średnią mocą przekazywaną do odbiornika i zamienianą np. na pracę mechaniczną, ciepło lub światło. W sinusoidalnym jednofazowym obwodzie prądu przemiennego oblicza się ją z wartości skutecznych napięcia i prądu oraz cosinusa kąta przesunięcia fazowego."
+        },
+        {
+          "type": "formula",
+          "latex": "P=U_{\\mathrm{sk}}I_{\\mathrm{sk}}\\cos\\varphi"
+        }
+      ]
+    },
+    {
+      "id": "card-be8ea04b6cf75b7b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc bierna Q"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moc bierna opisuje wymianę energii między źródłem i elementami magazynującymi ją w polu magnetycznym lub elektrycznym. Dla sinusoidalnego prądu przemiennego Q = Usk·Isk·sin φ; jednostką jest war (var). W układach z przebiegami odkształconymi trzeba rozróżnić moc bierną związaną z przesunięciem fazowym i inne składowe mocy nieczynnej."
+        },
+        {
+          "type": "formula",
+          "latex": "Q=U_{\\mathrm{sk}}I_{\\mathrm{sk}}\\sin\\varphi"
+        }
+      ]
+    },
+    {
+      "id": "card-bcdaba2f5afc5413",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc pozorna S"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "W jednofazowym obwodzie sinusoidalnym moc pozorna jest iloczynem wartości skutecznych napięcia i prądu. Jej jednostka to woltoamper (VA). Dla sinusoid o tym samym podstawowym okresie tworzy z mocą czynną i bierną trójkąt mocy."
+        },
+        {
+          "type": "formula",
+          "latex": "S=U_{\\mathrm{sk}}I_{\\mathrm{sk}}"
+        },
+        {
+          "type": "formula",
+          "latex": "S^2=P^2+Q^2"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-df4a184c0203/trojkat.svg",
+          "alt": "Trójkąt mocy P, Q, S",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-4f0f80ac5e20543f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Współczynnik mocy i cos φ"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dla sinusoidalnego napięcia i prądu cos φ = P/S określa udział mocy czynnej w pozornej. W urządzeniach z prądami odkształconymi ogólny współczynnik mocy P/S nie musi być równy cosinusowi przesunięcia fazowego podstawowych harmonicznych. Im mniejszy współczynnik mocy, tym większy prąd jest potrzebny przy tej samej mocy czynnej i napięciu."
+        },
+        {
+          "type": "formula",
+          "latex": "\\lambda=\\frac{P}{S}"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-df4a184c0203/faza.svg",
+          "alt": "Przesunięcie fazowe napięcia i prądu sinusoidalnego",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-acb1a52366555494",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc w symetrycznym układzie trójfazowym"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "W symetrycznym układzie trójfazowym o przebiegach sinusoidalnych całkowitą moc czynną można obliczyć z napięcia międzyfazowego UL i prądu przewodowego IL. Zależność obowiązuje zarówno dla połączeń gwiazda, jak i trójkąt przy właściwej interpretacji wielkości przewodowych."
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\sqrt{3}\\,U_LI_L\\cos\\varphi"
+        }
+      ]
+    },
+    {
+      "id": "card-5c3bccf2984e5740",
+      "question": [
+        {
+          "type": "text",
+          "text": "Sprawność energetyczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Sprawność urządzenia jest stosunkiem mocy użytecznej oddawanej do mocy pobieranej. Pozostała część stanowi straty, np. cieplne, mechaniczne i magnetyczne. Sprawność nie przekracza 100% dla pasywnego urządzenia przetwarzającego energię; przy porównywaniu wartości wejściowych i wyjściowych muszą to być moce tego samego rodzaju."
+        },
+        {
+          "type": "formula",
+          "latex": "\\eta=\\frac{P_{\\mathrm{wy}}}{P_{\\mathrm{we}}}"
+        }
+      ]
+    },
+    {
+      "id": "card-8db8a44498f958c5",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykład rozliczenia energii"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Grzałka 1,5 kW zasilana przez 40 minut pracuje przez 2/3 godziny. Przy założeniu stałej mocy pobiera 1 kWh energii. Koszt zależy od taryfy i pozostałych składników opłat, a nie wynika bezpośrednio z samego wyniku w kWh."
+        },
+        {
+          "type": "formula",
+          "latex": "E=1{,}5\\,\\mathrm{kW}\\cdot\\frac{2}{3}\\,\\mathrm{h}=1\\,\\mathrm{kWh}"
+        }
+      ]
+    }
+  ]
+}

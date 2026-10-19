@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "id": "item-1bb225419ab3",
+  "title": "Magnetyzm i elektromagnetyzm",
+  "cards": [
+    {
+      "id": "card-f389c124be9e3fc06202",
+      "question": [
+        {
+          "type": "text",
+          "text": "Pole magnetyczne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Obszar, w którym na poruszające się ładunki lub magnesy działają siły magnetyczne. Pole opisuje m.in. wektor indukcji magnetycznej B."
+        }
+      ]
+    },
+    {
+      "id": "card-6d202ef1e63992272bbd",
+      "question": [
+        {
+          "type": "text",
+          "text": "Pole elektromagnetyczne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wspólne pole elektryczne i magnetyczne. Zmienne pola mogą wzajemnie się indukować i rozchodzić jako fale elektromagnetyczne."
+        }
+      ]
+    },
+    {
+      "id": "card-db24b9c4b9e8863d0a86",
+      "question": [
+        {
+          "type": "text",
+          "text": "Indukcja magnetyczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wielkość wektorowa B opisująca działanie pola magnetycznego m.in. na poruszające się ładunki i przewodniki z prądem. Jednostka SI: tesla (T)."
+        },
+        {
+          "type": "formula",
+          "latex": "[B]=\\mathrm{T}"
+        },
+        {
+          "type": "formula",
+          "latex": "F=B\\,I\\,l\\sin\\alpha"
+        }
+      ]
+    },
+    {
+      "id": "card-8b40621e18bdc0ac1c96",
+      "question": [
+        {
+          "type": "text",
+          "text": "Strumień magnetyczny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wielkość określająca pole magnetyczne przenikające przez daną powierzchnię. Symbol: Φ; jednostka SI: weber (Wb). We wzorze α jest kątem między wektorem B a normalną do powierzchni S."
+        },
+        {
+          "type": "formula",
+          "latex": "[\\Phi]=\\mathrm{Wb}"
+        },
+        {
+          "type": "formula",
+          "latex": "\\Phi=B\\,S\\cos\\alpha"
+        }
+      ]
+    },
+    {
+      "id": "card-997eeee90f8dfc09bdcd",
+      "question": [
+        {
+          "type": "text",
+          "text": "Siła elektromagnetyczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Siła działająca na przewodnik, przez który płynie prąd, umieszczony w polu magnetycznym. Dla prostego przewodnika o długości l w jednorodnym polu: α jest kątem między kierunkiem prądu a wektorem B."
+        },
+        {
+          "type": "formula",
+          "latex": "[F]=\\mathrm{N}"
+        },
+        {
+          "type": "formula",
+          "latex": "F=B\\,I\\,l\\sin\\alpha"
+        }
+      ]
+    },
+    {
+      "id": "card-a3a7032df8c9379daad4",
+      "question": [
+        {
+          "type": "text",
+          "text": "Siła Lorentza"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Siła działająca na ładunek elektryczny q w polu elektrycznym E i magnetycznym B. W ogólnym przypadku opisuje ją wzór wektorowy; podano również wartość siły w samym polu magnetycznym."
+        },
+        {
+          "type": "formula",
+          "latex": "[F]=\\mathrm{N}"
+        },
+        {
+          "type": "formula",
+          "latex": "F_{\\mathrm{mag}}=|q|\\,v\\,B\\sin\\alpha"
+        },
+        {
+          "type": "formula",
+          "latex": "\\vec F=q\\left(\\vec E+\\vec v\\times\\vec B\\right)"
+        },
+        {
+          "type": "text",
+          "text": "q — ładunek elektryczny (C), v — prędkość (m/s), E — natężenie pola elektrycznego (V/m), B — indukcja magnetyczna (T). Kąt α występuje między v a B."
+        }
+      ]
+    },
+    {
+      "id": "card-2d08e221b665d305d76f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Indukcja elektromagnetyczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zjawisko powstawania siły elektromotorycznej wskutek zmiany strumienia magnetycznego skojarzonego z obwodem. W zamkniętym obwodzie może wywołać prąd indukowany. Dla jednego zwoju obejmującego strumień Φ obowiązuje poniższy wzór."
+        },
+        {
+          "type": "formula",
+          "latex": "\\mathcal{E}=-\\frac{d\\Phi}{dt}"
+        }
+      ]
+    },
+    {
+      "id": "card-3f3a9f3ad56e7eb08645",
+      "question": [
+        {
+          "type": "text",
+          "text": "Indukcyjność"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wielkość charakteryzująca związek między prądem i strumieniem skojarzonym z obwodem; określa zdolność elementu do magazynowania energii w polu magnetycznym. Jednostka: henr (H)."
+        },
+        {
+          "type": "formula",
+          "latex": "[L]=\\mathrm{H}"
+        },
+        {
+          "type": "formula",
+          "latex": "E=\\frac12L\\,I^2"
+        }
+      ]
+    },
+    {
+      "id": "card-0998c9331b438c91dc68",
+      "question": [
+        {
+          "type": "text",
+          "text": "Samoindukcja"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zjawisko indukowania siły elektromotorycznej w obwodzie wskutek zmiany jego własnego prądu. Powstająca SEM przeciwdziała tej zmianie."
+        },
+        {
+          "type": "formula",
+          "latex": "\\mathcal{E}_L=-L\\frac{di}{dt}"
+        }
+      ]
+    },
+    {
+      "id": "card-a64fec98faeddc845871",
+      "question": [
+        {
+          "type": "text",
+          "text": "Elektromagnes"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Urządzenie wytwarzające pole magnetyczne dzięki przepływowi prądu przez uzwojenie, często z ferromagnetycznym rdzeniem. Stosowany np. w przekaźnikach i stycznikach."
+        }
+      ]
+    },
+    {
+      "id": "card-571ba458eaa2c38a1d56",
+      "question": [
+        {
+          "type": "text",
+          "text": "Ferromagnetyzm"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Właściwość niektórych materiałów, np. żelaza, kobaltu i niklu, polegająca na silnym namagnesowaniu pod wpływem pola magnetycznego. Mogą one zachowywać namagnesowanie również po usunięciu pola zewnętrznego."
+        }
+      ]
+    },
+    {
+      "id": "card-ca583144a8c5fd2b5df6",
+      "question": [
+        {
+          "type": "text",
+          "text": "Histereza magnetyczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zależność stanu namagnesowania ferromagnetyka od historii zmian pola magnetycznego. Pętla histerezy pokazuje m.in. remanencję i koercję; jej pole wiąże się ze stratami energii."
+        }
+      ]
+    }
+  ]
+}

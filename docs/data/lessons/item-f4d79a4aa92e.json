@@ -1,0 +1,1293 @@
+{
+  "schema_version": 1,
+  "id": "item-f4d79a4aa92e",
+  "title": "Pochodne jednostki SI",
+  "cards": [
+    {
+      "id": "card-e7874c74c3c34eb9",
+      "question": [
+        {
+          "type": "text",
+          "text": "Czym są jednostki pochodne SI?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Jednostki pochodne SI wyraża się za pomocą iloczynów potęg siedmiu jednostek podstawowych. Mogą mieć nazwy specjalne, np. niuton (N), wat (W), wolt (V), om (Ω), albo zapis złożony, np. m/s, m² czy kg/m³. Istnieją 22 jednostki pochodne SI o specjalnych nazwach i symbolach. Przykładem jest jednostka siły: 1 N = 1 kg·m/s²."
+        }
+      ]
+    },
+    {
+      "id": "card-2c32aff2c9c54960",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{rad}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\theta]=\\mathrm{rad}"
+        },
+        {
+          "type": "text",
+          "text": "Kąt płaski - radian"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{rad}=1\\,\\frac{\\mathrm{m}}{\\mathrm{m}}"
+        },
+        {
+          "type": "text",
+          "text": "Radian jest jednostką kąta płaskiego. Kąt 1 rad wyznacza łuk okręgu o długości równej jego promieniowi. Radian jest bezwymiarową jednostką pochodną SI; pełny obrót to 2π rad. Przydaje się w obliczeniach ruchu obrotowego."
+        },
+        {
+          "type": "formula",
+          "latex": "\\theta=\\frac{s}{r}"
+        }
+      ],
+      "quiz": {
+        "correct": "Kąt płaski - radian"
+      }
+    },
+    {
+      "id": "card-218c366220a44336",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{sr}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\Omega]=\\mathrm{sr}"
+        },
+        {
+          "type": "text",
+          "text": "Kąt bryłowy - steradian"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{sr}=1\\,\\frac{\\mathrm{m}^{2}}{\\mathrm{m}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Steradian jest jednostką kąta bryłowego, opisującego część przestrzeni widzianą z jednego punktu. Jeden steradian obejmuje na kuli powierzchnię równą kwadratowi jej promienia. Cała sfera odpowiada 4π sr. Jednostkę stosuje się np. w fotometrii."
+        },
+        {
+          "type": "formula",
+          "latex": "\\Omega=\\frac{A}{r^{2}}"
+        }
+      ],
+      "quiz": {
+        "correct": "Kąt bryłowy - steradian"
+      }
+    },
+    {
+      "id": "card-518e27a8eb5b4d8f",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{Hz}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[f]=\\mathrm{Hz}"
+        },
+        {
+          "type": "text",
+          "text": "Częstotliwość - herc"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{Hz}=1\\,\\mathrm{s}^{-1}"
+        },
+        {
+          "type": "text",
+          "text": "Herc jest jednostką częstotliwości. Oznacza jeden pełny cykl lub okresowe zdarzenie w ciągu sekundy. Przykład: częstotliwość sieci elektrycznej w Polsce to nominalnie 50 Hz; częstotliwość jest odwrotnością okresu."
+        },
+        {
+          "type": "formula",
+          "latex": "f=\\frac{1}{T}"
+        }
+      ],
+      "quiz": {
+        "correct": "Częstotliwość - herc"
+      }
+    },
+    {
+      "id": "card-699c388c04aa4721",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{N}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[F]=\\mathrm{N}"
+        },
+        {
+          "type": "text",
+          "text": "Siła - niuton"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{N}=1\\,\\frac{\\mathrm{kg}\\cdot\\mathrm{m}}{\\mathrm{s}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Niuton jest jednostką siły. Siła 1 N nadaje masie 1 kg przyspieszenie 1 m/s² (gdy jest to siła wypadkowa). Jednostkę stosuje się do opisu obciążeń mechanicznych, pracy siłowników i nacisku elementów maszyn."
+        },
+        {
+          "type": "formula",
+          "latex": "F=m\\cdot a"
+        }
+      ],
+      "quiz": {
+        "correct": "Siła - niuton"
+      }
+    },
+    {
+      "id": "card-8dc90dc6a02b4c2d",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{Pa}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[p]=\\mathrm{Pa}"
+        },
+        {
+          "type": "text",
+          "text": "Ciśnienie - paskal"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{Pa}=1\\,\\frac{\\mathrm{N}}{\\mathrm{m}^{2}}=1\\,\\frac{\\mathrm{kg}}{\\mathrm{m}\\cdot\\mathrm{s}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Paskal jest jednostką ciśnienia i naprężenia. Odpowiada działaniu siły 1 N prostopadle na powierzchnię 1 m². W hydraulice i pneumatyce często używa się kPa lub MPa; 1 bar to 100 000 Pa, lecz bar nie jest jednostką SI."
+        },
+        {
+          "type": "formula",
+          "latex": "p=\\frac{F}{A}"
+        }
+      ],
+      "quiz": {
+        "correct": "Ciśnienie - paskal"
+      }
+    },
+    {
+      "id": "card-7122b4f71c4e4110",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{J}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[E]=\\mathrm{J}"
+        },
+        {
+          "type": "text",
+          "text": "Energia, praca, ciepło - dżul"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{J}=1\\,\\mathrm{N}\\cdot\\mathrm{m}=1\\,\\frac{\\mathrm{kg}\\cdot\\mathrm{m}^{2}}{\\mathrm{s}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Dżul jest jednostką energii, pracy i ilości ciepła. Praca 1 J zostaje wykonana, gdy siła 1 N przemieszcza ciało o 1 m w kierunku działania siły. Jednostka J ma ten sam wymiar co N·m, ale dla momentu siły używamy zapisu N·m."
+        },
+        {
+          "type": "formula",
+          "latex": "W_{\\mathrm{praca}}=F\\cdot s"
+        }
+      ],
+      "quiz": {
+        "correct": "Energia, praca, ciepło - dżul"
+      }
+    },
+    {
+      "id": "card-5341eed67dd4448f",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{W}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[P]=\\mathrm{W}"
+        },
+        {
+          "type": "text",
+          "text": "Moc - wat"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{W}=1\\,\\frac{\\mathrm{J}}{\\mathrm{s}}=1\\,\\frac{\\mathrm{kg}\\cdot\\mathrm{m}^{2}}{\\mathrm{s}^{3}}"
+        },
+        {
+          "type": "text",
+          "text": "Wat jest jednostką mocy, czyli szybkości przekazywania energii lub wykonywania pracy. Moc 1 W odpowiada energii 1 J przekazywanej w ciągu sekundy. W elektrotechnice spotyka się W oraz kW, np. przy określaniu mocy grzałek i silników."
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{E}{t}"
+        }
+      ],
+      "quiz": {
+        "correct": "Moc - wat"
+      }
+    },
+    {
+      "id": "card-7a3c11805afc44e9",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{C}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[Q]=\\mathrm{C}"
+        },
+        {
+          "type": "text",
+          "text": "Ładunek elektryczny - kulomb"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{C}=1\\,\\mathrm{A}\\cdot\\mathrm{s}"
+        },
+        {
+          "type": "text",
+          "text": "Kulomb jest jednostką ładunku elektrycznego. Ładunek 1 C przepływa przez przekrój przewodnika w czasie 1 s przy stałym natężeniu 1 A. Nie należy mylić symbolu C (kulomb) z symbolem wielkości C oznaczającym pojemność elektryczną."
+        },
+        {
+          "type": "formula",
+          "latex": "Q=I\\cdot t"
+        }
+      ],
+      "quiz": {
+        "correct": "Ładunek elektryczny - kulomb"
+      }
+    },
+    {
+      "id": "card-1b28bd1dca194340",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{V}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[U]=\\mathrm{V}"
+        },
+        {
+          "type": "text",
+          "text": "Napięcie elektryczne - wolt"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{V}=1\\,\\frac{\\mathrm{W}}{\\mathrm{A}}=1\\,\\frac{\\mathrm{J}}{\\mathrm{C}}"
+        },
+        {
+          "type": "text",
+          "text": "Wolt jest jednostką napięcia elektrycznego i różnicy potencjałów. Różnica potencjałów 1 V oznacza zmianę energii 1 J przypadającą na ładunek 1 C. Typowe zastosowania: pomiar napięcia zasilania i sygnałów wejściowych sterowników PLC."
+        },
+        {
+          "type": "formula",
+          "latex": "U=R\\cdot I"
+        }
+      ],
+      "quiz": {
+        "correct": "Napięcie elektryczne - wolt"
+      }
+    },
+    {
+      "id": "card-2f8da0567ba144f7",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{F}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[C]=\\mathrm{F}"
+        },
+        {
+          "type": "text",
+          "text": "Pojemność elektryczna - farad"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{F}=1\\,\\frac{\\mathrm{C}}{\\mathrm{V}}"
+        },
+        {
+          "type": "text",
+          "text": "Farad jest jednostką pojemności elektrycznej. Kondensator ma pojemność 1 F, jeśli zgromadzony na jednej okładce ładunek 1 C powoduje różnicę potencjałów 1 V. W elektronice częściej spotyka się µF, nF i pF."
+        },
+        {
+          "type": "formula",
+          "latex": "C=\\frac{Q}{U}"
+        }
+      ],
+      "quiz": {
+        "correct": "Pojemność elektryczna - farad"
+      }
+    },
+    {
+      "id": "card-787ae6dd37754979",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\Omega",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[R]=\\Omega"
+        },
+        {
+          "type": "text",
+          "text": "Rezystancja - om"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\Omega=1\\,\\frac{\\mathrm{V}}{\\mathrm{A}}"
+        },
+        {
+          "type": "text",
+          "text": "Om jest jednostką rezystancji elektrycznej. Rezystancja 1 Ω oznacza stosunek napięcia 1 V do natężenia 1 A. Jednostka służy do określania oporu rezystorów, przewodników i uzwojeń."
+        },
+        {
+          "type": "formula",
+          "latex": "R=\\frac{U}{I}"
+        }
+      ],
+      "quiz": {
+        "correct": "Rezystancja - om"
+      }
+    },
+    {
+      "id": "card-c16445fbc5c0445f",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{S}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[G]=\\mathrm{S}"
+        },
+        {
+          "type": "text",
+          "text": "Konduktancja - simens"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{S}=1\\,\\frac{\\mathrm{A}}{\\mathrm{V}}=1\\,\\Omega^{-1}"
+        },
+        {
+          "type": "text",
+          "text": "Simens jest jednostką konduktancji, czyli przewodności elektrycznej elementu. Konduktancja jest odwrotnością rezystancji. Nie należy mylić symbolu S z małą literą s, która oznacza sekundę."
+        },
+        {
+          "type": "formula",
+          "latex": "G=\\frac{1}{R}"
+        }
+      ],
+      "quiz": {
+        "correct": "Konduktancja - simens"
+      }
+    },
+    {
+      "id": "card-b323abf417a6457b",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{Wb}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\Phi]=\\mathrm{Wb}"
+        },
+        {
+          "type": "text",
+          "text": "Strumień magnetyczny - weber"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{Wb}=1\\,\\mathrm{V}\\cdot\\mathrm{s}"
+        },
+        {
+          "type": "text",
+          "text": "Weber jest jednostką strumienia magnetycznego. Opisuje pole magnetyczne przenikające przez daną powierzchnię. Zmiana strumienia w czasie powoduje indukowanie siły elektromotorycznej, co wykorzystują transformatory i generatory."
+        },
+        {
+          "type": "formula",
+          "latex": "\\Phi=B\\cdot A"
+        }
+      ],
+      "quiz": {
+        "correct": "Strumień magnetyczny - weber"
+      }
+    },
+    {
+      "id": "card-8a7f513dfa4648a8",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{T}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[B]=\\mathrm{T}"
+        },
+        {
+          "type": "text",
+          "text": "Indukcja magnetyczna - tesla"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{T}=1\\,\\frac{\\mathrm{Wb}}{\\mathrm{m}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Tesla jest jednostką indukcji magnetycznej, nazywanej też gęstością strumienia magnetycznego. Informuje o natężeniu efektu pola magnetycznego na danej powierzchni. Jest ważna przy analizie magnesów, silników elektrycznych i transformatorów."
+        },
+        {
+          "type": "formula",
+          "latex": "B=\\frac{\\Phi}{A}"
+        }
+      ],
+      "quiz": {
+        "correct": "Indukcja magnetyczna - tesla"
+      }
+    },
+    {
+      "id": "card-19ff1c09de404314",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{H}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[L]=\\mathrm{H}"
+        },
+        {
+          "type": "text",
+          "text": "Indukcyjność - henr"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{H}=1\\,\\frac{\\mathrm{Wb}}{\\mathrm{A}}=1\\,\\frac{\\mathrm{V}\\cdot\\mathrm{s}}{\\mathrm{A}}"
+        },
+        {
+          "type": "text",
+          "text": "Henr jest jednostką indukcyjności. W obwodzie indukcyjnym zmiany prądu powodują powstawanie napięcia indukowanego. Indukcyjność opisuje m.in. cewki, dławiki oraz uzwojenia silników i transformatorów."
+        },
+        {
+          "type": "formula",
+          "latex": "u_L=L\\cdot\\frac{\\mathrm{d}i}{\\mathrm{d}t}"
+        }
+      ],
+      "quiz": {
+        "correct": "Indukcyjność - henr"
+      }
+    },
+    {
+      "id": "card-b51953e55b204abe",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "{}^{\\circ}\\mathrm{C}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[t]={}^{\\circ}\\mathrm{C}"
+        },
+        {
+          "type": "text",
+          "text": "Temperatura Celsjusza - stopień Celsjusza"
+        },
+        {
+          "type": "formula",
+          "latex": "0\\,{}^{\\circ}\\mathrm{C}=273{,}15\\,\\mathrm{K}"
+        },
+        {
+          "type": "text",
+          "text": "Stopień Celsjusza jest jednostką temperatury Celsjusza powiązaną z kelwinem. Różnica temperatur 1 °C ma taką samą wielkość jak różnica 1 K, lecz zera obu skal są przesunięte. Symbol °C zawiera znak stopnia, a symbol kelwina K go nie zawiera."
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{T}{\\mathrm{K}}=\\frac{t}{{}^{\\circ}\\mathrm{C}}+273{,}15"
+        }
+      ],
+      "quiz": {
+        "correct": "Temperatura Celsjusza - stopień Celsjusza"
+      }
+    },
+    {
+      "id": "card-d179443502d64cf0",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{lm}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\Phi_v]=\\mathrm{lm}"
+        },
+        {
+          "type": "text",
+          "text": "Strumień świetlny - lumen"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{lm}=1\\,\\mathrm{cd}\\cdot\\mathrm{sr}"
+        },
+        {
+          "type": "text",
+          "text": "Lumen jest jednostką strumienia świetlnego, czyli ilości światła emitowanego lub przenoszonego w ujęciu fotometrycznym. Źródło o światłości 1 cd daje strumień 1 lm w kącie bryłowym 1 sr, jeżeli światłość jest w nim stała. Jest używany do opisu źródeł światła."
+        }
+      ],
+      "quiz": {
+        "correct": "Strumień świetlny - lumen"
+      }
+    },
+    {
+      "id": "card-47447bc4df074aab",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{lx}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[E_v]=\\mathrm{lx}"
+        },
+        {
+          "type": "text",
+          "text": "Natężenie oświetlenia - luks"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{lx}=1\\,\\frac{\\mathrm{lm}}{\\mathrm{m}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Luks jest jednostką natężenia oświetlenia padającego na powierzchnię. Oświetlenie 1 lx odpowiada strumieniowi 1 lm rozłożonemu równomiernie na powierzchni 1 m². Używa się go przy projektowaniu oświetlenia stanowisk pracy."
+        },
+        {
+          "type": "formula",
+          "latex": "E_v=\\frac{\\Phi_v}{A}"
+        }
+      ],
+      "quiz": {
+        "correct": "Natężenie oświetlenia - luks"
+      }
+    },
+    {
+      "id": "card-a74b46a27011431e",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{Bq}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[A]=\\mathrm{Bq}"
+        },
+        {
+          "type": "text",
+          "text": "Aktywność promieniotwórcza - bekerel"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{Bq}=1\\,\\mathrm{s}^{-1}"
+        },
+        {
+          "type": "text",
+          "text": "Bekerel jest jednostką aktywności radionuklidu. Aktywność 1 Bq oznacza średnio jeden rozpad jądrowy na sekundę. Mimo takiego samego wyrażenia przez jednostki podstawowe jak Hz, nazwy Bq i Hz odnoszą się do innych zjawisk."
+        }
+      ],
+      "quiz": {
+        "correct": "Aktywność promieniotwórcza - bekerel"
+      }
+    },
+    {
+      "id": "card-09920c28126f47f9",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{Gy}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[D]=\\mathrm{Gy}"
+        },
+        {
+          "type": "text",
+          "text": "Dawka pochłonięta - grej"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{Gy}=1\\,\\frac{\\mathrm{J}}{\\mathrm{kg}}"
+        },
+        {
+          "type": "text",
+          "text": "Grej jest jednostką dawki pochłoniętej promieniowania jonizującego. Oznacza średnią energię 1 J przekazaną materii o masie 1 kg. Jednostka opisuje energię promieniowania pochłoniętą przez materiał, a nie bezpośrednio jego skutki biologiczne."
+        }
+      ],
+      "quiz": {
+        "correct": "Dawka pochłonięta - grej"
+      }
+    },
+    {
+      "id": "card-62d5f76a5ea84c31",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{Sv}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[H]=\\mathrm{Sv}"
+        },
+        {
+          "type": "text",
+          "text": "Dawka równoważna - siwert"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{Sv}=1\\,\\frac{\\mathrm{J}}{\\mathrm{kg}}"
+        },
+        {
+          "type": "text",
+          "text": "Siwert jest jednostką dawki równoważnej i dawki skutecznej w ochronie radiologicznej. Uwzględnia odpowiednie współczynniki związane z biologicznym oddziaływaniem promieniowania. Ma taki sam wymiar jak grej, ale opisuje inną wielkość."
+        }
+      ],
+      "quiz": {
+        "correct": "Dawka równoważna - siwert"
+      }
+    },
+    {
+      "id": "card-c7316284662742dc",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{kat}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[z]=\\mathrm{kat}"
+        },
+        {
+          "type": "text",
+          "text": "Aktywność katalityczna - katal"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{kat}=1\\,\\frac{\\mathrm{mol}}{\\mathrm{s}}"
+        },
+        {
+          "type": "text",
+          "text": "Katal jest jednostką aktywności katalitycznej. Określa ilość substancji przekształcanej w reakcji katalizowanej przez enzym lub inny katalizator w jednostce czasu. Jeden katal odpowiada przemianie 1 mola substancji na sekundę, przy określonych warunkach pomiaru."
+        }
+      ],
+      "quiz": {
+        "correct": "Aktywność katalityczna - katal"
+      }
+    },
+    {
+      "id": "card-8f90b899b9b340eb",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{m}^{2}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[A]=\\mathrm{m}^{2}"
+        },
+        {
+          "type": "text",
+          "text": "Pole powierzchni - metr kwadratowy"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{m}^{2}=1\\,\\mathrm{m}\\cdot\\mathrm{m}"
+        },
+        {
+          "type": "text",
+          "text": "Metr kwadratowy jest jednostką pola powierzchni. Oznacza pole kwadratu o boku 1 m. Przydaje się np. przy obliczaniu przekroju, nacisku i powierzchni roboczych. Uwaga: przy przeliczaniu cm² na m² przelicznik długości trzeba podnieść do kwadratu."
+        },
+        {
+          "type": "formula",
+          "latex": "A=a\\cdot b"
+        }
+      ],
+      "quiz": {
+        "correct": "Pole powierzchni - metr kwadratowy"
+      }
+    },
+    {
+      "id": "card-1c8684d80ef94375",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{m}^{3}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[V]=\\mathrm{m}^{3}"
+        },
+        {
+          "type": "text",
+          "text": "Objętość - metr sześcienny"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{m}^{3}=1\\,\\mathrm{m}\\cdot\\mathrm{m}\\cdot\\mathrm{m}"
+        },
+        {
+          "type": "text",
+          "text": "Metr sześcienny jest jednostką objętości. Odpowiada objętości sześcianu o krawędzi 1 m. Używa się go m.in. do określania pojemności zbiorników, objętości gazu i objętości materiału."
+        },
+        {
+          "type": "formula",
+          "latex": "V=a\\cdot b\\cdot h"
+        }
+      ],
+      "quiz": {
+        "correct": "Objętość - metr sześcienny"
+      }
+    },
+    {
+      "id": "card-1a338091f30b4aa9",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\frac{\\mathrm{m}}{\\mathrm{s}}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[v]=\\frac{\\mathrm{m}}{\\mathrm{s}}"
+        },
+        {
+          "type": "text",
+          "text": "Prędkość - metr na sekundę"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\frac{\\mathrm{m}}{\\mathrm{s}}=1\\,\\mathrm{m}\\cdot\\mathrm{s}^{-1}"
+        },
+        {
+          "type": "text",
+          "text": "Metr na sekundę jest jednostką prędkości liniowej. Prędkość 1 m/s oznacza przebywanie jednego metra w sekundę przy ruchu jednostajnym. W automatyce służy do określania prędkości transporterów, siłowników i osi maszyn."
+        },
+        {
+          "type": "formula",
+          "latex": "v_{\\mathrm{śr}}=\\frac{\\Delta x}{\\Delta t}"
+        }
+      ],
+      "quiz": {
+        "correct": "Prędkość - metr na sekundę"
+      }
+    },
+    {
+      "id": "card-0f9ba3688e4d4e16",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\frac{\\mathrm{m}}{\\mathrm{s}^{2}}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[a]=\\frac{\\mathrm{m}}{\\mathrm{s}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Przyspieszenie - metr na sekundę do kwadratu"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\frac{\\mathrm{m}}{\\mathrm{s}^{2}}=1\\,\\mathrm{m}\\cdot\\mathrm{s}^{-2}"
+        },
+        {
+          "type": "text",
+          "text": "Metr na sekundę do kwadratu jest jednostką przyspieszenia. Przyspieszenie 1 m/s² oznacza zmianę prędkości o 1 m/s w każdej sekundzie. Jest ważne przy projektowaniu rozruchu, hamowania i napędów osi maszyn."
+        },
+        {
+          "type": "formula",
+          "latex": "a_{\\mathrm{śr}}=\\frac{\\Delta v}{\\Delta t}"
+        }
+      ],
+      "quiz": {
+        "correct": "Przyspieszenie - metr na sekundę do kwadratu"
+      }
+    },
+    {
+      "id": "card-13133fb706d3441a",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\frac{\\mathrm{kg}}{\\mathrm{m}^{3}}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\rho]=\\frac{\\mathrm{kg}}{\\mathrm{m}^{3}}"
+        },
+        {
+          "type": "text",
+          "text": "Gęstość - kilogram na metr sześcienny"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\frac{\\mathrm{kg}}{\\mathrm{m}^{3}}=1\\,\\mathrm{kg}\\cdot\\mathrm{m}^{-3}"
+        },
+        {
+          "type": "text",
+          "text": "Kilogram na metr sześcienny jest jednostką gęstości masowej. Określa masę substancji przypadającą na jednostkę objętości. Stosuje się ją przy obliczaniu masy elementów, doborze materiałów i w hydraulice."
+        },
+        {
+          "type": "formula",
+          "latex": "\\rho=\\frac{m}{V}"
+        }
+      ],
+      "quiz": {
+        "correct": "Gęstość - kilogram na metr sześcienny"
+      }
+    },
+    {
+      "id": "card-b1afec9bb4ab4058",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{N}\\cdot\\mathrm{m}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[M]=\\mathrm{N}\\cdot\\mathrm{m}"
+        },
+        {
+          "type": "text",
+          "text": "Moment siły - niutonometr"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{N}\\cdot\\mathrm{m}=1\\,\\frac{\\mathrm{kg}\\cdot\\mathrm{m}^{2}}{\\mathrm{s}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Niutonometr jest jednostką momentu siły, czyli działania siły powodującego obrót. Występuje w danych technicznych silników, przekładni i połączeń śrubowych. Ma ten sam wymiar co dżul, ale nie jest nazwą energii."
+        },
+        {
+          "type": "formula",
+          "latex": "M=F\\cdot r"
+        }
+      ],
+      "quiz": {
+        "correct": "Moment siły - niutonometr"
+      }
+    },
+    {
+      "id": "card-08aab361dbb644f7",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\frac{\\mathrm{rad}}{\\mathrm{s}}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\omega]=\\frac{\\mathrm{rad}}{\\mathrm{s}}"
+        },
+        {
+          "type": "text",
+          "text": "Prędkość kątowa - radian na sekundę"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\frac{\\mathrm{rad}}{\\mathrm{s}}=1\\,\\mathrm{rad}\\cdot\\mathrm{s}^{-1}"
+        },
+        {
+          "type": "text",
+          "text": "Radian na sekundę jest jednostką prędkości kątowej. Określa tempo zmiany położenia kątowego wału lub innego obracającego się elementu. W mechanice łączy się go z momentem siły przy obliczaniu mocy obrotowej."
+        },
+        {
+          "type": "formula",
+          "latex": "\\omega=2\\pi f"
+        }
+      ],
+      "quiz": {
+        "correct": "Prędkość kątowa - radian na sekundę"
+      }
+    },
+    {
+      "id": "card-e2d2aaaef892485d",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\frac{\\mathrm{rad}}{\\mathrm{s}^{2}}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\alpha]=\\frac{\\mathrm{rad}}{\\mathrm{s}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Przyspieszenie kątowe - radian na sekundę do kwadratu"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\frac{\\mathrm{rad}}{\\mathrm{s}^{2}}=1\\,\\mathrm{rad}\\cdot\\mathrm{s}^{-2}"
+        },
+        {
+          "type": "text",
+          "text": "Radian na sekundę do kwadratu jest jednostką przyspieszenia kątowego. Opisuje szybkość zmian prędkości kątowej. Wykorzystuje się ją przy wyznaczaniu rozruchu i hamowania wirników oraz napędów."
+        },
+        {
+          "type": "formula",
+          "latex": "\\alpha_{\\mathrm{śr}}=\\frac{\\Delta\\omega}{\\Delta t}"
+        }
+      ],
+      "quiz": {
+        "correct": "Przyspieszenie kątowe - radian na sekundę do kwadratu"
+      }
+    },
+    {
+      "id": "card-6f60ffd15fc544c4",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\frac{\\mathrm{A}}{\\mathrm{m}^{2}}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[j]=\\frac{\\mathrm{A}}{\\mathrm{m}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Gęstość prądu - amper na metr kwadratowy"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\frac{\\mathrm{A}}{\\mathrm{m}^{2}}=1\\,\\mathrm{A}\\cdot\\mathrm{m}^{-2}"
+        },
+        {
+          "type": "text",
+          "text": "Amper na metr kwadratowy jest jednostką gęstości prądu elektrycznego. Opisuje natężenie prądu przypadające na powierzchnię przekroju przewodnika. W praktyce do doboru przewodów często wykorzystuje się A/mm², które nie jest jednostką spójną SI bez przelicznika."
+        },
+        {
+          "type": "formula",
+          "latex": "j=\\frac{I}{A}"
+        }
+      ],
+      "quiz": {
+        "correct": "Gęstość prądu - amper na metr kwadratowy"
+      }
+    },
+    {
+      "id": "card-3d0f515ed56c4cd9",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\frac{\\mathrm{V}}{\\mathrm{m}}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[E]=\\frac{\\mathrm{V}}{\\mathrm{m}}"
+        },
+        {
+          "type": "text",
+          "text": "Natężenie pola elektrycznego - wolt na metr"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\frac{\\mathrm{V}}{\\mathrm{m}}=1\\,\\mathrm{V}\\cdot\\mathrm{m}^{-1}"
+        },
+        {
+          "type": "text",
+          "text": "Wolt na metr jest jednostką natężenia pola elektrycznego. Określa, jak silne jest pole elektryczne w danym obszarze. Ma zastosowanie przy analizie izolacji, kondensatorów i zjawisk elektrostatycznych."
+        },
+        {
+          "type": "formula",
+          "latex": "E=\\frac{U}{d}"
+        }
+      ],
+      "quiz": {
+        "correct": "Natężenie pola elektrycznego - wolt na metr"
+      }
+    },
+    {
+      "id": "card-8516f67af07645b9",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\Omega\\cdot\\mathrm{m}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\rho]=\\Omega\\cdot\\mathrm{m}"
+        },
+        {
+          "type": "text",
+          "text": "Rezystywność - omometr"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\Omega\\cdot\\mathrm{m}=1\\,\\frac{\\mathrm{kg}\\cdot\\mathrm{m}^{3}}{\\mathrm{s}^{3}\\cdot\\mathrm{A}^{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Omometr jest jednostką rezystywności, czyli oporności właściwej materiału. Pozwala porównywać materiały niezależnie od geometrii wykonanych z nich przewodników. Nie należy mylić rezystywności (Ω·m) z rezystancją (Ω)."
+        },
+        {
+          "type": "formula",
+          "latex": "R=\\rho\\cdot\\frac{l}{A}"
+        }
+      ],
+      "quiz": {
+        "correct": "Rezystywność - omometr"
+      }
+    },
+    {
+      "id": "card-fd1f9154cbb94cf9",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\frac{\\mathrm{S}}{\\mathrm{m}}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\sigma]=\\frac{\\mathrm{S}}{\\mathrm{m}}"
+        },
+        {
+          "type": "text",
+          "text": "Konduktywność - simens na metr"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\frac{\\mathrm{S}}{\\mathrm{m}}=1\\,\\frac{1}{\\Omega\\cdot\\mathrm{m}}"
+        },
+        {
+          "type": "text",
+          "text": "Simens na metr jest jednostką konduktywności (przewodności właściwej). Im większa konduktywność, tym łatwiej materiał przewodzi prąd. Konduktywność jest odwrotnością rezystywności w izotropowym ośrodku omowym."
+        },
+        {
+          "type": "formula",
+          "latex": "\\sigma=\\frac{1}{\\rho}"
+        }
+      ],
+      "quiz": {
+        "correct": "Konduktywność - simens na metr"
+      }
+    },
+    {
+      "id": "card-18132fd156de4dee",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\frac{\\mathrm{A}}{\\mathrm{m}}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[H]=\\frac{\\mathrm{A}}{\\mathrm{m}}"
+        },
+        {
+          "type": "text",
+          "text": "Natężenie pola magnetycznego - amper na metr"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\frac{\\mathrm{A}}{\\mathrm{m}}=1\\,\\mathrm{A}\\cdot\\mathrm{m}^{-1}"
+        },
+        {
+          "type": "text",
+          "text": "Amper na metr jest jednostką natężenia pola magnetycznego H. Opisuje oddziaływanie pola związane m.in. z prądami w uzwojeniach. Nie należy mylić wielkości H (natężenie pola magnetycznego) z jednostką H (henr)."
+        },
+        {
+          "type": "formula",
+          "latex": "H\\approx\\frac{N\\cdot I}{l}"
+        }
+      ],
+      "quiz": {
+        "correct": "Natężenie pola magnetycznego - amper na metr"
+      }
+    },
+    {
+      "id": "card-c0d256dc1c304701",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{Pa}\\cdot\\mathrm{s}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\eta]=\\mathrm{Pa}\\cdot\\mathrm{s}"
+        },
+        {
+          "type": "text",
+          "text": "Lepkość dynamiczna - paskalosekunda"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{Pa}\\cdot\\mathrm{s}=1\\,\\frac{\\mathrm{kg}}{\\mathrm{m}\\cdot\\mathrm{s}}"
+        },
+        {
+          "type": "text",
+          "text": "Paskalosekunda jest jednostką lepkości dynamicznej. Opisuje opór płynu wobec przepływu i ścinania. Jednostka występuje w hydraulice, technologii smarowania oraz doborze płynów roboczych."
+        }
+      ],
+      "quiz": {
+        "correct": "Lepkość dynamiczna - paskalosekunda"
+      }
+    },
+    {
+      "id": "card-7e43f0f83d814f80",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\frac{\\mathrm{m}^{3}}{\\mathrm{s}}",
+          "size": "large"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[q_V]=\\frac{\\mathrm{m}^{3}}{\\mathrm{s}}"
+        },
+        {
+          "type": "text",
+          "text": "Strumień objętości - metr sześcienny na sekundę"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\frac{\\mathrm{m}^{3}}{\\mathrm{s}}=1\\,\\mathrm{m}^{3}\\cdot\\mathrm{s}^{-1}"
+        },
+        {
+          "type": "text",
+          "text": "Metr sześcienny na sekundę jest jednostką strumienia objętości (natężenia przepływu objętościowego). Mówi, jaka objętość płynu przepływa przez przekrój w jednostce czasu. W pneumatyce i hydraulice często spotyka się również L/min."
+        },
+        {
+          "type": "formula",
+          "latex": "q_V=\\frac{\\Delta V}{\\Delta t}"
+        }
+      ],
+      "quiz": {
+        "correct": "Strumień objętości - metr sześcienny na sekundę"
+      }
+    }
+  ]
+}

@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "id": "item-ef40a64a480f",
+  "title": "Przedrostki SI",
+  "cards": [
+    {
+      "id": "card-f88b5f94741344d1",
+      "question": [
+        {
+          "type": "text",
+          "text": "quetta"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{Q},\\quad\\text{wartość }10^{30}"
+        }
+      ],
+      "quiz": {
+        "correct": "Q — 10³⁰",
+        "distractors": [
+          "R — 10³⁰",
+          "Q — 10²⁷",
+          "R — 10²⁷"
+        ]
+      }
+    },
+    {
+      "id": "card-0833061737343c50",
+      "question": [
+        {
+          "type": "text",
+          "text": "ronna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{R},\\quad\\text{wartość }10^{27}"
+        }
+      ],
+      "quiz": {
+        "correct": "R — 10²⁷",
+        "distractors": [
+          "Y — 10²⁷",
+          "R — 10²⁴",
+          "Y — 10²⁴"
+        ]
+      }
+    },
+    {
+      "id": "card-abcbeda74279b5bb",
+      "question": [
+        {
+          "type": "text",
+          "text": "jotta"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{Y},\\quad\\text{wartość }10^{24}"
+        }
+      ],
+      "quiz": {
+        "correct": "Y — 10²⁴",
+        "distractors": [
+          "Z — 10²⁴",
+          "Y — 10²¹",
+          "Z — 10²¹"
+        ]
+      }
+    },
+    {
+      "id": "card-d49b4559a224d00a",
+      "question": [
+        {
+          "type": "text",
+          "text": "zetta"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{Z},\\quad\\text{wartość }10^{21}"
+        }
+      ],
+      "quiz": {
+        "correct": "Z — 10²¹",
+        "distractors": [
+          "E — 10²¹",
+          "Z — 10¹⁸",
+          "E — 10¹⁸"
+        ]
+      }
+    },
+    {
+      "id": "card-000e713811a68dde",
+      "question": [
+        {
+          "type": "text",
+          "text": "eksa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{E},\\quad\\text{wartość }10^{18}"
+        }
+      ],
+      "quiz": {
+        "correct": "E — 10¹⁸",
+        "distractors": [
+          "P — 10¹⁸",
+          "E — 10¹⁵",
+          "P — 10¹⁵"
+        ]
+      }
+    },
+    {
+      "id": "card-c7977a0dbc80d98a",
+      "question": [
+        {
+          "type": "text",
+          "text": "peta"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{P},\\quad\\text{wartość }10^{15}"
+        }
+      ],
+      "quiz": {
+        "correct": "P — 10¹⁵",
+        "distractors": [
+          "T — 10¹⁵",
+          "P — 10¹²",
+          "T — 10¹²"
+        ]
+      }
+    },
+    {
+      "id": "card-ad97011ee48779eb",
+      "question": [
+        {
+          "type": "text",
+          "text": "tera"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{T},\\quad\\text{wartość }10^{12}"
+        }
+      ],
+      "quiz": {
+        "correct": "T — 10¹²",
+        "distractors": [
+          "G — 10¹²",
+          "T — 10⁹",
+          "G — 10⁹"
+        ]
+      }
+    },
+    {
+      "id": "card-13558de7ec6cd0fb",
+      "question": [
+        {
+          "type": "text",
+          "text": "giga"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{G},\\quad\\text{wartość }10^{9}"
+        }
+      ],
+      "quiz": {
+        "correct": "G — 10⁹",
+        "distractors": [
+          "M — 10⁹",
+          "G — 10⁶",
+          "M — 10⁶"
+        ]
+      }
+    },
+    {
+      "id": "card-ea7a99de85830ca0",
+      "question": [
+        {
+          "type": "text",
+          "text": "mega"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{M},\\quad\\text{wartość }10^{6}"
+        }
+      ],
+      "quiz": {
+        "correct": "M — 10⁶",
+        "distractors": [
+          "k — 10⁶",
+          "M — 10³",
+          "k — 10³"
+        ]
+      }
+    },
+    {
+      "id": "card-998263c87efe0d03",
+      "question": [
+        {
+          "type": "text",
+          "text": "kilo"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{k},\\quad\\text{wartość }10^{3}"
+        }
+      ],
+      "quiz": {
+        "correct": "k — 10³",
+        "distractors": [
+          "h — 10³",
+          "k — 10²",
+          "h — 10²"
+        ]
+      }
+    },
+    {
+      "id": "card-45c6d874a7261ab2",
+      "question": [
+        {
+          "type": "text",
+          "text": "hekto"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{h},\\quad\\text{wartość }10^{2}"
+        }
+      ],
+      "quiz": {
+        "correct": "h — 10²",
+        "distractors": [
+          "da — 10²",
+          "h — 10¹",
+          "da — 10¹"
+        ]
+      }
+    },
+    {
+      "id": "card-581a7c111e44c4fe",
+      "question": [
+        {
+          "type": "text",
+          "text": "deka"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{da},\\quad\\text{wartość }10^{1}"
+        }
+      ],
+      "quiz": {
+        "correct": "da — 10¹",
+        "distractors": [
+          "d — 10¹",
+          "da — 10⁻¹",
+          "d — 10⁻¹"
+        ]
+      }
+    },
+    {
+      "id": "card-c0c76a9756eba6fc",
+      "question": [
+        {
+          "type": "text",
+          "text": "decy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{d},\\quad\\text{wartość }10^{-1}"
+        }
+      ],
+      "quiz": {
+        "correct": "d — 10⁻¹",
+        "distractors": [
+          "c — 10⁻¹",
+          "d — 10⁻²",
+          "c — 10⁻²"
+        ]
+      }
+    },
+    {
+      "id": "card-b74973a96876d320",
+      "question": [
+        {
+          "type": "text",
+          "text": "centy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{c},\\quad\\text{wartość }10^{-2}"
+        }
+      ],
+      "quiz": {
+        "correct": "c — 10⁻²",
+        "distractors": [
+          "m — 10⁻²",
+          "c — 10⁻³",
+          "m — 10⁻³"
+        ]
+      }
+    },
+    {
+      "id": "card-bf16cdb3ad021d29",
+      "question": [
+        {
+          "type": "text",
+          "text": "mili"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{m},\\quad\\text{wartość }10^{-3}"
+        }
+      ],
+      "quiz": {
+        "correct": "m — 10⁻³",
+        "distractors": [
+          "µ — 10⁻³",
+          "m — 10⁻⁶",
+          "µ — 10⁻⁶"
+        ]
+      }
+    },
+    {
+      "id": "card-165eeab433a5490b",
+      "question": [
+        {
+          "type": "text",
+          "text": "mikro"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mu,\\quad\\text{wartość }10^{-6}"
+        }
+      ],
+      "quiz": {
+        "correct": "µ — 10⁻⁶",
+        "distractors": [
+          "n — 10⁻⁶",
+          "µ — 10⁻⁹",
+          "n — 10⁻⁹"
+        ]
+      }
+    },
+    {
+      "id": "card-9fa9d7f8c56d8936",
+      "question": [
+        {
+          "type": "text",
+          "text": "nano"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{n},\\quad\\text{wartość }10^{-9}"
+        }
+      ],
+      "quiz": {
+        "correct": "n — 10⁻⁹",
+        "distractors": [
+          "p — 10⁻⁹",
+          "n — 10⁻¹²",
+          "p — 10⁻¹²"
+        ]
+      }
+    },
+    {
+      "id": "card-0aadb273cd24b5c4",
+      "question": [
+        {
+          "type": "text",
+          "text": "piko"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{p},\\quad\\text{wartość }10^{-12}"
+        }
+      ],
+      "quiz": {
+        "correct": "p — 10⁻¹²",
+        "distractors": [
+          "f — 10⁻¹²",
+          "p — 10⁻¹⁵",
+          "f — 10⁻¹⁵"
+        ]
+      }
+    },
+    {
+      "id": "card-bbb30a69dd2b1c9c",
+      "question": [
+        {
+          "type": "text",
+          "text": "femto"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{f},\\quad\\text{wartość }10^{-15}"
+        }
+      ],
+      "quiz": {
+        "correct": "f — 10⁻¹⁵",
+        "distractors": [
+          "a — 10⁻¹⁵",
+          "f — 10⁻¹⁸",
+          "a — 10⁻¹⁸"
+        ]
+      }
+    },
+    {
+      "id": "card-fc8f1b2f4d0ba305",
+      "question": [
+        {
+          "type": "text",
+          "text": "atto"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{a},\\quad\\text{wartość }10^{-18}"
+        }
+      ],
+      "quiz": {
+        "correct": "a — 10⁻¹⁸",
+        "distractors": [
+          "z — 10⁻¹⁸",
+          "a — 10⁻²¹",
+          "z — 10⁻²¹"
+        ]
+      }
+    },
+    {
+      "id": "card-de9e76b0131a25b5",
+      "question": [
+        {
+          "type": "text",
+          "text": "zepto"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{z},\\quad\\text{wartość }10^{-21}"
+        }
+      ],
+      "quiz": {
+        "correct": "z — 10⁻²¹",
+        "distractors": [
+          "y — 10⁻²¹",
+          "z — 10⁻²⁴",
+          "y — 10⁻²⁴"
+        ]
+      }
+    },
+    {
+      "id": "card-61082c20bac2b8c6",
+      "question": [
+        {
+          "type": "text",
+          "text": "jokto"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{y},\\quad\\text{wartość }10^{-24}"
+        }
+      ],
+      "quiz": {
+        "correct": "y — 10⁻²⁴",
+        "distractors": [
+          "r — 10⁻²⁴",
+          "y — 10⁻²⁷",
+          "r — 10⁻²⁷"
+        ]
+      }
+    },
+    {
+      "id": "card-cfc5270e2e53a5e4",
+      "question": [
+        {
+          "type": "text",
+          "text": "ronto"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{r},\\quad\\text{wartość }10^{-27}"
+        }
+      ],
+      "quiz": {
+        "correct": "r — 10⁻²⁷",
+        "distractors": [
+          "q — 10⁻²⁷",
+          "r — 10⁻³⁰",
+          "q — 10⁻³⁰"
+        ]
+      }
+    },
+    {
+      "id": "card-5845ad8de2d42162",
+      "question": [
+        {
+          "type": "text",
+          "text": "quecto"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "\\text{symbol} - \\mathrm{q},\\quad\\text{wartość }10^{-30}"
+        }
+      ],
+      "quiz": {
+        "correct": "q — 10⁻³⁰",
+        "distractors": [
+          "r — 10⁻³⁰",
+          "q — 10⁻²⁷",
+          "r — 10⁻²⁷"
+        ]
+      }
+    }
+  ]
+}

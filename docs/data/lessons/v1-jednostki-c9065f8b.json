@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "id": "v1-jednostki-c9065f8b",
-  "title": "Jednostki SI",
+  "title": "Jednostki SI ELE02",
   "cards": [
     {
       "id": "v1-card-9590104c",
@@ -16,7 +16,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[Pa] = p"
+          "latex": "[p] = Pa"
         },
         {
           "type": "text",
@@ -44,7 +44,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{s}] = t"
+          "latex": "[\\mathrm{t}] = s"
         },
         {
           "type": "text",
@@ -72,7 +72,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[Hz] = f"
+          "latex": "[f] = Hz"
         },
         {
           "type": "text",
@@ -100,7 +100,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[m] = l"
+          "latex": "[l] = m"
         },
         {
           "type": "text",
@@ -128,7 +128,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[J] = E/W"
+          "latex": "[E/W] = J"
         },
         {
           "type": "text",
@@ -156,7 +156,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{kg}/\\mathrm{m}^{3}] = \\rho"
+          "latex": "[\\rho] =\\mathrm{kg}/\\mathrm{m}^{3}"
         },
         {
           "type": "text",
@@ -184,7 +184,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{A/m^{2}}] = \\mathrm{J}"
+          "latex": "[\\mathrm{J}] = \\mathrm{A/m^{2}} "
         },
         {
           "type": "text",
@@ -212,7 +212,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{mol}] = n"
+          "latex": "[n]= \\mathrm{mol}"
         },
         {
           "type": "text",
@@ -220,7 +220,7 @@
         },
         {
           "type": "text",
-          "text": "Liczność materii – wielkość fizyczna określająca ilość materii poprzez podanie stosunku liczby dowolnych cząstek tworzących dany obiekt fizyczny do liczby atomów zawartych w 12 g czystego izotopu węgla 12C.\n\nW układzie SI jednostką liczności materii jest mol, który odpowiada liczbie ok. 6,022 141 79(30) × 1023 cząstek."
+          "text": "Liczność materii – wielkość fizyczna określająca liczbę wskazanych obiektów elementarnych (np. atomów, cząsteczek lub jonów). Jeden mol zawiera dokładnie 6,022 140 76 × 10²³ takich obiektów. Jest to wartość liczby Avogadra; stała Avogadra wynosi Nₐ = 6,022 140 76 × 10²³ mol⁻¹. Definicja oparta na 12 g węgla-12 obowiązywała przed reformą SI w 2019 roku."
         }
       ],
       "quiz": {
@@ -240,7 +240,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{T}] = B"
+          "latex": "[\\mathrm{B}] = T"
         },
         {
           "type": "text",
@@ -268,7 +268,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[H] = L"
+          "latex": "[L] = H"
         },
         {
           "type": "text",
@@ -296,7 +296,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[S] = G"
+          "latex": "[G] = S"
         },
         {
           "type": "text",
@@ -324,7 +324,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[kg] = m"
+          "latex": "[m] = kg"
         },
         {
           "type": "text",
@@ -352,7 +352,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[W] = P"
+          "latex": "[P] = W"
         },
         {
           "type": "text",
@@ -380,7 +380,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[V] = U"
+          "latex": "[U] = V"
         },
         {
           "type": "text",
@@ -408,7 +408,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[V/m] = E"
+          "latex": "[E] = V/m"
         },
         {
           "type": "text",
@@ -432,7 +432,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{A}] = \\mathrm{I}"
+          "latex": "[\\mathrm{I}] = \\mathrm{A}"
         },
         {
           "type": "text",
@@ -440,7 +440,7 @@
         },
         {
           "type": "text",
-          "text": "Amper (symbol: A) jest jednostką podstawową natężenia prądu elektrycznego w układzie SI. Od 2019 roku jest definiowany przez ustaloną wartość liczbową ładunku elementarnego e = 1,602176634 × 10⁻¹⁹ C, co oznacza przepływ ok. 6,24 × 10¹⁸ elektronów na sekundę przez przekrój przewodnika.\n\nNatężenie prądu I to ilość ładunku elektrycznego przepływającego przez przekrój przewodnika w jednostce czasu: I = Q/t. Amper to ampersów na sekundę – czyli 1 A = 1 C/s."
+          "text": "Amper (symbol: A) jest jednostką podstawową natężenia prądu elektrycznego w układzie SI. Od 2019 roku jest definiowany przez ustaloną wartość liczbową ładunku elementarnego e = 1,602176634 × 10⁻¹⁹ C, co oznacza przepływ ok. 6,24 × 10¹⁸ elektronów na sekundę przez przekrój przewodnika.\n\nNatężenie prądu I to ilość ładunku elektrycznego przepływającego przez przekrój przewodnika w jednostce czasu: I = Q/t. Jeden amper oznacza przepływ jednego kulomba ładunku elektrycznego w ciągu jednej sekundy: 1 A = 1 C/s."
         }
       ],
       "quiz": {
@@ -460,7 +460,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[m^{3}] = V"
+          "latex": "[V] = m^{3}"
         },
         {
           "type": "text",
@@ -484,7 +484,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[F] = C"
+          "latex": "[C] = F"
         },
         {
           "type": "text",
@@ -512,7 +512,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[m^{2}] = S"
+          "latex": "[S] = m^{2}"
         },
         {
           "type": "text",
@@ -536,7 +536,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{m}/\\mathrm{s}^{2}] = a"
+          "latex": "[a] = \\mathrm{m}/\\mathrm{s}^{2}"
         },
         {
           "type": "text",
@@ -560,7 +560,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{m}/\\mathrm{s}] = v"
+          "latex": "[v] = \\mathrm{m}/\\mathrm{s}"
         },
         {
           "type": "text",
@@ -584,7 +584,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\Omega] = R"
+          "latex": "[R] = \\Omega"
         },
         {
           "type": "text",
@@ -612,7 +612,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\Omega\\cdot\\mathrm{m}] = \\rho"
+          "latex": "[\\rho] = \\Omega\\cdot\\mathrm{m}"
         },
         {
           "type": "text",
@@ -640,7 +640,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{N}] = F"
+          "latex": "[\\mathrm{F}] = N"
         },
         {
           "type": "text",
@@ -668,7 +668,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{Wb}] = \\Phi"
+          "latex": "[\\mathrm{\\Phi}] = Wb"
         },
         {
           "type": "text",
@@ -696,7 +696,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{K}] = T"
+          "latex": "[\\mathrm{T}] = K"
         },
         {
           "type": "text",
@@ -724,7 +724,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{C}] = Q"
+          "latex": "[\\mathrm{Q}] = C"
         },
         {
           "type": "text",
@@ -752,7 +752,7 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "[\\mathrm{cd}] = I_v"
+          "latex": "[\\mathrm{I_v}] = cd"
         },
         {
           "type": "text",

@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "id": "item-590ade81f300",
+  "title": "Ruch obrotowy i silniki",
+  "display_format": "study",
+  "available_modes": [
+    "learn"
+  ],
+  "cards": [
+    {
+      "id": "card-7d3015027a205915",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prędkość obrotowa i kątowa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Prędkość obrotowa n oznacza liczbę obrotów na jednostkę czasu, np. obr./min. Prędkość kątowa ω mierzy tempo zmiany kąta obrotu i w SI wyrażana jest w rad/s. Pełny obrót odpowiada kątowi 2π rad."
+        },
+        {
+          "type": "formula",
+          "latex": "\\omega=\\frac{2\\pi n}{60}"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-590ade81f300/obr.svg",
+          "alt": "Pełny obrót, promień i kierunek ruchu wału",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-1e23a36d76f95303",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moment siły"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moment siły opisuje zdolność siły do obracania ciała względem osi. Przy sile prostopadłej do ramienia jest iloczynem wartości siły i długości ramienia. Jednostką momentu jest niutonometr N·m. Przy sile pod kątem trzeba uwzględnić sinus kąta między siłą a ramieniem."
+        },
+        {
+          "type": "formula",
+          "latex": "M=F\\,r\\sin\\alpha"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-590ade81f300/moment.svg",
+          "alt": "Ramię siły, siła i moment obrotowy",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-f73118c10f7f5fd5",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc mechaniczna wału"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moc mechaniczna przy ruchu obrotowym jest iloczynem momentu obrotowego i prędkości kątowej. Zależność dotyczy chwilowych wartości; dla ustalonej pracy silnika można używać wartości roboczych. Wzór pozwala wyznaczyć moment przy znanej mocy wyjściowej silnika i prędkości wału."
+        },
+        {
+          "type": "formula",
+          "latex": "P=M\\omega"
+        }
+      ]
+    },
+    {
+      "id": "card-40ed350a4f46514e",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykład momentu silnika"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Jeśli na wale dostępna jest moc mechaniczna 1,5 kW przy prędkości 1500 obr./min, to prędkość kątowa wynosi około 157 rad/s, a moment około 9,55 N·m. Należy używać mocy mechanicznej na wale, a nie automatycznie mocy elektrycznej pobieranej przez silnik."
+        },
+        {
+          "type": "formula",
+          "latex": "\\omega\\approx157{,}1\\,\\mathrm{rad/s}"
+        },
+        {
+          "type": "formula",
+          "latex": "M=\\frac{1500\\,\\mathrm{W}}{157{,}1\\,\\mathrm{rad/s}}\\approx9{,}55\\,\\mathrm{N\\cdot m}"
+        }
+      ]
+    },
+    {
+      "id": "card-af733885612056ff",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moment znamionowy a rozruchowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moment znamionowy dotyczy warunków znamionowych pracy silnika, a moment rozruchowy momentu przy ruszaniu z postoju. Wartości zależą od konstrukcji silnika i sposobu zasilania. Moment dostępny z napędu powinien przekraczać moment obciążenia w wymaganym zakresie prędkości, uwzględniając bezwładność układu."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-590ade81f300/charakterystyka.svg",
+          "alt": "Przykładowa ilustracyjna charakterystyka momentu napędu i obciążenia",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-fd8fbfdf5cb75400",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moment bezwładności"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moment bezwładności J opisuje rozkład masy względem osi obrotu. Im większy moment bezwładności, tym większy moment jest potrzebny do uzyskania danego przyspieszenia kątowego, jeśli pominąć inne obciążenia. Jednostką jest kg·m². Przekładnie zmieniają moment bezwładności widziany od strony silnika."
+        },
+        {
+          "type": "formula",
+          "latex": "M_{\\mathrm{wypadkowy}}=J\\alpha"
+        }
+      ]
+    },
+    {
+      "id": "card-b099a987ba1e58f0",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekładnia mechaniczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "W idealnej przekładni redukującej prędkość obrotową moment po stronie wyjścia zwiększa się w tym samym stosunku; rzeczywista przekładnia ma straty. Przełożenie definiuje się konsekwentnie jako stosunek prędkości wejściowej do wyjściowej. Przy doborze uwzględnia się dopuszczalny moment, sprawność, luzy i obciążenia dynamiczne."
+        },
+        {
+          "type": "formula",
+          "latex": "i=\\frac{n_{\\mathrm{we}}}{n_{\\mathrm{wy}}}"
+        },
+        {
+          "type": "formula",
+          "latex": "M_{\\mathrm{wy}}\\approx\\eta\\,i\\,M_{\\mathrm{we}}"
+        }
+      ]
+    },
+    {
+      "id": "card-1cccee40940352fa",
+      "question": [
+        {
+          "type": "text",
+          "text": "Silnik indukcyjny i poślizg"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Pole wirujące stojana ma prędkość synchroniczną zależną od częstotliwości zasilania i liczby par biegunów. Wirnik silnika indukcyjnego podczas pracy silnikowej obraca się zwykle nieco wolniej od pola; różnicę względną nazywa się poślizgiem. Dla zasilania 50 Hz i dwóch par biegunów prędkość synchroniczna wynosi 1500 obr./min."
+        },
+        {
+          "type": "formula",
+          "latex": "n_s=\\frac{60f}{p}"
+        },
+        {
+          "type": "formula",
+          "latex": "s=\\frac{n_s-n}{n_s}"
+        }
+      ]
+    },
+    {
+      "id": "card-88098586cb715330",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zależność sprawności silnika od strat"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moc elektryczna pobierana przez silnik jest większa od mechanicznej mocy na wale o straty w uzwojeniach, rdzeniu, łożyskach i wentylacji. Przekroczenie dopuszczalnego obciążenia termicznego skraca trwałość izolacji. Dane znamionowe z tabliczki muszą być interpretowane zgodnie z konstrukcją i sposobem zasilania urządzenia."
+        },
+        {
+          "type": "formula",
+          "latex": "P_{\\mathrm{mechaniczna}}=\\eta P_{\\mathrm{elektryczna}}"
+        }
+      ]
+    }
+  ]
+}

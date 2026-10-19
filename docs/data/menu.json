@@ -13,9 +13,40 @@
       "children": [
         {
           "id": "v1-jednostki-c9065f8b",
-          "title": "Jednostki SI",
+          "title": "Jednostki SI ELE02",
           "kind": "lesson",
           "file": "lessons/v1-jednostki-c9065f8b.json"
+        },
+        {
+          "id": "item-ba97d49d3f0e",
+          "title": "Jednostki SI",
+          "kind": "folder",
+          "children": [
+            {
+              "id": "item-ad4b598fbc30",
+              "title": "Podstawowe jednostki SI",
+              "kind": "lesson",
+              "file": "lessons/item-ad4b598fbc30.json"
+            },
+            {
+              "id": "item-f4d79a4aa92e",
+              "title": "Pochodne jednostki SI",
+              "kind": "lesson",
+              "file": "lessons/item-f4d79a4aa92e.json"
+            },
+            {
+              "id": "item-ef40a64a480f",
+              "title": "Przedrostki SI",
+              "kind": "lesson",
+              "file": "lessons/item-ef40a64a480f.json"
+            },
+            {
+              "id": "item-04cc1fb90387",
+              "title": "Jednostki spoza SI",
+              "kind": "lesson",
+              "file": "lessons/item-04cc1fb90387.json"
+            }
+          ]
         },
         {
           "id": "item-7160b91d053b",
@@ -134,8 +165,145 @@
               ]
             }
           ]
+        },
+        {
+          "id": "item-d0abfc8c05ca",
+          "title": "Egzamin",
+          "kind": "folder",
+          "children": [
+            {
+              "id": "item-b68da1818b70",
+              "title": "Pisemny",
+              "kind": "lesson",
+              "file": "lessons/item-b68da1818b70.json"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "item-880495818efd",
+      "title": "Zagadnienia",
+      "kind": "module",
+      "module_type": "study",
+      "modes": [
+        "learn",
+        "review"
+      ],
+      "children": [
+        {
+          "id": "item-d095b46fec18",
+          "title": "Podstawy",
+          "kind": "folder",
+          "children": [
+            {
+              "id": "item-b7355120db42",
+              "title": "Podstawy elektryczności",
+              "kind": "lesson",
+              "file": "lessons/item-b7355120db42.json"
+            },
+            {
+              "id": "item-7d99d3e4c846",
+              "title": "Prawa i zasady elektrotechniki",
+              "kind": "lesson",
+              "file": "lessons/item-7d99d3e4c846.json"
+            },
+            {
+              "id": "item-0aee8939fe2e",
+              "title": "Obwody elektryczne",
+              "kind": "lesson",
+              "file": "lessons/item-0aee8939fe2e.json"
+            },
+            {
+              "id": "item-67bb2fac26ce",
+              "title": "Elementy elektryczne i elektroniczne",
+              "kind": "lesson",
+              "file": "lessons/item-67bb2fac26ce.json"
+            },
+            {
+              "id": "item-1bb225419ab3",
+              "title": "Magnetyzm i elektromagnetyzm",
+              "kind": "lesson",
+              "file": "lessons/item-1bb225419ab3.json"
+            },
+            {
+              "id": "item-22696181796c",
+              "title": "Prąd przemienny",
+              "kind": "lesson",
+              "file": "lessons/item-22696181796c.json"
+            },
+            {
+              "id": "item-aa6244c1273a",
+              "title": "Podstawy fizyki",
+              "kind": "lesson",
+              "file": "lessons/item-aa6244c1273a.json"
+            },
+            {
+              "id": "item-755a52da572c",
+              "title": "Matematyka stosowana w elektrotechnice",
+              "kind": "lesson",
+              "file": "lessons/item-755a52da572c.json"
+            }
+          ]
+        },
+        {
+          "id": "item-5e02-elektronika",
+          "title": "Elektronika",
+          "kind": "folder",
+          "children": [
+            {
+              "id": "item-3b941ae07401",
+              "title": "Jednostki i analiza wymiarowa",
+              "kind": "lesson",
+              "file": "lessons/item-3b941ae07401.json"
+            },
+            {
+              "id": "item-4e02a68dc101",
+              "title": "Obwody elektryczne i ich analiza",
+              "kind": "lesson",
+              "file": "lessons/item-4e02a68dc101.json"
+            },
+            {
+              "id": "item-df4a184c0203",
+              "title": "Moc i energia elektryczna",
+              "kind": "lesson",
+              "file": "lessons/item-df4a184c0203.json"
+            },
+            {
+              "id": "item-590ade81f300",
+              "title": "Ruch obrotowy i silniki",
+              "kind": "lesson",
+              "file": "lessons/item-590ade81f300.json"
+            },
+            {
+              "id": "item-46e0b1e6071a",
+              "title": "Czytanie schematów elektrycznych",
+              "kind": "lesson",
+              "file": "lessons/item-46e0b1e6071a.json"
+            }
+          ]
+        },
+        {
+          "id": "item-9fcbe02671a8",
+          "title": "Jednostki SI",
+          "kind": "folder",
+          "children": [
+            {
+              "id": "item-0b2e44961818",
+              "title": "Podstawowe jednostki SI",
+              "kind": "lesson",
+              "file": "lessons/item-0b2e44961818.json"
+            },
+            {
+              "id": "item-f50a2cd937e4",
+              "title": "Pochodne jednostek SI",
+              "kind": "lesson",
+              "file": "lessons/item-f50a2cd937e4.json"
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "home_comment": "19.10.2026 - dodano ELE.02/Egzamin/Pisemne + zaktualizowano pozostałe lekcje (Fiszki/Jednoski SI)(Zagdanienia/)"
 }

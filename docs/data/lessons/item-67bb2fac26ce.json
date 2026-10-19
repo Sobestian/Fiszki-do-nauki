@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "id": "item-67bb2fac26ce",
+  "title": "Elementy elektryczne i elektroniczne",
+  "cards": [
+    {
+      "id": "card-5be77685bc207147219a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rezystor"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Element pasywny, którego podstawowym parametrem jest rezystancja R wyrażana w omach (Ω). W obwodzie powoduje spadek napięcia i wydzielanie ciepła. Dla rezystora omowego obowiązuje prawo Ohma."
+        },
+        {
+          "type": "formula",
+          "latex": "[R]=\\Omega"
+        },
+        {
+          "type": "formula",
+          "latex": "U=I\\,R"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-67bb2fac26ce/passives.svg",
+          "alt": "Schemat: Rezystor",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-fc9e6a38a69841a124a3",
+      "question": [
+        {
+          "type": "text",
+          "text": "Potencjometr"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Rezystor nastawny z trzema wyprowadzeniami. Jego podstawowym parametrem jest rezystancja (Ω). Może pracować jako regulowany dzielnik napięcia albo rezystor nastawny."
+        },
+        {
+          "type": "formula",
+          "latex": "[R]=\\Omega"
+        }
+      ]
+    },
+    {
+      "id": "card-b52cb2293b26411fdcf9",
+      "question": [
+        {
+          "type": "text",
+          "text": "Kondensator"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Element gromadzący ładunek i energię w polu elektrycznym między okładkami. Jednostka pojemności: farad (F)."
+        },
+        {
+          "type": "formula",
+          "latex": "[C]=\\mathrm{F}"
+        },
+        {
+          "type": "formula",
+          "latex": "Q=C\\,U"
+        },
+        {
+          "type": "formula",
+          "latex": "E=\\frac12CU^2"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-67bb2fac26ce/passives.svg",
+          "alt": "Schemat: Kondensator",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-a0d779872a5bce58a65c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Cewka indukcyjna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Element magazynujący energię w polu magnetycznym, przeciwstawiający się zmianom natężenia prądu. Jednostka indukcyjności: henr (H)."
+        },
+        {
+          "type": "formula",
+          "latex": "[L]=\\mathrm{H}"
+        },
+        {
+          "type": "formula",
+          "latex": "u_L=L\\frac{di}{dt}"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-67bb2fac26ce/passives.svg",
+          "alt": "Schemat: Cewka indukcyjna",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-a04422d882217b7cddb9",
+      "question": [
+        {
+          "type": "text",
+          "text": "Dioda prostownicza"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Półprzewodnikowy element przewodzący prąd głównie w jednym kierunku. Wykorzystuje się go m.in. do prostowania prądu przemiennego."
+        }
+      ]
+    },
+    {
+      "id": "card-433c7910bc6ef0596fd3",
+      "question": [
+        {
+          "type": "text",
+          "text": "Dioda LED"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dioda elektroluminescencyjna emitująca światło podczas przewodzenia prądu w kierunku przewodzenia. Zwykle wymaga ograniczenia prądu."
+        }
+      ]
+    },
+    {
+      "id": "card-1310f16b04d28c5f2837",
+      "question": [
+        {
+          "type": "text",
+          "text": "Tranzystor"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Element półprzewodnikowy służący do wzmacniania sygnałów lub sterowania przepływem prądu. Przykładowe rodzaje: bipolarny BJT i polowy MOSFET."
+        }
+      ]
+    },
+    {
+      "id": "card-12d9f04cc3501fe2be98",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekaźnik elektromagnetyczny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Łącznik sterowany cewką elektromagnesu. Przepływ prądu przez cewkę powoduje zmianę stanu styków; obwód sterowania może być galwanicznie odseparowany od obwodu styków."
+        }
+      ]
+    },
+    {
+      "id": "card-e789f1cc6ba7273f034c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Stycznik"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Łącznik elektryczny przeznaczony do częstego załączania i wyłączania obwodów mocy, np. silników. Jego styki główne są przystosowane do określonych prądów obciążenia."
+        }
+      ]
+    },
+    {
+      "id": "card-0de2a7ccab7990d124d4",
+      "question": [
+        {
+          "type": "text",
+          "text": "Bezpiecznik"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Aparat zabezpieczający obwód przed nadmiernym prądem. Bezpiecznik topikowy przerywa obwód wskutek stopienia wkładki."
+        }
+      ]
+    },
+    {
+      "id": "card-1624cff24de8b485eec1",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wyłącznik nadprądowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Aparat samoczynnie rozłączający obwód przy przeciążeniu i/lub zwarciu. Chroni przede wszystkim przewody i instalację przed skutkami nadmiernego prądu."
+        }
+      ]
+    },
+    {
+      "id": "card-66421b44606a67297696",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wyłącznik różnicowoprądowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Aparat rozłączający obwód, gdy różnica prądów w torach roboczych przekroczy ustaloną wartość. Zapewnia ochronę uzupełniającą przeciwporażeniową, ale sam nie zabezpiecza przed przeciążeniem ani zwarciem."
+        }
+      ]
+    },
+    {
+      "id": "card-88635d07f5fe58d89ac1",
+      "question": [
+        {
+          "type": "text",
+          "text": "Transformator"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Urządzenie elektromagnetyczne przenoszące energię między uzwojeniami przez zmienne pole magnetyczne. Służy m.in. do zmiany poziomu napięcia przemiennego."
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{U_1}{U_2}\\approx\\frac{N_1}{N_2}"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-67bb2fac26ce/transformer.svg",
+          "alt": "Schemat: Transformator",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-1e683dd1581f8f96ab98",
+      "question": [
+        {
+          "type": "text",
+          "text": "Bateria i akumulator"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Bateria jest zespołem jednego lub wielu ogniw elektrochemicznych. Akumulator to ogniwo lub bateria przeznaczona do wielokrotnego ładowania i rozładowywania."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "item-b68da1818b70",
+  "title": "Pisemny",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ed155afcf1994f7c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Co rejestruje licznik energii elektrycznej oznaczony symbolem kWh?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Energię czynną skonsumowaną przez odbiornik w czasie"
+        }
+      ]
+    },
+    {
+      "id": "card-104320cc-9f21-4764-b0f5-15e13fd77082",
+      "question": [
+        {
+          "type": "text",
+          "text": "Głównym celem stosowania połączeń wyrównawczych w budynku jest:"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dopowiedź: Wyrównanie potencjałów części przewodzących dostępnych.\n\nWyjaśnienie: Połączenia wyrównawcze redukują różnicę potencjałów między różnymi metalowymi elementami (np. rurarmi a obudową pralki), co drastycznie obiża ryzyko porażenia w przypadku awarii."
+        }
+      ]
+    },
+    {
+      "id": "card-3541ffa4-cfeb-4421-a1b1-5b2ebb0251f6",
+      "question": [
+        {
+          "type": "text",
+          "text": "Jaki minimalny stopień ochrony IP powinien posiadać osprzęt elektryczny montowany bezpośrednio w strefie 1 łazienki (strefa wanny i prysznica)?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odpowiedź: IP44\n\nWyjaśnienie: Zgodnie z PN-HD 60364-7-701 w strefie 1 łazienki (bezpośrednio nad wanną/ prysznicem do wys. 2,25m) wymagany jest sopień ochrony conajmniej IP44 (ochrona przed pryskaniem wody z każdego kierunku)."
+        }
+      ]
+    },
+    {
+      "id": "card-39fc266d-15fa-413f-8576-1d8f8c37d8c4",
+      "question": [
+        {
+          "type": "text",
+          "text": "Jak zgodnie z PN-EN 60034-8 oznacza się początki uzwojeń fazowych stojana na tabliczce zaciskowej silnika trójfazowego?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odpowiedź: U1, V1, W1\n\nWyjaśnienie: Według PN-EN 60034-8 poczatki uzwojeń stojana oznacza się U1, V1, W1, a ich końce U2, V2, W2. Oznaczenia L1, L2, L3 dotyczą przewodów fazowych sieci zasilającej."
+        }
+      ]
+    },
+    {
+      "id": "card-ae8971eb-ed01-4bc5-907c-35b060ca14fb",
+      "question": [
+        {
+          "type": "text",
+          "text": "W jaki sposób zmienia się kierunek obrotów silnika bocznikowego prądu stałego?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odwpowiedź: Zmieniając kierunek prądu tylko w obwodzie twornika\n\nWyjaśnienie: Kierunek momentu zależy od kierunku prądu twornika względem strumienia wzbudzenia. Zmiana kierunku prądu tylko w tworniku odwraca obroty, natomiast zmiana biegunowości zasilania całego silnika bocznikowego odwraca oba prądy, więc kierunek obrotów się nie zmienia."
+        }
+      ]
+    },
+    {
+      "id": "card-643a237f-128a-4bdf-bf12-07b684c58a4f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Które z poniższych źródeł światła wymaga do zapłonu i stabilizacji pracy układu zapłonowego (statecznika i zapłonnika lub statecznika elektronicznego)?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Opowiedź: Lampa sodowa wysokoprężna\n\nWyjeśnienie: Wysokoprężne lampy wyładowcze (sodowe, metahalogenkowe) posiadają ujemną charakterystykę prądowo-napięciową i wymagają układów stabilizacyjno-zapłonowych do poprawnej pracy."
+        }
+      ]
+    },
+    {
+      "id": "card-a1ba9545-c217-47c8-b2c6-f2bba3ba6a4c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Który z wymienionych czujników jest wykorzystywany w systemach automatyki budynkowej do wykrywania obecności osób na podstawie promieniowania podczerwonego?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odpowiedź: Czujnik PIR\n\nWyjaśnienie: Czujnik PIR (Passive Infra-Red) reaguje na zmiany promieniowania podczerwonego emitowanego przez obiekty o temperaturze innej niż otoczenie (np. ludzkie ciało), co pozwala na automatyczne załączanie oświetlenia."
+        }
+      ]
+    },
+    {
+      "id": "card-4bce4041-b53d-4c80-a58b-68afbdbaa611",
+      "question": [
+        {
+          "type": "text",
+          "text": "Które badanie instalacji elektrycznej musi być obligatoryjnie wykonane przed jej oddaniem do eksploatacji, zgodnie z PN-HD 60364-6?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odpowiedź: oględziny, badania (pomiary) i próby funkcjonalne\n\nWyjaśnienie: Norma PN-HD 60364-6 'Sprawdzanie' wymaga przeprowadzenia trzech etapów odbioru instalacji: oględzin (sprawdzenie wzrokowe), badań (pomiary: ciągłości, rezystancji izolacji, pętli zwarcia, RCD itp.) oraz prób funkcjonalnych (sprawdzenie działania urządzeń)."
+        }
+      ]
+    },
+    {
+      "id": "card-4a997fd0-9c8b-42d0-ba6f-de8945923487",
+      "question": [
+        {
+          "type": "text",
+          "text": "Która metoda pomiaru rezystancji uzwojeń jest zalecana dla dużych transformatorów mocy, aby wyeliminować wpływ dużej indukcyjności na wynik?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odpowiedź: Metoda techniczna prądem stałym po ustaleniu się prądu\n\nWyjaśnienie: Duża indukcyjność uzwojeń transformatora powoduje długi stan nieustalony po załączeniu napięcia DC. Pomiar rezystancji metodą techniczną (U/I) wymaga odczekania, aż prąd się ustabilizuje, co gwarantuje, że mierzona jest tylko rezystancja czynna."
+        }
+      ]
+    },
+    {
+      "id": "card-be0faeae-8990-4761-a30c-2d3407c08e76",
+      "question": [
+        {
+          "type": "text",
+          "text": "W układzie nawrotnym (rewers) silnika trójfazowego, oprócz elektrycznej blokady stykami pomocniczymi NC, często stosuje się także blokadę mechaniczną między kolejnikami. Jaki jest cel tej dodatkowej blokady?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odpowiedź: Fizyczne uniemożliwienie jednoczesnego zamknięcia obu kolejników\n\nWyjaśnienie: Blokada mechaniczna sprzęga fizycznie (mechanicznie) dwa kolejniki tak, że zamknięcie jednego blokuje możliwość zamknięcia drugiego. Stanowi ona dodatkowe zabezpieczenie wobec blokady elektrycznej i eliminuje ryzyko zwarcia spowodowanego np. przywarciem styków."
+        }
+      ]
+    }
+  ]
+}

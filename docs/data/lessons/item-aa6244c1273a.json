@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "id": "item-aa6244c1273a",
+  "title": "Podstawy fizyki",
+  "cards": [
+    {
+      "id": "card-a16bde6299fbb723c3f2",
+      "question": [
+        {
+          "type": "text",
+          "text": "Masa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wielkość fizyczna określająca bezwładność ciała. Symbol: m; jednostka układu SI: kilogram (kg)."
+        },
+        {
+          "type": "formula",
+          "latex": "[m]=\\mathrm{kg}"
+        }
+      ]
+    },
+    {
+      "id": "card-6ddaf3fadf21895b8e8d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Siła"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wielkość wektorowa opisująca oddziaływanie mogące zmienić ruch lub odkształcić ciało. Jednostka: niuton (N)."
+        },
+        {
+          "type": "formula",
+          "latex": "[F]=\\mathrm{N}"
+        },
+        {
+          "type": "formula",
+          "latex": "\\vec F=m\\vec a"
+        }
+      ]
+    },
+    {
+      "id": "card-d4ed8612c42907aa4ebb",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prędkość"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wielkość wektorowa opisująca szybkość i kierunek zmiany położenia ciała. Jednostka SI: metr na sekundę (m/s). Dla prostoliniowego ruchu jednostajnego wartość prędkości wynosi:"
+        },
+        {
+          "type": "formula",
+          "latex": "[v]=\\mathrm{m/s}"
+        },
+        {
+          "type": "formula",
+          "latex": "v=\\frac{s}{t}"
+        }
+      ]
+    },
+    {
+      "id": "card-da26903e744a9fe2a140",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przyspieszenie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wielkość wektorowa określająca zmianę prędkości w czasie. Jednostka SI: m/s². Poniższy wzór opisuje średnie przyspieszenie w rozpatrywanym przedziale czasu."
+        },
+        {
+          "type": "formula",
+          "latex": "[a]=\\mathrm{m/s^2}"
+        },
+        {
+          "type": "formula",
+          "latex": "a=\\frac{\\Delta v}{\\Delta t}"
+        }
+      ]
+    },
+    {
+      "id": "card-20e065d00783b5e9c4ce",
+      "question": [
+        {
+          "type": "text",
+          "text": "Praca mechaniczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Energia przekazywana przez siłę podczas przesunięcia ciała. Dla stałej siły działającej pod kątem α do przemieszczenia:"
+        },
+        {
+          "type": "formula",
+          "latex": "[W]=\\mathrm{J}"
+        },
+        {
+          "type": "formula",
+          "latex": "W=F\\,s\\cos\\alpha"
+        }
+      ]
+    },
+    {
+      "id": "card-71abc8d471b8445042d5",
+      "question": [
+        {
+          "type": "text",
+          "text": "Energia kinetyczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Energia związana z ruchem ciała. Dla prędkości dużo mniejszych od prędkości światła:"
+        },
+        {
+          "type": "formula",
+          "latex": "[E_k]=\\mathrm{J}"
+        },
+        {
+          "type": "formula",
+          "latex": "E_k=\\frac12m\\,v^2"
+        }
+      ]
+    },
+    {
+      "id": "card-4a3fcb60b7114783ad31",
+      "question": [
+        {
+          "type": "text",
+          "text": "Energia potencjalna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Energia związana z położeniem ciała w polu sił lub jego odkształceniem. Blisko powierzchni Ziemi energia grawitacyjna względem przyjętego poziomu:"
+        },
+        {
+          "type": "formula",
+          "latex": "[E_p]=\\mathrm{J}"
+        },
+        {
+          "type": "formula",
+          "latex": "E_p=mgh"
+        }
+      ]
+    },
+    {
+      "id": "card-367069b88502aa17b0a4",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc mechaniczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Szybkość wykonywania pracy mechanicznej. Przy obrocie wału moc jest iloczynem momentu obrotowego i prędkości kątowej."
+        },
+        {
+          "type": "formula",
+          "latex": "[P]=\\mathrm{W}"
+        },
+        {
+          "type": "formula",
+          "latex": "P=\\frac{W}{t}"
+        },
+        {
+          "type": "formula",
+          "latex": "P=M\\omega"
+        }
+      ]
+    },
+    {
+      "id": "card-bcf6b0e5a182272bc191",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moment siły"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wielkość wektorowa opisująca zdolność siły do wywołania obrotu względem punktu lub osi. Jej jednostką jest niutonometr (N·m). Wzór poniżej opisuje wartość momentu siły."
+        },
+        {
+          "type": "formula",
+          "latex": "[M]=\\mathrm{N\\cdot m}"
+        },
+        {
+          "type": "formula",
+          "latex": "M=F\\,r\\sin\\alpha"
+        }
+      ]
+    },
+    {
+      "id": "card-05e2215f5bd61c59e414",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moment obrotowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moment siły działający na obracający się element, np. wał silnika. Określa jego zdolność do wywoływania lub hamowania obrotu. Jednostka: niutonometr (N·m)."
+        },
+        {
+          "type": "formula",
+          "latex": "[M]=\\mathrm{N\\cdot m}"
+        },
+        {
+          "type": "formula",
+          "latex": "M=\\frac{P}{\\omega}"
+        }
+      ]
+    },
+    {
+      "id": "card-49799defc5cfeba06520",
+      "question": [
+        {
+          "type": "text",
+          "text": "Tarcie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Siła działająca stycznie w miejscu kontaktu powierzchni, przeciwdziałająca względnemu ruchowi lub próbie jego rozpoczęcia. W prostym modelu tarcia ślizgowego F_N oznacza siłę nacisku normalnego."
+        },
+        {
+          "type": "formula",
+          "latex": "[F_t]=\\mathrm{N}"
+        },
+        {
+          "type": "formula",
+          "latex": "F_t=\\mu F_N"
+        }
+      ]
+    },
+    {
+      "id": "card-e49bf29071d0d1c8b013",
+      "question": [
+        {
+          "type": "text",
+          "text": "Ciepło i temperatura"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Temperatura opisuje stan cieplny ciała i jest mierzona w kelwinach (K). Ciepło to energia przekazywana wskutek różnicy temperatur, mierzona w dżulach (J). Poniższy wzór dotyczy ciała bez przemiany fazowej, przy stałym cieple właściwym c."
+        },
+        {
+          "type": "formula",
+          "latex": "[Q]=\\mathrm{J}"
+        },
+        {
+          "type": "formula",
+          "latex": "[T]=\\mathrm{K}"
+        },
+        {
+          "type": "formula",
+          "latex": "Q=m c\\,\\Delta T"
+        }
+      ]
+    },
+    {
+      "id": "card-55962de347e6887a30ee",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rozszerzalność cieplna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zmiana wymiarów ciała spowodowana zmianą temperatury. Dla liniowej rozszerzalności materiału przy niewielkiej zmianie temperatury α oznacza współczynnik rozszerzalności liniowej (K⁻¹), l₀ — długość początkową, a Δl — jej przyrost."
+        },
+        {
+          "type": "formula",
+          "latex": "[\\alpha]=\\mathrm{K^{-1}}"
+        },
+        {
+          "type": "formula",
+          "latex": "\\Delta l=\\alpha l_0\\Delta T"
+        },
+        {
+          "type": "text",
+          "text": "Zmiana temperatury ΔT może być wyrażona w kelwinach (K); przyrost długości Δl i długość początkowa l₀ — w metrach (m)."
+        }
+      ]
+    }
+  ]
+}

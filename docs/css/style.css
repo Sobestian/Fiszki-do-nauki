@@ -648,3 +648,93 @@ body {overflow:hidden;}
     max-height:min(17dvh, 125px)!important;
   }
 }
+
+/* 0.1.21 — niezależny od trybu nauki format całej LEKCJI.
+   Wygląd zapisany w lesson.display_format; blok size:large nie jest
+   powiększany w formacie „Nauka” (obsługa w docs/js/app.js). */
+.workspace.lesson-layout-study { grid-template-rows:auto minmax(0,1fr); }
+.workspace.lesson-layout-study .question-panel {
+  min-height:0;max-height:min(25dvh,220px);padding:14px 18px;
+  align-items:flex-start;justify-content:flex-start;gap:8px;overflow-y:auto;
+}
+.workspace.lesson-layout-study .question-panel .block-text {
+  text-align:left;font-size:clamp(1rem,2.3vw,1.22rem);line-height:1.35;font-weight:600;
+}
+.workspace.lesson-layout-study .interaction-panel {
+  min-height:0;max-height:none;padding:20px;display:flex;flex-direction:column;
+  align-items:stretch;justify-content:flex-start;gap:16px;overflow:hidden;
+}
+.workspace.lesson-layout-study .answer-card,
+.workspace.lesson-layout-study.self-assess-mode .answer-card {
+  width:100%;flex:1;min-height:0;max-height:100%;display:grid;
+  overflow-y:auto;overscroll-behavior:contain;align-content:start;
+  justify-content:stretch;align-items:initial;text-align:left;gap:8px;padding:4px;
+}
+.workspace.lesson-layout-study .answer-card .block-text,
+.workspace.lesson-layout-study.self-assess-mode .answer-card .block-text {
+  text-align:left;font-size:clamp(1.05rem,2.5vw,1.25rem);line-height:1.65;
+}
+/* Wzór pełniący funkcję pytania/nagłówka także jest wyrównany do lewej. */
+.workspace.lesson-layout-study .question-panel .formula-line,
+.workspace.lesson-layout-study .question-panel .formula-line .katex-display {text-align:left;}
+.workspace.lesson-layout-study .question-panel .formula {margin:0;}
+.workspace.lesson-layout-study .answer-card .formula-line,
+.workspace.lesson-layout-study.self-assess-mode .answer-card .formula-line {text-align:left;}
+.workspace.lesson-layout-study .answer-card img {margin-inline:0;}
+
+/* Lekcja z modułu Nauka może mieć wygląd klasycznych Fiszek:
+   duże wyśrodkowane pytanie i wyśrodkowaną odpowiedź pod spodem. */
+.workspace.lesson-layout-flashcards.learn-mode,
+.workspace.lesson-layout-flashcards.review-mode {grid-template-rows:minmax(0,1fr) auto;}
+.workspace.lesson-layout-flashcards.learn-mode .question-panel,
+.workspace.lesson-layout-flashcards.review-mode .question-panel {
+  max-height:none;min-height:0;padding:20px;
+  align-items:center;justify-content:safe center;gap:14px;
+}
+.workspace.lesson-layout-flashcards.learn-mode .question-panel .block-text,
+.workspace.lesson-layout-flashcards.review-mode .question-panel .block-text {
+  text-align:center;font-size:clamp(1.15rem,3vw,1.65rem);line-height:1.4;font-weight:normal;
+}
+.workspace.lesson-layout-flashcards.learn-mode .interaction-panel,
+.workspace.lesson-layout-flashcards.review-mode .interaction-panel {
+  min-height:68px;max-height:min(36dvh,360px);padding:12px;
+  align-items:center;justify-content:safe center;gap:10px;overflow-y:auto;
+}
+.workspace.lesson-layout-flashcards.learn-mode .answer-card,
+.workspace.lesson-layout-flashcards.review-mode .answer-card {
+  flex:initial;min-height:0;width:100%;max-height:100%;display:flex;
+  flex-direction:column;align-items:center;justify-content:safe center;
+  text-align:center;gap:12px;overflow-y:auto;
+}
+.workspace.lesson-layout-flashcards.learn-mode .answer-card .block-text,
+.workspace.lesson-layout-flashcards.review-mode .answer-card .block-text,
+.workspace.lesson-layout-flashcards .answer-card .formula-line {text-align:center;}
+@media (max-width:730px) {
+  .workspace.lesson-layout-study .question-panel {max-height:25dvh;}
+  .workspace.lesson-layout-flashcards.learn-mode,
+  .workspace.lesson-layout-flashcards.review-mode {grid-template-rows:minmax(0,1fr) auto;}
+  .workspace.lesson-layout-flashcards.learn-mode .interaction-panel,
+  .workspace.lesson-layout-flashcards.review-mode .interaction-panel {max-height:35dvh;}
+}
+
+/* 0.1.23 — komentarz autora na ekranie głównym, nad paskiem postępu. */
+.home-comment-bar {
+  flex: 0 0 auto;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 11px 15px;
+  max-height: min(27dvh, 180px);
+  overflow-y: auto;
+  overflow-wrap: anywhere;
+  color: var(--txt);
+}
+.home-comment-bar p {
+  margin: 0;
+  white-space: pre-wrap;
+  line-height: 1.45;
+  font-size: clamp(.86rem, 2.4vw, 1rem);
+}
+@media(max-width:730px) {
+  .home-comment-bar { padding: 9px 11px; max-height: 20dvh; }
+}

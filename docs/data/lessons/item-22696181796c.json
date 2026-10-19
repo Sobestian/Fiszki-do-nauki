@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "id": "item-22696181796c",
+  "title": "Prąd przemienny",
+  "cards": [
+    {
+      "id": "card-976e1ad515495cb63781",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przebieg sinusoidalny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Okresowy przebieg opisany funkcją sinus. Podstawowe parametry: amplituda, okres, częstotliwość i faza."
+        },
+        {
+          "type": "formula",
+          "latex": "u(t)=U_m\\sin(\\omega t+\\varphi)"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-22696181796c/sine.svg",
+          "alt": "Schemat: Przebieg sinusoidalny",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-008b2208cd5b7f596f73",
+      "question": [
+        {
+          "type": "text",
+          "text": "Amplituda"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Maksymalne wychylenie przebiegu od jego poziomu odniesienia. Amplituda ma tę samą jednostkę co rozpatrywana wielkość: np. wolt (V) dla napięcia albo amper (A) dla natężenia prądu."
+        },
+        {
+          "type": "formula",
+          "latex": "u(t)=U_m\\sin(\\omega t)"
+        }
+      ]
+    },
+    {
+      "id": "card-541225bab79149ebc476",
+      "question": [
+        {
+          "type": "text",
+          "text": "Okres"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Czas jednego pełnego cyklu przebiegu okresowego. Symbol: T; jednostka: sekunda (s)."
+        },
+        {
+          "type": "formula",
+          "latex": "[T]=\\mathrm{s}"
+        },
+        {
+          "type": "formula",
+          "latex": "T=\\frac{1}{f}"
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Dla 50 Hz okres wynosi 0,02 s = 20 ms."
+        }
+      ]
+    },
+    {
+      "id": "card-ded767b36b47a4bfa3a7",
+      "question": [
+        {
+          "type": "text",
+          "text": "Częstotliwość"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Liczba pełnych cykli przebiegu w ciągu sekundy. Symbol: f; jednostka: herc (Hz)."
+        },
+        {
+          "type": "formula",
+          "latex": "[f]=\\mathrm{Hz}"
+        },
+        {
+          "type": "formula",
+          "latex": "f=\\frac{1}{T}"
+        }
+      ]
+    },
+    {
+      "id": "card-7506662f4b8c27652b87",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wartość skuteczna napięcia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wartość napięcia stałego powodującego taki sam efekt cieplny na rezystorze jak rozpatrywane napięcie zmienne. Dla czystej sinusoidy:"
+        },
+        {
+          "type": "formula",
+          "latex": "[U_{\\mathrm{sk}}]=\\mathrm{V}"
+        },
+        {
+          "type": "formula",
+          "latex": "U_{\\mathrm{sk}}=\\frac{U_m}{\\sqrt{2}}"
+        },
+        {
+          "type": "text",
+          "text": "Przykład: 230 V w sieci oznacza wartość skuteczną; amplituda sinusoidy to około 325 V."
+        }
+      ]
+    },
+    {
+      "id": "card-cbc585cdd75ca5d4b2ba",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wartość skuteczna prądu"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wartość prądu stałego powodującego taki sam efekt cieplny na rezystorze jak rozpatrywany prąd zmienny. Dla czystej sinusoidy:"
+        },
+        {
+          "type": "formula",
+          "latex": "[I_{\\mathrm{sk}}]=\\mathrm{A}"
+        },
+        {
+          "type": "formula",
+          "latex": "I_{\\mathrm{sk}}=\\frac{I_m}{\\sqrt{2}}"
+        }
+      ]
+    },
+    {
+      "id": "card-7dafabcf57358baa4da4",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przesunięcie fazowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Różnica faz dwóch przebiegów okresowych o tej samej częstotliwości. Może być wyrażona w stopniach lub radianach; wpływa m.in. na moc czynną w obwodzie AC."
+        },
+        {
+          "type": "formula",
+          "latex": "[\\varphi]=\\mathrm{rad}"
+        },
+        {
+          "type": "formula",
+          "latex": "\\varphi=\\varphi_u-\\varphi_i"
+        }
+      ]
+    },
+    {
+      "id": "card-c3f6600b2009e92ab09a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Impedancja"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zespolony stosunek napięcia do prądu w stanie ustalonym sinusoidalnym. Obejmuje rezystancję R oraz reaktancję X. Jednostka SI: om (Ω)."
+        },
+        {
+          "type": "formula",
+          "latex": "[\\underline Z]=\\Omega"
+        },
+        {
+          "type": "formula",
+          "latex": "\\underline Z=R+jX"
+        }
+      ]
+    },
+    {
+      "id": "card-2b70f576896b37cd6bfb",
+      "question": [
+        {
+          "type": "text",
+          "text": "Reaktancja indukcyjna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Część impedancji cewki idealnej zależna od częstotliwości. Rośnie wraz z częstotliwością. Symbol: XL; jednostka: om (Ω)."
+        },
+        {
+          "type": "formula",
+          "latex": "[X_L]=\\Omega"
+        },
+        {
+          "type": "formula",
+          "latex": "X_L=2\\pi fL"
+        }
+      ]
+    },
+    {
+      "id": "card-9b9bc616fa1702b6830d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Reaktancja pojemnościowa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moduł reaktancji idealnego kondensatora przy prądzie sinusoidalnym. Maleje ze wzrostem częstotliwości. Symbol: X_C; jednostka: om (Ω). W impedancji ma znak ujemny."
+        },
+        {
+          "type": "formula",
+          "latex": "[X_C]=\\Omega"
+        },
+        {
+          "type": "formula",
+          "latex": "X_C=\\frac{1}{2\\pi fC}"
+        }
+      ]
+    },
+    {
+      "id": "card-ea3941abc7dc3d3681be",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc czynna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moc średnia rzeczywiście zamieniana na pracę, ciepło lub inne formy energii. W jednofazowym obwodzie sinusoidalnym: jednostka wat (W)."
+        },
+        {
+          "type": "formula",
+          "latex": "[P]=\\mathrm{W}"
+        },
+        {
+          "type": "formula",
+          "latex": "P=U_{\\mathrm{sk}}I_{\\mathrm{sk}}\\cos\\varphi"
+        }
+      ]
+    },
+    {
+      "id": "card-9c6eca5b23ce162652b5",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc bierna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wielkość opisująca okresową wymianę energii między źródłem a elementami indukcyjnymi i pojemnościowymi w obwodzie sinusoidalnym. Jednostka: war (var)."
+        },
+        {
+          "type": "formula",
+          "latex": "[Q]=\\mathrm{var}"
+        },
+        {
+          "type": "formula",
+          "latex": "Q=U_{\\mathrm{sk}}I_{\\mathrm{sk}}\\sin\\varphi"
+        }
+      ]
+    },
+    {
+      "id": "card-f59e4105579c8b2b8c01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc pozorna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Iloczyn wartości skutecznych napięcia i prądu. W obwodzie sinusoidalnym wiąże moc czynną i bierną. Jednostka: woltoamper (VA)."
+        },
+        {
+          "type": "formula",
+          "latex": "[S]=\\mathrm{VA}"
+        },
+        {
+          "type": "formula",
+          "latex": "S=U_{\\mathrm{sk}}I_{\\mathrm{sk}}"
+        },
+        {
+          "type": "formula",
+          "latex": "S=\\sqrt{P^2+Q^2}"
+        }
+      ]
+    },
+    {
+      "id": "card-056b3c1fa8d29969b219",
+      "question": [
+        {
+          "type": "text",
+          "text": "Współczynnik mocy (cos φ)"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "W obwodzie sinusoidalnym cosinus kąta przesunięcia fazowego napięcia i prądu; określa udział mocy czynnej w mocy pozornej."
+        },
+        {
+          "type": "formula",
+          "latex": "\\cos\\varphi=\\frac{P}{S}"
+        }
+      ]
+    },
+    {
+      "id": "card-d1aabad4c9b7d0d8a501",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rezonans elektryczny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Stan obwodu z indukcyjnością i pojemnością, w którym reaktancja indukcyjna i pojemnościowa mają równe wartości bezwzględne. Dla idealnego układu LC częstotliwość rezonansowa wynosi:"
+        },
+        {
+          "type": "formula",
+          "latex": "f_0=\\frac{1}{2\\pi\\sqrt{LC}}"
+        }
+      ]
+    },
+    {
+      "id": "card-600a8c59eca81f784d08",
+      "question": [
+        {
+          "type": "text",
+          "text": "Układ jednofazowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Układ z jednym napięciem przemiennym zasilającym odbiornik, zwykle między przewodem fazowym i neutralnym. Typowe napięcie w polskiej sieci niskiego napięcia wynosi 230 V (wartość skuteczna)."
+        }
+      ]
+    },
+    {
+      "id": "card-f7a9c8b789c7be1f86f6",
+      "question": [
+        {
+          "type": "text",
+          "text": "Układ trójfazowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Układ trzech napięć sinusoidalnych o jednakowej częstotliwości, przesuniętych względem siebie o 120°. W symetrycznym układzie gwiazdy napięcie międzyfazowe jest √3 razy większe od fazowego."
+        },
+        {
+          "type": "formula",
+          "latex": "U_{LL}=\\sqrt{3}\\,U_{LN}"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-22696181796c/three_phase.svg",
+          "alt": "Schemat: Układ trójfazowy",
+          "remove_white_background": false
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Typowe napięcia sieciowe: 400 V między fazami i 230 V faza–neutralny."
+        }
+      ]
+    }
+  ]
+}

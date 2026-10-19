@@ -154,6 +154,15 @@ function shuffled(items) {
   }
   return output;
 }
+function renderHomeComment(screen) {
+  const bar = $('home-comment-bar');
+  if (!bar) return;
+  const comment = typeof state.catalog?.home_comment === 'string'
+    ? state.catalog.home_comment.trim() : '';
+  const visible = screen === 'menu-view' && state.path.length === 0 && !!comment;
+  bar.classList.toggle('hidden', !visible);
+  $('home-comment-text').textContent = visible ? comment : '';
+}
 function showScreen(screen) {
   ['menu-view', 'setup-view', 'session-view'].forEach((id) => {
     $(id).classList.toggle('hidden', id !== screen);
@@ -161,6 +170,7 @@ function showScreen(screen) {
   $('error-box').classList.add('hidden');
   $('reset-btn').classList.toggle('hidden', screen !== 'session-view');
   if (screen !== 'session-view') hideFooterActions();
+  renderHomeComment(screen);
 }
 function error(message) {
   $('error-box').textContent = message;
@@ -530,6 +540,12 @@ function setResponsiveImageSize(img) {
   else img.addEventListener('load', apply, { once: true });
 }
 
+function lessonDisplayFormat() {
+  if (['study', 'flashcards'].includes(state.lesson?.display_format)) return state.lesson.display_format;
+  // Starsze pliki bez pola display_format używają formatu działu.
+  return state.moduleNode?.module_type === 'study' ? 'study' : 'flashcards';
+}
+
 function renderBlocks(container, blocks) {
   for (const block of blocks || []) {
     if (block.type === 'text') {
@@ -558,7 +574,8 @@ function renderBlocks(container, blocks) {
     } else if (block.type === 'formula') {
       const formula = el('div', null, 'formula');
       // Duże symbole jednostek konwertowanych z v1; reszta wzorów bez zmian.
-      if (block.size === 'large') formula.classList.add('unit-formula-large');
+      if (block.size === 'large' && lessonDisplayFormat() === 'flashcards')
+        formula.classList.add('unit-formula-large');
       renderLatex(formula, block.latex);
       container.append(formula);
     }
@@ -626,6 +643,9 @@ function renderCard() {
   $('workspace').classList.toggle('reversed-mode', state.reversed && state.mode === 'self_assess');
   $('workspace').classList.toggle('review-mode', state.mode === 'review');
   $('workspace').classList.toggle('abcd-mode', state.mode === 'abcd');
+  const layout = lessonDisplayFormat();
+  $('workspace').classList.toggle('lesson-layout-study', layout === 'study');
+  $('workspace').classList.toggle('lesson-layout-flashcards', layout === 'flashcards');
   $('workspace').classList.remove('review-revealed');
   if (selfMode) {
     interaction.append(el('div', 'Kliknij pytanie albo użyj ↑ / ↓, żeby zobaczyć odpowiedź.', 'muted'));

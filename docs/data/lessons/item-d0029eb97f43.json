@@ -250,7 +250,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "Nowa odpowiedź"
+          "text": "Kalafonia jest topnikiem, który usuwa cienkie warstwy tlenków i ułatwia zwilżanie lutowanej powierzchni spoiwem. Pasty lutownicze mogą zawierać topnik oraz drobiny spoiwa; ich skład i zastosowanie zależą od rodzaju pasty. „Cyna” to potoczna nazwa spoiwa lutowniczego, które często jest stopem cyny z innymi metalami, np. Ag i Cu.\n\nDo lutowania potrzebne są czyste powierzchnie, odpowiednia temperatura i dopasowany topnik. Połączenie powinno zwilżyć elementy, a nie tworzyć przypadkową kroplę spoiwa. Zbyt długie grzanie może uszkodzić komponenty, ścieżki płytki i izolację przewodu. W trakcie lutowania należy zapewnić wentylację lub odciąg oparów oraz unikać kontaktu ze stopionym spoiwem. Pozostałości aktywnych topników usuwa się zgodnie z zaleceniami producenta."
         },
         {
           "type": "image",
@@ -294,7 +294,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "Nowa odpowiedź"
+          "text": "Bramki logiczne wykonują operacje na sygnałach dwustanowych, które umownie oznacza się jako 0 i 1. Ich działanie opisuje tabela prawdy.\n\nNOT (negacja) odwraca stan wejścia. AND (iloczyn logiczny) daje 1 tylko wtedy, gdy wszystkie wejścia mają wartość 1. OR (suma logiczna) daje 1, gdy przynajmniej jedno wejście ma wartość 1. NAND jest negacją AND, NOR negacją OR, XOR daje 1, gdy dla dwóch wejść wartości są różne, a XNOR daje 1, gdy są jednakowe.\n\nPoziomy napięć odpowiadające stanom 0 i 1 zależą od rodziny układów cyfrowych i napięcia zasilania. Wejście cyfrowe nie powinno pozostawać w stanie nieustalonym, jeśli dokumentacja układu nie przewiduje takiego sposobu pracy."
         },
         {
           "type": "image",

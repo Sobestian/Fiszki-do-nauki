@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "id": "item-7d99d3e4c846",
+  "title": "Prawa i zasady elektrotechniki",
+  "cards": [
+    {
+      "id": "card-f3ce0d4d81b44f6b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Pierwsze prawo Kirchhoffa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Pierwsze prawo Kirchhoffa mówi, że suma natężeń prądów wpływających do węzła obwodu elektrycznego jest równa sumie natężeń prądów wypływających z tego węzła.\n\nPrawo to wynika z zasady zachowania ładunku elektrycznego."
+        },
+        {
+          "type": "formula",
+          "latex": "\\sum I_{\\text{wpływające}}=\\sum I_{\\text{wypływające}}"
+        },
+        {
+          "type": "formula",
+          "latex": "\\sum I=0"
+        },
+        {
+          "type": "text",
+          "text": "Przykład:"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7d99d3e4c846/5adac389002440b7a6.png",
+          "alt": "1 prawo kirchhoffa.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "formula",
+          "latex": "I_1+I_2-I_3=0"
+        },
+        {
+          "type": "formula",
+          "latex": "I_3=I_1+I_2=2+3=5\\,A"
+        }
+      ]
+    },
+    {
+      "id": "card-aed81df6-ac52-4eb6-81cd-753a44e35805",
+      "question": [
+        {
+          "type": "text",
+          "text": "Drugie prawo Kirchhoffa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Drugie prawo Kirchhoffa mówi, że algebraiczna suma napięć w dowolnym zamkniętym oczku obwodu elektrycznego jest równa zeru.\nOznacza to, że suma wzrostów napięć jest równa sumie spadków napięć w oczku.\nPrawo to wynika z zasady zachowania energii."
+        },
+        {
+          "type": "formula",
+          "latex": "\\sum U=0"
+        },
+        {
+          "type": "text",
+          "text": "Przykład:"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7d99d3e4c846/d0ed357258d5444a8d.png",
+          "alt": "2 prawo kirchhoffa.png",
+          "remove_white_background": false
+        },
+        {
+          "type": "formula",
+          "latex": "U_z=U_1+U_2\n"
+        },
+        {
+          "type": "text",
+          "text": "Uz - napięcie źródła (V)\nU1 - spadek napięcia na pierwszym odbiorniku (V)\nU2 - spadek napięcia na drugim odbiorniku (V)"
+        },
+        {
+          "type": "formula",
+          "latex": "U_z-U_1-U_2=0"
+        }
+      ]
+    },
+    {
+      "id": "card-dda532b259ec20a5f3de",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prawo Ohma"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dla elementu omowego przy stałych warunkach fizycznych natężenie prądu jest proporcjonalne do napięcia, a odwrotnie proporcjonalne do rezystancji."
+        },
+        {
+          "type": "formula",
+          "latex": "I=\\frac{U}{R}"
+        },
+        {
+          "type": "formula",
+          "latex": "U=R\\,I"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-7d99d3e4c846/ohm.svg",
+          "alt": "Schemat: Prawo Ohma",
+          "remove_white_background": false
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Napięcie 12 V przy rezystancji 6 Ω daje prąd 2 A."
+        }
+      ]
+    },
+    {
+      "id": "card-81e80af0fae6dcc6df05",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zasada zachowania ładunku elektrycznego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Całkowity ładunek elektryczny w układzie izolowanym pozostaje stały. Ładunek może się przemieszczać między elementami układu, ale nie powstaje ani nie znika."
+        },
+        {
+          "type": "formula",
+          "latex": "Q_{\\text{przed}}=Q_{\\text{po}}"
+        }
+      ]
+    },
+    {
+      "id": "card-37dedbd67501b94be913",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zasada zachowania energii"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Energia nie powstaje z niczego ani nie ginie; może jedynie zmieniać formę lub przepływać między układami. W układzie izolowanym całkowita energia jest stała."
+        },
+        {
+          "type": "formula",
+          "latex": "E_{\\text{całk., przed}}=E_{\\text{całk., po}}"
+        }
+      ]
+    },
+    {
+      "id": "card-59e8fd4de9af7bf9cdc8",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prawo Coulomba"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wartość siły oddziaływania dwóch nieruchomych ładunków punktowych w próżni jest proporcjonalna do iloczynu wartości ładunków i odwrotnie proporcjonalna do kwadratu odległości. Ładunki jednoimienne odpychają się, a różnoimienne przyciągają."
+        },
+        {
+          "type": "formula",
+          "latex": "F=k\\frac{|q_1q_2|}{r^2}"
+        },
+        {
+          "type": "text",
+          "text": "We wzorze q₁ i q₂ to ładunki elektryczne, r — odległość między nimi, a k — stała Coulomba (w próżni około 8,99·10⁹ N·m²/C²)."
+        }
+      ]
+    },
+    {
+      "id": "card-2272513f36cf12de5195",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prawo indukcji Faradaya"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Siła elektromotoryczna (SEM) indukowana w uzwojeniu zależy od szybkości zmian strumienia magnetycznego. Dla N jednakowych zwojów, z których każdy obejmuje strumień Φ, obowiązuje poniższy wzór. Znak minus wyraża regułę Lenza."
+        },
+        {
+          "type": "formula",
+          "latex": "\\mathcal{E}=-N\\frac{d\\Phi}{dt}"
+        },
+        {
+          "type": "text",
+          "text": "N oznacza liczbę zwojów, a Φ — strumień magnetyczny przez jeden zwój. Dla jednego zwoju przyjmujemy N = 1."
+        }
+      ]
+    },
+    {
+      "id": "card-f72918d5c9cac8f440a9",
+      "question": [
+        {
+          "type": "text",
+          "text": "Reguła Lenza"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Kierunek indukowanego prądu jest taki, że wytworzone przez niego pole magnetyczne przeciwdziała zmianie strumienia magnetycznego, która ten prąd wywołała."
+        }
+      ]
+    },
+    {
+      "id": "card-7950898350b9728acb29",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prawo Ampère’a"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dla pola magnetostatycznego całka z natężenia pola magnetycznego H po zamkniętym konturze jest równa algebraicznej sumie prądów obejmowanych przez ten kontur."
+        },
+        {
+          "type": "formula",
+          "latex": "\\oint\\vec H\\cdot d\\vec l=I_{\\text{objęty}}"
+        },
+        {
+          "type": "text",
+          "text": "H oznacza natężenie pola magnetycznego (A/m), a I — algebraiczną sumę prądów objętych konturem (A)."
+        }
+      ]
+    },
+    {
+      "id": "card-7d576a732d1acd380e2f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Reguła prawej dłoni"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Gdy kciuk prawej dłoni wskazuje umowny kierunek prądu w prostym przewodniku, zgięte palce wskazują kierunek linii pola magnetycznego wokół przewodnika."
+        }
+      ]
+    },
+    {
+      "id": "card-aad6b9ded5fd9b3947c5",
+      "question": [
+        {
+          "type": "text",
+          "text": "Reguła lewej dłoni"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Pomaga określić kierunek siły działającej na przewodnik z prądem w polu magnetycznym: linie pola wchodzą w dłoń, cztery palce wskazują kierunek prądu, a odchylony kciuk — kierunek siły."
+        }
+      ]
+    }
+  ]
+}

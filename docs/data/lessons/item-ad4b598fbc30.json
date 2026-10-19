@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "id": "item-ad4b598fbc30",
+  "title": "Podstawowe jednostki SI",
+  "cards": [
+    {
+      "id": "card-febaccbf12474e3c",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{s}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\mathrm{t}] = s"
+        },
+        {
+          "type": "text",
+          "text": "Czas - sekunda"
+        },
+        {
+          "type": "text",
+          "text": "Sekunda (symbol: s) jest jednostką podstawową czasu w układzie SI. Definiuje się ją jako czas trwania 9 192 631 770 okresów promieniowania odpowiadającego przejściu między dwoma poziomami nadsubtelnymi stanu podstawowego atomu cezu-133.\n\nTa definicja opiera się na zegarach atomowych – najdokładniejszych urządzeniach pomiarowych zbudowanych przez człowieka. Współczesne zegary cezowe „mylą się” o mniej niż jedną sekundę na kilkadziesiąt milionów lat."
+        }
+      ],
+      "quiz": {
+        "correct": "Czas - sekunda"
+      }
+    },
+    {
+      "id": "card-403a45f3163547ff",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{m}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[l] = m"
+        },
+        {
+          "type": "text",
+          "text": "Długość - metr"
+        },
+        {
+          "type": "text",
+          "text": "Metr (symbol: m) jest jednostką podstawową długości w Międzynarodowym Układzie Jednostek Miar (SI). Od 1983 roku definiuje się go jako długość drogi przebytej przez światło w próżni w czasie 1/299 792 458 sekundy.\n\nInnymi słowy, definicja metra jest dziś bezpośrednio związana z prędkością światła c = 299 792 458 m/s, która jest stałą fizyczną o dokładnie ustalonej wartości. Dzięki temu metr jest niezmienny, powtarzalny w każdym laboratorium na świecie i nie zależy od żadnego fizycznego wzorca, który mógłby się zmieniać z czasem."
+        }
+      ],
+      "quiz": {
+        "correct": "Długość - metr"
+      }
+    },
+    {
+      "id": "card-0d3237a3635649e2",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{mol}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[n]= \\mathrm{mol}"
+        },
+        {
+          "type": "text",
+          "text": "Ilość substancji - mol"
+        },
+        {
+          "type": "text",
+          "text": "Liczność materii – wielkość fizyczna określająca liczbę wskazanych obiektów elementarnych (np. atomów, cząsteczek lub jonów). Jeden mol zawiera dokładnie 6,022 140 76 × 10²³ takich obiektów. Jest to wartość liczby Avogadra; stała Avogadra wynosi Nₐ = 6,022 140 76 × 10²³ mol⁻¹. Definicja oparta na 12 g węgla-12 obowiązywała przed reformą SI w 2019 roku."
+        }
+      ],
+      "quiz": {
+        "correct": "Ilość substancji - mol"
+      }
+    },
+    {
+      "id": "card-8de3388d35dc4379",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{kg}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[m] = kg"
+        },
+        {
+          "type": "text",
+          "text": "Masa - kilogram"
+        },
+        {
+          "type": "text",
+          "text": "Kilogram (symbol: kg) jest jednostką podstawową masy w układzie SI. Od 20 maja 2019 roku jest definiowany przez ustaloną wartość liczbową stałej Plancka h = 6,62607015 × 10⁻³⁴ J·s, co pośrednio wiąże masę z energią i czasem poprzez relację E = hf oraz E = mc².\n\nJest to jedyna jednostka podstawowa SI, której nazwa zawiera przedrostek („kilo”) – wynika to z historycznych decyzji sprzed ponad 200 lat, kiedy podstawową jednostką miał być „gram”, ale okazał się zbyt mały do praktycznego wzorcowania."
+        }
+      ],
+      "quiz": {
+        "correct": "Masa - kilogram"
+      }
+    },
+    {
+      "id": "card-37f8af3aa3644fd6",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{A}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\mathrm{I}] = \\mathrm{A}"
+        },
+        {
+          "type": "text",
+          "text": "Natężenie prądu - amper"
+        },
+        {
+          "type": "text",
+          "text": "Amper (symbol: A) jest jednostką podstawową natężenia prądu elektrycznego w układzie SI. Od 2019 roku jest definiowany przez ustaloną wartość liczbową ładunku elementarnego e = 1,602176634 × 10⁻¹⁹ C, co oznacza przepływ ok. 6,24 × 10¹⁸ elektronów na sekundę przez przekrój przewodnika.\n\nNatężenie prądu I to ilość ładunku elektrycznego przepływającego przez przekrój przewodnika w jednostce czasu: I = Q/t. Jeden amper oznacza przepływ jednego kulomba ładunku elektrycznego w ciągu jednej sekundy: 1 A = 1 C/s."
+        }
+      ],
+      "quiz": {
+        "correct": "Natężenie prądu - amper"
+      }
+    },
+    {
+      "id": "card-f0b224bc7ab14879",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{K}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\mathrm{T}] = K"
+        },
+        {
+          "type": "text",
+          "text": "Temperatura - kelwin"
+        },
+        {
+          "type": "text",
+          "text": "Kelwin (symbol: K – bez znaku stopnia) jest jednostką podstawową temperatury termodynamicznej w układzie SI. Od 2019 roku jest definiowany przez ustaloną wartość liczbową stałej Boltzmanna k = 1,380649 × 10⁻²³ J/K.\n\nSkala Kelwina jest skalą bezwzględną – jej zero (0 K) odpowiada zeru absolutnemu, czyli teoretycznemu stanowi minimalnej możliwej energii termicznej. Wielkość przyrostu o 1 K jest identyczna jak przyrost o 1°C, więc różnice temperatur można podawać zarówno w kelwinach, jak i stopniach Celsjusza."
+        }
+      ],
+      "quiz": {
+        "correct": "Temperatura - kelwin"
+      }
+    },
+    {
+      "id": "card-7b3992137af5436f",
+      "question": [
+        {
+          "type": "formula",
+          "latex": "\\mathrm{cd}",
+          "size": "large",
+          "source_conversion": "jednostki-v1"
+        }
+      ],
+      "answer": [
+        {
+          "type": "formula",
+          "latex": "[\\mathrm{I_v}] = cd"
+        },
+        {
+          "type": "text",
+          "text": "Światłość - kandela"
+        },
+        {
+          "type": "text",
+          "text": "Kandela (symbol: cd) jest jednostką podstawową światłości źródła światła w układzie SI. Definiuje się ją jako światłość źródła emitującego promieniowanie monochromatyczne o częstotliwości 540 × 10¹² Hz (czyli o długości fali ok. 555 nm – światło zielone, na które ludzkie oko jest najbardziej czułe), którego natężenie promieniowania w danym kierunku wynosi 1/683 wata na steradian.\n\nW odróżnieniu od innych jednostek SI, kandela uwzględnia czułość ludzkiego oka – jest jedyną jednostką podstawowej wielkości fizjologicznej (a nie czysto fizycznej) w układzie SI."
+        }
+      ],
+      "quiz": {
+        "correct": "Światłość - kandela"
+      }
+    }
+  ]
+}

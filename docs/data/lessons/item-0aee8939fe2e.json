@@ -1,0 +1,329 @@
+{
+  "schema_version": 1,
+  "id": "item-0aee8939fe2e",
+  "title": "Obwody elektryczne",
+  "cards": [
+    {
+      "id": "card-b7bd95e8ff74bbe39242",
+      "question": [
+        {
+          "type": "text",
+          "text": "Węzeł obwodu elektrycznego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Punkt lub zbiór bezpośrednio połączonych punktów obwodu o tym samym potencjale, w którym łączą się gałęzie. Przy analizie rozgałęzień stosuje się pierwsze prawo Kirchhoffa."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-0aee8939fe2e/node.svg",
+          "alt": "Schemat: Węzeł obwodu elektrycznego",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-7ddec22fb3d00a910b8c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Gałąź obwodu elektrycznego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Część obwodu między dwoma węzłami, zawierająca jeden lub więcej elementów połączonych szeregowo. W całej gałęzi płynie ten sam prąd."
+        }
+      ]
+    },
+    {
+      "id": "card-97aaaa849e3b17f64ea4",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oczko obwodu elektrycznego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zamknięta droga w obwodzie, która nie przechodzi dwukrotnie przez ten sam węzeł i nie zawiera wewnątrz innych oczek. Do analizy napięć w oczku stosuje się drugie prawo Kirchhoffa."
+        }
+      ]
+    },
+    {
+      "id": "card-826d17955d0636d8af14",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenie szeregowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Połączenie elementów jeden za drugim, bez rozgałęzienia między nimi. Przez wszystkie elementy płynie ten sam prąd, a napięcia na nich sumują się."
+        },
+        {
+          "type": "formula",
+          "latex": "I=I_1=I_2"
+        },
+        {
+          "type": "formula",
+          "latex": "U=U_1+U_2"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-0aee8939fe2e/series_parallel.svg",
+          "alt": "Schemat: Połączenie szeregowe",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-216ba072dc0b9004da88",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenie równoległe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Połączenie elementów do tych samych dwóch węzłów. Na każdej gałęzi jest jednakowe napięcie, a prąd źródła jest sumą prądów gałęzi."
+        },
+        {
+          "type": "formula",
+          "latex": "U=U_1=U_2"
+        },
+        {
+          "type": "formula",
+          "latex": "I=I_1+I_2"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-0aee8939fe2e/series_parallel.svg",
+          "alt": "Schemat: Połączenie równoległe",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-67e61dc2d5ff4dc4689a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenie mieszane"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Połączenie, w którym występują jednocześnie fragmenty szeregowe i równoległe. Przy obliczeniach upraszcza się kolejne grupy elementów."
+        }
+      ]
+    },
+    {
+      "id": "card-00707a1b0a12c5fcd489",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rezystancja zastępcza"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Rezystancja jednego opornika, którym można zastąpić układ rezystorów bez zmiany charakterystyki prądowo-napięciowej widzianej z jego zacisków. Jednostka: om (Ω)."
+        },
+        {
+          "type": "formula",
+          "latex": "[R_z]=\\Omega"
+        },
+        {
+          "type": "formula",
+          "latex": "R_{\\mathrm{szereg}}=R_1+R_2"
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac1{R_{\\text{równ}}}=\\frac1{R_1}+\\frac1{R_2}"
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Dwa rezystory po 10 Ω mają 20 Ω szeregowo i 5 Ω równolegle."
+        }
+      ]
+    },
+    {
+      "id": "card-e7813c17be9db110bdaa",
+      "question": [
+        {
+          "type": "text",
+          "text": "Dzielnik napięcia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Układ rezystorów połączonych szeregowo, w którym napięcie wejściowe dzieli się proporcjonalnie do rezystancji. Wzór dotyczy dzielnika nieobciążonego."
+        },
+        {
+          "type": "formula",
+          "latex": "U_{\\mathrm{wy}}=U_{\\mathrm{we}}\\frac{R_2}{R_1+R_2}"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-0aee8939fe2e/voltage_divider.svg",
+          "alt": "Schemat: Dzielnik napięcia",
+          "remove_white_background": false
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Dwa równe rezystory dzielą napięcie wejściowe na połowę."
+        }
+      ]
+    },
+    {
+      "id": "card-058325f33d94b4bcdfb8",
+      "question": [
+        {
+          "type": "text",
+          "text": "Dzielnik prądu"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Układ równoległych gałęzi, w którym prąd dzieli się między gałęzie. Dla dwóch rezystorów prąd w danej gałęzi jest odwrotnie proporcjonalny do jej rezystancji."
+        },
+        {
+          "type": "formula",
+          "latex": "I_1=I\\frac{R_2}{R_1+R_2}"
+        }
+      ]
+    },
+    {
+      "id": "card-7b46e014c5c97fd6fc7a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Spadek napięcia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Różnica potencjałów na elemencie, na którym energia elektryczna jest przekazywana lub przetwarzana. Na rezystorze omowym jest równa iloczynowi prądu i rezystancji."
+        },
+        {
+          "type": "formula",
+          "latex": "[U]=\\mathrm{V}"
+        },
+        {
+          "type": "formula",
+          "latex": "U_R=I\\,R"
+        }
+      ]
+    },
+    {
+      "id": "card-c07588d3c00586a8116e",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zwarcie elektryczne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Połączenie punktów o różnych potencjałach bardzo małą impedancją. Może powodować przepływ niebezpiecznie dużego prądu i zadziałanie zabezpieczeń."
+        }
+      ]
+    },
+    {
+      "id": "card-931d9a6235cb47c99755",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przerwa w obwodzie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Brak ciągłości elektrycznej drogi przepływu prądu. W prostej gałęzi z przerwą nie płynie prąd, choć na końcach przerwy może występować napięcie."
+        }
+      ]
+    },
+    {
+      "id": "card-581f76c01f8729e6cf2d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Obwód otwarty i zamknięty"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Obwód zamknięty ma ciągłą drogę dla przepływu prądu; obwód otwarty ma przerwę. Zamknięcie wyłącznika zwykle umożliwia przepływ prądu."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-0aee8939fe2e/simple_circuit.svg",
+          "alt": "Schemat: Obwód otwarty i zamknięty",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-7eb26457a9169c3bf613",
+      "question": [
+        {
+          "type": "text",
+          "text": "Pomiar napięcia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Napięcie mierzy się woltomierzem podłączonym równolegle do badanego elementu. Woltomierz powinien mieć dużą rezystancję wejściową."
+        }
+      ]
+    },
+    {
+      "id": "card-017d0ec48216aeeb5654",
+      "question": [
+        {
+          "type": "text",
+          "text": "Pomiar natężenia prądu"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Natężenie mierzy się amperomierzem włączonym szeregowo do badanej gałęzi. Amperomierz powinien mieć bardzo małą rezystancję wewnętrzną."
+        }
+      ]
+    },
+    {
+      "id": "card-e5757ade1be37d174406",
+      "question": [
+        {
+          "type": "text",
+          "text": "Pomiar rezystancji"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Rezystancję mierzy się omomierzem lub multimetrem w trybie Ω. Pomiar zwykle wykonuje się po wyłączeniu zasilania obwodu i rozładowaniu kondensatorów."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "id": "item-46e0b1e6071a",
+  "title": "Czytanie schematów elektrycznych",
+  "display_format": "study",
+  "available_modes": [
+    "learn"
+  ],
+  "cards": [
+    {
+      "id": "card-6ee3193da98f5e28",
+      "question": [
+        {
+          "type": "text",
+          "text": "Schemat ideowy a montażowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Schemat ideowy przedstawia związki elektryczne i funkcje elementów, niezależnie od ich rzeczywistego położenia. Schemat montażowy pokazuje rozmieszczenie i połączenia fizyczne. Dokumentacja urządzenia często zawiera oba rodzaje rysunków oraz listwę zaciskową, listę kabli i zestawienie aparatów."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-46e0b1e6071a/ideowy.svg",
+          "alt": "Ten sam obwód jako schemat ideowy oraz uproszczony montażowy",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-c4e74ed897115dec",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oznaczenia elementów i zacisków"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "W dokumentacji stosuje się oznaczenia funkcjonalne i identyfikatory aparatów, np. Q, F, K, S, M, w zależności od przyjętego systemu oznaczeń. Symbole graficzne i numery zacisków identyfikują styki, cewki i połączenia. Oznaczenia podaje się zgodnie z dokumentacją konkretnego producenta oraz normami rysunkowymi — nie wszystkie schematy stosują identyczny system."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-46e0b1e6071a/zaciski.svg",
+          "alt": "Stycznik: cewka A1 A2 i styki główne oraz pomocniczy",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-da6d382327bf50ad",
+      "question": [
+        {
+          "type": "text",
+          "text": "Tory mocy i sterowania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Tor mocy przenosi energię do odbiornika, a tor sterowania obsługuje cewki, przyciski, czujniki i logikę uruchamiania. W typowym układzie silnikowym stycznik K1 łączy tor mocy, a jego cewka jest zasilana przez obwód sterowania. Napięcia obu torów mogą się różnić i muszą być zgodne z parametrami zastosowanych aparatów."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-46e0b1e6071a/tory.svg",
+          "alt": "Tor mocy i tor sterowania dla silnika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-12b7e052058f5811",
+      "question": [
+        {
+          "type": "text",
+          "text": "Styk NO i NC"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "NO to styk normalnie otwarty, NC – normalnie zamknięty. Stan „normalny” oznacza stan niewysterowania elementu, bez oddziaływania siły zewnętrznej lub sygnału. Nie jest to opis pozycji podczas normalnej pracy całej maszyny. Na schematach styki mogą być narysowane w stanie spoczynkowym według przyjętych zasad."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-46e0b1e6071a/styki.svg",
+          "alt": "Styki NO i NC w stanie spoczynkowym",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-560cc776cac65356",
+      "question": [
+        {
+          "type": "text",
+          "text": "Układ START–STOP z samopodtrzymaniem"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przycisk STOP o styku NC jest w szeregu z przyciskiem START o styku NO i cewką stycznika K1. Po naciśnięciu START zasilana cewka zamyka pomocniczy styk NO K1 równoległy do START; powstaje samopodtrzymanie. Po naciśnięciu STOP obwód cewki zostaje przerwany. Obwody bezpieczeństwa maszyn mogą wymagać odpowiednio zaprojektowanych systemów bezpieczeństwa, a zwykły przycisk STOP nie zastępuje funkcji zatrzymania awaryjnego."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-46e0b1e6071a/startstop.svg",
+          "alt": "Schemat drabinkowy START STOP z samopodtrzymaniem stycznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-fd7a2728748b5a49",
+      "question": [
+        {
+          "type": "text",
+          "text": "Blokada elektryczna styczników"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Gdy dwa styczniki realizują funkcje wzajemnie wykluczające się, np. zmieniają kolejność faz silnika, stosuje się blokady. W obwodzie cewki jednego stycznika może znajdować się pomocniczy styk NC drugiego. W obwodach nawrotnych dodatkowo stosuje się blokadę mechaniczną, gdy wymaga tego projekt, aby ograniczyć ryzyko zwarcia międzyfazowego."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-46e0b1e6071a/blokada.svg",
+          "alt": "Blokada elektryczna dwóch styczników K1 i K2",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-000abcaa454752be",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oznaczenie i ciągłość przewodów"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Linie na schemacie reprezentują połączenia. Skrzyżowanie linii nie zawsze oznacza połączenie — decydują kropki węzłowe, oznaczenia i zasady rysowania danego dokumentu. Odsyłacze między stronami pomagają śledzić obwód. Najbezpieczniej analizować każdą drogę prądu od źródła do powrotu, kontrolując numery przewodów i zacisków."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-46e0b1e6071a/wezly.svg",
+          "alt": "Przecięcie bez połączenia i połączenie z kropką",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-56e229efafb75dd6",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zasada działania czujników i przekaźników"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Czujnik może udostępniać sygnał przez styk bezpotencjałowy lub wyjście elektroniczne, np. PNP/NPN. Schemat powinien pokazywać wymagane zasilanie, obciążalność wyjścia oraz polaryzację. Przekaźnik ma cewkę i jeden albo kilka zestyków; oznaczenie styków pomaga znaleźć je na różnych częściach schematu."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-46e0b1e6071a/pnp.svg",
+          "alt": "Uproszczone wyjście czujnika PNP i obciążenie do 0 V",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-03fc47ed912f5b2f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Analiza działania obwodu krok po kroku"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Czytanie schematu zaczyna się od identyfikacji źródła zasilania, przewodów czynnych i ochronnych, zabezpieczeń oraz odbiorników. Następnie ustala się stan spoczynkowy styków i sprawdza drogę prądu przy kolejnych zdarzeniach. Warto oddzielić opis działania układu od warunków bezpieczeństwa. Analiza schematu nie uprawnia do pracy przy urządzeniu pod napięciem."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-46e0b1e6071a/czytanie.svg",
+          "alt": "Trasa od zasilania przez zabezpieczenie, styk i odbiornik",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ea0a5f6ef9cc5273",
+      "question": [
+        {
+          "type": "text",
+          "text": "Schemat i rzeczywista instalacja"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Schemat powinien odpowiadać stanowi faktycznemu, ale może być nieaktualny. Kolory przewodów i pozycje przełączników nie są wystarczającym dowodem braku napięcia. Przed pracą należy zapewnić bezpieczne odłączenie, zabezpieczenie przed ponownym załączeniem, identyfikację obwodu i weryfikację braku napięcia właściwym przyrządem. Dla maszyn dodatkowo uwzględnia się inne energie: mechaniczną, pneumatyczną i hydrauliczną."
+        }
+      ]
+    }
+  ]
+}

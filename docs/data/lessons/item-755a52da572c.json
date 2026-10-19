@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "id": "item-755a52da572c",
+  "title": "Matematyka stosowana w elektrotechnice",
+  "cards": [
+    {
+      "id": "card-ecdb2fa2c56f5cc2a65a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Jednostki układu SI"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Międzynarodowy Układ Jednostek Miar (SI) obejmuje siedem jednostek podstawowych: metr (m), kilogram (kg), sekundę (s), amper (A), kelwin (K), mol (mol) i kandelę (cd). Jednostki pochodne to m.in. niuton, dżul, wat i wolt."
+        },
+        {
+          "type": "formula",
+          "latex": "[l]=\\mathrm{m}"
+        },
+        {
+          "type": "formula",
+          "latex": "[m]=\\mathrm{kg}"
+        },
+        {
+          "type": "formula",
+          "latex": "[t]=\\mathrm{s}"
+        },
+        {
+          "type": "formula",
+          "latex": "[I]=\\mathrm{A}"
+        },
+        {
+          "type": "formula",
+          "latex": "[T]=\\mathrm{K}"
+        },
+        {
+          "type": "formula",
+          "latex": "[n]=\\mathrm{mol}"
+        },
+        {
+          "type": "formula",
+          "latex": "[I_v]=\\mathrm{cd}"
+        }
+      ]
+    },
+    {
+      "id": "card-a574cfc124a1eeb4ec49",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przedrostki jednostek SI"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przedrostki oznaczają wielokrotności lub podwielokrotności jednostek, np. kilo (k) = 10³, mili (m) = 10⁻³, mikro (µ) = 10⁻⁶. Nie są jednostkami samodzielnymi."
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{k\\Omega}=10^3\\,\\Omega"
+        },
+        {
+          "type": "formula",
+          "latex": "1\\,\\mathrm{mA}=10^{-3}\\,\\mathrm A"
+        }
+      ]
+    },
+    {
+      "id": "card-b63ea198972f44677df5",
+      "question": [
+        {
+          "type": "text",
+          "text": "Potęgi i pierwiastki"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Potęga oznacza wielokrotne mnożenie podstawy przez siebie. Pierwiastek jest działaniem odwrotnym do potęgowania (przy odpowiednich założeniach)."
+        },
+        {
+          "type": "formula",
+          "latex": "a^m\\cdot a^n=a^{m+n}"
+        },
+        {
+          "type": "formula",
+          "latex": "\\sqrt{a^2}=|a|"
+        }
+      ]
+    },
+    {
+      "id": "card-6f17af81217918b45a56",
+      "question": [
+        {
+          "type": "text",
+          "text": "Notacja naukowa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zapis liczby w postaci iloczynu liczby o wartości bezwzględnej od 1 do 10 (bez 10) i potęgi liczby 10. Ułatwia przedstawianie wielkich i małych wartości."
+        },
+        {
+          "type": "formula",
+          "latex": "0{,}00047=4{,}7\\cdot10^{-4}"
+        }
+      ]
+    },
+    {
+      "id": "card-12f94fc2c51cb4cd1733",
+      "question": [
+        {
+          "type": "text",
+          "text": "Proporcje"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Równość dwóch ilorazów. Umożliwia wyznaczanie nieznanej wielkości na podstawie znanej zależności."
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac ab=\\frac cd\\quad\\Rightarrow\\quad ad=bc"
+        }
+      ]
+    },
+    {
+      "id": "card-d31653de96e1d777f6ec",
+      "question": [
+        {
+          "type": "text",
+          "text": "Procenty"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Sposób wyrażania części całości w setnych częściach. 1% to 1/100 danej wielkości."
+        },
+        {
+          "type": "formula",
+          "latex": "p\\%=\\frac{p}{100}"
+        },
+        {
+          "type": "formula",
+          "latex": "20\\%\\cdot50=10"
+        }
+      ]
+    },
+    {
+      "id": "card-a75c00b3ef3894bda39c",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przekształcanie wzorów"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wykonywanie równoważnych działań po obu stronach równania, aby wyznaczyć wskazaną niewiadomą."
+        },
+        {
+          "type": "formula",
+          "latex": "U=IR\\quad\\Rightarrow\\quad I=\\frac UR"
+        }
+      ]
+    },
+    {
+      "id": "card-8c46420149a7e7c74299",
+      "question": [
+        {
+          "type": "text",
+          "text": "Równania liniowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Równania, w których niewiadoma występuje tylko w pierwszej potędze. Dla a różnego od zera:"
+        },
+        {
+          "type": "formula",
+          "latex": "ax+b=0\\quad\\Rightarrow\\quad x=-\\frac ba"
+        }
+      ]
+    },
+    {
+      "id": "card-3bf6d52343a36aba0d4d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Układy równań liniowych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zestaw kilku równań, które muszą być spełnione jednocześnie. Można je rozwiązywać m.in. metodą podstawiania lub eliminacji."
+        },
+        {
+          "type": "formula",
+          "latex": "\\begin{cases}x+y=5\\\\x-y=1\\end{cases}\\Rightarrow\\begin{cases}x=3\\\\y=2\\end{cases}"
+        }
+      ]
+    },
+    {
+      "id": "card-ff518488a12934e7a1d9",
+      "question": [
+        {
+          "type": "text",
+          "text": "Twierdzenie Pitagorasa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "W trójkącie prostokątnym suma kwadratów długości przyprostokątnych jest równa kwadratowi długości przeciwprostokątnej."
+        },
+        {
+          "type": "formula",
+          "latex": "a^2+b^2=c^2"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-755a52da572c/pythagoras.svg",
+          "alt": "Schemat: Twierdzenie Pitagorasa",
+          "remove_white_background": false
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Dla przyprostokątnych 3 i 4 przeciwprostokątna ma długość 5."
+        }
+      ]
+    },
+    {
+      "id": "card-056fb33d355efe1776bd",
+      "question": [
+        {
+          "type": "text",
+          "text": "Funkcje trygonometryczne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Funkcje opisujące zależności między kątami i stosunkami długości boków w trójkącie prostokątnym. Podstawowe to sinus, cosinus i tangens."
+        },
+        {
+          "type": "formula",
+          "latex": "\\sin\\alpha=\\frac{a}{c}"
+        },
+        {
+          "type": "formula",
+          "latex": "\\cos\\alpha=\\frac{b}{c}"
+        },
+        {
+          "type": "formula",
+          "latex": "\\tan\\alpha=\\frac{a}{b}"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-755a52da572c/pythagoras.svg",
+          "alt": "Schemat: Funkcje trygonometryczne",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-2dfd0ed34e76dc91079a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Sinus i cosinus"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Funkcje trygonometryczne opisujące m.in. przebiegi okresowe. W trójkącie prostokątnym sinus to stosunek przeciwległej przyprostokątnej do przeciwprostokątnej, a cosinus — przyległej przyprostokątnej do przeciwprostokątnej."
+        },
+        {
+          "type": "formula",
+          "latex": "\\sin^2\\alpha+\\cos^2\\alpha=1"
+        }
+      ]
+    },
+    {
+      "id": "card-e6df90cf028663f90cb3",
+      "question": [
+        {
+          "type": "text",
+          "text": "Radiany i stopnie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dwie jednostki miary kąta. Pełny obrót to 360° lub 2π radianów."
+        },
+        {
+          "type": "formula",
+          "latex": "180^\\circ=\\pi\\,\\mathrm{rad}"
+        },
+        {
+          "type": "formula",
+          "latex": "\\alpha_{\\mathrm{rad}}=\\alpha_{\\mathrm{deg}}\\frac{\\pi}{180}"
+        }
+      ]
+    },
+    {
+      "id": "card-a244b7265979d6d6c348",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wektory"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wielkości mające wartość, kierunek i zwrot. Przykłady: siła, prędkość oraz indukcja magnetyczna. Wektory dodaje się geometrycznie lub poprzez składowe."
+        },
+        {
+          "type": "formula",
+          "latex": "\\vec a=(a_x,a_y)"
+        }
+      ]
+    },
+    {
+      "id": "card-539e45f67d74fac46381",
+      "question": [
+        {
+          "type": "text",
+          "text": "Liczby zespolone"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Liczby złożone z części rzeczywistej i urojonej. Stosuje się je m.in. do obliczeń impedancji oraz napięć i prądów sinusoidalnych."
+        },
+        {
+          "type": "formula",
+          "latex": "z=a+jb\\quad (j^2=-1)"
+        }
+      ]
+    },
+    {
+      "id": "card-575dd405180005868c3f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Wykresy funkcji"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Graficzne przedstawienie zależności jednej wielkości od drugiej w układzie współrzędnych. Osie powinny mieć opisy i jednostki."
+        },
+        {
+          "type": "formula",
+          "latex": "y=f(x)"
+        }
+      ]
+    },
+    {
+      "id": "card-7ed2cddca36c876741dc",
+      "question": [
+        {
+          "type": "text",
+          "text": "Interpretacja wykresów"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odczytywanie wartości i zależności przedstawionych na wykresie. Należy zwracać uwagę na opis osi, jednostki, zakres i kształt przebiegu. Na wykresie U(I) rezystora omowego nachylenie prostej odpowiada rezystancji R."
+        },
+        {
+          "type": "formula",
+          "latex": "R=\\frac{\\Delta U}{\\Delta I}"
+        }
+      ]
+    }
+  ]
+}

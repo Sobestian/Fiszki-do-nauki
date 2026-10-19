@@ -188,7 +188,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "to rodzaj łącznika, za pomocą którego można włączać i wyłączać określone prądy robocze, których wartość nie przekracza dziesięciokrotności prądu znamionowego. Najpopularniejszym i najprostszym typem rozłącznika jest stycznik. Mechanizm ten nie nadaje się do rozłączania prądów zwarciowych.\nRozłączniki są w stanie wyłączyć i włączyć również prąd przeciążeniowy mogący długotrwale przewodzić swój znamionowy prąd cieplny oraz krótkotrwale określone prądy zwarciowe. Istnieją modele rozłączników wyposażonych w bezpieczniki, tzw. rozłączniki bezpiecznikowe, które stosowane są np. w sieciach rozdzielczych, rozdzielnicach głównych w domach wielorodzinnych oraz w instalacjach przemysłowych."
+          "text": "Rozłącznik jest łącznikiem przeznaczonym do załączania, przewodzenia i wyłączania prądów w normalnych warunkach pracy, a w określonych warunkach również niektórych prądów przeciążeniowych. Jego zdolność łączeniowa zależy od kategorii użytkowania i parametrów podanych przez producenta; nie można przyjąć ogólnej granicy „dziesięciokrotności prądu znamionowego”.\nRozłącznik nie jest co do zasady aparatem do samoczynnego wyłączania prądów zwarciowych. Musi współpracować z odpowiednim zabezpieczeniem zwarciowym, jeżeli wymaga tego układ. Stycznik jest oddzielnym rodzajem łącznika, przeznaczonym przede wszystkim do częstych operacji łączeniowych, najczęściej sterowanych elektromagnesem; nie jest odmianą rozłącznika.\nRozłączniki mogą mieć zdolność izolacyjną, jeśli są do tego przeznaczone i odpowiednio oznaczone. Rozłączniki bezpiecznikowe łączą funkcję rozłączania z zabezpieczeniem realizowanym przez wkładki topikowe. Znajdują zastosowanie w instalacjach rozdzielczych, rozdzielnicach oraz układach przemysłowych."
         },
         {
           "type": "image",
@@ -232,7 +232,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "mimo podobnej nazwy do rozłącznika, nie ma tych samych funkcji. Określeniem tym nazywa się zwykle typ łącznika, który jest w stanie załączać, przewodzić i wyłączać prądy w normalnych warunkach pracy obwodu, a także prąd przeciążeniowy oraz zwarciowy. Dzieje się to za sprawą komór gaszących, w które wyposażony jest osprzęt. Cechą charakterystyczną wyłączników jest wyraźna sygnalizacja utworzenia przerwy w obwodzie. Wyłączniki dzieli się najczęściej na zabezpieczające i manewrowe. Pierwsze z nich samoczynnie wyłączają zasilanie w przypadku wystąpienia awarii (np. wyłączniki nadmiarowo-prądowe lub różnicowo-prądowe). Z kolei drugie służą do manualnego załączania i wyłączania zasilania (np. łącznik oświetlenia)."
+          "text": "Wyłącznik jest łącznikiem zdolnym do załączania, przewodzenia i wyłączania prądów w normalnych warunkach pracy oraz do załączania, przewodzenia przez określony czas i wyłączania prądów w warunkach zakłóceniowych, np. zwarcia, w granicach swoich parametrów znamionowych. Do gaszenia łuku służą odpowiednie układy i komory gaszeniowe.\nWyłącznik nadprądowy reaguje na przeciążenie i zwarcie. Wyłącznik różnicowoprądowy (RCCB) reaguje na prąd różnicowy, ale sam nie zapewnia ochrony przed przeciążeniem i zwarciem; potrzebuje współpracy z właściwym zabezpieczeniem nadprądowym. Odmiennym aparatem jest RCBO, który łączy zabezpieczenie różnicowoprądowe i nadprądowe.\nZwykły łącznik oświetleniowy nie jest wyłącznikiem zabezpieczającym w rozumieniu ochrony nadprądowej. Widoczna pozycja dźwigni nie zawsze potwierdza brak napięcia — przed pracami należy wykonać właściwą procedurę odłączenia i sprawdzenia braku napięcia."
         },
         {
           "type": "image",
@@ -378,7 +378,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "to ponad znamionowy przepływ prądu przez obwód. Następuje przy podłączeniu do instalacji odbiornika o zbyt dużej mocy. Ma charakter długotrwały (co najmniej kilka sekund), a przepływający prąd powoduje nagrzewanie się elementów instalacji. Długotrwałe przeciążenie może skutkować uszkodzeniem izolacji, w efekcie czego, przetężenie rozwinie się do zjawiska bardziej gwałtownego, przy którym prądy osiągają znacznie większe wartości, czyli do zwarcia."
+          "text": "Przeciążenie występuje wtedy, gdy prąd obciążenia przekracza dopuszczalną wartość dla elementu obwodu lub jego zabezpieczenia w danych warunkach pracy, mimo że nie doszło do zwarcia. Powodem może być podłączenie zbyt wielu odbiorników, nadmierne obciążenie silnika albo nieprawidłowy dobór przewodów i aparatów.\nNadmierny prąd powoduje nagrzewanie przewodników i połączeń. Skutki zależą od wartości i czasu trwania prądu; przeciążenie nie musi trwać co najmniej kilku sekund. Długotrwałe przeciążenie może przyspieszyć starzenie lub doprowadzić do uszkodzenia izolacji, a w skrajnym przypadku do pożaru. Zwarcie jest odrębnym zjawiskiem, chociaż uszkodzona izolacja może do niego doprowadzić."
         }
       ],
       "important": true
@@ -394,7 +394,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "to uszkodzenie polegające na bezpośrednim połączeniu elementów obwodu o różnym potencjale. Połączenie to może być realizowane poprzez łuk elektryczny lub element metaliczny, na przykład drut zwierający dwa przewody – L i N.. Zwarcie może mieć także charakter międzyfazowy – kiedy zewrzemy przewody L1 i L2, stąd też produkowane wyłączniki nadprądowe mają różne rozmiary. \n    Po podniesieniu dźwigni zamek zmienia położenie, łącząc tym samym styk ruchomy ze stykiem nieruchomym. Prąd przepływa od zacisku przez wyzwalacz termiczny, następnie wyzwalacz elektromagnetyczny aż do drugiego zacisku. Na skutek wzrostu prądu ponad znamionowy blaszka termobimetalowa nagrzewa się i ulega deformacji, co powoduje uruchomienie zamka i rozłączenie styków. W przypadku wystąpienia zwarcia rdzeń cewki zostaje wypchnięty i również wyzwala zamek. Przy rozłączaniu styków może pojawić się łuk elektryczny. Jest on kierowany do komory gaszeniowej i tam ulega wygaśnięciu."
+          "text": "Zwarcie to przypadkowe albo niezamierzone połączenie punktów obwodu o różnych potencjałach przez impedancję znacznie mniejszą niż przewidziana dla normalnej pracy. Może powstać między przewodem fazowym L i neutralnym N, między dwiema fazami albo między przewodem fazowym i częścią przewodzącą połączoną z ziemią. Prąd zwarciowy zależy od napięcia i impedancji pętli zwarcia; nie zawsze jest bardzo duży, np. przy znacznej impedancji uszkodzenia.\nW wyłączniku nadprądowym mechanizm stykowy rozłącza obwód po zadziałaniu odpowiedniego wyzwalacza. Wyzwalacz termiczny reaguje z opóźnieniem na przeciążenie, a elektromagnetyczny może szybko wyzwolić aparat przy odpowiednio dużym prądzie zwarciowym. Powstający podczas rozłączania łuk jest kierowany do komory gaszeniowej.\nZabezpieczenie dobiera się m.in. ze względu na spodziewany prąd zwarciowy, zdolność wyłączania, warunki samoczynnego wyłączenia zasilania i obciążalność przewodów."
         }
       ],
       "important": true
@@ -410,19 +410,15 @@
       "answer": [
         {
           "type": "formula",
-          "latex": "Ib ≤ In ≤ Iz"
+          "latex": "I_b\\leq I_n\\leq I_z"
         },
         {
           "type": "formula",
-          "latex": "I2 ≤ 1,45 Iz"
-        },
-        {
-          "type": "formula",
-          "latex": "k * In ≤ 1,45 Iz"
+          "latex": "I_2\\leq 1{,}45\\,I_z"
         },
         {
           "type": "text",
-          "text": "Ib - prąd znamionowy odbiornika\nIn - prąd urządzenia zabezpieczającego\nIz - długotrwała obciążalność przewodu\nI2 - prąd zadziałania urządzenia zabezpieczającego\nk - współczynnik krotności prądu powodującego zadziałanie urządzenia zabezpieczającego\n\nDla wyłączników nadprądowych o charakterystyce B, C i D wynosi 1,45.\nW instalacjach domowych dla przewodu YDYp 3×2,5 przyjmuje się maksymalne zabezpieczenie o prądzie znamionowym 16 A, a dla przewodu YDYp 3×1,5 przyjmuje się maksymalne zabezpieczenie o prądzie znamionowym 10 A.\n"
+          "text": "Ib – prąd obliczeniowy obwodu,\nIn – prąd znamionowy (lub nastawa) zabezpieczenia,\nIz – długotrwała obciążalność prądowa przewodu po uwzględnieniu sposobu ułożenia i współczynników korekcyjnych,\nI2 – prąd zapewniający zadziałanie zabezpieczenia w umownym czasie.\n\nPodstawowy warunek ochrony przed przeciążeniem to Ib ≤ In ≤ Iz oraz I2 ≤ 1,45 Iz. W przypadku typowych wyłączników nadprądowych instalacyjnych spełniających właściwą normę wyrobu wartość umownego prądu zadziałania może wynosić 1,45 In, ale nie jest to uniwersalny współczynnik dla wszystkich aparatów i bezpieczników. Charakterystyki B, C i D różnią się przede wszystkim zakresem bezzwłocznego wyzwalania elektromagnetycznego; litera nie zastępuje sprawdzenia całej charakterystyki czasowo-prądowej.\n\nW praktyce obwody z przewodami miedzianymi 3×1,5 mm² oraz 3×2,5 mm² często spotyka się odpowiednio z zabezpieczeniami 10 A i 16 A. Nie są to jednak bezwarunkowe maksymalne wartości wynikające tylko z przekroju przewodu. Dobór zależy m.in. od sposobu ułożenia, liczby obciążonych żył, temperatury otoczenia, grupowania przewodów, długości trasy, spadku napięcia, impedancji pętli zwarcia i wymaganych czasów wyłączenia. Dobór i sprawdzenie instalacji należą do osoby posiadającej odpowiednie kwalifikacje."
         }
       ],
       "important": true
@@ -438,7 +434,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "wyłącznika nadprądowego informuje o tym, jaki prąd może przepływać przez wyłącznik nie powodując jego zadziałania. O tym, w jakim czasie i po jak dużym przekroczeniu prądu znamionowego aparat zostanie wyzwolony, informują nas charakterystyki. Charakterystyka wyłącznika nadprądowego to zestawienie krotności prądu znamionowego i czasu jego przepływu, z której możemy wywnioskować, kiedy nastąpi wyzwolenie aparatu. Dla wyłączników nadprądowych stosowanych w instalacjach domowych stosujesię trzy główne charakterystyki:\na) B\nb) C\nc) D"
+          "text": "Prąd znamionowy In wyłącznika nadprądowego jest wartością odniesienia przy określaniu jego charakterystyki i warunków pracy. Nie oznacza on, że wyłącznik nigdy nie wyzwoli przy prądzie niższym ani że natychmiast zadziała przy każdym przekroczeniu In. Czas wyłączenia zależy od wartości prądu, temperatury, charakterystyki aparatu oraz warunków określonych w normie wyrobu.\nW instalacjach spotyka się m.in. charakterystyki B, C i D. Opisują one przede wszystkim progi bezzwłocznego wyzwalania elektromagnetycznego: orientacyjnie B – 3–5 In, C – 5–10 In, D – 10–20 In, zgodnie z warunkami normy właściwej dla wyłącznika. W zakresie przeciążeniowym działa wyzwalacz termiczny o zależności czasowo-prądowej.\nPrawidłowy dobór wymaga zgodności z obciążalnością przewodu, zdolnością zwarciową, prądami rozruchowymi odbiorników i warunkami samoczynnego wyłączenia zasilania."
         },
         {
           "type": "image",
@@ -458,7 +454,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "Przy doborze wyłączników różnicowoprądowych należy spełnić szereg warunków sieciowych i środowiskowych, a także uwzględnić: – charakter instalacji i rodzaj urządzeń z niej zasilanych,\n– wartość prądu upływowego w instalacji wraz z wyposażeniem,\n– układ sieci w jakim wyłącznik będzie zastosowany (TN. TT, IT),\n– rodzaj ochrony przeciwporażeniowej,\n– prąd szczytowy obciążenia i prąd zwarciowy oraz\n– kształt przebiegu prądu różnicowego."
+          "text": "Przy doborze wyłączników różnicowoprądowych należy uwzględnić: charakter instalacji i odbiorników, spodziewane kształty prądu różnicowego (AC, pulsujący DC, wygładzony DC i składowe o podwyższonej częstotliwości), wartości normalnych prądów upływowych, układ sieci TN/TT/IT, wymagany rodzaj ochrony przeciwporażeniowej oraz warunki środowiskowe.\nNależy dobrać znamionowy prąd różnicowy zadziałania IΔn, prąd znamionowy aparatu, typ (np. A, F, B), odporność na zakłócenia i ewentualną selektywność. RCD bez ochrony nadprądowej wymaga odpowiedniego zabezpieczenia przed przeciążeniem i zwarciem. Trzeba sprawdzić dopuszczalny prąd zwarciowy warunkowy oraz koordynację z zabezpieczeniem nadprądowym.\nWszystkie przewody czynne chronionego obwodu przechodzą przez przekładnik różnicowy; przewód PE nie przechodzi przez niego. Nie wolno rozłączać przewodu PEN przez RCD. W sieci TN-C nie stosuje się RCD w odcinku z nierozdzielonym PEN; w układzie TN-C-S podział PEN musi nastąpić przed RCD.\nPo montażu wykonuje się wymagane sprawdzenia i pomiary. Przycisk TEST nie zastępuje pomiarów odbiorczych lub okresowych."
         }
       ],
       "important": true
@@ -474,7 +470,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "1) ochronę uzupełniającą ochronę podstawową za pomocą wysokoczułych wyłączników różnicowoprądowych o znamionowym prądzie różnicowym zadziałania IΔn ≤ 30 mA,\n\n2) ochronę przy uszkodzeniu przez samoczynne wyłączenie zasilania przy użyciu wyłącznika różnicowoprądowego o znamionowym prądzie różnicowym zadziałania IΔn ≤ 1 A, współpracującego z dobranym do chronionego obwodu wyłącznikiem nadprądowym.\n\n3) ochronę przeciwpożarową za pomocą wyłączników różnicowoprądowych selektywnych o znamionowym prądzie różnicowym I∆n ≤ 500 mA (ochrona przed pożarami spowodowanymi prądami doziemnymi)."
+          "text": "1) Ochrona uzupełniająca przed porażeniem: wyłączniki różnicowoprądowe o znamionowym prądzie różnicowym zadziałania IΔn nie większym niż 30 mA stosuje się jako dodatkowy środek ochrony w obwodach, dla których wymagają tego przepisy i normy. Nie zastępują izolacji podstawowej, osłon ani innych środków ochrony.\n\n2) Ochrona przy uszkodzeniu: odpowiednio dobrany RCD może realizować samoczynne wyłączenie zasilania, szczególnie w układzie TT, przy spełnieniu wymagań dotyczących rezystancji uziemienia i czasu wyłączenia. Nie ma jednej uniwersalnej wartości IΔn = 1 A dla tej funkcji; dobór wynika z obliczeń i warunków instalacji.\n\n3) Ograniczanie ryzyka pożaru wskutek prądów doziemnych: w odpowiednich instalacjach stosuje się urządzenia różnicowoprądowe o dobranym znamionowym prądzie różnicowym, często 300 mA, nieraz w wykonaniu selektywnym. Sam RCD nie eliminuje wszystkich przyczyn pożarów elektrycznych.\n\nRCCB nie zabezpiecza przed przeciążeniem ani zwarciem. Aparat RCBO łączy ochronę różnicowoprądową i nadprądową. RCD nie daje gwarancji ochrony przed porażeniem w każdym scenariuszu, np. przy jednoczesnym dotknięciu L i N."
         }
       ],
       "important": true
@@ -490,7 +486,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "- wyłączniki wysokoczułe – reagują na prąd o wartości od 0,01 do 0,03 A. Najczęściej stosowane w prywatnych domach;\n\n- wyłączniki średnioczułe – odłączają zasilanie w przypadku wykrycia prądu z zakresu 0,1–0,5 A;\n\n- wyłączniki niskoczułe – uruchamiają się, gdy wartość prądu przekracza 0,5 A. Wykorzystuje się je w instalacjach przemysłowych.\n\n- wyłączniki różnicowoprądowe typu A – wyłączają obieg wtedy, gdy wykryją prąd różnicowy przemienny. Najlepiej sprawdzą się one w miejscach, w których znajduje się dużo zasilaczy impulsowych;\n\n- wyłączniki różnicowoprądowe typu B – zasilanie zostaje odcięte, jeśli urządzenie wykryje prąd różnicowy przemienny lub jednokierunkowy pulsujący; \n\n- wyłączniki różnicowoprądowe typu AC – ich zastosowanie sprawia, że zasilanie zostaje wyłączone w przypadku wykrycia prądu różnicowego przemiennego, jednokierunkowego pulsującego oraz prądu stałego, który odznacza się niskim współczynnikiem tętnień. Ten rodzaj zabezpieczenia uważany jest za najbardziej uniwersalny."
+          "text": "Ze względu na czułość wyłączniki różnicowoprądowe dobiera się według znamionowego prądu różnicowego zadziałania IΔn. Typowe wartości to m.in. 10 mA, 30 mA, 100 mA, 300 mA, 500 mA, a także większe. Dla ochrony uzupełniającej przed porażeniem stosuje się zwykle aparaty IΔn ≤ 30 mA. W innych zastosowaniach, np. ochronie przy uszkodzeniu lub ograniczaniu ryzyka pożaru, wartości dobiera się według warunków instalacji. Samo przekroczenie podanego IΔn nie oznacza, że aparat zadziała dokładnie w tym momencie; obowiązują określone zakresy prądów i czasów wyłączania.\n\nTyp AC – jest przeznaczony do wykrywania sinusoidalnych prądów różnicowych przemiennych. Nie jest przeznaczony do wykrywania wygładzonego prądu różnicowego stałego ani pulsującego prądu stałego.\n\nTyp A – wykrywa sinusoidalny prąd różnicowy przemienny oraz pulsujący prąd różnicowy stały w warunkach określonych w normach. Stosuje się go m.in. w wielu obwodach z urządzeniami elektronicznymi, jeśli ich wymagania nie wskazują wyższego typu.\n\nTyp F – rozszerza możliwości typu A, szczególnie dla określonych przebiegów złożonych i częstotliwości związanych z jednofazowymi przekształtnikami częstotliwości.\n\nTyp B – wykrywa również określone prądy różnicowe stałe wygładzone i przebiegi występujące w instalacjach z przekształtnikami, zgodnie z charakterystyką aparatu.\n\nTyp dobiera się według rodzaju odbiornika i dokumentacji producenta. RCD typu A może zostać zakłócony obecnością nadmiernej składowej stałej; nie zastępuje automatycznie typu B."
         }
       ]
     },
@@ -505,7 +501,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "Według I prawa Kirchhoffa podczas prawidłowej pracy instalacji elektrycznej suma prądów przepływających przez transformator równa jest zeru, co oznacza, że tyle samo energii, ile wypłynęło z sieci, powinno do niej wrócić. W takiej sytuacji w uzwojeniu wtórnym przekładnika Ferrantiego, będącego jedną z najważniejszych części różnicówki, nie indukuje się siła elektromotoryczna, a wyzwalacz i styki pozostają zamknięte, umożliwiając normalną pracę obwodu. \n    Kiedy jednak aparat wykryje, że suma prądu powracającego jest mniejsza niż suma prądu wypływającego, w uzwojeniu wtórnym przekładnika Ferrantiego powstaje siła elektromotoryczna, która przepływając przez wyzwalacz powoduje otworzenie styków, a tym samym odłączenie zasilania w obwodzie. \n    Umożliwia to natychmiastowe wyłączenie dopływu prądu na przykład w momencie, gdy urządzenie pod napięciem zetknie się z ciałem ludzkim, doprowadzając do porażenia, lub gdy prąd będzie w niewłaściwy sposób odprowadzany do ziemi (na przykład przez uszkodzoną izolację przewodu), co przy wysokich natężeniach prądu różnicowego mogłoby stać się przyczyną pożaru."
+          "text": "Zgodnie z I prawem Kirchhoffa, przy normalnej pracy obwodu suma chwilowych prądów wpływających do przekładnika różnicowego i z niego wypływających wynosi zero. W jednofazowym obwodzie prąd płynący przewodem fazowym L wraca przewodem neutralnym N; w obwodzie trójfazowym uwzględnia się wszystkie przewody czynne. Nie chodzi o bilans energii, lecz o algebraiczną sumę prądów.\n\nPrzewody czynne przechodzą przez wspólny przekładnik sumujący. Kiedy ich suma jest bliska zeru, strumienie magnetyczne w rdzeniu kompensują się i mechanizm wyzwalający pozostaje nieaktywny. Gdy część prądu wraca inną drogą, np. przez uszkodzoną izolację do PE lub ziemi, pojawia się prąd różnicowy, który w odpowiednich warunkach powoduje zadziałanie mechanizmu i rozłączenie zasilania. Działanie zależy od typu RCD, wartości i przebiegu prądu oraz wymaganego czasu zadziałania.\n\nRCD nie mierzy prądu płynącego bezpośrednio przez ciało człowieka ani nie gwarantuje natychmiastowego wyłączenia przy każdym porażeniu. Szczególnie niebezpieczne jest jednoczesne dotknięcie L i N, ponieważ przepływ przez ciało może nie wywołać różnicy prądów wykrywanej przez aparat.\n\nPrzewód ochronny PE nie jest prowadzony przez przekładnik różnicowy, a przewód PEN nie może być przerywany przez wyłącznik RCD. Sam wyłącznik RCCB wymaga zabezpieczenia przed przeciążeniem i zwarciem."
         },
         {
           "type": "image",
@@ -531,7 +527,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "inaczej zwarcie lini fazowej L do ochronnej PN"
+          "text": "Prąd upływowy to prąd płynący niezamierzoną drogą, np. przez izolację i pojemności pasożytnicze urządzenia, filtry przeciwzakłóceniowe lub uszkodzoną izolację do ziemi i części przewodzących. Pewna wartość prądu upływowego może występować również w urządzeniach sprawnych.\n\nZwarcie przewodu fazowego L z przewodem ochronnym PE to uszkodzenie doziemne i nie jest po prostu inną nazwą normalnego prądu upływowego. Przy takim zwarciu mogą zadziałać zabezpieczenia nadprądowe lub różnicowoprądowe, zależnie od układu sieci i parametrów obwodu.\n\nPrądy upływowe większe niż przewidziane dla danego układu wymagają diagnostyki. Nie wolno odłączać przewodu PE, aby wyeliminować niepożądane wyzwalanie RCD."
         }
       ],
       "important": true

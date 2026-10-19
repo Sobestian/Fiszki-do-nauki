@@ -1,0 +1,441 @@
+{
+  "schema_version": 1,
+  "id": "item-b7355120db42",
+  "title": "Podstawy elektryczności",
+  "cards": [
+    {
+      "id": "card-d2f314deb38ee694b221",
+      "question": [
+        {
+          "type": "text",
+          "text": "Ładunek elektryczny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Właściwość materii odpowiedzialna za oddziaływania elektryczne. Ładunek może być dodatni albo ujemny; jego jednostką jest kulomb (C). Dla stałego natężenia prądu przeniesiony ładunek oblicza się ze wzoru poniżej."
+        },
+        {
+          "type": "formula",
+          "latex": "[Q]=\\mathrm{C}"
+        },
+        {
+          "type": "formula",
+          "latex": "Q=I\\,t"
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Prąd 2 A płynący przez 3 s przenosi ładunek 6 C."
+        }
+      ]
+    },
+    {
+      "id": "card-970f1e1f4ac4d69c874d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prąd elektryczny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Uporządkowany ruch nośników ładunku elektrycznego. W metalach są nimi elektrony; umowny kierunek prądu jest przeciwny do kierunku ich ruchu."
+        }
+      ]
+    },
+    {
+      "id": "card-9a7bb7aaae14b44395be",
+      "question": [
+        {
+          "type": "text",
+          "text": "Natężenie prądu elektrycznego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Ilość ładunku elektrycznego przepływającego przez przekrój przewodnika w jednostce czasu. Symbol: I; jednostka: amper (A)."
+        },
+        {
+          "type": "formula",
+          "latex": "[I]=\\mathrm{A}"
+        },
+        {
+          "type": "formula",
+          "latex": "I=\\frac{\\Delta Q}{\\Delta t}"
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Przepływ 10 C w ciągu 2 s oznacza natężenie 5 A."
+        }
+      ]
+    },
+    {
+      "id": "card-de349dfd11cec214aeef",
+      "question": [
+        {
+          "type": "text",
+          "text": "Napięcie elektryczne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Różnica potencjałów elektrycznych między dwoma punktami. Określa pracę przypadającą na jednostkowy ładunek przeniesiony między tymi punktami. Symbol: U; jednostka: wolt (V)."
+        },
+        {
+          "type": "formula",
+          "latex": "[U]=\\mathrm{V}"
+        },
+        {
+          "type": "formula",
+          "latex": "U=\\frac{W}{q}"
+        }
+      ]
+    },
+    {
+      "id": "card-ab82067cc7d249d2c756",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rezystancja elektryczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Miara przeciwstawiania się elementu przepływowi prądu. Symbol: R; jednostka: om (Ω). Dla elementu spełniającego prawo Ohma jest to stosunek napięcia do natężenia prądu."
+        },
+        {
+          "type": "formula",
+          "latex": "[R]=\\Omega"
+        },
+        {
+          "type": "formula",
+          "latex": "R=\\frac{U}{I}"
+        }
+      ]
+    },
+    {
+      "id": "card-553ce585c3369842961b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Konduktancja elektryczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Miara łatwości przewodzenia prądu; odwrotność rezystancji. Symbol: G; jednostka: simens (S)."
+        },
+        {
+          "type": "formula",
+          "latex": "[G]=\\mathrm{S}"
+        },
+        {
+          "type": "formula",
+          "latex": "G=\\frac{1}{R}"
+        }
+      ]
+    },
+    {
+      "id": "card-79781788ba5b7986799b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rezystywność"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Właściwość materiału określająca jego opór elektryczny. Symbol: ρ; jednostka: Ω·m. Zależy m.in. od rodzaju materiału i temperatury."
+        },
+        {
+          "type": "formula",
+          "latex": "[\\rho]=\\Omega\\cdot\\mathrm{m}"
+        },
+        {
+          "type": "formula",
+          "latex": "R=\\rho\\frac{l}{S}"
+        }
+      ]
+    },
+    {
+      "id": "card-d275f65824556c62c4bf",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przewodniki elektryczne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Materiały, w których ładunki elektryczne mogą stosunkowo łatwo się przemieszczać, dlatego mają małą rezystywność. Przykłady: miedź, aluminium, srebro."
+        }
+      ]
+    },
+    {
+      "id": "card-c1f435e433964ca1906f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Izolatory elektryczne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Materiały o bardzo dużej rezystywności, ograniczające przepływ prądu. Przykłady: szkło, guma, tworzywa sztuczne. Izolacja ma ograniczoną wytrzymałość napięciową."
+        }
+      ]
+    },
+    {
+      "id": "card-149c116a4b083e2e985f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Półprzewodniki"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Materiały o przewodnictwie pośrednim między przewodnikami i izolatorami, zależnym m.in. od domieszkowania, temperatury i oświetlenia. Przykład: krzem."
+        }
+      ]
+    },
+    {
+      "id": "card-be28f42b5d0e49e39f22",
+      "question": [
+        {
+          "type": "text",
+          "text": "Obwód elektryczny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Połączony układ źródeł energii, przewodów i odbiorników, w którym może płynąć prąd. W typowym obwodzie prąd płynie po zamknięciu drogi przepływu."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-b7355120db42/simple_circuit.svg",
+          "alt": "Schemat: Obwód elektryczny",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-9678ae03d00da459c52a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Źródło napięcia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Element wytwarzający napięcie między swoimi zaciskami i dostarczający energię do obwodu. Idealne źródło utrzymuje zadane napięcie niezależnie od pobieranego prądu."
+        }
+      ]
+    },
+    {
+      "id": "card-3004ddf214af9952da02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Źródło prądu"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Element wymuszający określone natężenie prądu. Idealne źródło prądu utrzymuje je niezależnie od napięcia na zaciskach."
+        }
+      ]
+    },
+    {
+      "id": "card-28261f86bd4b28d62315",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prąd stały (DC)"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Prąd o niezmiennym kierunku przepływu. Jego natężenie może być stałe lub zmieniać wartość, nie zmieniając znaku. Przykład: zasilanie z akumulatora."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-b7355120db42/dc_ac.svg",
+          "alt": "Schemat: Prąd stały (DC)",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-668c685c1955004c662a",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prąd przemienny (AC)"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Prąd, którego zwrot zmienia się okresowo; w sieci energetycznej zwykle ma przebieg sinusoidalny. W Polsce częstotliwość sieci wynosi 50 Hz."
+        },
+        {
+          "type": "formula",
+          "latex": "i(t)=I_m\\sin(\\omega t+\\varphi)"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-b7355120db42/dc_ac.svg",
+          "alt": "Schemat: Prąd przemienny (AC)",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-0195d8b3c5600876c599",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc elektryczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Szybkość przekazywania lub przetwarzania energii elektrycznej. Symbol: P; jednostka: wat (W). Dla prądu stałego: iloczyn napięcia i natężenia."
+        },
+        {
+          "type": "formula",
+          "latex": "[P]=\\mathrm{W}"
+        },
+        {
+          "type": "formula",
+          "latex": "P=U\\,I"
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Odbiornik 12 V pobierający 2 A ma moc 24 W."
+        }
+      ]
+    },
+    {
+      "id": "card-7a73c4dc76e2b168a493",
+      "question": [
+        {
+          "type": "text",
+          "text": "Energia elektryczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Energia przekazywana w obwodzie elektrycznym lub zgromadzona w polu elektrycznym bądź magnetycznym. Jednostka SI: dżul (J). Dla stałej mocy energia przekazana w czasie t wynosi E = Pt. W rozliczeniach używa się też kilowatogodzin (kWh)."
+        },
+        {
+          "type": "formula",
+          "latex": "[E]=\\mathrm{J}"
+        },
+        {
+          "type": "formula",
+          "latex": "E=P\\,t"
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Urządzenie 100 W pracujące przez 10 h zużywa 1 kWh."
+        }
+      ]
+    },
+    {
+      "id": "card-97275801ec5592671c03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Praca prądu elektrycznego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Energia przekazywana przez prąd elektryczny w określonym czasie. Jednostką pracy jest dżul (J). Przy stałych wartościach napięcia U i natężenia I pracę oblicza się ze wzoru poniżej."
+        },
+        {
+          "type": "formula",
+          "latex": "[W]=\\mathrm{J}"
+        },
+        {
+          "type": "formula",
+          "latex": "W=U\\,I\\,t"
+        }
+      ]
+    },
+    {
+      "id": "card-6a2f7201988381015e03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Sprawność energetyczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Stosunek mocy lub energii użytecznej do mocy lub energii pobranej. Sprawność jest wielkością bezwymiarową: można podawać ją jako ułamek od 0 do 1 albo w procentach."
+        },
+        {
+          "type": "formula",
+          "latex": "\\eta=\\frac{P_{\\mathrm{u}}}{P_{\\mathrm{p}}}"
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Silnik pobiera 1000 W i oddaje 850 W: jego sprawność wynosi 85%."
+        },
+        {
+          "type": "formula",
+          "latex": "\\eta_{\\%}=\\frac{P_{\\mathrm{u}}}{P_{\\mathrm{p}}}\\cdot100\\%"
+        },
+        {
+          "type": "text",
+          "text": "P_u — moc użyteczna; P_p — moc pobrana. Dla energii stosuje się analogiczny iloraz energii użytecznej i dostarczonej."
+        }
+      ]
+    },
+    {
+      "id": "card-8a4c640401c08f9fe4cc",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prawo Joule’a-Lenza"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Ilość ciepła wydzielonego w przewodniku podczas przepływu prądu jest proporcjonalna do kwadratu natężenia, rezystancji i czasu. Wzór dotyczy stałego natężenia i rezystancji."
+        },
+        {
+          "type": "formula",
+          "latex": "Q=I^2Rt"
+        },
+        {
+          "type": "text",
+          "text": "Przykład: Przy dwukrotnym zwiększeniu prądu ilość wydzielanego ciepła rośnie czterokrotnie, jeśli R i t się nie zmieniają."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "id": "item-4e02a68dc101",
+  "title": "Obwody elektryczne i ich analiza",
+  "display_format": "study",
+  "available_modes": [
+    "learn"
+  ],
+  "cards": [
+    {
+      "id": "card-1ff87dbc18985878",
+      "question": [
+        {
+          "type": "text",
+          "text": "Obwód elektryczny i jego elementy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zamknięty obwód tworzy droga przepływu prądu przez źródło, przewody i odbiornik. Napięcie jest różnicą potencjałów, a natężenie prądu określa przepływ ładunku w czasie. Na schemacie pokazuje się funkcję połączeń, a niekoniecznie fizyczne położenie elementów."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-4e02a68dc101/obwod.svg",
+          "alt": "Obwód zasilacza prądu stałego, rezystora i amperomierza",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-7d6ae09c9d375ecc",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenie szeregowe rezystorów"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przez elementy połączone szeregowo płynie ten sam prąd. Napięcie źródła jest sumą spadków napięć, a rezystancja zastępcza sumą rezystancji. Przykładowo 100 Ω i 220 Ω w szeregu dają 320 Ω."
+        },
+        {
+          "type": "formula",
+          "latex": "R_z=R_1+R_2+\\ldots+R_n"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-4e02a68dc101/rezystory.svg",
+          "alt": "Porównanie połączenia szeregowego i równoległego rezystorów",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-33b947875bdd53bf",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenie równoległe rezystorów"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Na wszystkich gałęziach równoległych występuje to samo napięcie. Prąd źródła jest sumą prądów gałęzi. Odwrotność rezystancji zastępczej jest sumą odwrotności rezystancji. Dla dwóch rezystorów można użyć wzoru iloczyn przez sumę."
+        },
+        {
+          "type": "formula",
+          "latex": "\\frac{1}{R_z}=\\sum_{i=1}^{n}\\frac{1}{R_i}"
+        },
+        {
+          "type": "formula",
+          "latex": "R_z=\\frac{R_1R_2}{R_1+R_2}"
+        }
+      ]
+    },
+    {
+      "id": "card-8daf5cead0e458dc",
+      "question": [
+        {
+          "type": "text",
+          "text": "Pierwsze prawo Kirchhoffa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Algebraiczna suma prądów w węźle wynosi zero. Można równoważnie powiedzieć, że suma prądów wpływających do węzła równa się sumie prądów wypływających. Wynika to z zachowania ładunku. Umowa znaków musi być konsekwentna."
+        },
+        {
+          "type": "formula",
+          "latex": "\\sum I_{\\mathrm{we}}=\\sum I_{\\mathrm{wy}}"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-4e02a68dc101/wezel.svg",
+          "alt": "Węzeł z prądami wpływającymi i wypływającymi",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-f4750a9702415e03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Drugie prawo Kirchhoffa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dla dowolnego zamkniętego oczka obwodu algebraiczna suma napięć wynosi zero. W obwodzie z jednym źródłem i rezystorami suma spadków napięć na rezystorach równa się napięciu źródła. Przy zapisywaniu równania koniecznie określa się kierunek przejścia oczka i znaki napięć."
+        },
+        {
+          "type": "formula",
+          "latex": "\\sum_k U_k=0"
+        }
+      ]
+    },
+    {
+      "id": "card-aa6001db9df6534f",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prawo Ohma i zakres jego stosowania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dla elementu o stałej rezystancji napięcie jest proporcjonalne do natężenia prądu. U = R·I opisuje rezystor liniowy, ale wiele elementów elektronicznych nie ma stałej rezystancji: np. dioda i żarówka podczas nagrzewania zachowują się nieliniowo."
+        },
+        {
+          "type": "formula",
+          "latex": "U=R\\cdot I"
+        }
+      ]
+    },
+    {
+      "id": "card-5749ab83eef75424",
+      "question": [
+        {
+          "type": "text",
+          "text": "Dzielnik napięcia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dwa rezystory w szeregu mogą tworzyć dzielnik napięcia. Napięcie na dolnym rezystorze R2 jest proporcjonalne do jego udziału w sumarycznej rezystancji. Wzór bez obciążenia zakłada, że do wyjścia nie podłączono znaczącego dodatkowego poboru prądu. Obciążenie zmienia wynik."
+        },
+        {
+          "type": "formula",
+          "latex": "U_{\\mathrm{wy}}=U_{\\mathrm{we}}\\frac{R_2}{R_1+R_2}"
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-4e02a68dc101/dzielnik.svg",
+          "alt": "Dzielnik napięcia z rezystorami R1 i R2",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-fce566487020583d",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moc wydzielana na rezystorze"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Rezystor zamienia energię elektryczną głównie na ciepło. Moc można obliczyć z napięcia i prądu albo z prawa Ohma. Przy doborze rezystora należy uwzględnić dopuszczalną moc strat, temperaturę otoczenia i odpowiedni zapas."
+        },
+        {
+          "type": "formula",
+          "latex": "P=U\\cdot I=I^2R=\\frac{U^2}{R}"
+        }
+      ]
+    },
+    {
+      "id": "card-3aed3ead20b15a9b",
+      "question": [
+        {
+          "type": "text",
+          "text": "Obwód otwarty, zwarcie i zabezpieczenie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Obwód otwarty oznacza przerwaną ścieżkę przewodzenia. Zwarcie to niezamierzone połączenie punktów o różnym potencjale przez bardzo małą impedancję. Zabezpieczenie nadprądowe należy dobrać do przewodów, odbiornika i prądu zwarciowego. Wyłącznik różnicowoprądowy RCCB nie zastępuje ochrony nadprądowej."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-4e02a68dc101/zwarcie.svg",
+          "alt": "Porównanie obwodu prawidłowego, otwartego i zwartego",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-60400eca45aa5cb5",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przyrządy pomiarowe w obwodzie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Woltomierz dołącza się równolegle do mierzonego elementu, a amperomierz szeregowo. W praktyce miernik ma skończoną rezystancję wejściową i dopuszczalne zakresy. Nie wolno dołączać amperomierza bezpośrednio równolegle do źródła napięcia: grozi to zwarciem i uszkodzeniem miernika. Pomiary przy napięciu sieciowym wymagają kwalifikacji, właściwej kategorii pomiarowej i sprawnego osprzętu."
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/item-4e02a68dc101/pomiar.svg",
+          "alt": "Schemat prawidłowego podłączenia woltomierza i amperomierza",
+          "remove_white_background": false
+        }
+      ]
+    }
+  ]
+}
