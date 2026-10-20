@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-2-5",
+  "title": "2.5 Uzwojenia maszyn prądu stałego",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ele02-2-5-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Rodzaje uzwojeń"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Uzwojenie biegunów głównych wytwarza strumień wzbudzenia; biegunów komutacyjnych poprawia komutację; uzwojenie twornika uczestniczy w przemianie energii. W maszynach z magnesami trwałymi może nie być uzwojenia wzbudzenia."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-5-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zwój i zezwój"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Zwój to zamknięty układ przewodnika; zezwój może zawierać jeden lub wiele zwojów. Boki czynne leżą w żłobkach, połączenia czołowe — poza żłobkami."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-5-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Uzwojenie pętlicowe i faliste"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Uzwojenia pętlicowe są typowe dla większych prądów, faliste dla wyższych napięć przy odpowiedniej konstrukcji. Różnią się sposobem łączenia zezwojów z wycinkami komutatora."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-5-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "Poskok żłobkowy i podziałka biegunowa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Poskok żłobkowy to odległość między bokami tego samego zezwoju liczona w żłobkach. Podziałka biegunowa to odległość między osiami sąsiednich biegunów."
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

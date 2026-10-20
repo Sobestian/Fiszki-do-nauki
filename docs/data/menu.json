@@ -178,6 +178,123 @@
               "file": "lessons/item-b68da1818b70.json"
             }
           ]
+        },
+        {
+          "id": "item-959841ff62aa",
+          "title": "Książka ELE.02",
+          "kind": "folder",
+          "children": [
+            {
+              "id": "item-918c275ac3b9",
+              "title": "1. Podstawowe wiadomości dotyczące maszyn elektrycznych",
+              "kind": "folder",
+              "children": [
+                {
+                  "id": "item-d5289002ee89",
+                  "title": "1.1 Rodzaje i klasyfikacja maszyn elektrycznych",
+                  "kind": "lesson",
+                  "file": "lessons/item-d5289002ee89.json"
+                },
+                {
+                  "id": "ele02-ksiazka-1-2",
+                  "title": "1.2 Rodzaje pracy",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-1-2.json"
+                },
+                {
+                  "id": "ele02-ksiazka-1-3",
+                  "title": "1.3 Temperatura otoczenia i przyrost temperatury",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-1-3.json"
+                },
+                {
+                  "id": "ele02-ksiazka-1-4",
+                  "title": "1.4 Zabezpieczenia przed porażeniem prądem elektrycznym",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-1-4.json"
+                },
+                {
+                  "id": "ele02-ksiazka-1-5",
+                  "title": "1.5 Zakłócenia radioelektryczne",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-1-5.json"
+                },
+                {
+                  "id": "ele02-ksiazka-1-zdjecia",
+                  "title": "1. Zdjęcia z podręcznika",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-1-zdjecia.json"
+                }
+              ]
+            },
+            {
+              "id": "ele02-ksiazka-2",
+              "title": "2. Maszyny prądu stałego",
+              "kind": "folder",
+              "children": [
+                {
+                  "id": "ele02-ksiazka-2-1",
+                  "title": "2.1 Podział maszyn prądu stałego",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-2-1.json"
+                },
+                {
+                  "id": "ele02-ksiazka-2-2",
+                  "title": "2.2 Zasada działania maszyn prądu stałego",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-2-2.json"
+                },
+                {
+                  "id": "ele02-ksiazka-2-3",
+                  "title": "2.3 Budowa maszyn prądu stałego",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-2-3.json"
+                },
+                {
+                  "id": "ele02-ksiazka-2-4",
+                  "title": "2.4 Wielkości i tabliczki znamionowe",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-2-4.json"
+                },
+                {
+                  "id": "ele02-ksiazka-2-5",
+                  "title": "2.5 Uzwojenia maszyn prądu stałego",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-2-5.json"
+                },
+                {
+                  "id": "ele02-ksiazka-2-6",
+                  "title": "2.6 Obwód magnetyczny",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-2-6.json"
+                },
+                {
+                  "id": "ele02-ksiazka-2-7",
+                  "title": "2.7 Silniki prądu stałego",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-2-7.json"
+                },
+                {
+                  "id": "ele02-ksiazka-2-8",
+                  "title": "2.8 Prądnice prądu stałego",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-2-8.json"
+                },
+                {
+                  "id": "ele02-ksiazka-2-9",
+                  "title": "2.9 Uszkodzenia maszyn prądu stałego",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-2-9.json"
+                },
+                {
+                  "id": "ele02-ksiazka-2-zdjecia",
+                  "title": "2. Zdjęcia z podręcznika",
+                  "kind": "lesson",
+                  "file": "lessons/ele02-ksiazka-2-zdjecia.json"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -305,5 +422,5 @@
       ]
     }
   ],
-  "home_comment": "19.10.2026 - dodano ELE.02/Egzamin/Pisemne + zaktualizowano pozostałe lekcje (Fiszki/Jednoski SI)(Zagdanienia/)"
+  "home_comment": "20.10.2026 - dodano dwa rozdziały książki ele.02\n19.10.2026 - dodano ELE.02/Egzamin/Pisemne + zaktualizowano pozostałe lekcje (Fiszki/Jednoski SI)(Zagdanienia/)"
 }

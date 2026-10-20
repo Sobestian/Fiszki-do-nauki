@@ -20,7 +20,8 @@
           "type": "text",
           "text": "Wyjaśnienie jednostek:\n1. Metr (m) - Mierzy długość, odległość i przemieszczenie. Np. przewód o długości 5 m.\n2. Kilogram (kg) - Mierzy masę ciała. Np. silnik o masie 12 kg.\n3. Sekunda (s) - Mierzy czas. Np. opóźnienie przekaźnika 2 s.\n4. Amper (A) - Mierzy natężenie prądu. Np. silnik pobierający 4 A.\n5. Kelwin (K) - Mierzy temperaturę termodynamiczną. Różnica temperatur 1 K odpowiada różnicy 1°C.\n6. Mol (mol) - Mierzy liczność materii, czyli ilość określonych elementarnych obiektów, np. atomów lub cząsteczek.\n7. Kandela (cd) - Mierzy światłość źródła w określonym kierunku. Wykorzystywana m.in. w technice oświetleniowej."
         }
-      ]
+      ],
+      "important": true
     },
     {
       "id": "card-c877965668934317",

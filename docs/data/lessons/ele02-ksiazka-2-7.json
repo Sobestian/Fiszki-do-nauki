@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-2-7",
+  "title": "2.7 Silniki prądu stałego",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ele02-2-7-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Moment silnika"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moment elektromagnetyczny jest proporcjonalny do strumienia wzbudzenia i prądu twornika: M = cM Φ Ia. Stała zależy od budowy i przyjętych jednostek."
+        },
+        {
+          "type": "formula",
+          "latex": "M=c_M\\Phi I_a"
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-7-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prędkość i SEM"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dla silnika: U ≈ E + Ia Ra (pomijając dodatkowe spadki), a E = cE Φ n. Zatem prędkość zależy od napięcia, strumienia i spadku napięcia na tworniku."
+        },
+        {
+          "type": "formula",
+          "latex": "n=\\frac{U-I_aR_a}{c_E\\Phi}"
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-7-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Silnik bocznikowy i obcowzbudny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przy zbliżonym do stałego strumieniu prędkość maleje nieznacznie wraz z obciążeniem. Obcowzbudny ma oddzielne zasilanie wzbudzenia."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-7-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "Silnik szeregowy — ważne zagrożenie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Prąd twornika płynie też przez uzwojenie wzbudzenia. Silnik daje duży moment rozruchowy, ale przy małym obciążeniu może niebezpiecznie zwiększać obroty. Nie uruchamiać bez wymaganego obciążenia mechanicznego."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-7-05",
+      "question": [
+        {
+          "type": "text",
+          "text": "Silnik szeregowo-bocznikowy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Łączy wzbudzenie szeregowe i bocznikowe. Przy odpowiednim połączeniu może zapewniać duży moment rozruchowy i ograniczać wzrost prędkości na biegu jałowym."
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-2-6",
+  "title": "2.6 Obwód magnetyczny",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ele02-2-6-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Droga strumienia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Strumień magnetyczny przechodzi przez jarzmo stojana, bieguny, szczelinę powietrzną i rdzeń wirnika, tworząc zamknięty obwód. Szczelina powietrzna zwykle wnosi znaczną część oporu magnetycznego."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-6-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Indukcja magnetyczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Indukcja magnetyczna B jest strumieniem Φ przypadającym na powierzchnię S prostopadłą do pola przy równomiernym rozkładzie. Jednostki: B [T], Φ [Wb], S [m²]."
+        },
+        {
+          "type": "formula",
+          "latex": "B=\\frac{\\Phi}{S}"
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-6-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Związek B i H"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "W liniowym, izotropowym ośrodku B = μH, gdzie H [A/m] jest natężeniem pola, a μ [H/m] przenikalnością magnetyczną. W ferromagnetykach μ zwykle zależy od punktu pracy."
+        },
+        {
+          "type": "formula",
+          "latex": "B=\\mu H"
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-6-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "Strumień rozproszenia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Nie wszystkie linie pola przechodzą przez użyteczną część twornika. Strumień bieguna Φm jest sumą strumienia użytecznego Φ i rozproszenia Φr. Współczynnik rozproszenia σ = Φm/Φ."
+        },
+        {
+          "type": "formula",
+          "latex": "\\Phi_m=\\Phi+\\Phi_r\\qquad\\sigma=\\frac{\\Phi_m}{\\Phi}"
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

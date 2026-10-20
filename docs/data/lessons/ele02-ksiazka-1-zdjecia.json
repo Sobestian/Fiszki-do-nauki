@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-1-zdjecia",
+  "title": "1. Zdjęcia z podręcznika",
+  "display_format": "study",
+  "available_modes": [
+    "learn"
+  ],
+  "cards": [
+    {
+      "id": "card-ele02-ksiazka-1-zdjecia-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "1.1 Rodzaje i klasyfikacja maszyn elektrycznych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-1-zdjecia/image-1792514265488.jpg",
+          "alt": "1.1 Rodzaje i klasyfikacja maszyn elektrycznych — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-1-zdjecia/image-1792514272223.jpg",
+          "alt": "1.1 Rodzaje i klasyfikacja maszyn elektrycznych — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-1-zdjecia-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "1.2 Rodzaje pracy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-1-zdjecia/image-1792515106042.jpg",
+          "alt": "1.2 Rodzaje pracy — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-1-zdjecia/image-1792515113877.jpg",
+          "alt": "1.2 Rodzaje pracy — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-1-zdjecia/image-1792515124448.jpg",
+          "alt": "1.2 Rodzaje pracy — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-1-zdjecia-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "1.3 Temperatura otoczenia i przyrost temperatury"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-1-zdjecia/image-1792515199543.jpg",
+          "alt": "1.3 Temperatura otoczenia i przyrost temperatury — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-1-zdjecia-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "1.4 Zabezpieczenia przed porażeniem prądem elektrycznym"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-1-zdjecia/image-1792515219017.jpg",
+          "alt": "1.4 Zabezpieczenia przed porażeniem prądem elektrycznym — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-1-zdjecia/image-1792515229555.jpg",
+          "alt": "1.4 Zabezpieczenia przed porażeniem prądem elektrycznym — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-1-zdjecia-05",
+      "question": [
+        {
+          "type": "text",
+          "text": "1.5 Zakłócenia radioelektryczne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-1-zdjecia/image-1792515246562.jpg",
+          "alt": "1.5 Zakłócenia radioelektryczne — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    }
+  ]
+}

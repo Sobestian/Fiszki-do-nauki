@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-2-9",
+  "title": "2.9 Uszkodzenia maszyn prądu stałego",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ele02-2-9-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Typowe objawy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Nadmierne iskrzenie szczotek, przyspieszone zużycie szczotek, przegrzewanie maszyny lub twornika oraz niewłaściwa prędkość obrotowa. Objaw nie identyfikuje jednoznacznie przyczyny."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-9-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Iskrzenie i zużycie szczotek"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Możliwe przyczyny: niewłaściwy docisk, złe ustawienie szczotek, zużyty lub zabrudzony komutator, nieprawidłowy gatunek szczotek, przerwy lub zwarcia w uzwojeniach. Diagnostyka wymaga oględzin i odpowiednich pomiarów."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-9-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przegrzewanie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Sprawdza się obciążenie, warunki chłodzenia, drożność kanałów wentylacyjnych, stan łożysk oraz możliwe zwarcia międzyzwojowe. Przegrzanie grozi degradacją izolacji i pożarem."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-9-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "Nieprawidłowe obroty"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przyczyną może być przerwa lub uszkodzenie wzbudzenia, niewłaściwe zasilanie, uszkodzenie obwodu twornika albo nieprawidłowe połączenia. Szczególnie niebezpieczny jest niekontrolowany wzrost obrotów."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-9-05",
+      "question": [
+        {
+          "type": "text",
+          "text": "Bezpieczna diagnostyka"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przed pracami odłącz wszystkie źródła energii, zabezpiecz przed ponownym załączeniem (LOTO), potwierdź brak napięcia właściwym miernikiem i zabezpiecz elementy wirujące. Pomiarów pod napięciem dokonują wyłącznie uprawnione osoby zgodnie z procedurą; nie dotykaj komutatora podczas pracy."
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

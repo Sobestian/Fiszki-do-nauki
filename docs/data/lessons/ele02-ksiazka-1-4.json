@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-1-4",
+  "title": "1.4 Zabezpieczenia przed porażeniem prądem elektrycznym",
+  "display_format": "study",
+  "available_modes": [
+    "learn"
+  ],
+  "cards": [
+    {
+      "id": "card-ele02-1-4-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Trzy poziomy ochrony przeciwporażeniowej"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Ochrona podstawowa zapobiega dotknięciu części czynnych w normalnych warunkach. Ochrona przy uszkodzeniu ogranicza zagrożenie przy pojedynczym uszkodzeniu izolacji. Ochrona uzupełniająca zwiększa bezpieczeństwo, ale nie zastępuje dwóch poprzednich."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-4-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Ochrona podstawowa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Stosuje się izolację podstawową części czynnych, osłony i obudowy oraz — w odpowiednich warunkach — bariery lub umieszczenie poza zasięgiem ręki. Bariery i umieszczenie poza zasięgiem nie są uniwersalną ochroną dla ogólnodostępnych instalacji."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-4-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Kod IP – dwie cyfry"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Pierwsza cyfra kodu IP określa ochronę przed dostępem do części niebezpiecznych i wnikaniem ciał stałych; druga – ochronę przed wodą. Przykład: IP54 oznacza ochronę przed pyłem w ilości szkodliwej i bryzgami wody. IP nie określa klasy ochronności przeciwporażeniowej."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-4-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "Ochrona przy uszkodzeniu"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Typowe środki to samoczynne wyłączenie zasilania, izolacja podwójna lub wzmocniona, separacja elektryczna oraz bardzo niskie napięcie w odpowiednio wykonanych obwodach. Dobór zależy od układu sieci, instalacji i wymagań norm."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-4-05",
+      "question": [
+        {
+          "type": "text",
+          "text": "Samoczynne wyłączenie zasilania"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "W razie uszkodzenia izolacji odpowiednio dobrane zabezpieczenie odłącza zasilanie w wymaganym czasie. W instalacjach TN ważne są m.in. przewód ochronny PE lub PEN (zgodnie z układem), impedancja pętli zwarcia i właściwy aparat zabezpieczający. Sam bezpiecznik nie gwarantuje ochrony bez spełnienia warunków instalacji."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-4-06",
+      "question": [
+        {
+          "type": "text",
+          "text": "Klasy ochronności urządzeń"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Klasa I: izolacja podstawowa oraz połączenie dostępnych części przewodzących z przewodem ochronnym. Klasa II: izolacja podwójna lub wzmocniona, bez polegania na PE jako środku ochrony. Klasa III: zasilanie z obwodu SELV i brak generowania niebezpiecznych napięć wewnątrz."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-4-07",
+      "question": [
+        {
+          "type": "text",
+          "text": "SELV, PELV i FELV"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "SELV i PELV to układy bardzo niskiego napięcia spełniające wymagania ochronne, w tym odpowiednią separację. FELV oznacza funkcjonalne bardzo niskie napięcie, które samo w sobie nie zapewnia takiej ochrony. Wartości graniczne napięcia zależą od warunków środowiskowych i norm; 50 V AC i 120 V DC to typowe górne granice w warunkach standardowych, a nie uniwersalnie bezpieczne napięcia."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-4-08",
+      "question": [
+        {
+          "type": "text",
+          "text": "RCD – ochrona uzupełniająca"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wyłącznik różnicowoprądowy o znamionowym prądzie różnicowym nie większym niż 30 mA może stanowić ochronę uzupełniającą w wymaganych zastosowaniach. Nie gwarantuje ochrony w każdej sytuacji, nie zastępuje izolacji, PE ani ochrony nadprądowej i nie chroni przed każdym dotykiem dwóch przewodów czynnych."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-4-09",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenia wyrównawcze"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Połączenia wyrównawcze ograniczają niebezpieczne różnice potencjałów między jednocześnie dostępnymi częściami przewodzącymi. Wyróżnia się główne i — gdy są wymagane — dodatkowe połączenia wyrównawcze."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-4-10",
+      "question": [
+        {
+          "type": "text",
+          "text": "Podstawowe zasady bezpieczeństwa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Nie dotykaj nieosłoniętych części czynnych. Nie uruchamiaj uszkodzonej maszyny. Przed pracami odłącz zasilanie, zabezpiecz przed ponownym załączeniem i sprawdź brak napięcia odpowiednim przyrządem według procedury. Naprawy wykonują osoby o wymaganych kwalifikacjach i upoważnieniach."
+        }
+      ]
+    }
+  ]
+}

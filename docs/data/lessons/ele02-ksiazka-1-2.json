@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-1-2",
+  "title": "1.2 Rodzaje pracy",
+  "display_format": "study",
+  "available_modes": [
+    "learn"
+  ],
+  "cards": [
+    {
+      "id": "card-ele02-1-2-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Co oznacza rodzaj pracy maszyny?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Rodzaj pracy opisuje przebieg obciążenia, postojów, rozruchów i hamowań w czasie. Oznaczenie S1–S10 podaje się na tabliczce znamionowej. Dobór musi uwzględniać nagrzewanie silnika."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-2-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "S1 – praca ciągła"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Maszyna pracuje ze stałym obciążeniem dostatecznie długo, aby osiągnąć stan równowagi cieplnej. Przykład: wentylator pracujący przez wiele godzin. Stan równowagi: temperatura przestaje istotnie rosnąć."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-2-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "S2 – praca dorywcza"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Stałe obciążenie przez określony czas, krótszy niż czas osiągnięcia równowagi cieplnej, po czym postój wystarczający do powrotu temperatury do temperatury otoczenia. Typowe oznaczenia: S2 10 min, 30 min, 60 min, 90 min."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-2-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "S3 – praca okresowa przerywana"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Powtarzają się okresy pracy przy stałym obciążeniu i postoju. Wpływ prądu rozruchowego na nagrzewanie jest pomijalny. Ważny jest względny czas obciążenia: czas pracy / (czas pracy + czas postoju)."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-2-05",
+      "question": [
+        {
+          "type": "text",
+          "text": "S4 i S5 – rozruch oraz hamowanie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "S4: okresy rozruchu, pracy ze stałym obciążeniem i postoju; nagrzewanie przy rozruchu ma znaczenie. S5: jak S4, lecz każdy cykl zawiera dodatkowo hamowanie elektryczne."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-2-06",
+      "question": [
+        {
+          "type": "text",
+          "text": "S6 i S7 – praca bez postoju"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "S6: cykle pracy pod obciążeniem i biegu jałowego, bez postoju. S7: cykle rozruchu, pracy pod obciążeniem i hamowania elektrycznego, bez postoju."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-2-07",
+      "question": [
+        {
+          "type": "text",
+          "text": "S8 i S9 – zmienne obciążenia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "S8: powtarzalne cykle pracy przy różnych obciążeniach i prędkościach, zwykle z rozruchem. S9: nieokresowe zmiany obciążenia i prędkości, mogące obejmować przeciążenia."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-2-08",
+      "question": [
+        {
+          "type": "text",
+          "text": "S10 – kilka ustalonych poziomów obciążenia"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Praca z nie więcej niż czterema określonymi poziomami obciążenia (w tym biegiem jałowym lub stanem bez obciążenia); każdy trwa dostatecznie długo, by osiągnąć równowagę cieplną."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-2-09",
+      "question": [
+        {
+          "type": "text",
+          "text": "Dlaczego rodzaj pracy jest ważny?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Moc znamionowa zależy od rodzaju pracy. Silnik przeznaczony do pracy krótkotrwałej może mieć większą moc znamionową w S2 niż w S1, lecz nie wolno eksploatować go stale przy obciążeniu S2. Zawsze sprawdź tabliczkę znamionową i dokumentację."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-2-10",
+      "question": [
+        {
+          "type": "text",
+          "text": "Jak czytać wykresy pracy?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przy S1 moc i straty utrzymują się, a temperatura rośnie do wartości ustalonej. Przy S2 po pracy następuje chłodzenie podczas postoju. Przy S3 temperatura oscyluje między wartościami minimalną i maksymalną w kolejnych cyklach."
+        }
+      ]
+    }
+  ]
+}

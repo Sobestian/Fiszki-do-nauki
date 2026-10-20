@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-1-5",
+  "title": "1.5 Zakłócenia radioelektryczne",
+  "display_format": "study",
+  "available_modes": [
+    "learn"
+  ],
+  "cards": [
+    {
+      "id": "card-ele02-1-5-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Czym są zakłócenia elektromagnetyczne?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "To niepożądane zaburzenia napięć, prądów lub pól elektromagnetycznych, które mogą pogarszać działanie innych urządzeń. Zakłócenia mogą być przewodzone przewodami lub promieniowane w przestrzeń."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-5-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Typowe źródła zakłóceń"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Iskrzenie na szczotkach i komutatorach, przełączanie obciążeń indukcyjnych, styczniki, falowniki i szybkie przełączanie elementów energoelektronicznych. Rozruch dużego silnika może powodować także zapady napięcia."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-5-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przepięcie a zakłócenie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przepięcie to krótkotrwały wzrost napięcia ponad normalny poziom; może powstać m.in. przy przełączaniu obwodów indukcyjnych. Nie każde zakłócenie elektromagnetyczne jest przepięciem, a nie każde przepięcie jest zakłóceniem radiowym."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-5-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "Jak ogranicza się zakłócenia?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Stosuje się właściwe prowadzenie przewodów, ekranowanie, poprawne uziemienie i połączenia wyrównawcze, filtry EMC, tłumiki RC, diody gaszące dla cewek DC oraz elementy ograniczające przepięcia — zgodnie z wymaganiami układu."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-5-05",
+      "question": [
+        {
+          "type": "text",
+          "text": "Warystor, dioda, kondensator, ogranicznik"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Warystor i ogranicznik przepięć ograniczają wybrane przepięcia. Dioda równoległa do cewki DC tłumi przepięcie przy wyłączaniu, lecz wydłuża czas zaniku prądu. Kondensatory i filtry mogą tłumić zakłócenia wysokoczęstotliwościowe. Dobór zależy od obwodu; nie są to elementy zamienne."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-5-06",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przykład z automatyki"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przy wyłączeniu cewki stycznika może pojawić się impuls napięciowy zakłócający wejście sterownika PLC. Odpowiednio dobrany element tłumiący przy cewce, separacja przewodów i poprawne okablowanie pomagają ograniczyć problem."
+        }
+      ]
+    }
+  ]
+}

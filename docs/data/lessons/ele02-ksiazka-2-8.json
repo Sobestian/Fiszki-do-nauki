@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-2-8",
+  "title": "2.8 Prądnice prądu stałego",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ele02-2-8-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Podział prądnic"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Prądnice mogą być obcowzbudne oraz samowzbudne: bocznikowe, szeregowe i szeregowo-bocznikowe. Wytwarzają energię elektryczną z energii mechanicznej napędu."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-8-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prądnica obcowzbudna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Uzwojenie wzbudzenia zasila osobne źródło. Napięcie wyjściowe zależy m.in. od prędkości, prądu wzbudzenia i obciążenia."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-8-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prądnica bocznikowa i samowzbudzenie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Uzwojenie wzbudzenia jest równoległe do twornika. Samowzbudzenie wymaga m.in. odpowiedniego magnetyzmu szczątkowego, właściwego kierunku połączenia wzbudzenia i odpowiednio małej rezystancji obwodu wzbudzenia."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-8-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prądnica szeregowa"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Uzwojenie wzbudzenia łączy się szeregowo z obwodem twornika i obciążenia. Prąd wzbudzenia zmienia się wraz z prądem obciążenia."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-8-05",
+      "question": [
+        {
+          "type": "text",
+          "text": "Charakterystyki prądnicy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Bieg jałowy: E=f(If) przy n=const i Ia=0. Zwarcie: Ik=f(If) przy n=const i U≈0. Zewnętrzna: U=f(I) przy n i warunkach wzbudzenia określonych dla badania. Charakterystyki pomagają przewidywać zachowanie napięcia pod obciążeniem."
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

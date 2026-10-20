@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-2-4",
+  "title": "2.4 Wielkości i tabliczki znamionowe",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ele02-2-4-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Najważniejsze wielkości"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Napięcie twornika U [V], prąd twornika Ia [A], prąd wzbudzenia If [A], rezystancja twornika Ra [Ω], prędkość n [obr/min], moment M [N·m], SEM E [V] i moc P [W]. Prąd obciążenia nie zawsze jest równy prądowi twornika — zależy od sposobu połączenia uzwojeń."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-4-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Jak czytać tabliczkę znamionową?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Odczytaj typ, moc, napięcie, prąd, prędkość, rodzaj pracy, stopień IP, klasę izolacji i dane wzbudzenia. Nie traktuj wszystkich liczb na tabliczce jako jednego punktu pracy, gdy podano kilka zakresów."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-4-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Połączenia uzwojeń"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Obcowzbudne: oddzielne źródło dla wzbudzenia. Bocznikowe: wzbudzenie równolegle do twornika. Szeregowe: wzbudzenie szeregowo. Szeregowo-bocznikowe: dwa uzwojenia wzbudzające."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-4-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "Oznaczenia zacisków"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Typowe oznaczenia z podręcznika: A1–A2 twornik; B1–B2 bieguny komutacyjne; C1–C2 uzwojenie kompensacyjne; D1–D2 wzbudzenie szeregowe; E1–E2 bocznikowe; F1–F2 obcowzbudne. Sprawdź zawsze schemat konkretnej maszyny."
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

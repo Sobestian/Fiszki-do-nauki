@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-2-1",
+  "title": "2.1 Podział maszyn prądu stałego",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ele02-2-1-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zasada podziału"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Maszyny prądu stałego dzieli się według funkcji na silniki (energia elektryczna → mechaniczna) i prądnice (energia mechaniczna → elektryczna). Ze względu na wzbudzenie wyróżnia się maszyny obcowzbudne, bocznikowe, szeregowe i szeregowo-bocznikowe. Istnieją też konstrukcje z magnesami trwałymi."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-1-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Odwracalność maszyny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Ta sama klasyczna maszyna komutatorowa może pracować jako silnik albo prądnica, jeżeli pozwalają na to warunki zasilania, napędu i konstrukcja. Nie oznacza to, że każda instalacja dopuszcza bezpieczne przełączenie trybu."
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

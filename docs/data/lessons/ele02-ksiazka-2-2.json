@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-2-2",
+  "title": "2.2 Zasada działania maszyn prądu stałego",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ele02-2-2-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Skąd bierze się ruch?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Na przewodnik z prądem umieszczony w polu magnetycznym działa siła elektrodynamiczna. Siły działające na przewody wirnika tworzą moment obrotowy. Komutator i szczotki przełączają połączenia uzwojenia, aby zachować odpowiedni zwrot momentu."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-2-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Zasada pracy prądnicy"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Gdy przewodniki wirnika poruszają się w polu magnetycznym, indukuje się w nich siła elektromotoryczna. Komutator mechanicznie prostuje napięcie indukowane w cewkach, dzięki czemu na szczotkach uzyskuje się napięcie o ustalonej biegunowości."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-2-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Siła działająca na przewodnik"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Dla prostego odcinka przewodnika prostopadłego do jednorodnego pola: F = B·I·l. Zwrot siły zależy od kierunku prądu i pola."
+        },
+        {
+          "type": "formula",
+          "latex": "F=BIl"
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

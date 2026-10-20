@@ -30,7 +30,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "Dopowiedź: Wyrównanie potencjałów części przewodzących dostępnych.\n\nWyjaśnienie: Połączenia wyrównawcze redukują różnicę potencjałów między różnymi metalowymi elementami (np. rurarmi a obudową pralki), co drastycznie obiża ryzyko porażenia w przypadku awarii."
+          "text": "Odpowiedź: Wyrównanie potencjałów części przewodzących dostępnych.\n\nWyjaśnienie: Połączenia wyrównawcze redukują różnicę potencjałów między różnymi metalowymi elementami (np. rurarmi a obudową pralki), co drastycznie obiża ryzyko porażenia w przypadku awarii."
         }
       ]
     },
@@ -75,7 +75,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "Odwpowiedź: Zmieniając kierunek prądu tylko w obwodzie twornika\n\nWyjaśnienie: Kierunek momentu zależy od kierunku prądu twornika względem strumienia wzbudzenia. Zmiana kierunku prądu tylko w tworniku odwraca obroty, natomiast zmiana biegunowości zasilania całego silnika bocznikowego odwraca oba prądy, więc kierunek obrotów się nie zmienia."
+          "text": "Odpowiedź: Zmieniając kierunek prądu tylko w obwodzie twornika\n\nWyjaśnienie: Kierunek momentu zależy od kierunku prądu twornika względem strumienia wzbudzenia. Zmiana kierunku prądu tylko w tworniku odwraca obroty, natomiast zmiana biegunowości zasilania całego silnika bocznikowego odwraca oba prądy, więc kierunek obrotów się nie zmienia."
         }
       ]
     },
@@ -90,7 +90,7 @@
       "answer": [
         {
           "type": "text",
-          "text": "Opowiedź: Lampa sodowa wysokoprężna\n\nWyjeśnienie: Wysokoprężne lampy wyładowcze (sodowe, metahalogenkowe) posiadają ujemną charakterystykę prądowo-napięciową i wymagają układów stabilizacyjno-zapłonowych do poprawnej pracy."
+          "text": "Odpowiedź: Lampa sodowa wysokoprężna\n\nWyjaśnienie: Wysokoprężne lampy wyładowcze (sodowe, metahalogenkowe) posiadają ujemną charakterystykę prądowo-napięciową i wymagają układów stabilizacyjno-zapłonowych do poprawnej pracy."
         }
       ]
     },

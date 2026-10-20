@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-2-3",
+  "title": "2.3 Budowa maszyn prądu stałego",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ele02-2-3-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Stojan i wirnik"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Stojan tworzy nieruchomą część obwodu magnetycznego, często z biegunami głównymi i uzwojeniem wzbudzenia. Wirnik (twornik) zawiera rdzeń z pakietu blach i uzwojenie umieszczone w żłobkach."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-3-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Komutator i szczotki"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Komutator składa się z izolowanych wycinków przewodzących połączonych z uzwojeniem wirnika. Szczotki zapewniają kontakt elektryczny z obracającym się komutatorem. Ich stan ma duży wpływ na niezawodność."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-2-3-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Pozostałe części"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Wał, łożyska, obudowa, wentylator, tarcze łożyskowe oraz zaciski umożliwiają przeniesienie momentu, chłodzenie, ochronę i podłączenie maszyny."
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

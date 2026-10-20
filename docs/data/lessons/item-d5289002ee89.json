@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "id": "item-d5289002ee89",
+  "title": "1.1 Rodzaje i klasyfikacja maszyn elektrycznych",
+  "display_format": "study",
+  "cards": [
+    {
+      "id": "card-ele02-1-1-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "Czym jest maszyna elektryczna?"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Maszyna elektryczna to urządzenie, w którym energia jest przetwarzana z wykorzystaniem zjawisk elektromagnetycznych."
+        },
+        {
+          "type": "text",
+          "text": "Najważniejsze zadania maszyn elektrycznych:\n• zamiana energii elektrycznej na mechaniczną (silnik),\n• zamiana energii mechanicznej na elektryczną (prądnica),\n• zmiana parametrów energii elektrycznej, np. napięcia i prądu (transformator)."
+        },
+        {
+          "type": "text",
+          "text": "Przykład: silnik elektryczny napędza przenośnik taśmowy, a transformator dopasowuje napięcie do potrzeb odbiornika."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-1-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "Podstawowy podział maszyn elektrycznych"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Ze względu na występowanie i rodzaj ruchu maszyny dzielimy na:\n1. Wirujące – element ruchomy wykonuje ruch obrotowy.\n2. Liniowe – element ruchomy wykonuje ruch postępowy.\n3. Niewirujące (stacjonarne) – nie mają części wykonujących ruch mechaniczny podczas normalnej pracy."
+        },
+        {
+          "type": "text",
+          "text": "Do wirujących zaliczamy m.in. silniki, prądnice i niektóre przetwornice. Do niewirujących – transformatory oraz przekładniki napięciowe i prądowe."
+        },
+        {
+          "type": "text",
+          "text": "Uwaga: „niewirujące” nie oznacza, że urządzenie nie przetwarza energii. Transformator przetwarza energię elektryczną bez ruchu wału."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-1-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "Silniki elektryczne"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Silnik elektryczny zamienia energię elektryczną na mechaniczną. W typowym silniku wirującym efektem pracy jest moment obrotowy i obrót wału."
+        },
+        {
+          "type": "text",
+          "text": "Podstawowy podział według rodzaju prądu zasilającego:\n• silniki prądu stałego (DC),\n• silniki prądu przemiennego (AC)."
+        },
+        {
+          "type": "text",
+          "text": "Przykład: trójfazowy silnik indukcyjny napędzający pompę lub taśmociąg."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-1-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "Prądnice (generatory)"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Prądnica zamienia energię mechaniczną dostarczoną do wału na energię elektryczną."
+        },
+        {
+          "type": "text",
+          "text": "Wyróżniamy prądnice prądu stałego oraz prądnice prądu przemiennego. W praktyce bardzo często spotyka się generatory prądu przemiennego."
+        },
+        {
+          "type": "text",
+          "text": "Przykład: turbina w elektrowni napędza generator wytwarzający energię elektryczną."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-1-05",
+      "question": [
+        {
+          "type": "text",
+          "text": "Przetwornice wirujące"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Przetwornica wirująca to zespół maszyn wykorzystujący ruch obrotowy do zmiany postaci lub parametrów energii elektrycznej, np. zasilania prądem o innych parametrach."
+        },
+        {
+          "type": "text",
+          "text": "Przykład historyczny: zespół silnik–prądnica. Silnik napędza prądnicę, dzięki czemu energia elektryczna na wyjściu może mieć inne parametry niż na wejściu."
+        },
+        {
+          "type": "text",
+          "text": "Nie należy utożsamiać przetwornicy wirującej z przetwornicą elektroniczną, która zwykle nie zawiera obracających się części."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-1-06",
+      "question": [
+        {
+          "type": "text",
+          "text": "Maszyny liniowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Maszyny liniowe wykorzystują zjawiska elektromagnetyczne do wytwarzania ruchu postępowego (po linii), bez konieczności zamiany obrotów wału na przesuw."
+        },
+        {
+          "type": "text",
+          "text": "Przykład: silnik liniowy przesuwający element urządzenia lub napędzający pojazd."
+        },
+        {
+          "type": "text",
+          "text": "Różnica do zapamiętania: silnik wirujący wytwarza ruch obrotowy, a silnik liniowy – bezpośrednio ruch postępowy."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-1-07",
+      "question": [
+        {
+          "type": "text",
+          "text": "Maszyny niewirujące: transformatory i przekładniki"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Transformator przekazuje energię elektryczną między obwodami dzięki indukcji elektromagnetycznej. Zwykle zmienia wartość napięcia i prądu przemiennego, nie zmieniając częstotliwości."
+        },
+        {
+          "type": "text",
+          "text": "Przekładnik napięciowy umożliwia uzyskanie napięcia proporcjonalnego do mierzonego, a przekładnik prądowy – prądu proporcjonalnego do mierzonego. Służą m.in. do pomiarów i zabezpieczeń."
+        },
+        {
+          "type": "text",
+          "text": "W typowych zastosowaniach transformatory i przekładniki nie mają mechanicznych części ruchomych."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-1-08",
+      "question": [
+        {
+          "type": "text",
+          "text": "Indukcja elektromagnetyczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Indukcja elektromagnetyczna to zjawisko powstawania siły elektromotorycznej (SEM) wskutek zmiany strumienia magnetycznego skojarzonego z obwodem."
+        },
+        {
+          "type": "text",
+          "text": "Zmianę strumienia może wywołać np. ruch przewodnika w polu magnetycznym albo zmienne w czasie pole magnetyczne."
+        },
+        {
+          "type": "text",
+          "text": "SEM oznacza się zwykle literą E (dla wartości liczbowej SEM) lub e (dla wartości chwilowej). Jednostką SEM jest wolt (V)."
+        },
+        {
+          "type": "text",
+          "text": "Przykład: w prądnicy obrót powoduje zmianę strumienia skojarzonego z uzwojeniem i indukowanie napięcia. W transformatorze zmienny strumień indukuje napięcie w uzwojeniu wtórnym."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-1-09",
+      "question": [
+        {
+          "type": "text",
+          "text": "Siła elektrodynamiczna"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Na przewodnik, przez który płynie prąd, może działać siła, gdy przewodnik znajduje się w polu magnetycznym. Jest to podstawa działania wielu silników elektrycznych."
+        },
+        {
+          "type": "text",
+          "text": "W silniku oddziaływanie pola magnetycznego z przewodnikami uzwojeń, w których płynie prąd, wytwarza moment obrotowy."
+        },
+        {
+          "type": "text",
+          "text": "Zapamiętaj rozróżnienie:\n• indukcja elektromagnetyczna – powstawanie SEM w wyniku zmiany strumienia magnetycznego,\n• siła elektrodynamiczna – oddziaływanie siły na przewodnik z prądem w polu magnetycznym."
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-1-1-10",
+      "question": [
+        {
+          "type": "text",
+          "text": "Obwód elektryczny i magnetyczny w maszynie"
+        }
+      ],
+      "answer": [
+        {
+          "type": "text",
+          "text": "Obwód elektryczny to droga, którą może płynąć prąd elektryczny, gdy obwód jest zamknięty i istnieją warunki wymuszające przepływ prądu (np. źródło napięcia). Może być zasilany prądem stałym lub przemiennym."
+        },
+        {
+          "type": "text",
+          "text": "Obwód magnetyczny to droga, wzdłuż której zamyka się strumień magnetyczny. Często obejmuje ferromagnetyczny rdzeń oraz szczeliny powietrzne."
+        },
+        {
+          "type": "text",
+          "text": "Przykład: w transformatorze prąd płynie w uzwojeniach (obwody elektryczne), a strumień magnetyczny zamyka się głównie w rdzeniu (obwód magnetyczny)."
+        }
+      ]
+    }
+  ],
+  "available_modes": [
+    "learn"
+  ]
+}

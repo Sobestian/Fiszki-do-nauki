@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "id": "ele02-ksiazka-2-zdjecia",
+  "title": "2. Zdjęcia z podręcznika",
+  "display_format": "study",
+  "available_modes": [
+    "learn"
+  ],
+  "cards": [
+    {
+      "id": "card-ele02-ksiazka-2-zdjecia-01",
+      "question": [
+        {
+          "type": "text",
+          "text": "2.1 Podział maszyn prądu stałego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792515864848.jpg",
+          "alt": "2.1 Podział maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792515873075.jpg",
+          "alt": "2.1 Podział maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-2-zdjecia-02",
+      "question": [
+        {
+          "type": "text",
+          "text": "2.2 Zasada działania maszyn prądu stałego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516097090.jpg",
+          "alt": "2.2 Zasada działania maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516107540.jpg",
+          "alt": "2.2 Zasada działania maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516119235.jpg",
+          "alt": "2.2 Zasada działania maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516127246.jpg",
+          "alt": "2.2 Zasada działania maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516138947.jpg",
+          "alt": "2.2 Zasada działania maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516145670.jpg",
+          "alt": "2.2 Zasada działania maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-2-zdjecia-03",
+      "question": [
+        {
+          "type": "text",
+          "text": "2.3 Budowa maszyn prądu stałego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516189416.jpg",
+          "alt": "2.3 Budowa maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516196579.jpg",
+          "alt": "2.3 Budowa maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516205353.jpg",
+          "alt": "2.3 Budowa maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516211901.jpg",
+          "alt": "2.3 Budowa maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516220285.jpg",
+          "alt": "2.3 Budowa maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-2-zdjecia-04",
+      "question": [
+        {
+          "type": "text",
+          "text": "2.4 Wielkości i tabliczki znamionowe"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516242158.jpg",
+          "alt": "2.4 Wielkości i tabliczki znamionowe — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516251015.jpg",
+          "alt": "2.4 Wielkości i tabliczki znamionowe — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516257334.jpg",
+          "alt": "2.4 Wielkości i tabliczki znamionowe — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-2-zdjecia-05",
+      "question": [
+        {
+          "type": "text",
+          "text": "2.5 Uzwojenia maszyn prądu stałego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516279809.jpg",
+          "alt": "2.5 Uzwojenia maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516286127.jpg",
+          "alt": "2.5 Uzwojenia maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516294392.jpg",
+          "alt": "2.5 Uzwojenia maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-2-zdjecia-06",
+      "question": [
+        {
+          "type": "text",
+          "text": "2.6 Obwód magnetyczny"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516319717.jpg",
+          "alt": "2.6 Obwód magnetyczny — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516326730.jpg",
+          "alt": "2.6 Obwód magnetyczny — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516331430.jpg",
+          "alt": "2.6 Obwód magnetyczny — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-2-zdjecia-07",
+      "question": [
+        {
+          "type": "text",
+          "text": "2.7 Silniki prądu stałego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516356260.jpg",
+          "alt": "2.7 Silniki prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516362613.jpg",
+          "alt": "2.7 Silniki prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516369530.jpg",
+          "alt": "2.7 Silniki prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516377696.jpg",
+          "alt": "2.7 Silniki prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-2-zdjecia-08",
+      "question": [
+        {
+          "type": "text",
+          "text": "2.8 Prądnice prądu stałego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516403850.jpg",
+          "alt": "2.8 Prądnice prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516409085.jpg",
+          "alt": "2.8 Prądnice prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516415595.jpg",
+          "alt": "2.8 Prądnice prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516421006.jpg",
+          "alt": "2.8 Prądnice prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    },
+    {
+      "id": "card-ele02-ksiazka-2-zdjecia-09",
+      "question": [
+        {
+          "type": "text",
+          "text": "2.9 Uszkodzenia maszyn prądu stałego"
+        }
+      ],
+      "answer": [
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516445556.jpg",
+          "alt": "2.9 Uszkodzenia maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516450882.jpg",
+          "alt": "2.9 Uszkodzenia maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        },
+        {
+          "type": "image",
+          "src": "../assets/editor/ele02-ksiazka-2-zdjecia/image-1792516458127.jpg",
+          "alt": "2.9 Uszkodzenia maszyn prądu stałego — pełne zdjęcie strony podręcznika",
+          "remove_white_background": false
+        }
+      ]
+    }
+  ]
+}
